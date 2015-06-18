@@ -1,0 +1,13 @@
+name: github_hook
+version: 0.0.1-dev
+description: A web server built using the shelf package.
+author: Kevin Moore <kevmoo@google.com>
+homepage: https://github.com/kevmoo/github_hook.dart
+environment:
+  sdk: '>=1.9.0 <2.0.0'
+dependencies:
+  args: '>=0.10.0 <0.14.0'
+  crypto: '^0.9.0'
+  shelf: '>=0.6.0 <0.7.0'
+dev_dependencies:
+  test: '^0.12.0'
