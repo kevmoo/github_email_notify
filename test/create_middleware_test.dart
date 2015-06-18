@@ -5,6 +5,8 @@ import 'package:github_hook/github_hook.dart';
 import 'package:shelf/shelf.dart';
 import 'package:test/test.dart';
 
+import 'test_util.dart';
+
 const _secret = 'Îñţérñåţîöñåļîžåţîờñ';
 
 final _rootUri = Uri.parse('http://localhost/');
@@ -15,7 +17,7 @@ final _neverWinHandler = createGitHubHookMiddleware(_secret, (body) {
 void main() {
   test('valid request continues', () async {
     var handler = createGitHubHookMiddleware(_secret,
-        (GitHubHookRequest request) async {
+        (HookRequest request) async {
       expect(request.shelfRequest.requestedUri, _rootUri);
       expect(request.content, _dummyPayload);
     });
@@ -31,6 +33,32 @@ void main() {
 
     var request =
         new Request('POST', _rootUri, body: requestBody, headers: headers);
+
+    var response = await handler(request);
+
+    var body = await response.readAsString();
+
+    expect(body, 'Thanks, GitHub!');
+    expect(response.statusCode, 200);
+  });
+
+  test('valid issues request', () async {
+    var handler = createGitHubHookMiddleware(_secret,
+        (IssuesHookRequest request) async {
+      expect(request.shelfRequest.requestedUri, _rootUri);
+      expect(request.action, 'opened');
+    });
+
+    var sha = _getSha1Hmac(issueOpenedBody, _secret);
+
+    var headers = {
+      "x-github-event": "issues",
+      "x-github-delivery": "87292380-152d-11e5-9f54-f82c72f79efc",
+      "x-hub-signature": "sha1=${sha}"
+    };
+
+    var request =
+        new Request('POST', _rootUri, body: issueOpenedBody, headers: headers);
 
     var response = await handler(request);
 

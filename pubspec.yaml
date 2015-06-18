@@ -1,5 +1,5 @@
 name: github_hook
-version: 0.0.1
+version: 0.1.0-dev
 description: A Shelf handler for managed GitHub hook messages
 author: Kevin Moore <kevmoo@google.com>
 homepage: https://github.com/kevmoo/github_hook.dart

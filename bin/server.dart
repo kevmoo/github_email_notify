@@ -35,6 +35,6 @@ void main(List<String> args) {
   });
 }
 
-Future<Null> _echoRequest(GitHubHookRequest request) async {
+Future<Null> _echoRequest(HookRequest request) async {
   print(request);
 }

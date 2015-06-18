@@ -6,7 +6,9 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:shelf/shelf.dart';
 
-typedef Future GitHubRequestHandler(GitHubHookRequest request);
+typedef Future GitHubRequestHandler(HookRequest request);
+
+const _eventHeader = 'x-github-event';
 
 Handler createGitHubHookMiddleware(
     String secret, GitHubRequestHandler innerHandler) {
@@ -40,7 +42,7 @@ Handler createGitHubHookMiddleware(
       return new Response(403, body: 'Invalid "x-hub-signature" header.');
     }
 
-    var githubRequest = new GitHubHookRequest(request, json);
+    var githubRequest = new HookRequest(request, json);
 
     // If an error is thrown, it'll bubble down
     // ...and likely result in a 500 being sent back to GitHub
@@ -50,16 +52,37 @@ Handler createGitHubHookMiddleware(
   };
 }
 
-class GitHubHookRequest {
+class HookRequest {
   final Map<String, dynamic> content;
   final Request shelfRequest;
 
-  String get githubEvent => shelfRequest.headers['x-github-event'];
+  String get githubEvent => shelfRequest.headers[_eventHeader];
   String get githubDelivery => shelfRequest.headers['x-github-delivery'];
 
-  GitHubHookRequest(this.shelfRequest, this.content);
+  HookRequest.core(this.shelfRequest, this.content);
+
+  factory HookRequest(Request shelfRequest, Map<String, dynamic> content) {
+    switch (shelfRequest.headers[_eventHeader]) {
+      case 'issues':
+        return new IssuesHookRequest(shelfRequest, content);
+      default:
+        return new HookRequest.core(shelfRequest, content);
+    }
+  }
 
   String toString() => 'GitHubHookRequest: $githubEvent $githubDelivery';
+}
+
+class IssuesHookRequest extends HookRequest {
+  final String action;
+
+  IssuesHookRequest(Request shelfRequest, Map<String, dynamic> content)
+      : this.action = content['action'],
+        super.core(shelfRequest, content) {
+    assert(shelfRequest.headers[_eventHeader] == 'issues');
+  }
+
+  String toString() => 'IssuesHookRequest: $action $githubDelivery';
 }
 
 class BadSignatureError extends ArgumentError {
