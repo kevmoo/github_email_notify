@@ -1,6 +1,6 @@
 name: github_hook
-version: 0.0.1-dev
-description: A web server built using the shelf package.
+version: 0.0.1
+description: A Shelf handler for managed GitHub hook messages
 author: Kevin Moore <kevmoo@google.com>
 homepage: https://github.com/kevmoo/github_hook.dart
 environment:

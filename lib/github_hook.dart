@@ -54,7 +54,12 @@ class GitHubHookRequest {
   final Map<String, dynamic> content;
   final Request shelfRequest;
 
+  String get githubEvent => shelfRequest.headers['x-github-event'];
+  String get githubDelivery => shelfRequest.headers['x-github-delivery'];
+
   GitHubHookRequest(this.shelfRequest, this.content);
+
+  String toString() => 'GitHubHookRequest: $githubEvent $githubDelivery';
 }
 
 class BadSignatureError extends ArgumentError {
