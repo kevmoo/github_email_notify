@@ -6,6 +6,7 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:github_hook/github_hook.dart';
+import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart' as io;
 
 void main(List<String> args) {
@@ -28,7 +29,9 @@ void main(List<String> args) {
     exit(1);
   }
 
-  var handler = createGitHubHookMiddleware(secret, _echoRequest);
+  var handler = const Pipeline()
+      .addMiddleware(logRequests())
+      .addHandler(createGitHubHookMiddleware(secret, _echoRequest));
 
   io.serve(handler, 'localhost', port).then((server) {
     print('Serving at http://${server.address.host}:${server.port}');
