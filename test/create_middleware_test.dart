@@ -18,7 +18,6 @@ void main() {
   test('valid request continues', () async {
     var handler = createGitHubHookMiddleware(_secret,
         (HookRequest request) async {
-      expect(request.shelfRequest.requestedUri, _rootUri);
       expect(request.content, _dummyPayload);
     });
 
@@ -45,7 +44,6 @@ void main() {
   test('valid issues request', () async {
     var handler = createGitHubHookMiddleware(_secret,
         (IssuesHookRequest request) async {
-      expect(request.shelfRequest.requestedUri, _rootUri);
       expect(request.action, 'opened');
     });
 
@@ -105,7 +103,7 @@ void main() {
 
       var body = await response.readAsString();
 
-      expect(body, 'Missing "x-hub-signature" header.');
+      expect(body, 'Missing "x-github-delivery" header.');
     });
 
     test('invalid signature fails', () async {
