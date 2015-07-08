@@ -4,11 +4,26 @@ description: A Shelf handler for managed GitHub hook messages
 author: Kevin Moore <kevmoo@google.com>
 homepage: https://github.com/kevmoo/github_hook.dart
 environment:
-  sdk: '>=1.9.0 <2.0.0'
+  sdk: '>=1.11.0 <2.0.0'
 dependencies:
   args: '>=0.10.0 <0.14.0'
   crypto: '^0.9.0'
   shelf: '>=0.6.0 <0.7.0'
 dev_dependencies:
+  angular2: ^2.0.0-alpha.26
+  appengine: any
+  browser: any
+  firebase: { git: {url: https://github.com/firebase/firebase-dart, ref: 'e060f55'}}
+  github: ^2.2.3+1
+  googleapis: any
+  googleapis_auth: any
   path: ^1.3.5
+  shelf_appengine: {git: {url: https://github.com/dart-lang/shelf_appengine, ref: '58649948'}}
+  source_gen: ^0.4.2
   test: '^0.12.0'
+transformers:
+- angular2:
+    entry_points:
+        - web/client_app.dart
+    reflection_entry_points:
+        - web/client_app.dart

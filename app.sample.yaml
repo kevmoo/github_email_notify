@@ -1,0 +1,15 @@
+# Copyright (c) 2014, the Dart project authors.  Please see the AUTHORS file
+# for details. All rights reserved. Use of this source code is governed by a
+# BSD-style license that can be found in the LICENSE file.
+
+runtime: custom
+vm: true
+api_version: 1
+env_variables:
+  github_secret: YOUR_GITHUB_SECRET_HERE
+  clientIdentifier: SOME_VALUE
+  clientSecret: YOUR_SECRET_HERE
+  authTokenBucket: SOME_VALUE
+  authTokenFileName: SOME_VALUE
+  DART_PUB_SERVE:  'http://192.168.59.3:7777'
+  STORAGE_SERVICE_ACCOUNT_FILE: JUST_FOR_DEVELOPMENT

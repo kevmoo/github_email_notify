@@ -1,5 +1,6 @@
 .pub/
 build/
 packages
-pubspec.lock
+app.yaml
+storage_key.json
 .packages
