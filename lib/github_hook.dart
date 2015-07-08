@@ -1,4 +1,4 @@
-library github_hook;
+library api.github_hook;
 
 import 'dart:async';
 import 'dart:convert';
@@ -6,9 +6,14 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:shelf/shelf.dart';
 
+import 'src/github_models.dart';
+
+export 'src/github_models.dart';
+
 typedef Future GitHubRequestHandler(HookRequest request);
 
 const _eventHeader = 'x-github-event';
+const _signatureHeader = 'x-github-delivery';
 
 Handler createGitHubHookMiddleware(
     String secret, GitHubRequestHandler innerHandler) {
@@ -19,20 +24,20 @@ Handler createGitHubHookMiddleware(
       return new Response(405);
     }
 
-    var githubDeliveryHeader = request.headers['x-github-delivery'];
+    var githubDeliveryHeader = request.headers[_signatureHeader];
 
     if (githubDeliveryHeader == null) {
-      return new Response(400, body: 'Missing the "x-github-delivery" header.');
+      return new Response(400, body: 'Missing the "$_signatureHeader" header.');
     }
 
     var signature = request.headers['x-hub-signature'];
 
     if (signature == null) {
-      return new Response(403, body: 'Missing "x-hub-signature" header.');
+      return new Response(403, body: 'Missing "$_signatureHeader" header.');
     }
 
     if (!signature.startsWith(_sha1Header)) {
-      return new Response(403, body: 'Invalid "x-hub-signature" header.');
+      return new Response(403, body: 'Invalid "$_signatureHeader" header.');
     }
 
     var json;
@@ -42,7 +47,8 @@ Handler createGitHubHookMiddleware(
       return new Response(403, body: 'Invalid "x-hub-signature" header.');
     }
 
-    var githubRequest = new HookRequest(request, json);
+    var githubRequest = new HookRequest(
+        request.headers[_eventHeader], request.headers[_signatureHeader], json);
 
     // If an error is thrown, it'll bubble down
     // ...and likely result in a 500 being sent back to GitHub
@@ -54,19 +60,19 @@ Handler createGitHubHookMiddleware(
 
 class HookRequest {
   final Map<String, dynamic> content;
-  final Request shelfRequest;
 
-  String get githubEvent => shelfRequest.headers[_eventHeader];
-  String get githubDelivery => shelfRequest.headers['x-github-delivery'];
+  final String githubEvent; // => shelfRequest.headers[_eventHeader];
+  final String githubDelivery; // => shelfRequest.headers[_signatureHeader];
 
-  HookRequest.core(this.shelfRequest, this.content);
+  HookRequest.core(this.githubEvent, this.githubDelivery, this.content);
 
-  factory HookRequest(Request shelfRequest, Map<String, dynamic> content) {
-    switch (shelfRequest.headers[_eventHeader]) {
+  factory HookRequest(
+      String githubEvent, String githubDelivery, Map<String, dynamic> content) {
+    switch (githubEvent) {
       case 'issues':
-        return new IssuesHookRequest(shelfRequest, content);
+        return new IssuesHookRequest(githubEvent, githubDelivery, content);
       default:
-        return new HookRequest.core(shelfRequest, content);
+        return new HookRequest.core(githubEvent, githubDelivery, content);
     }
   }
 
@@ -75,11 +81,20 @@ class HookRequest {
 
 class IssuesHookRequest extends HookRequest {
   final String action;
+  final Issue issue;
+  final User sender;
+  final Repository repository;
+  final Label label;
 
-  IssuesHookRequest(Request shelfRequest, Map<String, dynamic> content)
+  IssuesHookRequest(
+      String githubEvent, String githubDelivery, Map<String, dynamic> content)
       : this.action = content['action'],
-        super.core(shelfRequest, content) {
-    assert(shelfRequest.headers[_eventHeader] == 'issues');
+        this.issue = new Issue.fromJson(content['issue']),
+        this.sender = new User.fromJson(content['sender']),
+        this.repository = new Repository.fromJson(content['repository']),
+        this.label = new Label.fromJson(content['label'], passNull: true),
+        super.core(githubEvent, githubDelivery, content) {
+    assert(githubEvent == 'issues');
   }
 
   String toString() => 'IssuesHookRequest: $action $githubDelivery';
