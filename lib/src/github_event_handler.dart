@@ -4,9 +4,9 @@ import 'dart:async';
 
 import 'package:appengine/appengine.dart' as ae;
 import 'package:firebase/firebase_io.dart';
+import 'package:github_hook/github_hook.dart';
 import 'package:memcache/memcache.dart';
 
-import '../github_hook.dart';
 import 'gmail.dart';
 import 'server_utils.dart';
 

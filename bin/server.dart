@@ -4,11 +4,12 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:shelf/shelf.dart';
 import 'package:appengine/appengine.dart' as ae;
+import 'package:github_hook/github_hook.dart';
+import 'package:shelf/shelf.dart';
 import 'package:shelf_appengine/shelf_appengine.dart' as shelf_ae;
 
-import 'package:github_hook/api.dart';
+import 'package:github_email_notify/api.dart';
 
 main() async {
   ae.useLoggingPackageAdaptor();

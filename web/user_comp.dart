@@ -3,7 +3,7 @@ library github_hook.web.user_comp;
 import 'dart:async';
 
 import "package:angular2/angular2.dart" hide Response;
-import 'package:github_hook/browser.dart';
+import 'package:github_email_notify/browser.dart';
 import 'package:firebase/firebase.dart';
 
 @Component(

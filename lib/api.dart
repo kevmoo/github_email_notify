@@ -8,7 +8,6 @@ import 'src/admin_logic.dart';
 import 'src/models.dart';
 import 'src/server_utils.dart';
 
-export 'github_hook.dart';
 export 'src/admin_logic.dart';
 export 'src/github_event_handler.dart';
 export 'src/server_utils.dart';
