@@ -19,7 +19,7 @@ main() async {
   var githubHandler = createEventHandler();
   var githubHookHandler = createGitHubHookMiddleware(secret, githubHandler);
 
-  var cascade = new Cascade().add((Request request) {
+  var cascade = new Cascade().add((Request request) async {
     if (request.headers.containsKey('x-github-delivery')) {
       return githubHookHandler(request);
     }
@@ -28,6 +28,12 @@ main() async {
 
     if (segs.isNotEmpty && segs.first == apiRoot) {
       return _apiHandler(request.change(path: apiRoot));
+    }
+
+    if (segs.isNotEmpty && segs.length == 1 && segs.single == 'triage') {
+      var uri = await dartSdkNoAreaIssues;
+
+      return new Response.seeOther(uri);
     }
 
     return new Response.notFound('Sorry – ${request.requestedUri}');

@@ -45,11 +45,7 @@ Future<ApiObject> rootObject() async {
   return apiObject;
 }
 
-String _githubUrlFromRepo(String repo) => 'https://github.com/$repo';
-
-Future<Map<String, String>> _getDartSdkTriageLinks() async {
-  var links = <String, String>{};
-
+Future<Uri> get dartSdkNoAreaIssues async {
   var labels = await getGithubLabels(githubRepo);
 
   var areaLabels =
@@ -63,8 +59,17 @@ Future<Map<String, String>> _getDartSdkTriageLinks() async {
 
   var triageParams = {'utf': '✓', 'q': query};
 
-  links['Issues without an area'] = new Uri.https(
-      'github.com', 'dart-lang/sdk/issues', triageParams).toString();
+  return new Uri.https('github.com', 'dart-lang/sdk/issues', triageParams);
+}
+
+String _githubUrlFromRepo(String repo) => 'https://github.com/$repo';
+
+Future<Map<String, String>> _getDartSdkTriageLinks() async {
+  var links = <String, String>{};
+
+  var uri = await dartSdkNoAreaIssues;
+
+  links['Issues without an area'] = uri.toString();
 
   return links;
 }
