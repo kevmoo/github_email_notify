@@ -17,3 +17,12 @@ Future<Null> syncGitHubLabels(
 
   await fbClient.put(theUri, map);
 }
+
+Future<List<String>> getGithubLabels(String repoFullName) async {
+  var fbClient = new FirebaseClient(firebaseSecret);
+  var theUri = getLabelsUri(repoFullName);
+
+  Map<String, bool> encodedLabelsMap = await fbClient.get(theUri);
+
+  return encodedLabelsMap.keys.map((i) => decodeKey(i)).toList();
+}
