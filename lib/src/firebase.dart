@@ -15,10 +15,5 @@ Future<Null> syncGitHubLabels(
 
   var theUri = getLabelsUri(repoFullName);
 
-  print('posting');
-  print(map);
-  print("to");
-  print(theUri);
-
   await fbClient.put(theUri, map);
 }
