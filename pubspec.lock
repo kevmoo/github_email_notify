@@ -58,12 +58,9 @@ packages:
     source: hosted
     version: "0.1.8+1"
   firebase:
-    description:
-      ref: e060f55
-      resolved-ref: e060f55b058c65200d92cde75cc891ee481050b4
-      url: "https://github.com/firebase/firebase-dart"
-    source: git
-    version: "0.6.1-dev"
+    description: firebase
+    source: hosted
+    version: "0.6.1"
   fixnum:
     description: fixnum
     source: hosted
