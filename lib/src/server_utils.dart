@@ -60,12 +60,11 @@ Uri getUsersForRepoUri(String repoFullName) => new Uri(
     host: firebaseDomain,
     path: p.url.join('repos', encodeKey(repoFullName), 'users.json'));
 
-String getMyLabelsPath(String userEmail, String repoFullName) => p.url.join(
-    'repos', encodeKey(repoFullName), 'users',
-    encodeKey(userEmail));
+String getMyLabelsPath(String userEmail, String repoFullName) =>
+    p.url.join('repos', encodeKey(repoFullName), 'users', encodeKey(userEmail));
 
-String getFirebaseSecurityToken(String userEmail) => createFirebaseJwtToken(
-    firebaseSecret, data: {'uid': encodeKey(userEmail)});
+String getFirebaseSecurityToken(String userEmail) =>
+    createFirebaseJwtToken(firebaseSecret, data: {'uid': encodeKey(userEmail)});
 
 String getEnvValue(String key) {
   var value = Platform.environment[key];

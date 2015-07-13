@@ -31,15 +31,20 @@ class ApiObject extends Object with _$ApiObjectSerializerMixin {
 @JsonSerializable()
 class UserObject extends Object with _$UserObjectSerializerMixin {
   final String email;
-  final String githubRepo;
+
+  final String githubRepoName;
+  final String githubRepoUri;
+
+  final Map<String, String> triageUris;
+
   final String firebaseBase;
   final String availableLabelsFirebasePath;
   final String myLabelsFirebasePath;
   final String firebaseSecurityToken;
 
-  UserObject(this.email, this.githubRepo, this.firebaseBase,
-      this.availableLabelsFirebasePath, this.myLabelsFirebasePath,
-      this.firebaseSecurityToken);
+  UserObject(this.email, this.githubRepoName, this.githubRepoUri,
+      this.triageUris, this.firebaseBase, this.availableLabelsFirebasePath,
+      this.myLabelsFirebasePath, this.firebaseSecurityToken);
 
   factory UserObject.fromJson(json) => _$UserObjectFromJson(json);
 }

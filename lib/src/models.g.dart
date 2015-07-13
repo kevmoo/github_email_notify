@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// 2015-07-06T16:06:16.159Z
+// 2015-07-13T20:12:32.702Z
 
 part of api.models;
 
@@ -54,20 +54,24 @@ abstract class _$ApiObjectSerializerMixin {
 // **************************************************************************
 
 UserObject _$UserObjectFromJson(Map json) => new UserObject(json['email'],
-    json['githubRepo'], json['firebaseBase'],
-    json['availableLabelsFirebasePath'], json['myLabelsFirebasePath'],
-    json['firebaseSecurityToken']);
+    json['githubRepoName'], json['githubRepoUri'], json['triageUris'],
+    json['firebaseBase'], json['availableLabelsFirebasePath'],
+    json['myLabelsFirebasePath'], json['firebaseSecurityToken']);
 
 abstract class _$UserObjectSerializerMixin {
   String get email;
-  String get githubRepo;
+  String get githubRepoName;
+  String get githubRepoUri;
+  Map get triageUris;
   String get firebaseBase;
   String get availableLabelsFirebasePath;
   String get myLabelsFirebasePath;
   String get firebaseSecurityToken;
   Map<String, dynamic> toJson() => <String, dynamic>{
     'email': email,
-    'githubRepo': githubRepo,
+    'githubRepoName': githubRepoName,
+    'githubRepoUri': githubRepoUri,
+    'triageUris': triageUris,
     'firebaseBase': firebaseBase,
     'availableLabelsFirebasePath': availableLabelsFirebasePath,
     'myLabelsFirebasePath': myLabelsFirebasePath,
