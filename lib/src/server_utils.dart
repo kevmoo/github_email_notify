@@ -47,13 +47,13 @@ String get firebaseSecret => getEnvValue('firebaseSecret');
 
 String get firebaseDomain => getEnvValue('firebaseDomain');
 
-String getLablesPath(String repoFullName) =>
+String getLabelsPath(String repoFullName) =>
     p.url.join('repos', encodeKey(repoFullName), 'labels');
 
 Uri getLabelsUri(String repoFullName) => new Uri(
     scheme: 'https',
     host: firebaseDomain,
-    path: '${getLablesPath(repoFullName)}.json');
+    path: '${getLabelsPath(repoFullName)}.json');
 
 Uri getUsersForRepoUri(String repoFullName) => new Uri(
     scheme: 'https',
