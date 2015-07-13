@@ -65,7 +65,7 @@ Future sendTestEmail() async {
 
   var subject = "Test message from $appName - ${new DateTime.now().toUtc()}";
 
-  await sendEmail(toEmail, subject, body: "Nice, huh?");
+  await sendEmail(subject, "Nice, huh?", toEmails: [toEmail]);
 }
 
 Future forgetEmailSender() async {

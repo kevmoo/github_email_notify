@@ -8,22 +8,36 @@ import 'package:googleapis/gmail/v1.dart';
 import 'email_sender_credentials.dart';
 import 'server_utils.dart';
 
-Future<Message> sendEmail(String toEmail, String subject, {String body}) async {
+Future<Message> sendEmail(String subject, String body,
+    {Iterable<String> toEmails, Iterable<String> bccEmails}) async {
   var fromLine = '$appName <$senderEmailAccount>';
 
   if (body == null) {
     body = '';
   }
 
-  var emailContent = '''mime-version: 1.0
-Subject: $subject
-From: $fromLine
-To: $toEmail
-Content-Type: text/plain; charset=UTF-8
+  var emailContent = new StringBuffer()
+    ..writeln('mime-version: 1.0')
+    ..writeln('Subject: $subject')
+    ..writeln('From: $fromLine');
 
-$body''';
+  if (toEmails != null && toEmails.isNotEmpty) {
+    emailContent.writeln('To: ${toEmails.join(',')}');
+  }
 
-  var request = new Message()..rawAsBytes = UTF8.encode(emailContent);
+  if (bccEmails != null && bccEmails.isNotEmpty) {
+    emailContent.writeln('Bcc: ${bccEmails.join(', ')}');
+  }
+
+  emailContent.write('''Content-Type: text/plain; charset=UTF-8
+
+$body''');
+
+  print('content:');
+  print(emailContent);
+
+  var request = new Message()
+    ..rawAsBytes = UTF8.encode(emailContent.toString());
 
   Message sentMessage;
   await withAuthenticatedClient((client) async {

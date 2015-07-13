@@ -56,6 +56,10 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
 
   var items = await client.get(getUsersForRepoUri(labeledRepository)) as Map;
 
+  if (items == null) {
+    return;
+  }
+
   var subscribedEmails = new Set<String>();
 
   items.forEach((String encodedEmail, Map labelMap) {
@@ -78,7 +82,5 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
    User: ${request.sender.user} - ${request.sender.githubUrl}
 ''';
 
-  for (var email in subscribedEmails) {
-    await sendEmail(email, subject, body: body);
-  }
+  await sendEmail(subject, body, bccEmails: subscribedEmails);
 }
