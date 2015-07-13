@@ -22,7 +22,7 @@ Future<ApiObject> rootObject() async {
 
     var firebaseBaseUri = 'https://${firebaseDomain}';
 
-    var availableLabelsfirebasePath = getLablesPath(githubRepo);
+    var availableLabelsfirebasePath = getLabelsPath(githubRepo);
 
     var myLabelsFirebaseUrl = getMyLabelsPath(currentUser.email, githubRepo);
 
