@@ -8,8 +8,8 @@ import 'package:googleapis_auth/auth_io.dart' as auth;
 import 'package:googleapis/oauth2/v2.dart';
 import 'package:http/http.dart' as http;
 
-import 'datastore.dart';
 import 'email_sender_credentials.dart';
+import 'firebase.dart';
 import 'gmail.dart';
 import 'models.dart';
 import 'server_utils.dart';
