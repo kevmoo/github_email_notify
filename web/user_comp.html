@@ -1,11 +1,6 @@
 <div *ng-if="user != null">
   <div>{{ user.email }}</div>
   <div>Repo: <a [href]="user.githubRepoUri">{{ user.githubRepoName }}</a></div>
-  <ul class="triage">
-    <li *ng-for="#triageUri of user.triageUris.keys">
-      <a [href]="user.triageUris[triageUri]">{{ triageUri }}</a>
-    </li>
-  </ul>
   <div class="label-pick" *ng-if="selectionItems != null">
     <label *ng-for="#item of selectionItems.items">
       <input type="checkbox" (click)="toggle(item)" [checked]="item.selected">

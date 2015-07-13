@@ -3,6 +3,11 @@
 </div>
 
 <div class="loaded" *ng-if="root != null">
+  <ul class="triage">
+    <li *ng-for="#triageUri of root.triageUris.keys">
+      <a [href]="root.triageUris[triageUri]">{{ triageUri }}</a>
+    </li>
+  </ul>
   <div class="user" *ng-if="root.currentUser == null">
     <p><a href="{{ root.loginUrl }}">Login</a></p>
   </div>

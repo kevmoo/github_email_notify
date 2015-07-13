@@ -15,7 +15,8 @@ export 'src/server_utils.dart';
 export 'src/shared.dart';
 
 Future<ApiObject> rootObject() async {
-  var apiObject = new ApiObject();
+  var triageLinks = await _getDartSdkTriageLinks();
+  var apiObject = new ApiObject()..triageUris = triageLinks;
 
   var currentUser = userService.currentUser;
   if (currentUser != null) {
@@ -29,10 +30,8 @@ Future<ApiObject> rootObject() async {
 
     var firebaseSecurityToken = getFirebaseSecurityToken(currentUser.email);
 
-    var triageLinks = await _getDartSdkTriageLinks();
-
     apiObject.currentUser = new UserObject(currentUser.email, githubRepo,
-        _githubUrlFromRepo(githubRepo), triageLinks, firebaseBaseUri,
+        _githubUrlFromRepo(githubRepo), firebaseBaseUri,
         availableLabelsfirebasePath, myLabelsFirebaseUrl,
         firebaseSecurityToken);
 
@@ -53,12 +52,8 @@ Future<Map<String, String>> _getDartSdkTriageLinks() async {
 
   var labels = await getGithubLabels(githubRepo);
 
-  var areaLabels = labels.where((label) {
-    var lc = label.toLowerCase();
-    return lc.startsWith('area-') && lc != 'area-none';
-  });
-
-  // https://github.com/dart-lang/sdk/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+-label%3Aarea-vm+-label%3Aarea-multi
+  var areaLabels =
+      labels.where((label) => label.toLowerCase().startsWith('area-'));
 
   var queryItems = ['is:issue', 'is:open'];
 

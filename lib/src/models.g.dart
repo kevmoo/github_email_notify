@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// 2015-07-13T20:12:32.702Z
+// 2015-07-13T21:00:38.503Z
 
 part of api.models;
 
@@ -26,6 +26,7 @@ abstract class _$AdminObjectSerializerMixin {
 // **************************************************************************
 
 ApiObject _$ApiObjectFromJson(Map json) => new ApiObject()
+  ..triageUris = json['triageUris']
   ..currentUser = json['currentUser'] == null
       ? null
       : new UserObject.fromJson(json['currentUser'])
@@ -36,11 +37,13 @@ ApiObject _$ApiObjectFromJson(Map json) => new ApiObject()
   ..logoutUrl = json['logoutUrl'];
 
 abstract class _$ApiObjectSerializerMixin {
+  Map get triageUris;
   UserObject get currentUser;
   AdminObject get adminObject;
   String get loginUrl;
   String get logoutUrl;
   Map<String, dynamic> toJson() => <String, dynamic>{
+    'triageUris': triageUris,
     'currentUser': currentUser,
     'adminObject': adminObject,
     'loginUrl': loginUrl,
@@ -54,15 +57,14 @@ abstract class _$ApiObjectSerializerMixin {
 // **************************************************************************
 
 UserObject _$UserObjectFromJson(Map json) => new UserObject(json['email'],
-    json['githubRepoName'], json['githubRepoUri'], json['triageUris'],
-    json['firebaseBase'], json['availableLabelsFirebasePath'],
-    json['myLabelsFirebasePath'], json['firebaseSecurityToken']);
+    json['githubRepoName'], json['githubRepoUri'], json['firebaseBase'],
+    json['availableLabelsFirebasePath'], json['myLabelsFirebasePath'],
+    json['firebaseSecurityToken']);
 
 abstract class _$UserObjectSerializerMixin {
   String get email;
   String get githubRepoName;
   String get githubRepoUri;
-  Map get triageUris;
   String get firebaseBase;
   String get availableLabelsFirebasePath;
   String get myLabelsFirebasePath;
@@ -71,7 +73,6 @@ abstract class _$UserObjectSerializerMixin {
     'email': email,
     'githubRepoName': githubRepoName,
     'githubRepoUri': githubRepoUri,
-    'triageUris': triageUris,
     'firebaseBase': firebaseBase,
     'availableLabelsFirebasePath': availableLabelsFirebasePath,
     'myLabelsFirebasePath': myLabelsFirebasePath,

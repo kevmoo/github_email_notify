@@ -18,7 +18,9 @@ import 'package:http/http.dart';
 import 'user_comp.dart';
 
 @Component(selector: "app", lifecycle: const [onInit])
-@View(templateUrl: 'client_app.html', directives: const [NgIf, UserComponent])
+@View(
+    templateUrl: 'client_app.html',
+    directives: const [NgIf, NgFor, UserComponent])
 class ClientApp {
   final _client = new BrowserClient();
   auth.BrowserOAuth2Flow _flow;

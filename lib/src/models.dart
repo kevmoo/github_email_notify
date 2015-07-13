@@ -18,6 +18,8 @@ class AdminObject extends Object with _$AdminObjectSerializerMixin {
 
 @JsonSerializable()
 class ApiObject extends Object with _$ApiObjectSerializerMixin {
+  Map<String, String> triageUris = <String, String>{};
+
   UserObject currentUser;
   AdminObject adminObject;
   String loginUrl;
@@ -35,15 +37,13 @@ class UserObject extends Object with _$UserObjectSerializerMixin {
   final String githubRepoName;
   final String githubRepoUri;
 
-  final Map<String, String> triageUris;
-
   final String firebaseBase;
   final String availableLabelsFirebasePath;
   final String myLabelsFirebasePath;
   final String firebaseSecurityToken;
 
   UserObject(this.email, this.githubRepoName, this.githubRepoUri,
-      this.triageUris, this.firebaseBase, this.availableLabelsFirebasePath,
+      this.firebaseBase, this.availableLabelsFirebasePath,
       this.myLabelsFirebasePath, this.firebaseSecurityToken);
 
   factory UserObject.fromJson(json) => _$UserObjectFromJson(json);
