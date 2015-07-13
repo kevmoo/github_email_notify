@@ -7,8 +7,8 @@
     <p><a href="{{ root.loginUrl }}">Login</a></p>
   </div>
   <div class="user" *ng-if="root.currentUser != null">
-    <user-comp [user]="root.currentUser"></user-comp>
     <p><a href="{{ root.logoutUrl }}">Logout</a></p>
+    <user-comp [user]="root.currentUser"></user-comp>
   </div>
   <div class="admin" *ng-if="root.adminObject != null">
     <h3>Admin</h3>

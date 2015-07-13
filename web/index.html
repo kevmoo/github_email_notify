@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Dart SDK Issue Notifications</title>
+    <title>Github Email Notify</title>
     <style>
       div.admin {
         border-radius: 25px;
@@ -9,14 +9,24 @@
         background: #eee;
         padding: 20px;
       }
+
+      div.label-pick {
+        -webkit-column-width: 220px;
+        column-width: 220px;
+      }
+
+      div.label-pick label {
+        display: block;
+      }
     </style>
   </head>
   <body>
-    <p><a href="https://www.dartlang.org/">Dart web site</a> - <a href="https://github.com/dart-lang/sdk/">Dart source code</a></p>
-
+    <p><em>Login. Pick the lables you care about for the target repo. Get emails when issues are labeled with something you care about.</em></p>
     <app>
       <em>Loading app...</em>
     </app>
+
+    <p><a href="https://github.com/kevmoo/github_email_notify">Source, Issues, etc - github.com/kevmoo/github_email_notify</a></p>
 
     <script src="https://cdn.firebase.com/js/client/2.2.7/firebase-debug.js"></script>
     <script src="client_app.dart" type="application/dart"></script>
