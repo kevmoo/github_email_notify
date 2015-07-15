@@ -100,7 +100,7 @@ packages:
   http_parser:
     description: http_parser
     source: hosted
-    version: "0.0.2+7"
+    version: "0.0.2+8"
   http_server:
     description: http_server
     source: hosted
