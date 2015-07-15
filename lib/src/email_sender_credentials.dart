@@ -1,17 +1,14 @@
 library api.src.email_sender_credentials;
 
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:appengine/appengine.dart' as ae;
 import 'package:appengine/api/users.dart';
 import 'package:googleapis_auth/auth_io.dart' as auth;
-import 'package:googleapis/oauth2/v2.dart';
-import 'package:gcloud/storage.dart';
 import 'package:http/http.dart' as http;
 
+import 'firebase.dart';
 import 'server_utils.dart';
-import 'shared.dart';
 
 final identifier = new auth.ClientId(clientIdentifier, clientSecret);
 
@@ -33,20 +30,10 @@ void requiredAdmin() {
   }
 }
 
-Bucket get bucket {
-  requiredAdmin();
-  return _bucket;
-}
-
-Bucket get _bucket => ae.context.services.storage.bucket(authTokenBucket);
-
 Future updateCreds(auth.AccessCredentials credentials) async {
   ae.loggingService.info('Auto-updating providing credentials');
-  var prettyString = prettyJson(_accessCredstoJson(credentials));
 
-  var jsonBites = UTF8.encode(prettyString);
-  await _bucket.writeBytes(authTokenFileName, jsonBites,
-      contentType: 'application/json');
+  await writeAuthCreds(_accessCredstoJson(credentials));
 }
 
 Future withAuthenticatedClient(Future func(auth.AuthClient client),
@@ -81,26 +68,10 @@ Future withAuthenticatedClient(Future func(auth.AuthClient client),
 Future<auth.AccessCredentials> _getStoredSenderEmailCredentials() async {
   _requireSenderPermissions();
 
-  var json;
-  try {
-    json = await _bucket
-        .read(authTokenFileName)
-        .transform(UTF8.decoder)
-        .transform(JSON.decoder).single;
-  } on DetailedApiRequestError catch (e) {
-    if (e.status == 400 || e.status == 404) {
-      print("Could not get the email file from storage");
-      print(e);
-      throw noCredsStoredError;
-    } else {
-      // 404 is reasonable, anything else – something is broken
-      rethrow;
-    }
-  }
+  var json = await readAuthCreds();
 
   if (json == null) {
-    // Need to prompt the user to authenticate, right?
-    return null;
+    throw noCredsStoredError;
   }
 
   return _accessCredsfromJson(json);
@@ -115,8 +86,6 @@ auth.AccessCredentials _accessCredsfromJson(credsJson) {
   return new auth.AccessCredentials(
       token, credsJson['refreshToken'], credsJson['scopes']);
 }
-
-String get authTokenFileName => getEnvValue('authTokenFileName');
 
 dynamic _accessCredstoJson(auth.AccessCredentials creds) => {
   'refreshToken': creds.refreshToken,

@@ -12,4 +12,3 @@ env_variables:
   authTokenBucket: SOME_VALUE
   authTokenFileName: SOME_VALUE
   DART_PUB_SERVE:  'http://192.168.59.3:7777'
-  STORAGE_SERVICE_ACCOUNT_FILE: JUST_FOR_DEVELOPMENT

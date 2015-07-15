@@ -69,7 +69,7 @@ Future sendTestEmail() async {
 }
 
 Future forgetEmailSender() async {
-  await bucket.delete(authTokenFileName);
+  await deleteAuthCreds();
 }
 
 Future<AdminObject> getAdminObject() async {

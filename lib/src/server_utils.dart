@@ -35,8 +35,6 @@ String get clientIdentifier => getEnvValue('clientIdentifier');
 
 String get clientSecret => getEnvValue('clientSecret');
 
-String get authTokenBucket => getEnvValue('authTokenBucket');
-
 String get appName => getEnvValue('appName');
 
 String get githubToken => getEnvValue('githubToken');
