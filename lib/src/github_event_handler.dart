@@ -77,9 +77,10 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
       '${request.repository.fullName}#${request.issue.number} labeled ${request.label.name} by ${request.sender.user}';
 
   var body = '''
-  Issue: ${request.issue.githubUrl}
-  Label: ${request.label.name}
-   User: ${request.sender.user} - ${request.sender.githubUrl}
+Issue: ${request.issue.githubUrl}
+Title: ${request.issue.title}
+Label: ${request.label.name}
+ User: ${request.sender.user} - ${request.sender.githubUrl}
 ''';
 
   await sendEmail(subject, body, bccEmails: subscribedEmails);
