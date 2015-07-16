@@ -1,11 +1,11 @@
 library api.server_utils;
 
-import 'dart:io';
-
 import 'package:appengine/appengine.dart' as ae;
 import 'package:firebase/firebase_io.dart';
 import 'package:path/path.dart' as p;
 import 'package:stack_trace/stack_trace.dart';
+
+import 'environment_variable_access.dart';
 
 DateTime logError(String message, [error, StackTrace stack]) {
   var buffer = new StringBuffer();
@@ -29,22 +29,6 @@ DateTime logError(String message, [error, StackTrace stack]) {
   return date;
 }
 
-String get senderEmailAccount => getEnvValue('senderEmailAccount');
-
-String get clientIdentifier => getEnvValue('clientIdentifier');
-
-String get clientSecret => getEnvValue('clientSecret');
-
-String get appName => getEnvValue('appName');
-
-String get githubToken => getEnvValue('githubToken');
-
-String get githubRepo => getEnvValue('githubRepo');
-
-String get firebaseSecret => getEnvValue('firebaseSecret');
-
-String get firebaseDomain => getEnvValue('firebaseDomain');
-
 String getLabelsPath(String repoFullName) =>
     p.url.join('repos', encodeKey(repoFullName), 'labels');
 
@@ -63,13 +47,3 @@ String getMyLabelsPath(String userEmail, String repoFullName) =>
 
 String getFirebaseSecurityToken(String userEmail) =>
     createFirebaseJwtToken(firebaseSecret, data: {'uid': encodeKey(userEmail)});
-
-String getEnvValue(String key) {
-  var value = Platform.environment[key];
-
-  if (value == null) {
-    throw new StateError('"$key" must be defined in app.yaml');
-  }
-
-  return value;
-}

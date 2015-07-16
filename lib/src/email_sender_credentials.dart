@@ -7,8 +7,8 @@ import 'package:appengine/api/users.dart';
 import 'package:googleapis_auth/auth_io.dart' as auth;
 import 'package:http/http.dart' as http;
 
+import 'environment_variable_access.dart';
 import 'firebase.dart';
-import 'server_utils.dart';
 
 final identifier = new auth.ClientId(clientIdentifier, clientSecret);
 

@@ -6,6 +6,7 @@ import 'package:appengine/appengine.dart' as ae;
 import 'package:firebase/firebase_io.dart';
 import 'package:github_hook/github_hook.dart';
 
+import 'environment_variable_access.dart';
 import 'gmail.dart';
 import 'server_utils.dart';
 
@@ -54,7 +55,8 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
     return;
   }
 
-  ae.loggingService.info('For label "$labelName", sending email to ${subscribedEmails}.');
+  ae.loggingService
+      .info('For label "$labelName", sending email to ${subscribedEmails}.');
 
   var subject =
       '${request.repository.fullName}#${request.issue.number} labeled ${request.label.name} by ${request.sender.user}';

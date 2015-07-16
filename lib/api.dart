@@ -5,11 +5,13 @@ import 'dart:async';
 import 'package:appengine/api/users.dart';
 
 import 'src/admin_logic.dart';
+import 'src/environment_variable_access.dart';
 import 'src/firebase.dart';
 import 'src/models.dart';
 import 'src/server_utils.dart';
 
 export 'src/admin_logic.dart';
+export 'src/environment_variable_access.dart' show githubSecret;
 export 'src/github_event_handler.dart';
 export 'src/server_utils.dart';
 export 'src/shared.dart';

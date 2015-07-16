@@ -5,6 +5,7 @@ import 'dart:convert';
 
 import 'package:firebase/firebase_io.dart';
 
+import 'environment_variable_access.dart';
 import 'server_utils.dart';
 
 Future<Null> syncGitHubLabels(

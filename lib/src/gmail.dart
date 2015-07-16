@@ -7,7 +7,7 @@ import 'package:googleapis/gmail/v1.dart';
 import 'package:logging/logging.dart';
 
 import 'email_sender_credentials.dart';
-import 'server_utils.dart';
+import 'environment_variable_access.dart';
 
 Future<Message> sendEmail(String subject, String body,
     {Iterable<String> toEmails, Iterable<String> bccEmails}) async {

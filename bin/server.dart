@@ -14,10 +14,9 @@ import 'package:github_email_notify/api.dart';
 main() async {
   ae.useLoggingPackageAdaptor();
 
-  var secret = getEnvValue('github_secret');
-
   var githubHandler = createEventHandler();
-  var githubHookHandler = createGitHubHookMiddleware(secret, githubHandler);
+  var githubHookHandler =
+      createGitHubHookMiddleware(githubSecret, githubHandler);
 
   var cascade = new Cascade().add((Request request) async {
     if (request.headers.containsKey('x-github-delivery')) {
