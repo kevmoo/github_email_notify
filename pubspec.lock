@@ -187,7 +187,7 @@ packages:
   watcher:
     description: watcher
     source: hosted
-    version: "0.9.6"
+    version: "0.9.7"
   when:
     description: when
     source: hosted
