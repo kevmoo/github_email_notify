@@ -17,7 +17,7 @@ import 'package:http/http.dart';
 
 import 'user_comp.dart';
 
-@Component(selector: "app", lifecycle: const [onInit])
+@Component(selector: "app", lifecycle: const [LifecycleEvent.onInit])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])

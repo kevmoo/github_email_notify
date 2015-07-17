@@ -55,10 +55,3 @@ Read through and deploy the [Dart App Engine sample](https://www.dartlang.org/se
 * [GitHub Webhooks](https://developer.github.com/webhooks/)
 * [Firebase](https://www.firebase.com/)
 * [Google APIs: GMail](https://pub.dartlang.org/packages/googleapis)
-
-### Known issues
-
-#### Must comment out `transformers:` section when using Dartium in dev mode
-
-* This is due to a known Angular issue.
-* Also why the Angular 2 dependency is locked at `angular2: 2.0.0-alpha.29`.

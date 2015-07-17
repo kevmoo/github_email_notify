@@ -12,7 +12,7 @@ packages:
   angular2:
     description: angular2
     source: hosted
-    version: "2.0.0-alpha.29"
+    version: "2.0.0-alpha.32"
   appengine:
     description: appengine
     source: hosted
@@ -24,7 +24,7 @@ packages:
   barback:
     description: barback
     source: hosted
-    version: "0.15.2+4"
+    version: "0.15.2+5"
   browser:
     description: browser
     source: hosted
@@ -56,7 +56,7 @@ packages:
   dart_style:
     description: dart_style
     source: hosted
-    version: "0.1.8+1"
+    version: "0.1.8+2"
   firebase:
     description: firebase
     source: hosted
@@ -96,7 +96,7 @@ packages:
   http:
     description: http
     source: hosted
-    version: "0.11.2"
+    version: "0.11.3"
   http_parser:
     description: http_parser
     source: hosted
@@ -105,6 +105,10 @@ packages:
     description: http_server
     source: hosted
     version: "0.9.5+1"
+  intl:
+    description: intl
+    source: hosted
+    version: "0.12.4"
   logging:
     description: logging
     source: hosted
@@ -121,6 +125,10 @@ packages:
     description: mime
     source: hosted
     version: "0.9.3"
+  observe:
+    description: observe
+    source: hosted
+    version: "0.13.1+1"
   package_config:
     description: package_config
     source: hosted
@@ -160,6 +168,10 @@ packages:
       url: "https://github.com/dart-lang/shelf_appengine"
     source: git
     version: "0.3.0-dev"
+  smoke:
+    description: smoke
+    source: hosted
+    version: "0.3.4"
   source_gen:
     description: source_gen
     source: hosted
