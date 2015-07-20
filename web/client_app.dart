@@ -17,17 +17,22 @@ import 'package:http/http.dart';
 
 import 'user_comp.dart';
 
-@Component(selector: "app", lifecycle: const [LifecycleEvent.onInit])
+@Component(
+    selector: "app",
+    lifecycle: const [LifecycleEvent.onInit],
+    hostInjector: const [BrowserClient])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])
 class ClientApp {
-  final _client = new BrowserClient();
+  final BrowserClient _client;
   auth.BrowserOAuth2Flow _flow;
 
   bool loginDisabled = true;
 
   ApiObject root;
+
+  ClientApp(BrowserClient client) : this._client = client;
 
   void onInit() {
     assert(loginDisabled);
@@ -121,6 +126,9 @@ _errorHandler(Response response) {
 
 main() {
   Chain.capture(() {
+    reflector.registerType(
+        BrowserClient, {'factory': () => new BrowserClient()});
+
     reflector.reflectionCapabilities = new ReflectionCapabilities();
     bootstrap(ClientApp);
   }, onError: (error, Chain chain) {
