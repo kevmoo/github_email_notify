@@ -91,14 +91,20 @@ class _FirebaseThing {
     var itemsToAdd = _itemsCache.keys.toList();
 
     while (itemsToAdd.isNotEmpty) {
-      var toAdd = itemsToAdd.removeAt(0);
+      var toAdd = itemsToAdd.removeLast();
       if (!items.any((_FirebaseItem i) => i.name == toAdd)) {
         // TODO: add this in order so it's sorted
         items.add(new _FirebaseItem(toAdd, this));
       }
     }
 
-    // TODO: now remove items that aren't in the cache
+    var itemsToRemove = items.where((_FirebaseItem item) {
+      return !_itemsCache.containsKey(item.name);
+    }).toList();
+
+    if (itemsToRemove.isNotEmpty) {
+      items.removeWhere(itemsToRemove.contains);
+    }
 
     // Now sort!
     items.sort();
