@@ -2,20 +2,17 @@ library github_hook.web.index;
 
 import 'dart:convert';
 
-import 'package:googleapis_auth/auth_browser.dart' as auth;
-
-import 'package:stack_trace/stack_trace.dart';
-
-import "package:angular2/bootstrap.dart" show bootstrap;
-import "package:angular2/angular2.dart" hide Response;
-import "package:angular2/src/reflection/reflection.dart"
+import 'package:angular2/angular2.dart' hide Response;
+import 'package:angular2/bootstrap.dart' show bootstrap;
+import 'package:angular2/src/reflection/reflection.dart'
     show reflector, ReflectionInfo;
-import "package:angular2/src/reflection/reflection_capabilities.dart"
+import 'package:angular2/src/reflection/reflection_capabilities.dart'
     show ReflectionCapabilities;
-
 import 'package:github_email_notify/browser.dart';
+import 'package:googleapis_auth/auth_browser.dart' as auth;
 import 'package:http/browser_client.dart';
 import 'package:http/http.dart';
+import 'package:stack_trace/stack_trace.dart';
 
 import 'user_comp.dart';
 
