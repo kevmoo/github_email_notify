@@ -100,14 +100,28 @@ class _FirebaseThing {
 
     // TODO: now remove items that aren't in the cache
 
+    // Now sort!
+    items.sort();
   }
 }
 
-class _FirebaseItem {
+class _FirebaseItem implements Comparable<_FirebaseItem> {
   final String name;
   final _FirebaseThing parent;
 
   bool get selected => parent._isPicked(name);
 
   _FirebaseItem(this.name, this.parent);
+
+  int compareTo(_FirebaseItem other) => _smartCompare(this.name, other.name);
+}
+
+int _smartCompare(String a, String b) {
+  var value = a.toLowerCase().compareTo(b.toLowerCase());
+
+  if (value == 0) {
+    value = a.compareTo(b);
+  }
+
+  return value;
 }
