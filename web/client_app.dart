@@ -6,8 +6,10 @@ import 'package:googleapis_auth/auth_browser.dart' as auth;
 
 import 'package:stack_trace/stack_trace.dart';
 
+import "package:angular2/bootstrap.dart" show bootstrap;
 import "package:angular2/angular2.dart" hide Response;
-import "package:angular2/src/reflection/reflection.dart" show reflector;
+import "package:angular2/src/reflection/reflection.dart"
+    show reflector, ReflectionInfo;
 import "package:angular2/src/reflection/reflection_capabilities.dart"
     show ReflectionCapabilities;
 
@@ -126,8 +128,8 @@ _errorHandler(Response response) {
 
 main() {
   Chain.capture(() {
-    reflector.registerType(
-        BrowserClient, {'factory': () => new BrowserClient()});
+    reflector.registerType(BrowserClient,
+        new ReflectionInfo(null, null, () => new BrowserClient()));
 
     reflector.reflectionCapabilities = new ReflectionCapabilities();
     bootstrap(ClientApp);

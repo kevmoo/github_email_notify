@@ -12,7 +12,7 @@ packages:
   angular2:
     description: angular2
     source: hosted
-    version: "2.0.0-alpha.32"
+    version: "2.0.0-alpha.33"
   appengine:
     description: appengine
     source: hosted
@@ -24,7 +24,7 @@ packages:
   barback:
     description: barback
     source: hosted
-    version: "0.15.2+5"
+    version: "0.15.2+6"
   browser:
     description: browser
     source: hosted
@@ -60,7 +60,7 @@ packages:
   firebase:
     description: firebase
     source: hosted
-    version: "0.6.1"
+    version: "0.6.2"
   fixnum:
     description: fixnum
     source: hosted
@@ -108,7 +108,7 @@ packages:
   intl:
     description: intl
     source: hosted
-    version: "0.12.4"
+    version: "0.12.4+1"
   logging:
     description: logging
     source: hosted
