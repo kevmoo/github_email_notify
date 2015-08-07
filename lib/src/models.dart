@@ -42,9 +42,14 @@ class UserObject extends Object with _$UserObjectSerializerMixin {
   final String myLabelsFirebasePath;
   final String firebaseSecurityToken;
 
-  UserObject(this.email, this.githubRepoName, this.githubRepoUri,
-      this.firebaseBase, this.availableLabelsFirebasePath,
-      this.myLabelsFirebasePath, this.firebaseSecurityToken);
+  UserObject(
+      this.email,
+      this.githubRepoName,
+      this.githubRepoUri,
+      this.firebaseBase,
+      this.availableLabelsFirebasePath,
+      this.myLabelsFirebasePath,
+      this.firebaseSecurityToken);
 
   factory UserObject.fromJson(json) => _$UserObjectFromJson(json);
 }

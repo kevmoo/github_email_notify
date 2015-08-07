@@ -88,11 +88,11 @@ auth.AccessCredentials _accessCredsfromJson(credsJson) {
 }
 
 dynamic _accessCredstoJson(auth.AccessCredentials creds) => {
-  'refreshToken': creds.refreshToken,
-  'scopes': creds.scopes,
-  'accessToken': {
-    'type': creds.accessToken.type,
-    'data': creds.accessToken.data,
-    'expiry': creds.accessToken.expiry.toIso8601String()
-  }
-};
+      'refreshToken': creds.refreshToken,
+      'scopes': creds.scopes,
+      'accessToken': {
+        'type': creds.accessToken.type,
+        'data': creds.accessToken.data,
+        'expiry': creds.accessToken.expiry.toIso8601String()
+      }
+    };

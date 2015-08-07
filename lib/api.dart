@@ -32,9 +32,13 @@ Future<ApiObject> rootObject() async {
 
     var firebaseSecurityToken = getFirebaseSecurityToken(currentUser.email);
 
-    apiObject.currentUser = new UserObject(currentUser.email, githubRepo,
-        _githubUrlFromRepo(githubRepo), firebaseBaseUri,
-        availableLabelsfirebasePath, myLabelsFirebaseUrl,
+    apiObject.currentUser = new UserObject(
+        currentUser.email,
+        githubRepo,
+        _githubUrlFromRepo(githubRepo),
+        firebaseBaseUri,
+        availableLabelsfirebasePath,
+        myLabelsFirebaseUrl,
         firebaseSecurityToken);
 
     if (currentUser.isAdmin) {

@@ -15,9 +15,9 @@ abstract class _$AdminObjectSerializerMixin {
   String get authorizedEmail;
   String get clientIdentifier;
   Map<String, dynamic> toJson() => <String, dynamic>{
-    'authorizedEmail': authorizedEmail,
-    'clientIdentifier': clientIdentifier
-  };
+        'authorizedEmail': authorizedEmail,
+        'clientIdentifier': clientIdentifier
+      };
 }
 
 // **************************************************************************
@@ -43,12 +43,12 @@ abstract class _$ApiObjectSerializerMixin {
   String get loginUrl;
   String get logoutUrl;
   Map<String, dynamic> toJson() => <String, dynamic>{
-    'triageUris': triageUris,
-    'currentUser': currentUser,
-    'adminObject': adminObject,
-    'loginUrl': loginUrl,
-    'logoutUrl': logoutUrl
-  };
+        'triageUris': triageUris,
+        'currentUser': currentUser,
+        'adminObject': adminObject,
+        'loginUrl': loginUrl,
+        'logoutUrl': logoutUrl
+      };
 }
 
 // **************************************************************************
@@ -56,9 +56,13 @@ abstract class _$ApiObjectSerializerMixin {
 // Target: class UserObject
 // **************************************************************************
 
-UserObject _$UserObjectFromJson(Map json) => new UserObject(json['email'],
-    json['githubRepoName'], json['githubRepoUri'], json['firebaseBase'],
-    json['availableLabelsFirebasePath'], json['myLabelsFirebasePath'],
+UserObject _$UserObjectFromJson(Map json) => new UserObject(
+    json['email'],
+    json['githubRepoName'],
+    json['githubRepoUri'],
+    json['firebaseBase'],
+    json['availableLabelsFirebasePath'],
+    json['myLabelsFirebasePath'],
     json['firebaseSecurityToken']);
 
 abstract class _$UserObjectSerializerMixin {
@@ -70,12 +74,12 @@ abstract class _$UserObjectSerializerMixin {
   String get myLabelsFirebasePath;
   String get firebaseSecurityToken;
   Map<String, dynamic> toJson() => <String, dynamic>{
-    'email': email,
-    'githubRepoName': githubRepoName,
-    'githubRepoUri': githubRepoUri,
-    'firebaseBase': firebaseBase,
-    'availableLabelsFirebasePath': availableLabelsFirebasePath,
-    'myLabelsFirebasePath': myLabelsFirebasePath,
-    'firebaseSecurityToken': firebaseSecurityToken
-  };
+        'email': email,
+        'githubRepoName': githubRepoName,
+        'githubRepoUri': githubRepoUri,
+        'firebaseBase': firebaseBase,
+        'availableLabelsFirebasePath': availableLabelsFirebasePath,
+        'myLabelsFirebasePath': myLabelsFirebasePath,
+        'firebaseSecurityToken': firebaseSecurityToken
+      };
 }

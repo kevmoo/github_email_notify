@@ -118,7 +118,10 @@ class Issue {
 
   Issue(this.number, this.githubUrl, this.title, this.state, this.labels);
 
-  factory Issue.fromJson(Map json) => new Issue(json['number'],
-      Uri.parse(json['html_url']), json['title'], json['state'],
+  factory Issue.fromJson(Map json) => new Issue(
+      json['number'],
+      Uri.parse(json['html_url']),
+      json['title'],
+      json['state'],
       new List.unmodifiable(json['labels'].map((j) => new Label.fromJson(j))));
 }
