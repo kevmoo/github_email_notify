@@ -16,7 +16,7 @@ packages:
   appengine:
     description: appengine
     source: hosted
-    version: "0.3.0+1"
+    version: "0.3.1"
   args:
     description: args
     source: hosted
@@ -60,7 +60,7 @@ packages:
   firebase:
     description: firebase
     source: hosted
-    version: "0.6.2"
+    version: "0.6.3"
   fixnum:
     description: fixnum
     source: hosted
@@ -68,7 +68,7 @@ packages:
   gcloud:
     description: gcloud
     source: hosted
-    version: "0.2.0+4"
+    version: "0.2.0+5"
   github:
     description: github
     source: hosted
@@ -88,7 +88,7 @@ packages:
   googleapis_beta:
     description: googleapis_beta
     source: hosted
-    version: "0.15.2"
+    version: "0.16.0"
   html:
     description: html
     source: hosted
@@ -162,12 +162,9 @@ packages:
     source: hosted
     version: "0.6.2"
   shelf_appengine:
-    description:
-      ref: "58649948"
-      resolved-ref: "586499486b52654b4c88c250989d23736fa6f51d"
-      url: "https://github.com/dart-lang/shelf_appengine"
-    source: git
-    version: "0.3.0-dev"
+    description: shelf_appengine
+    source: hosted
+    version: "0.2.3"
   smoke:
     description: smoke
     source: hosted

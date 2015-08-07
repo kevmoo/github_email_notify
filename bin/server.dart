@@ -11,7 +11,15 @@ import 'package:shelf_appengine/shelf_appengine.dart' as shelf_ae;
 
 import 'package:github_email_notify/api.dart';
 
-main() async {
+main(List<String> args) async {
+  var portArgs = args.where((a) => a.startsWith('--port=')).toList();
+
+  int port = 8080;
+  if (portArgs.length == 1) {
+    var portArg = portArgs.single.substring(7);
+    port = int.parse(portArg);
+  }
+
   ae.useLoggingPackageAdaptor();
 
   var githubHandler = createEventHandler();
@@ -42,7 +50,7 @@ main() async {
   var handler =
       const Pipeline().addMiddleware(logRequests()).addHandler(cascade.handler);
 
-  await shelf_ae.serve(handler);
+  await shelf_ae.serve(handler, port: port);
 }
 
 Future<Response> _apiHandler(Request request) async {
