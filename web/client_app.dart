@@ -19,7 +19,7 @@ import 'user_comp.dart';
 @Component(
     selector: "app",
     lifecycle: const [LifecycleEvent.onInit],
-    hostInjector: const [BrowserClient])
+    bindings: const [BrowserClient])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])
