@@ -54,8 +54,10 @@ Future<ApiObject> rootObject() async {
 Future<Uri> get dartSdkNoAreaIssues async {
   var labels = await getGithubLabels(githubRepo);
 
-  var areaLabels =
-      labels.where((label) => label.toLowerCase().startsWith('area-'));
+  var areaLabels = labels.where((label) {
+    var lcLabel = label.toLowerCase();
+    return lcLabel.startsWith('area-') || lcLabel.startsWith('mergeto');
+  });
 
   var queryItems = ['is:issue', 'is:open'];
 
