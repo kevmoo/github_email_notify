@@ -80,7 +80,7 @@ packages:
   googleapis:
     description: googleapis
     source: hosted
-    version: "0.12.1"
+    version: "0.13.0"
   googleapis_auth:
     description: googleapis_auth
     source: hosted
@@ -172,7 +172,7 @@ packages:
   source_gen:
     description: source_gen
     source: hosted
-    version: "0.4.2"
+    version: "0.4.3"
   source_maps:
     description: source_maps
     source: hosted
