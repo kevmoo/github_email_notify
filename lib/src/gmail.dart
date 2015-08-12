@@ -44,13 +44,8 @@ $body''');
     sentMessage = await api.users.messages.send(request, senderEmailAccount);
   });
 
-  Logger.root.info([
-    sentMessage.historyId,
-    sentMessage.id,
-    sentMessage.labelIds,
-    sentMessage.payload,
-    sentMessage.snippet
-  ].toString());
+  Logger.root.info(
+      "Mail ID ${sentMessage.id} – labels: ${sentMessage.labelIds.join(', ')}");
 
   return sentMessage;
 }

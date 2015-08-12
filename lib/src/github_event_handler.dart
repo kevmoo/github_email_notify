@@ -50,13 +50,15 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
     }
   });
 
+  var message = 'Issue ${request.issue.number}, label "$labelName"';
+
   if (subscribedEmails.isEmpty) {
-    ae.loggingService.info('No subscriptions for label: "$labelName".');
+    ae.loggingService.info('$message – no subscriptions.');
     return;
   }
 
   ae.loggingService
-      .info('For label "$labelName", sending email to ${subscribedEmails}.');
+      .info('$message – sending email to ${subscribedEmails.join(', ')}.');
 
   var subject =
       '${request.repository.fullName}#${request.issue.number} labeled ${request.label.name} by ${request.sender.user}';
