@@ -1,1 +1,1 @@
-FROM google/dart-runtime:1.12.0-dev.5.2
+FROM google/dart-runtime:1.12.0-dev.5.3
