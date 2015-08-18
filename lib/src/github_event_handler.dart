@@ -2,9 +2,9 @@ library api.github_event_handler;
 
 import 'dart:async';
 
-import 'package:appengine/appengine.dart' as ae;
 import 'package:firebase/firebase_io.dart';
 import 'package:github_hook/github_hook.dart';
+import 'package:logging/logging.dart';
 
 import 'environment_variable_access.dart';
 import 'gmail.dart';
@@ -53,11 +53,11 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
   var message = 'Issue ${request.issue.number}, label "$labelName"';
 
   if (subscribedEmails.isEmpty) {
-    ae.loggingService.info('$message – no subscriptions.');
+    Logger.root.info('$message – no subscriptions.');
     return;
   }
 
-  ae.loggingService
+  Logger.root
       .info('$message – sending email to ${subscribedEmails.join(', ')}.');
 
   var subject =

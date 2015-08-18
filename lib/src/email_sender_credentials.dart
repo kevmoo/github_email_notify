@@ -2,10 +2,10 @@ library api.src.email_sender_credentials;
 
 import 'dart:async';
 
-import 'package:appengine/appengine.dart' as ae;
 import 'package:appengine/api/users.dart';
 import 'package:googleapis_auth/auth_io.dart' as auth;
 import 'package:http/http.dart' as http;
+import 'package:logging/logging.dart';
 
 import 'environment_variable_access.dart';
 import 'firebase.dart';
@@ -31,7 +31,7 @@ void requiredAdmin() {
 }
 
 Future updateCreds(auth.AccessCredentials credentials) async {
-  ae.loggingService.info('Auto-updating providing credentials');
+  Logger.root.info('Auto-updating providing credentials');
 
   await writeAuthCreds(_accessCredstoJson(credentials));
 }
