@@ -48,6 +48,14 @@ Read through and deploy the [Dart App Engine sample](https://www.dartlang.org/se
   * `app.yaml` is explicitly ignored in `.gitignore` to make sure you don't commit a bunch of secrets to a public GitHub repo.
 * See `lib/src/environment_variable_access.dart` for details.
 
+### Running locally
+
+There have been changes to the `gcloud` tool which require custom arguments be passed.
+
+`gcloud preview app run --custom-entrypoint "dart bin/server.dart --port={port}" app.yaml`
+
+*TODO(kevmoo): add more details here*
+
 ### Technologies
 
 * [Dart on Google App Engine](https://www.dartlang.org/server/google-cloud-platform/app-engine/)

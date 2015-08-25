@@ -17,4 +17,6 @@ env_variables:
   senderEmailAccount: 'my value here'
   # Dev-time variables
   # See https://www.dartlang.org/server/google-cloud-platform/app-engine/client-server/
-  DART_PUB_SERVE:  'http://192.168.59.3:7777'
+  # Notice the use of localhost here instead of `192.168.59.3`
+  # When running with --custom-entrypoint, you don't need to use the Docker port.
+  DART_PUB_SERVE:  'http://localhost:7777'
