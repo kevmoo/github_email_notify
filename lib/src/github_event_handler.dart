@@ -57,7 +57,7 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
       .info('$message – sending email to ${subscribedEmails.join(', ')}.');
 
   var subject =
-      '${request.repository.fullName}#${request.issue.number} labeled ${request.label.name} by ${request.sender.user}';
+      "[+${request.label.name}]: ${request.issue.title} (${request.repository.fullName}#${request.issue.number})";
 
   var body = '''
  User: ${request.sender.user} - ${request.sender.githubUrl}
