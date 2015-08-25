@@ -22,9 +22,8 @@ main(List<String> args) async {
 
   ae.useLoggingPackageAdaptor();
 
-  var githubHandler = createEventHandler();
   var githubHookHandler =
-      createGitHubHookMiddleware(githubSecret, githubHandler);
+      createGitHubHookMiddleware(githubSecret, githubRequestHandler);
 
   var cascade = new Cascade().add((Request request) async {
     if (request.headers.containsKey('x-github-delivery')) {

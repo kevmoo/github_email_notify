@@ -10,11 +10,7 @@ import 'environment_variable_access.dart';
 import 'gmail.dart';
 import 'server_utils.dart';
 
-GitHubRequestHandler createEventHandler() {
-  return _echoRequest;
-}
-
-Future<Null> _echoRequest(HookRequest request) async {
+Future<Null> githubRequestHandler(HookRequest request) async {
   if (request is IssuesHookRequest) {
     if (request.action == 'labeled') {
       await _handleLabeledEvent(request);
