@@ -1,5 +1,7 @@
 library api.mime_email;
 
+import 'package:markdown/markdown.dart';
+
 String createLabelEmailContent(
     String senderName,
     String senderEmail,
@@ -22,9 +24,10 @@ String createLabelEmailContent(
 <p>Reported by <a href="${issueReporterUri}">${issueReporterUsername}</a></p>
 <p>Labeled <strong>${labelName}</strong> by <a href="${senderUrl}">${senderUser}</a></p>
 
-<blockquote>
-${issueBody}
-</blockquote>
+<hr>
+<pre>
+${markdownToHtml(issueBody)}
+</pre>
 ''';
 
   return _createMimeContent(senderName, senderEmail, subject, body,
