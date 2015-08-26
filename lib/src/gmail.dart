@@ -9,33 +9,8 @@ import 'package:logging/logging.dart';
 import 'email_sender_credentials.dart';
 import 'environment_variable_access.dart';
 
-Future<Message> sendEmail(String subject, String body,
-    {Iterable<String> toEmails, Iterable<String> bccEmails}) async {
-  var fromLine = '$appName <$senderEmailAccount>';
-
-  if (body == null) {
-    body = '';
-  }
-
-  var emailContent = new StringBuffer()
-    ..writeln('mime-version: 1.0')
-    ..writeln('Subject: $subject')
-    ..writeln('From: $fromLine');
-
-  if (toEmails != null && toEmails.isNotEmpty) {
-    emailContent.writeln('To: ${toEmails.join(',')}');
-  }
-
-  if (bccEmails != null && bccEmails.isNotEmpty) {
-    emailContent.writeln('Bcc: ${bccEmails.join(', ')}');
-  }
-
-  emailContent.write('''Content-Type: text/plain; charset=UTF-8
-
-$body''');
-
-  var request = new Message()
-    ..rawAsBytes = UTF8.encode(emailContent.toString());
+Future<Message> sendEmail(String mimeContent) async {
+  var request = new Message()..rawAsBytes = UTF8.encode(mimeContent);
 
   Message sentMessage;
   await withAuthenticatedClient((client) async {

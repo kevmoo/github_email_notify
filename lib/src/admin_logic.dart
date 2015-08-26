@@ -12,6 +12,7 @@ import 'email_sender_credentials.dart';
 import 'environment_variable_access.dart';
 import 'firebase.dart';
 import 'gmail.dart';
+import 'mime_email.dart';
 import 'models.dart';
 import 'server_utils.dart';
 
@@ -66,7 +67,20 @@ Future sendTestEmail() async {
 
   var subject = "Test message from $appName - ${new DateTime.now().toUtc()}";
 
-  await sendEmail(subject, "Nice, huh?", toEmails: [toEmail]);
+  var content = createLabelEmailContent(
+      appName,
+      senderEmailAccount,
+      [toEmail],
+      "SampleLabel",
+      "sample/repo",
+      appName,
+      Uri.parse("https://www.dartlang.org/"),
+      8652,
+      "Test email sent by admin",
+      Uri.parse('https://github.com/dart-lang/sdk/issues/8652'),
+      "A user requested a sample email to be sent from the site.");
+
+  await sendEmail(content);
 }
 
 Future forgetEmailSender() async {

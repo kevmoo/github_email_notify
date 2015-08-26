@@ -8,6 +8,7 @@ import 'package:logging/logging.dart';
 
 import 'environment_variable_access.dart';
 import 'gmail.dart';
+import 'mime_email.dart';
 import 'server_utils.dart';
 
 Future<Null> githubRequestHandler(HookRequest request) async {
@@ -56,18 +57,18 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
   Logger.root
       .info('$message – sending email to ${subscribedEmails.join(', ')}.');
 
-  var subject =
-      "[+${request.label.name}]: ${request.issue.title} (${request.repository.fullName}#${request.issue.number})";
+  var content = createLabelEmailContent(
+      appName,
+      senderEmailAccount,
+      subscribedEmails,
+      request.label.name,
+      request.repository.fullName,
+      request.sender.user,
+      request.sender.githubUrl,
+      request.issue.number,
+      request.issue.title,
+      request.issue.githubUrl,
+      request.issue.body);
 
-  var body = '''
- User: ${request.sender.user} - ${request.sender.githubUrl}
-Label: ${request.label.name}
-
-${request.issue.githubUrl}
-${request.issue.title}
-
-${request.issue.body}
-''';
-
-  await sendEmail(subject, body, bccEmails: subscribedEmails);
+  await sendEmail(content);
 }
