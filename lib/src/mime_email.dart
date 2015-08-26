@@ -11,18 +11,20 @@ String createLabelEmailContent(
     int issueNumber,
     String issueTitle,
     Uri issueUrl,
-    String issueBody) {
+    String issueBody,
+    String issueReporterUsername,
+    Uri issueReporterUri) {
   var subject =
       "[+${labelName}]: ${issueTitle} (${repositoryName}#${issueNumber})";
 
   var body = '''
- User: ${senderUser} - ${senderUrl}
-Label: ${labelName}
+<p><strong><a href="${issueUrl}">${issueTitle}</a> (${repositoryName}#${issueNumber})</strong></p>
+<p>Reported by <a href="${issueReporterUri}">${issueReporterUsername}</a></p>
+<p>Labeled <strong>${labelName}</strong> by <a href="${senderUrl}">${senderUser}</a></p>
 
-${issueUrl}
-${issueTitle}
-
+<blockquote>
 ${issueBody}
+</blockquote>
 ''';
 
   return _createMimeContent(senderName, senderEmail, subject, body,
@@ -51,7 +53,7 @@ String _createMimeContent(
     emailContent.writeln('Bcc: ${bccEmails.join(', ')}');
   }
 
-  emailContent.write('''Content-Type: text/plain; charset=UTF-8
+  emailContent.write('''Content-Type: text/html; charset=UTF-8
 
 $body''');
 

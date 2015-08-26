@@ -76,9 +76,11 @@ Future sendTestEmail() async {
       appName,
       Uri.parse("https://www.dartlang.org/"),
       8652,
-      "Test email sent by admin",
+      subject,
       Uri.parse('https://github.com/dart-lang/sdk/issues/8652'),
-      "A user requested a sample email to be sent from the site.");
+      "A <strong>user</strong> requested a sample email to be sent from the &quot;site&quot;.",
+      toEmail,
+      Uri.parse("mailto:$toEmail"));
 
   await sendEmail(content);
 }

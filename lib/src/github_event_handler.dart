@@ -68,7 +68,9 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
       request.issue.number,
       request.issue.title,
       request.issue.githubUrl,
-      request.issue.body);
+      request.issue.body,
+      request.issue.user.user,
+      request.issue.user.githubUrl);
 
   await sendEmail(content);
 }
