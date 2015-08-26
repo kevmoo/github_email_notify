@@ -25,9 +25,7 @@ String createLabelEmailContent(
 <p>Labeled <strong>${labelName}</strong> by <a href="${senderUrl}">${senderUser}</a></p>
 
 <hr>
-<pre>
 ${markdownToHtml(issueBody)}
-</pre>
 ''';
 
   return _createMimeContent(senderName, senderEmail, subject, body,
