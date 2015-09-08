@@ -180,7 +180,7 @@ packages:
   source_gen:
     description: source_gen
     source: hosted
-    version: "0.4.4"
+    version: "0.4.4+1"
   source_maps:
     description: source_maps
     source: hosted
