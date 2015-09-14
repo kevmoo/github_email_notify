@@ -9,7 +9,7 @@ import 'package:firebase/firebase.dart';
 @Component(
     selector: "user-comp",
     properties: const ["user", 'selectionItems'],
-    lifecycle: const [LifecycleEvent.onInit])
+    lifecycle: const [LifecycleEvent.OnInit])
 @View(templateUrl: 'user_comp.html', directives: const [NgIf, NgFor])
 class UserComponent {
   UserObject user;

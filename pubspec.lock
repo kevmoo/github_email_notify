@@ -12,7 +12,7 @@ packages:
   angular2:
     description: angular2
     source: hosted
-    version: "2.0.0-alpha.36"
+    version: "2.0.0-alpha.37"
   appengine:
     description: appengine
     source: hosted
@@ -68,7 +68,7 @@ packages:
   gcloud:
     description: gcloud
     source: hosted
-    version: "0.2.0+6"
+    version: "0.2.0+7"
   github:
     description: github
     source: hosted
@@ -84,7 +84,7 @@ packages:
   googleapis:
     description: googleapis
     source: hosted
-    version: "0.14.0"
+    version: "0.15.0"
   googleapis_auth:
     description: googleapis_auth
     source: hosted
@@ -92,7 +92,7 @@ packages:
   googleapis_beta:
     description: googleapis_beta
     source: hosted
-    version: "0.17.0"
+    version: "0.18.0"
   html:
     description: html
     source: hosted
@@ -220,4 +220,4 @@ packages:
   yaml:
     description: yaml
     source: hosted
-    version: "2.1.4"
+    version: "2.1.5"

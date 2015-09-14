@@ -4,10 +4,8 @@ import 'dart:convert';
 
 import 'package:angular2/angular2.dart' hide Response;
 import 'package:angular2/bootstrap.dart' show bootstrap;
-import 'package:angular2/src/reflection/reflection.dart'
-    show reflector, ReflectionInfo;
-import 'package:angular2/src/reflection/reflection_capabilities.dart'
-    show ReflectionCapabilities;
+import 'package:angular2/src/core/reflection/reflection_capabilities.dart';
+import 'package:angular2/src/core/reflection/reflection.dart';
 import 'package:github_email_notify/browser.dart';
 import 'package:googleapis_auth/auth_browser.dart' as auth;
 import 'package:http/browser_client.dart';
@@ -18,7 +16,7 @@ import 'user_comp.dart';
 
 @Component(
     selector: "app",
-    lifecycle: const [LifecycleEvent.onInit],
+    lifecycle: const [LifecycleEvent.OnInit],
     bindings: const [BrowserClient])
 @View(
     templateUrl: 'client_app.html',
