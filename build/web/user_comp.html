@@ -1,0 +1,10 @@
+<div *ng-if="user != null">
+  <div>{{ user.email }}</div>
+  <div>Repo: <a [href]="user.githubRepoUri">{{ user.githubRepoName }}</a></div>
+  <div class="label-pick" *ng-if="selectionItems != null">
+    <label *ng-for="#item of selectionItems.items">
+      <input type="checkbox" (click)="toggle(item)" [checked]="item.selected">
+      {{item.name}}
+    </label>
+  </div>
+</div>

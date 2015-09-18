@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Github Email Notify</title>
+    <style>
+      body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      }
+      div.admin {
+        border-radius: 10px;
+        border: 2px solid navy;
+        background: #eee;
+        padding: 10px;
+        margin: 5px;
+      }
+
+      div.label-pick {
+        margin-top: 10px;
+        -webkit-column-width: 220px;
+        column-width: 220px;
+      }
+
+      div.label-pick label {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <p><em>Login. Pick the labels you care about for the target repo. Get emails when issues are labeled with something you care about.</em></p>
+    <app>
+      <em>Loading app...</em>
+    </app>
+
+    <p><a href="https://github.com/kevmoo/github_email_notify">Source, Issues, etc - github.com/kevmoo/github_email_notify</a></p>
+
+    <script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+    <script src="client_app.dart" type="application/dart"></script>
+    <script src="packages/browser/dart.js" type="text/javascript"></script>
+  </body>
+</html>

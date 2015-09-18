@@ -1,0 +1,31 @@
+{
+  "UserComponent": {
+    "kind": "type",
+    "value": {
+      "id": "UserComponent",
+      "selector": "user-comp",
+      "compileChildren": true,
+      "hostProperties": {},
+      "hostListeners": {},
+      "hostAttributes": {},
+      "properties": [
+        "user",
+        "selectionItems"
+      ],
+      "readAttributes": [],
+      "type": 1,
+      "exportAs": null,
+      "callOnDestroy": false,
+      "callDoCheck": false,
+      "callOnInit": true,
+      "callOnChanges": false,
+      "callAfterContentInit": false,
+      "callAfterContentChecked": false,
+      "callAfterViewInit": false,
+      "callAfterViewChecked": false,
+      "events": [],
+      "changeDetection": null,
+      "version": 1
+    }
+  }
+}

@@ -1,6 +1,4 @@
-.pub/
-build/
-packages
-app.yaml
-storage_key.json
 .packages
+.pub/
+app.yaml
+packages
