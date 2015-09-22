@@ -68,7 +68,7 @@ packages:
   gcloud:
     description: gcloud
     source: hosted
-    version: "0.2.0+7"
+    version: "0.2.0+8"
   github:
     description: github
     source: hosted
@@ -84,7 +84,7 @@ packages:
   googleapis:
     description: googleapis
     source: hosted
-    version: "0.15.0"
+    version: "0.16.0"
   googleapis_auth:
     description: googleapis_auth
     source: hosted
@@ -92,7 +92,7 @@ packages:
   googleapis_beta:
     description: googleapis_beta
     source: hosted
-    version: "0.18.0"
+    version: "0.19.0"
   html:
     description: html
     source: hosted
