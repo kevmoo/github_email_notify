@@ -4,21 +4,18 @@ packages:
   _discoveryapis_commons:
     description: _discoveryapis_commons
     source: hosted
-    version: "0.1.2"
+    version: "0.1.3"
   analyzer:
     description: analyzer
     source: hosted
-    version: "0.26.1+9"
+    version: "0.26.1+11"
   angular2:
     description: angular2
     source: hosted
     version: "2.0.0-alpha.37"
   appengine:
-    description:
-      ref: null
-      resolved-ref: "900d23c83afe23a70fc4b383c41d15560ddda24d"
-      url: "https://github.com/kevmoo/appengine"
-    source: git
+    description: appengine
+    source: hosted
     version: "0.3.2"
   args:
     description: args
