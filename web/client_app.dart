@@ -16,12 +16,11 @@ import 'user_comp.dart';
 
 @Component(
     selector: "app",
-    lifecycle: const [LifecycleEvent.OnInit],
-    bindings: const [BrowserClient])
+    providers: const [BrowserClient])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])
-class ClientApp {
+class ClientApp implements OnInit {
   final BrowserClient _client;
   auth.BrowserOAuth2Flow _flow;
 

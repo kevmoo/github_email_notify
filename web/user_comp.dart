@@ -8,10 +8,9 @@ import 'package:firebase/firebase.dart';
 
 @Component(
     selector: "user-comp",
-    properties: const ["user", 'selectionItems'],
-    lifecycle: const [LifecycleEvent.OnInit])
+    inputs: const ["user", 'selectionItems'])
 @View(templateUrl: 'user_comp.html', directives: const [NgIf, NgFor])
-class UserComponent {
+class UserComponent implements OnInit {
   UserObject user;
 
   _FirebaseThing selectionItems;
