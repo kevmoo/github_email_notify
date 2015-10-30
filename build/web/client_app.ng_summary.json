@@ -8,11 +8,6 @@
         "5": false
       },
       {
-        "1": "client_app.ng_deps.dart",
-        "4": "i0",
-        "6": true
-      },
-      {
         "1": "dart:convert",
         "5": false
       },
@@ -24,36 +19,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
-        "4": "i2",
-        "6": true
-      },
-      {
         "1": "package:angular2/bootstrap_static.dart",
         "5": false
-      },
-      {
-        "1": "package:angular2/bootstrap_static.ng_deps.dart",
-        "4": "i3",
-        "6": true
       },
       {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
-        "4": "i4",
-        "6": true
-      },
-      {
         "1": "package:github_email_notify/browser.dart",
         "5": false
-      },
-      {
-        "1": "package:github_email_notify/browser.ng_deps.dart",
-        "4": "i5",
-        "6": true
       },
       {
         "1": "package:googleapis_auth/auth_browser.dart",
@@ -75,11 +50,6 @@
       {
         "1": "user_comp.dart",
         "5": false
-      },
-      {
-        "1": "user_comp.ng_deps.dart",
-        "4": "i10",
-        "6": true
       }
     ],
     "5": [
