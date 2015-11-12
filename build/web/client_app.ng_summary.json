@@ -3,11 +3,6 @@
     "1": "github_hook.web.index",
     "3": [
       {
-        "1": "client_app.ng_deps.dart",
-        "4": "ngStaticInit",
-        "5": false
-      },
-      {
         "1": "dart:convert",
         "5": false
       },
@@ -20,6 +15,9 @@
       },
       {
         "1": "package:angular2/bootstrap_static.dart",
+        "2": [
+          "bootstrap"
+        ],
         "5": false
       },
       {

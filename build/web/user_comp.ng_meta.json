@@ -14,18 +14,8 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
-        "4": "i1",
-        "6": true
-      },
-      {
         "1": "package:github_email_notify/browser.dart",
         "5": false
-      },
-      {
-        "1": "package:github_email_notify/browser.ng_deps.dart",
-        "4": "i2",
-        "6": true
       },
       {
         "1": "package:firebase/firebase.dart",
@@ -86,7 +76,17 @@
         ]
       }
     ],
-    "6": "user_comp.dart"
+    "6": "user_comp.dart",
+    "10": [
+      {
+        "1": "package:angular2/angular2.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:github_email_notify/browser.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
   },
   "UserComponent": {
     "kind": "type",
