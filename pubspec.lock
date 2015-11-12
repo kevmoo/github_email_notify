@@ -8,11 +8,11 @@ packages:
   analyzer:
     description: analyzer
     source: hosted
-    version: "0.26.1+17"
+    version: "0.26.2+1"
   angular2:
     description: angular2
     source: hosted
-    version: "2.0.0-alpha.45"
+    version: "2.0.0-alpha.46"
   appengine:
     description: appengine
     source: hosted
@@ -52,7 +52,7 @@ packages:
   convert:
     description: convert
     source: hosted
-    version: "1.0.0"
+    version: "1.0.1"
   crypto:
     description: crypto
     source: hosted
@@ -128,7 +128,7 @@ packages:
   markdown:
     description: markdown
     source: hosted
-    version: "0.8.0"
+    version: "0.9.0"
   matcher:
     description: matcher
     source: hosted
@@ -200,7 +200,7 @@ packages:
   stack_trace:
     description: stack_trace
     source: hosted
-    version: "1.4.2"
+    version: "1.5.0"
   string_scanner:
     description: string_scanner
     source: hosted

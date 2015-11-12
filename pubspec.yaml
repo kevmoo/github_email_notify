@@ -6,7 +6,7 @@ homepage: https://github.com/kevmoo/github_email_notify
 environment:
   sdk: '>=1.11.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-alpha.45
+  angular2: 2.0.0-alpha.46
   appengine: '^0.3.1+1'
   browser: ^0.10.0+2
   firebase: ^0.6.1
@@ -16,7 +16,7 @@ dependencies:
   googleapis_auth: ^0.2.3+1
   http: ^0.11.2
   logging: ^0.11.1
-  markdown: ^0.8.0
+  markdown: ^0.9.0
   path: ^1.3.5
   shelf: ^0.6.0
   shelf_appengine: ^0.2.3
