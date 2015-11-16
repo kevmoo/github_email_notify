@@ -28,7 +28,7 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
 
   var labeledRepository = request.repository.fullName;
 
-  var labelName = request.label.name;
+  var labelName = request.label.name.toLowerCase();
 
   var items = await client.get(getUsersForRepoUri(labeledRepository)) as Map;
 
@@ -38,8 +38,8 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
 
   var subscribedEmails = new Set<String>();
 
-  items.forEach((String encodedEmail, Map labelMap) {
-    if (labelMap.containsKey(labelName)) {
+  items.forEach((String encodedEmail, Map<String, dynamic> labelMap) {
+    if (labelMap.keys.any((k) => k.toLowerCase() == labelName)) {
       var email = decodeKey(encodedEmail);
 
       // decode the email!
