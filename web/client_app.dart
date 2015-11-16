@@ -14,9 +14,7 @@ import 'package:stack_trace/stack_trace.dart';
 
 import 'user_comp.dart';
 
-@Component(
-    selector: "app",
-    providers: const [BrowserClient])
+@Component(selector: "app", providers: const [BrowserClient])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])

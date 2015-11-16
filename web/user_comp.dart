@@ -6,9 +6,7 @@ import "package:angular2/angular2.dart" hide Response;
 import 'package:github_email_notify/browser.dart';
 import 'package:firebase/firebase.dart';
 
-@Component(
-    selector: "user-comp",
-    inputs: const ["user", 'selectionItems'])
+@Component(selector: "user-comp", inputs: const ["user", 'selectionItems'])
 @View(templateUrl: 'user_comp.html', directives: const [NgIf, NgFor])
 class UserComponent implements OnInit {
   UserObject user;
