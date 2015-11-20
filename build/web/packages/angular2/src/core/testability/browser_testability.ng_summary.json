@@ -1,0 +1,21 @@
+{
+  "ngDeps": {
+    "1": "testability.browser_testability",
+    "3": [
+      {
+        "1": "./testability.dart",
+        "5": false
+      },
+      {
+        "1": "dart:html",
+        "5": false
+      },
+      {
+        "1": "dart:js",
+        "4": "js",
+        "5": false
+      }
+    ],
+    "6": "browser_testability.dart"
+  }
+}

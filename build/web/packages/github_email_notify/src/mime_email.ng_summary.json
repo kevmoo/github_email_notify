@@ -1,0 +1,12 @@
+{
+  "ngDeps": {
+    "1": "api.mime_email",
+    "3": [
+      {
+        "1": "package:markdown/markdown.dart",
+        "5": false
+      }
+    ],
+    "6": "mime_email.dart"
+  }
+}

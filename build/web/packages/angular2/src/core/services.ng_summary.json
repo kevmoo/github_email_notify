@@ -1,0 +1,26 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.services",
+    "4": [
+      {
+        "1": "package:angular2/src/compiler/app_root_url.dart",
+        "2": [
+          "AppRootUrl"
+        ]
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.dart",
+        "2": [
+          "UrlResolver"
+        ]
+      },
+      {
+        "1": "package:angular2/src/core/services/title.dart",
+        "2": [
+          "Title"
+        ]
+      }
+    ],
+    "6": "services.dart"
+  }
+}

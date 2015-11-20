@@ -1,0 +1,54 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.hash_location_strategy",
+    "3": [
+      {
+        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "location_strategy.dart",
+        "2": [
+          "LocationStrategy",
+          "normalizeQueryParams"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/browser.dart",
+        "2": [
+          "EventListener",
+          "History",
+          "Location"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "HashLocationStrategy",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "hash_location_strategy.dart"
+  }
+}

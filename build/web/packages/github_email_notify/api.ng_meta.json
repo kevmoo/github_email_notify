@@ -1,0 +1,82 @@
+{
+  "ngDeps": {
+    "1": "api",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:appengine/api/users.dart",
+        "5": false
+      },
+      {
+        "1": "src/admin_logic.dart",
+        "5": false
+      },
+      {
+        "1": "src/environment_variable_access.dart",
+        "5": false
+      },
+      {
+        "1": "src/firebase.dart",
+        "5": false
+      },
+      {
+        "1": "src/models.dart",
+        "5": false
+      },
+      {
+        "1": "src/server_utils.dart",
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "src/admin_logic.dart"
+      },
+      {
+        "1": "src/environment_variable_access.dart",
+        "2": [
+          "githubSecret"
+        ]
+      },
+      {
+        "1": "src/github_event_handler.dart"
+      },
+      {
+        "1": "src/server_utils.dart"
+      },
+      {
+        "1": "src/shared.dart"
+      }
+    ],
+    "6": "api.dart",
+    "10": [
+      {
+        "1": "src/admin_logic.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/firebase.ng_deps.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/models.ng_deps.dart",
+        "4": "i2"
+      },
+      {
+        "1": "src/server_utils.ng_deps.dart",
+        "4": "i3"
+      },
+      {
+        "1": "src/github_event_handler.ng_deps.dart",
+        "4": "i4"
+      },
+      {
+        "1": "src/shared.ng_deps.dart",
+        "4": "i5"
+      }
+    ]
+  }
+}

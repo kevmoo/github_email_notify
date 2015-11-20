@@ -1,0 +1,130 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.route_registry",
+    "3": [
+      {
+        "1": "path_recognizer.dart",
+        "2": [
+          "PathMatch"
+        ],
+        "5": false
+      },
+      {
+        "1": "route_recognizer.dart",
+        "2": [
+          "RouteRecognizer"
+        ],
+        "5": false
+      },
+      {
+        "1": "instruction.dart",
+        "2": [
+          "Instruction",
+          "ComponentInstruction",
+          "PrimaryInstruction"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "ListWrapper",
+          "Map",
+          "MapWrapper",
+          "StringMapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "Future",
+          "PromiseWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isPresent",
+          "isBlank",
+          "isType",
+          "isString",
+          "isStringMap",
+          "isFunction",
+          "StringWrapper",
+          "Type",
+          "getTypeNameForDebugging"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException",
+          "WrappedException"
+        ],
+        "5": false
+      },
+      {
+        "1": "route_config_impl.dart",
+        "2": [
+          "RouteConfig",
+          "AsyncRoute",
+          "Route",
+          "AuxRoute",
+          "Redirect",
+          "RouteDefinition"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "reflector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "2": [
+          "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "route_config_nomalizer.dart",
+        "2": [
+          "normalizeRouteConfig",
+          "assertComponentExists"
+        ],
+        "5": false
+      },
+      {
+        "1": "url_parser.dart",
+        "2": [
+          "parser",
+          "Url",
+          "pathSegmentsToUrl"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "RouteRegistry",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "route_registry.dart"
+  }
+}

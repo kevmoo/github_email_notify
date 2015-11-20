@@ -2,3 +2,4 @@
 .pub/
 app.yaml
 packages
+!build/web/packages

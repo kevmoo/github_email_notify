@@ -1,0 +1,40 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.mock.location_mock",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "EventEmitter",
+          "ObservableWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "ListWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/router/location.dart",
+        "2": [
+          "Location"
+        ],
+        "5": false
+      }
+    ],
+    "6": "location_mock.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/router/location.ng_deps.dart",
+        "4": "i1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ngDeps": {
+    "1": "angular2.tools",
+    "4": [
+      {
+        "1": "package:angular2/src/tools/tools.dart",
+        "2": [
+          "enableDebugTools",
+          "disableDebugTools"
+        ]
+      }
+    ],
+    "6": "tools.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/tools/tools.ng_deps.dart",
+        "4": "i0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ngDeps": {
+    "1": "angular2.test_lib",
+    "4": [
+      {
+        "1": "testing_internal.dart"
+      }
+    ],
+    "6": "test_lib.dart"
+  }
+}

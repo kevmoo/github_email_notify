@@ -1,0 +1,12 @@
+{
+  "ngDeps": {
+    "1": "api.models",
+    "3": [
+      {
+        "1": "package:source_gen/generators/json_serializable.dart",
+        "5": false
+      }
+    ],
+    "6": "models.dart"
+  }
+}

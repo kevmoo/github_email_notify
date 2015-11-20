@@ -1,0 +1,14 @@
+{
+  "ngDeps": {
+    "1": "angular2.bootstrap",
+    "4": [
+      {
+        "1": "package:angular2/src/core/bootstrap.dart",
+        "2": [
+          "bootstrap"
+        ]
+      }
+    ],
+    "6": "bootstrap.dart"
+  }
+}

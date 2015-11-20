@@ -1,0 +1,20 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.render.render",
+    "4": [
+      {
+        "1": "dom/shared_styles_host.dart"
+      },
+      {
+        "1": "dom/dom_renderer.dart"
+      },
+      {
+        "1": "dom/dom_tokens.dart"
+      },
+      {
+        "1": "api.dart"
+      }
+    ],
+    "6": "render.dart"
+  }
+}

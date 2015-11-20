@@ -1,0 +1,28 @@
+{
+  "ngDeps": {
+    "1": "api.src.datastore",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase_io.dart",
+        "5": false
+      },
+      {
+        "1": "environment_variable_access.dart",
+        "5": false
+      },
+      {
+        "1": "server_utils.dart",
+        "5": false
+      }
+    ],
+    "6": "firebase.dart"
+  }
+}

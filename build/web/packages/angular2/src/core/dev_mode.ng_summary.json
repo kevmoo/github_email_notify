@@ -1,0 +1,14 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.core.dev_mode",
+    "4": [
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "enableDevMode"
+        ]
+      }
+    ],
+    "6": "dev_mode.dart"
+  }
+}

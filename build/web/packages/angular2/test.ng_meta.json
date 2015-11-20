@@ -1,0 +1,17 @@
+{
+  "ngDeps": {
+    "1": "angular2.test",
+    "4": [
+      {
+        "1": "testing.dart"
+      }
+    ],
+    "6": "test.dart",
+    "10": [
+      {
+        "1": "testing.ng_deps.dart",
+        "4": "i0"
+      }
+    ]
+  }
+}

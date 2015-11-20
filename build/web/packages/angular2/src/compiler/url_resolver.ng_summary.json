@@ -1,0 +1,31 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.services.url_resolver",
+    "3": [
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Injectable",
+          "Provider"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "UrlResolver",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ]
+      }
+    ],
+    "6": "url_resolver.dart"
+  }
+}

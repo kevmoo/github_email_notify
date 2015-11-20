@@ -1,0 +1,101 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.common.pipes.async_pipe",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isBlank",
+          "isPresent",
+          "isPromise"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "Future",
+          "ObservableWrapper",
+          "Stream",
+          "EventEmitter"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata.dart",
+        "2": [
+          "Pipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/change_detection.dart",
+        "2": [
+          "ChangeDetectorRef",
+          "PipeOnDestroy",
+          "PipeTransform",
+          "WrappedValue"
+        ],
+        "5": false
+      },
+      {
+        "1": "invalid_pipe_argument_exception.dart",
+        "2": [
+          "InvalidPipeArgumentException"
+        ],
+        "5": false
+      }
+    ],
+    "5": [
+      {
+        "1": "AsyncPipe",
+        "4": [
+          {
+            "1": "Pipe",
+            "3": [
+              {
+                "1": "name",
+                "2": "\"async\""
+              },
+              {
+                "1": "pure",
+                "2": "false"
+              }
+            ],
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": false,
+            "8": false
+          },
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ChangeDetectorRef",
+            "4": "_ref"
+          }
+        ],
+        "6": [
+          "PipeTransform",
+          "PipeOnDestroy"
+        ]
+      }
+    ],
+    "6": "async_pipe.dart"
+  }
+}

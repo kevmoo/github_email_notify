@@ -1,0 +1,13 @@
+{
+  "ngDeps": {
+    "1": "api.src.logging",
+    "3": [
+      {
+        "1": "package:logging/logging.dart",
+        "4": "logging",
+        "5": false
+      }
+    ],
+    "6": "logging.dart"
+  }
+}

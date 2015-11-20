@@ -1,0 +1,93 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.router",
+    "3": [
+      {
+        "1": "package:angular2/src/facade/async.dart",
+        "2": [
+          "Future",
+          "PromiseWrapper",
+          "EventEmitter",
+          "ObservableWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "2": [
+          "Map",
+          "StringMapWrapper",
+          "MapWrapper",
+          "ListWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isBlank",
+          "isString",
+          "isPresent",
+          "Type",
+          "isArray"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException",
+          "WrappedException"
+        ],
+        "5": false
+      },
+      {
+        "1": "route_registry.dart",
+        "2": [
+          "RouteRegistry"
+        ],
+        "5": false
+      },
+      {
+        "1": "instruction.dart",
+        "2": [
+          "ComponentInstruction",
+          "Instruction",
+          "stringifyInstruction",
+          "stringifyInstructionPath",
+          "stringifyInstructionQuery"
+        ],
+        "5": false
+      },
+      {
+        "1": "router_outlet.dart",
+        "2": [
+          "RouterOutlet"
+        ],
+        "5": false
+      },
+      {
+        "1": "location.dart",
+        "2": [
+          "Location"
+        ],
+        "5": false
+      },
+      {
+        "1": "route_lifecycle_reflector.dart",
+        "2": [
+          "getCanActivateHook"
+        ],
+        "5": false
+      },
+      {
+        "1": "route_config_impl.dart",
+        "2": [
+          "RouteDefinition"
+        ],
+        "5": false
+      }
+    ],
+    "6": "router.dart"
+  }
+}

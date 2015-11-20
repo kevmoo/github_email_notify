@@ -1,0 +1,30 @@
+{
+  "ngDeps": {
+    "1": "api.server_utils",
+    "3": [
+      {
+        "1": "package:appengine/appengine.dart",
+        "4": "ae",
+        "5": false
+      },
+      {
+        "1": "package:firebase/firebase_io.dart",
+        "5": false
+      },
+      {
+        "1": "package:path/path.dart",
+        "4": "p",
+        "5": false
+      },
+      {
+        "1": "package:stack_trace/stack_trace.dart",
+        "5": false
+      },
+      {
+        "1": "environment_variable_access.dart",
+        "5": false
+      }
+    ],
+    "6": "server_utils.dart"
+  }
+}

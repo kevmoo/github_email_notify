@@ -1,0 +1,25 @@
+{
+  "ngDeps": {
+    "1": "angular2.dom.abstractHtmlAdapter",
+    "3": [
+      {
+        "1": "package:html/parser.dart",
+        "4": "parser",
+        "5": false
+      },
+      {
+        "1": "package:html/dom.dart",
+        "5": false
+      },
+      {
+        "1": "dom_adapter.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/compiler/xhr.dart",
+        "5": false
+      }
+    ],
+    "6": "abstract_html_adapter.dart"
+  }
+}

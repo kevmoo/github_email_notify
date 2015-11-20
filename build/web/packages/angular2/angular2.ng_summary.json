@@ -1,0 +1,35 @@
+{
+  "ngDeps": {
+    "1": "angular2",
+    "4": [
+      {
+        "1": "package:angular2/core.dart",
+        "3": [
+          "forwardRef",
+          "resolveForwardRef",
+          "ForwardRefFn"
+        ]
+      },
+      {
+        "1": "package:angular2/common.dart"
+      },
+      {
+        "1": "package:angular2/profile.dart"
+      },
+      {
+        "1": "package:angular2/lifecycle_hooks.dart"
+      },
+      {
+        "1": "package:angular2/src/core/application_tokens.dart",
+        "3": [
+          "APP_COMPONENT_REF_PROMISE",
+          "APP_ID_RANDOM_PROVIDER"
+        ]
+      },
+      {
+        "1": "package:angular2/src/core/render/dom/dom_tokens.dart"
+      }
+    ],
+    "6": "angular2.dart"
+  }
+}
