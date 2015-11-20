@@ -3,6 +3,7 @@ library github_hook.web.user_comp;
 import 'dart:async';
 
 import "package:angular2/angular2.dart" hide Response;
+import 'package:collection/collection.dart';
 import 'package:github_email_notify/browser.dart';
 import 'package:firebase/firebase.dart';
 
@@ -37,18 +38,12 @@ class _FirebaseThing {
 
   _FirebaseThing._(this._items, this._picked) {
     _items.onValue.listen((Event e) {
-      _itemsCache = e.snapshot.val();
-      if (_itemsCache == null) {
-        _itemsCache = <String, bool>{};
-      }
+      _itemsCache = _createNonNullCanonicalMap(e.snapshot.val());
       _updateMap();
     });
 
     _picked.onValue.listen((Event e) {
-      _pickedCache = e.snapshot.val();
-      if (_pickedCache == null) {
-        _pickedCache = <String, dynamic>{};
-      }
+      _pickedCache = _createNonNullCanonicalMap(e.snapshot.val());
       _updateMap();
     });
   }
@@ -74,7 +69,9 @@ class _FirebaseThing {
     if (newValue == true) {
       await _picked.child(item.name).set(true);
     } else {
-      await _picked.child(item.name).remove();
+      var realKey =
+          _pickedCache.keys.firstWhere((i) => i.toLowerCase() == item.name);
+      await _picked.child(realKey).remove();
     }
   }
 
@@ -85,7 +82,7 @@ class _FirebaseThing {
   }
 
   _updateMap() {
-    var itemsToAdd = _itemsCache.keys.toList();
+    var itemsToAdd = _itemsCache.keys.map((i) => i.toLowerCase()).toList();
 
     while (itemsToAdd.isNotEmpty) {
       var toAdd = itemsToAdd.removeLast();
@@ -114,7 +111,7 @@ class _FirebaseItem implements Comparable<_FirebaseItem> {
 
   bool get selected => parent._isPicked(name);
 
-  _FirebaseItem(this.name, this.parent);
+  _FirebaseItem(String name, this.parent) : this.name = name.toLowerCase();
 
   int compareTo(_FirebaseItem other) => _smartCompare(this.name, other.name);
 }
@@ -127,4 +124,15 @@ int _smartCompare(String a, String b) {
   }
 
   return value;
+}
+
+Map<String, dynamic> _createNonNullCanonicalMap(Map input) {
+  if (input == null) {
+    input = <String, dynamic>{};
+  }
+
+  var things = new CanonicalizedMap<String, String, dynamic>.from(
+      input, (String k) => k.toLowerCase());
+
+  return things;
 }
