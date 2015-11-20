@@ -26060,6 +26060,177 @@
         return J.get$last$ax(pair);
       }, null, null, 2, 0, null, 62, [], "call"]
     }
+  }], ["dart.pkg.collection.comparators", "package:collection/src/comparators.dart",, G, {
+    "^": "",
+    compareAsciiLowerCaseNatural: function(a, b) {
+      var t1, t2, defaultResult, i, aChar, bChar, aLowerCase, bLowerCase;
+      for (t1 = a.length, t2 = b.length, defaultResult = 0, i = 0; i < t1; ++i) {
+        if (i >= t2)
+          return 1;
+        aChar = C.JSString_methods.codeUnitAt$1(a, i);
+        bChar = C.JSString_methods.codeUnitAt$1(b, i);
+        if (aChar === bChar)
+          continue;
+        aLowerCase = 65 <= aChar && aChar <= 90 ? aChar + 32 : aChar;
+        bLowerCase = 65 <= bChar && bChar <= 90 ? bChar + 32 : bChar;
+        if (aLowerCase !== bLowerCase)
+          return G._compareNaturally(a, b, i, aLowerCase, bLowerCase);
+        if (defaultResult === 0)
+          defaultResult = aChar - bChar;
+      }
+      if (t2 > t1)
+        return -1;
+      if (defaultResult > 0)
+        t1 = 1;
+      else
+        t1 = defaultResult < 0 ? -1 : defaultResult;
+      return t1;
+    },
+    _compareNaturally: function(a, b, index, aChar, bChar) {
+      var bIsDigit, t1;
+      bIsDigit = (bChar ^ 48) >>> 0 <= 9;
+      if ((aChar ^ 48) >>> 0 <= 9) {
+        if (bIsDigit)
+          return G._compareNumerically(a, b, aChar, bChar, index);
+        else if (index > 0 && (C.JSString_methods.codeUnitAt$1(a, index - 1) ^ 48) <= 9)
+          return 1;
+      } else if (bIsDigit && index > 0 && (C.JSString_methods.codeUnitAt$1(b, index - 1) ^ 48) <= 9)
+        return -1;
+      t1 = aChar - bChar;
+      if (t1 > 0)
+        t1 = 1;
+      else if (t1 < 0)
+        t1 = -1;
+      return t1;
+    },
+    _compareNumerically: function(a, b, aChar, bChar, index) {
+      var result, t1, aIndex, bIndex, t2, aIsDigit, bIsDigit;
+      if (G._isNonZeroNumberSuffix(a, index)) {
+        result = G._compareDigitCount(a, b, index, index);
+        if (result !== 0)
+          return result;
+        t1 = aChar - bChar;
+        if (t1 > 0)
+          t1 = 1;
+        else if (t1 < 0)
+          t1 = -1;
+        return t1;
+      }
+      if (aChar === 48) {
+        t1 = a.length;
+        aIndex = index;
+        do {
+          ++aIndex;
+          if (aIndex === t1)
+            return -1;
+          aChar = C.JSString_methods.codeUnitAt$1(a, aIndex);
+        } while (aChar === 48);
+        if ((aChar ^ 48) > 9)
+          return -1;
+        bIndex = index;
+      } else {
+        if (bChar === 48) {
+          t1 = b.length;
+          bIndex = index;
+          do {
+            ++bIndex;
+            if (bIndex === t1)
+              return 1;
+            bChar = C.JSString_methods.codeUnitAt$1(b, bIndex);
+          } while (bChar === 48);
+          if ((bChar ^ 48) > 9)
+            return 1;
+        } else
+          bIndex = index;
+        aIndex = index;
+      }
+      if (aChar !== bChar) {
+        result = G._compareDigitCount(a, b, aIndex, bIndex);
+        if (result !== 0)
+          return result;
+        t1 = aChar - bChar;
+        if (t1 > 0)
+          t1 = 1;
+        else if (t1 < 0)
+          t1 = -1;
+        return t1;
+      }
+      for (t1 = b.length, t2 = a.length; true;) {
+        ++aIndex;
+        if (aIndex < t2) {
+          aChar = C.JSString_methods.codeUnitAt$1(a, aIndex);
+          aIsDigit = (aChar ^ 48) <= 9;
+        } else {
+          aChar = 0;
+          aIsDigit = false;
+        }
+        ++bIndex;
+        if (bIndex < t1) {
+          bChar = C.JSString_methods.codeUnitAt$1(b, bIndex);
+          bIsDigit = (bChar ^ 48) <= 9;
+        } else {
+          bChar = 0;
+          bIsDigit = false;
+        }
+        if (aIsDigit) {
+          if (bIsDigit) {
+            if (aChar === bChar)
+              continue;
+            break;
+          }
+          return 1;
+        } else if (bIsDigit)
+          return -1;
+        else {
+          t1 = aIndex - bIndex;
+          if (t1 > 0)
+            t1 = 1;
+          else if (t1 < 0)
+            t1 = -1;
+          return t1;
+        }
+      }
+      result = G._compareDigitCount(a, b, aIndex, bIndex);
+      if (result !== 0)
+        return result;
+      t1 = aChar - bChar;
+      if (t1 > 0)
+        t1 = 1;
+      else if (t1 < 0)
+        t1 = -1;
+      return t1;
+    },
+    _compareDigitCount: function(a, b, i, j) {
+      var t1, t2, aIsDigit, bIsDigit;
+      for (t1 = a.length, t2 = b.length; ++i, i < t1;) {
+        aIsDigit = (C.JSString_methods.codeUnitAt$1(a, i) ^ 48) <= 9;
+        ++j;
+        if (j === t2)
+          return aIsDigit ? 1 : 0;
+        bIsDigit = (C.JSString_methods.codeUnitAt$1(b, j) ^ 48) <= 9;
+        if (aIsDigit) {
+          if (bIsDigit)
+            continue;
+          return 1;
+        } else if (bIsDigit)
+          return -1;
+        else
+          return 0;
+      }
+      ++j;
+      if (j < t2 && (C.JSString_methods.codeUnitAt$1(b, j) ^ 48) <= 9)
+        return -1;
+      return 0;
+    },
+    _isNonZeroNumberSuffix: function(string, index) {
+      var $char;
+      for (; --index, index >= 0;) {
+        $char = C.JSString_methods.codeUnitAt$1(string, index);
+        if ($char !== 48)
+          return ($char ^ 48) <= 9;
+      }
+      return false;
+    }
   }], ["dart.pkg.collection.utils", "package:collection/src/utils.dart",, R, {
     "^": "",
     Pair: {
@@ -27530,11 +27701,7 @@
         return this.parent._isPicked$1(this.name);
       },
       compareTo$1: function(_, other) {
-        var t1, t2, value;
-        t1 = this.name;
-        t2 = other.name;
-        value = C.JSString_methods.compareTo$1(t1.toLowerCase(), t2.toLowerCase());
-        return value === 0 ? C.JSString_methods.compareTo$1(t1, t2) : value;
+        return G.compareAsciiLowerCaseNatural(this.name, other.name);
       },
       $isComparable: 1,
       $asComparable: function() {

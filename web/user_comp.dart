@@ -113,17 +113,8 @@ class _FirebaseItem implements Comparable<_FirebaseItem> {
 
   _FirebaseItem(String name, this.parent) : this.name = name.toLowerCase();
 
-  int compareTo(_FirebaseItem other) => _smartCompare(this.name, other.name);
-}
-
-int _smartCompare(String a, String b) {
-  var value = a.toLowerCase().compareTo(b.toLowerCase());
-
-  if (value == 0) {
-    value = a.compareTo(b);
-  }
-
-  return value;
+  int compareTo(_FirebaseItem other) =>
+      compareAsciiLowerCaseNatural(this.name, other.name);
 }
 
 Map<String, dynamic> _createNonNullCanonicalMap(Map input) {
