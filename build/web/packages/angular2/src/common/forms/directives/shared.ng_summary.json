@@ -78,21 +78,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
-          "ElementRef",
-          "QueryList"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render.dart",
-        "2": [
-          "Renderer"
-        ],
-        "5": false
-      },
-      {
         "1": "default_value_accessor.dart",
         "2": [
           "DefaultValueAccessor"

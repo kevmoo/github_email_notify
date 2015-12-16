@@ -11,6 +11,14 @@
         "5": false
       },
       {
+        "1": "package:barback/barback.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/annotation_matcher.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/asset_reader.dart",
         "5": false
       },
@@ -19,11 +27,11 @@
         "5": false
       },
       {
-        "1": "package:barback/barback.dart",
+        "1": "codegen.dart",
         "5": false
       },
       {
-        "1": "codegen.dart",
+        "1": "entrypoint_matcher.dart",
         "5": false
       },
       {

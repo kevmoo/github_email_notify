@@ -53,6 +53,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/router/router_link_dsl.dart",
+        "5": false
+      },
+      {
         "1": "xhr_impl.dart",
         "5": false
       },
@@ -112,12 +116,16 @@
         "4": "i11"
       },
       {
-        "1": "xhr_impl.ng_deps.dart",
+        "1": "package:angular2/router/router_link_dsl.ng_deps.dart",
         "4": "i12"
       },
       {
-        "1": "url_resolver.ng_deps.dart",
+        "1": "xhr_impl.ng_deps.dart",
         "4": "i13"
+      },
+      {
+        "1": "url_resolver.ng_deps.dart",
+        "4": "i14"
       }
     ]
   }

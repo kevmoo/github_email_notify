@@ -29,18 +29,13 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
+          "Directive",
           "Provider",
           "Optional",
-          "Inject"
+          "Inject",
+          "Self"
         ],
         "5": false
       },
@@ -110,7 +105,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"form:not([ng-no-form]):not([ng-form-model]),ng-form,[ng-form]\""
+                "2": "\"form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]\""
               },
               {
                 "1": "bindings",
@@ -126,7 +121,7 @@
               },
               {
                 "1": "exportAs",
-                "2": "\"form\""
+                "2": "\"ngForm\""
               }
             ],
             "4": false,
@@ -142,6 +137,7 @@
             "2": "<dynamic>",
             "3": [
               "const Optional()",
+              "const Self()",
               "const Inject(NG_VALIDATORS)"
             ],
             "4": "validators"
@@ -151,6 +147,7 @@
             "2": "<dynamic>",
             "3": [
               "const Optional()",
+              "const Self()",
               "const Inject(NG_ASYNC_VALIDATORS)"
             ],
             "4": "asyncValidators"
@@ -168,40 +165,36 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/metadata.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "ng_control.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "ng_control.ng_deps.dart",
+        "1": "form_interface.ng_deps.dart",
         "4": "i3"
       },
       {
-        "1": "form_interface.ng_deps.dart",
+        "1": "ng_control_group.ng_deps.dart",
         "4": "i4"
       },
       {
-        "1": "ng_control_group.ng_deps.dart",
+        "1": "control_container.ng_deps.dart",
         "4": "i5"
       },
       {
-        "1": "control_container.ng_deps.dart",
+        "1": "../model.ng_deps.dart",
         "4": "i6"
       },
       {
-        "1": "../model.ng_deps.dart",
+        "1": "shared.ng_deps.dart",
         "4": "i7"
       },
       {
-        "1": "shared.ng_deps.dart",
-        "4": "i8"
-      },
-      {
         "1": "../validators.ng_deps.dart",
-        "4": "i9"
+        "4": "i8"
       }
     ]
   },
@@ -210,8 +203,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "form:not([ng-no-form]):not([ng-form-model]),ng-form,[ng-form]",
-      "exportAs": "form",
+      "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgForm",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form.dart",

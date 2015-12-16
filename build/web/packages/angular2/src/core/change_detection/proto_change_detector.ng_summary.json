@@ -50,6 +50,7 @@
           "LiteralPrimitive",
           "MethodCall",
           "PrefixNot",
+          "Quote",
           "SafePropertyRead",
           "SafeMethodCall"
         ],

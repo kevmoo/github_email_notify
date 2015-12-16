@@ -7,6 +7,13 @@
         "5": false
       },
       {
+        "1": "dart:convert",
+        "2": [
+          "LineSplitter"
+        ],
+        "5": false
+      },
+      {
         "1": "package:analyzer/analyzer.dart",
         "5": false
       },

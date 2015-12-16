@@ -5,64 +5,37 @@
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "RegExp",
-          "RegExpWrapper",
-          "isBlank",
           "isPresent",
-          "isType",
-          "isStringMap",
-          "Type"
+          "isBlank"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/promise.dart",
+        "2": [
+          "PromiseWrapper",
+          "Future"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
-          "Map",
-          "MapWrapper",
-          "ListWrapper",
-          "StringMapWrapper"
+          "Map"
         ],
         "5": false
       },
       {
-        "1": "path_recognizer.dart",
+        "1": "route_handler.dart",
         "2": [
-          "PathRecognizer",
-          "PathMatch"
-        ],
-        "5": false
-      },
-      {
-        "1": "route_config_impl.dart",
-        "2": [
-          "Route",
-          "AsyncRoute",
-          "AuxRoute",
-          "Redirect",
-          "RouteDefinition"
-        ],
-        "5": false
-      },
-      {
-        "1": "async_route_handler.dart",
-        "2": [
-          "AsyncRouteHandler"
-        ],
-        "5": false
-      },
-      {
-        "1": "sync_route_handler.dart",
-        "2": [
-          "SyncRouteHandler"
+          "RouteHandler"
         ],
         "5": false
       },
@@ -79,6 +52,13 @@
           "ComponentInstruction"
         ],
         "5": false
+      },
+      {
+        "1": "path_recognizer.dart",
+        "2": [
+          "PathRecognizer"
+        ],
+        "5": false
       }
     ],
     "6": "route_recognizer.dart",
@@ -88,28 +68,20 @@
         "4": "i0"
       },
       {
-        "1": "path_recognizer.ng_deps.dart",
+        "1": "route_handler.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "route_config_impl.ng_deps.dart",
+        "1": "url_parser.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "async_route_handler.ng_deps.dart",
+        "1": "instruction.ng_deps.dart",
         "4": "i3"
       },
       {
-        "1": "sync_route_handler.ng_deps.dart",
+        "1": "path_recognizer.ng_deps.dart",
         "4": "i4"
-      },
-      {
-        "1": "url_parser.ng_deps.dart",
-        "4": "i5"
-      },
-      {
-        "1": "instruction.ng_deps.dart",
-        "4": "i6"
       }
     ]
   }

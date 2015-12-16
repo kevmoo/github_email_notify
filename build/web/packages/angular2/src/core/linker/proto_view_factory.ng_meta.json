@@ -124,7 +124,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/render.dart",
+        "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer"
         ],
@@ -242,12 +242,8 @@
         "4": "i12"
       },
       {
-        "1": "package:angular2/render.ng_deps.dart",
-        "4": "i13"
-      },
-      {
         "1": "package:angular2/src/core/application_tokens.ng_deps.dart",
-        "4": "i14"
+        "4": "i13"
       }
     ]
   }

@@ -7,6 +7,10 @@
         "5": false
       },
       {
+        "1": "route_registry.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"

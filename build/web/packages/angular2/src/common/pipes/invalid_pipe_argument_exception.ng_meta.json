@@ -5,7 +5,8 @@
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "Type"
+          "Type",
+          "stringify"
         ],
         "5": false
       },

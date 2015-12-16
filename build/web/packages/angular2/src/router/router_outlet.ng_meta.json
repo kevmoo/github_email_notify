@@ -34,7 +34,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "Directive",
           "Attribute",
@@ -70,6 +70,17 @@
         "1": "route_lifecycle_reflector.dart",
         "2": [
           "hasLifecycleHook"
+        ],
+        "5": false
+      },
+      {
+        "1": "interfaces.dart",
+        "2": [
+          "OnActivate",
+          "CanReuse",
+          "OnReuse",
+          "OnDeactivate",
+          "CanDeactivate"
         ],
         "5": false
       }
@@ -127,7 +138,7 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i2"
       },
       {
@@ -145,6 +156,10 @@
       {
         "1": "route_lifecycle_reflector.ng_deps.dart",
         "4": "i6"
+      },
+      {
+        "1": "interfaces.ng_deps.dart",
+        "4": "i7"
       }
     ]
   },

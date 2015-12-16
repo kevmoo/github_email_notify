@@ -42,9 +42,18 @@
         "5": false
       },
       {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "Inject",
+          "Injectable"
+        ],
+        "5": false
+      },
+      {
         "1": "route_registry.dart",
         "2": [
-          "RouteRegistry"
+          "RouteRegistry",
+          "ROUTER_PRIMARY_COMPONENT"
         ],
         "5": false
       },
@@ -52,10 +61,7 @@
         "1": "instruction.dart",
         "2": [
           "ComponentInstruction",
-          "Instruction",
-          "stringifyInstruction",
-          "stringifyInstructionPath",
-          "stringifyInstructionQuery"
+          "Instruction"
         ],
         "5": false
       },
@@ -88,6 +94,38 @@
         "5": false
       }
     ],
+    "5": [
+      {
+        "1": "RootRouter",
+        "4": [
+          {
+            "1": "Injectable",
+            "4": false,
+            "5": false,
+            "6": false,
+            "7": true,
+            "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "RouteRegistry",
+            "4": "registry"
+          },
+          {
+            "1": "Location",
+            "4": "location"
+          },
+          {
+            "1": "Type",
+            "3": [
+              "const Inject(ROUTER_PRIMARY_COMPONENT)"
+            ],
+            "4": "primaryComponent"
+          }
+        ]
+      }
+    ],
     "6": "router.dart",
     "10": [
       {
@@ -99,28 +137,32 @@
         "4": "i1"
       },
       {
-        "1": "route_registry.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "instruction.ng_deps.dart",
+        "1": "route_registry.ng_deps.dart",
         "4": "i3"
       },
       {
-        "1": "router_outlet.ng_deps.dart",
+        "1": "instruction.ng_deps.dart",
         "4": "i4"
       },
       {
-        "1": "location.ng_deps.dart",
+        "1": "router_outlet.ng_deps.dart",
         "4": "i5"
       },
       {
-        "1": "route_lifecycle_reflector.ng_deps.dart",
+        "1": "location.ng_deps.dart",
         "4": "i6"
       },
       {
-        "1": "route_config_impl.ng_deps.dart",
+        "1": "route_lifecycle_reflector.ng_deps.dart",
         "4": "i7"
+      },
+      {
+        "1": "route_config_impl.ng_deps.dart",
+        "4": "i8"
       }
     ]
   }

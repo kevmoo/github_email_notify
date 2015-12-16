@@ -108,7 +108,7 @@
       ],
       "template": {
         "encapsulation": 2,
-        "template": "<div *ng-if=\"user != null\">\n  <div>{{ user.email }}</div>\n  <div>Repo: <a [href]=\"user.githubRepoUri\">{{ user.githubRepoName }}</a></div>\n  <div class=\"label-pick\" *ng-if=\"selectionItems != null\">\n    <label *ng-for=\"#item of selectionItems.items\">\n      <input type=\"checkbox\" (click)=\"toggle(item)\" [checked]=\"item.selected\">\n      {{item.name}}\n    </label>\n  </div>\n</div>\n",
+        "template": "<div *ngIf=\"user != null\">\n  <div>{{ user.email }}</div>\n  <div>Repo: <a [href]=\"user.githubRepoUri\">{{ user.githubRepoName }}</a></div>\n  <div class=\"label-pick\" *ngIf=\"selectionItems != null\">\n    <label *ngFor=\"#item of selectionItems.items\">\n      <input type=\"checkbox\" (click)=\"toggle(item)\" [checked]=\"item.selected\">\n      {{item.name}}\n    </label>\n  </div>\n</div>\n",
         "templateUrl": "asset:github_email_notify/web/user_comp.html",
         "styles": [],
         "styleUrls": [],

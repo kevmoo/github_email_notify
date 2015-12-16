@@ -33,7 +33,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "OpaqueToken"
         ],
@@ -52,7 +52,7 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i1"
       },
       {

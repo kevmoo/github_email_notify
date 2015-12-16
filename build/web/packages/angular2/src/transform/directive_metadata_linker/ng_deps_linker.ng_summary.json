@@ -7,7 +7,10 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/services.dart",
+        "1": "package:angular2/compiler.dart",
+        "2": [
+          "UrlResolver"
+        ],
         "5": false
       },
       {

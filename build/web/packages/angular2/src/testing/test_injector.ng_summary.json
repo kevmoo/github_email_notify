@@ -3,10 +3,19 @@
     "1": "angular2.src.testing.test_injector",
     "3": [
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "provide",
-          "Provider"
+          "APP_ID",
+          "APPLICATION_COMMON_PROVIDERS",
+          "AppViewManager",
+          "DirectiveResolver",
+          "DynamicComponentLoader",
+          "Injector",
+          "NgZone",
+          "Renderer",
+          "Provider",
+          "ViewResolver",
+          "provide"
         ],
         "5": false
       },
@@ -58,30 +67,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_resolver.dart",
-        "2": [
-          "ViewResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/directive_resolver.dart",
-        "2": [
-          "DirectiveResolver"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/pipe_resolver.dart",
         "2": [
           "PipeResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
-        "2": [
-          "DynamicComponentLoader"
         ],
         "5": false
       },
@@ -93,25 +81,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.dart",
-        "2": [
-          "NgZone"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
         "2": [
           "DOM"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/dom/events/event_manager.dart",
-        "2": [
-          "EventManager",
-          "DomEventsPlugin",
-          "EVENT_MANAGER_PLUGINS"
         ],
         "5": false
       },
@@ -158,15 +130,10 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/platform/common_dom.dart",
         "2": [
-          "Injector"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/debug.dart",
-        "2": [
+          "EventManager",
+          "EVENT_MANAGER_PLUGINS",
           "ELEMENT_PROBE_PROVIDERS"
         ],
         "5": false
@@ -195,13 +162,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_manager.dart",
-        "2": [
-          "AppViewManager"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/view_manager_utils.dart",
         "2": [
           "AppViewManagerUtils"
@@ -209,26 +169,37 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/api.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
         "2": [
-          "Renderer"
+          "DOCUMENT"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/render.dart",
+        "1": "package:angular2/src/platform/dom/dom_renderer.dart",
         "2": [
-          "DomRenderer",
-          "DOCUMENT",
-          "SharedStylesHost",
+          "DomRenderer"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/dom/shared_styles_host.dart",
+        "2": [
           "DomSharedStylesHost"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/application_tokens.dart",
+        "1": "package:angular2/src/platform/dom/shared_styles_host.dart",
         "2": [
-          "APP_ID"
+          "SharedStylesHost"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/dom/events/dom_events.dart",
+        "2": [
+          "DomEventsPlugin"
         ],
         "5": false
       },
@@ -249,12 +220,12 @@
       {
         "1": "package:angular2/src/compiler/compiler.dart",
         "2": [
-          "compilerProviders"
+          "COMPILER_PROVIDERS"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/dom/dom_renderer.dart",
+        "1": "package:angular2/src/platform/dom/dom_renderer.dart",
         "2": [
           "DomRenderer_"
         ],

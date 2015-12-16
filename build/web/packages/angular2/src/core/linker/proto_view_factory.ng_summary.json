@@ -124,7 +124,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/render.dart",
+        "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer"
         ],

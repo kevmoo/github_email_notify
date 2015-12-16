@@ -153,8 +153,7 @@
       {
         "1": "pipe_transform.dart",
         "2": [
-          "PipeTransform",
-          "PipeOnDestroy"
+          "PipeTransform"
         ]
       },
       {

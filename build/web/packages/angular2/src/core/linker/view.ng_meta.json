@@ -99,7 +99,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/dom/util.dart",
+        "1": "package:angular2/src/core/render/util.dart",
         "2": [
           "camelCaseToDashCase"
         ],
@@ -168,7 +168,7 @@
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/render/dom/util.ng_deps.dart",
+        "1": "package:angular2/src/core/render/util.ng_deps.dart",
         "4": "i9"
       },
       {

@@ -15,7 +15,9 @@
           "Type",
           "isBlank",
           "isPresent",
-          "assertionsEnabled"
+          "assertionsEnabled",
+          "print",
+          "IS_DART"
         ],
         "5": false
       },
@@ -34,7 +36,9 @@
         "2": [
           "APP_COMPONENT_REF_PROMISE",
           "APP_COMPONENT",
-          "APP_ID_RANDOM_PROVIDER"
+          "APP_ID_RANDOM_PROVIDER",
+          "PLATFORM_INITIALIZER",
+          "APP_INITIALIZER"
         ],
         "5": false
       },
@@ -52,14 +56,6 @@
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "ListWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/reflection/reflection.dart",
-        "2": [
-          "Reflector",
-          "reflector"
         ],
         "5": false
       },
@@ -90,13 +86,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
           "internalView"
@@ -104,97 +93,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.dart",
+        "1": "package:angular2/src/core/console.dart",
         "2": [
-          "IterableDiffers",
-          "defaultIterableDiffers",
-          "KeyValueDiffers",
-          "defaultKeyValueDiffers"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_pool.dart",
-        "2": [
-          "AppViewPool",
-          "APP_VIEW_POOL_CAPACITY"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_manager.dart",
-        "2": [
-          "AppViewManager"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_manager_utils.dart",
-        "2": [
-          "AppViewManagerUtils"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_listener.dart",
-        "2": [
-          "AppViewListener"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/proto_view_factory.dart",
-        "2": [
-          "ProtoViewFactory"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/view_resolver.dart",
-        "2": [
-          "ViewResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/directive_resolver.dart",
-        "2": [
-          "DirectiveResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/pipe_resolver.dart",
-        "2": [
-          "PipeResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/compiler.dart",
-        "2": [
-          "Compiler"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/dynamic_component_loader.dart",
-        "2": [
-          "DynamicComponentLoader_"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/view_manager.dart",
-        "2": [
-          "AppViewManager_"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/compiler.dart",
-        "2": [
-          "Compiler_"
+          "Console"
         ],
         "5": false
       },
@@ -215,25 +116,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.dart",
-        "2": [
-          "PLATFORM_DIRECTIVES",
-          "PLATFORM_PIPES"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "lockDevMode"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/common.dart",
-        "2": [
-          "COMMON_DIRECTIVES",
-          "COMMON_PIPES"
+          "lockMode"
         ],
         "5": false
       }

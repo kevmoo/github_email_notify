@@ -11,33 +11,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/lifecycle_hooks.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "OnChanges"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/change_detection.dart",
-        "2": [
-          "SimpleChange"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
-        "2": [
+          "OnChanges",
+          "SimpleChange",
           "Query",
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
+          "Directive",
           "Provider",
           "Inject",
-          "Optional"
+          "Optional",
+          "Self"
         ],
         "5": false
       },
@@ -93,7 +76,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[ng-model]:not([ng-control]):not([ng-form-control])\""
+                "2": "\"[ngModel]:not([ngControl]):not([ngFormControl])\""
               },
               {
                 "1": "bindings",
@@ -109,7 +92,7 @@
               },
               {
                 "1": "exportAs",
-                "2": "\"form\""
+                "2": "\"ngForm\""
               }
             ],
             "4": false,
@@ -125,6 +108,7 @@
             "2": "<dynamic>",
             "3": [
               "const Optional()",
+              "const Self()",
               "const Inject(NG_VALIDATORS)"
             ],
             "4": "_validators"
@@ -134,6 +118,7 @@
             "2": "<dynamic>",
             "3": [
               "const Optional()",
+              "const Self()",
               "const Inject(NG_ASYNC_VALIDATORS)"
             ],
             "4": "_asyncValidators"
@@ -143,6 +128,7 @@
             "2": "<ControlValueAccessor>",
             "3": [
               "const Optional()",
+              "const Self()",
               "const Inject(NG_VALUE_ACCESSOR)"
             ],
             "4": "valueAccessors"
@@ -160,8 +146,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-model]:not([ng-control]):not([ng-form-control])",
-      "exportAs": "form",
+      "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgModel",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_model.dart",

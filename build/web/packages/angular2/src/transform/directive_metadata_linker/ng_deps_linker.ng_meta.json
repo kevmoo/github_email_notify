@@ -7,7 +7,10 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/services.dart",
+        "1": "package:angular2/compiler.dart",
+        "2": [
+          "UrlResolver"
+        ],
         "5": false
       },
       {
@@ -42,7 +45,7 @@
     "6": "ng_deps_linker.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/services.ng_deps.dart",
+        "1": "package:angular2/compiler.ng_deps.dart",
         "4": "i0"
       },
       {

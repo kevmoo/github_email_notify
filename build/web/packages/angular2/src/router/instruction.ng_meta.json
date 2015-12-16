@@ -13,13 +13,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "unimplemented"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isPresent",
@@ -31,21 +24,8 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "Future"
-        ],
-        "5": false
-      },
-      {
-        "1": "path_recognizer.dart",
-        "2": [
-          "PathRecognizer"
-        ],
-        "5": false
-      },
-      {
-        "1": "url_parser.dart",
-        "2": [
-          "Url"
+          "Future",
+          "PromiseWrapper"
         ],
         "5": false
       }
@@ -53,20 +33,8 @@
     "6": "instruction.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
-        "4": "i0"
-      },
-      {
         "1": "package:angular2/src/facade/async.ng_deps.dart",
-        "4": "i1"
-      },
-      {
-        "1": "path_recognizer.ng_deps.dart",
-        "4": "i2"
-      },
-      {
-        "1": "url_parser.ng_deps.dart",
-        "4": "i3"
+        "4": "i0"
       }
     ]
   }

@@ -6,7 +6,23 @@
         "1": "package:angular2/src/core/di.dart",
         "2": [
           "Injectable",
+          "Inject",
           "Provider"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isPresent",
+          "StringWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/application_tokens.dart",
+        "2": [
+          "PACKAGE_ROOT_URL"
         ],
         "5": false
       }
@@ -22,6 +38,15 @@
             "6": false,
             "7": true,
             "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "String",
+            "3": [
+              "const Inject(PACKAGE_ROOT_URL)"
+            ],
+            "4": "_packagePrefix"
           }
         ]
       }

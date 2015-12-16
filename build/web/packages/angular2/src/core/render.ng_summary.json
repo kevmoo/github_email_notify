@@ -3,7 +3,7 @@
     "1": "angular2.src.core.render",
     "4": [
       {
-        "1": "render/render.dart",
+        "1": "render/api.dart",
         "2": [
           "RenderEventDispatcher",
           "Renderer",
@@ -12,7 +12,6 @@
           "RenderProtoViewRef",
           "RenderFragmentRef",
           "RenderViewWithFragments",
-          "DOCUMENT",
           "RenderTemplateCmd",
           "RenderCommandVisitor",
           "RenderTextCmd",
@@ -20,7 +19,8 @@
           "RenderBeginElementCmd",
           "RenderBeginComponentCmd",
           "RenderEmbeddedTemplateCmd",
-          "RenderBeginCmd"
+          "RenderBeginCmd",
+          "RenderComponentTemplate"
         ]
       }
     ],

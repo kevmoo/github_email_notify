@@ -3,7 +3,7 @@
     "1": "angular2.src.common.forms.form_builder",
     "3": [
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "Injectable"
         ],
@@ -49,7 +49,7 @@
     "6": "form_builder.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i0"
       },
       {

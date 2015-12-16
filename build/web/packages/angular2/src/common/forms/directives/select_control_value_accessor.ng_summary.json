@@ -3,33 +3,15 @@
     "1": "angular2.src.common.forms.directives.select_control_value_accessor",
     "3": [
       {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Self",
-          "Provider"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render.dart",
-        "2": [
-          "Renderer"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
-          "ElementRef",
-          "QueryList"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "Query",
-          "Directive"
+          "Directive",
+          "Renderer",
+          "Self",
+          "Provider",
+          "ElementRef",
+          "QueryList"
         ],
         "5": false
       },
@@ -45,13 +27,6 @@
         "2": [
           "NG_VALUE_ACCESSOR",
           "ControlValueAccessor"
-        ],
-        "5": false
-      },
-      {
-        "1": "shared.dart",
-        "2": [
-          "setProperty"
         ],
         "5": false
       }
@@ -84,7 +59,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"select[ng-control],select[ng-form-control],select[ng-model]\""
+                "2": "\"select[ngControl],select[ngFormControl],select[ngModel]\""
               },
               {
                 "1": "host",
@@ -154,7 +129,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "select[ng-control],select[ng-form-control],select[ng-model]",
+      "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
       "exportAs": null,
       "type": {
         "name": "SelectControlValueAccessor",

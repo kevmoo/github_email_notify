@@ -14,40 +14,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/lifecycle_hooks.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "DoCheck",
-          "OnDestroy"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
-        "2": [
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
-          "ElementRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/change_detection.dart",
-        "2": [
+          "OnDestroy",
+          "Directive",
+          "ElementRef",
           "IterableDiffer",
           "IterableDiffers",
           "KeyValueDiffer",
-          "KeyValueDiffers"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render.dart",
-        "2": [
+          "KeyValueDiffers",
           "Renderer"
         ],
         "5": false
@@ -70,11 +46,11 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[ng-class]\""
+                "2": "\"[ngClass]\""
               },
               {
                 "1": "inputs",
-                "2": "const [\"rawClass: ng-class\", \"initialClasses: class\"]"
+                "2": "const [\"rawClass: ngClass\", \"initialClasses: class\"]"
               }
             ],
             "4": false,
@@ -115,7 +91,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-class]",
+      "selector": "[ngClass]",
       "exportAs": null,
       "type": {
         "name": "NgClass",
@@ -124,7 +100,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "rawClass": "ng-class",
+        "rawClass": "ngClass",
         "initialClasses": "class"
       },
       "outputs": {},

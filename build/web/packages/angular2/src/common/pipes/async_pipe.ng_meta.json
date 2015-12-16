@@ -22,24 +22,12 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Pipe"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Injectable"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/change_detection.dart",
-        "2": [
+          "Pipe",
+          "Injectable",
           "ChangeDetectorRef",
-          "PipeOnDestroy",
+          "OnDestroy",
           "PipeTransform",
           "WrappedValue"
         ],
@@ -92,7 +80,7 @@
         ],
         "6": [
           "PipeTransform",
-          "PipeOnDestroy"
+          "OnDestroy"
         ]
       }
     ],
@@ -103,20 +91,12 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/metadata.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
-        "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/core/change_detection.ng_deps.dart",
-        "4": "i3"
-      },
-      {
         "1": "invalid_pipe_argument_exception.ng_deps.dart",
-        "4": "i4"
+        "4": "i2"
       }
     ]
   }

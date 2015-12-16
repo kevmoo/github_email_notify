@@ -7,6 +7,11 @@
         "5": false
       },
       {
+        "1": "package:path/path.dart",
+        "4": "path",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/logging.dart",
         "5": false
       },
@@ -23,12 +28,11 @@
         "5": false
       },
       {
-        "1": "package:path/path.dart",
-        "4": "path",
+        "1": "codegen.dart",
         "5": false
       },
       {
-        "1": "codegen.dart",
+        "1": "entrypoint_matcher.dart",
         "5": false
       }
     ],
@@ -45,6 +49,10 @@
       {
         "1": "codegen.ng_deps.dart",
         "4": "i2"
+      },
+      {
+        "1": "entrypoint_matcher.ng_deps.dart",
+        "4": "i3"
       }
     ]
   }

@@ -1,16 +1,17 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.dom.dom_adapter",
-    "3": [
+    "1": "angular2.dom_adapter_reexport",
+    "4": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank",
-          "Type"
-        ],
-        "5": false
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart"
       }
     ],
-    "6": "dom_adapter.dart"
+    "6": "dom_adapter.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "4": "i0"
+      }
+    ]
   }
 }

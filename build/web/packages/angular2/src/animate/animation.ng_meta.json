@@ -21,7 +21,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/dom/util.dart",
+        "1": "package:angular2/src/platform/dom/util.dart",
         "2": [
           "camelCaseToDashCase"
         ],
@@ -35,7 +35,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
         "2": [
           "DOM"
         ],
@@ -59,11 +59,11 @@
     "6": "animation.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/render/dom/util.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/util.ng_deps.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
         "4": "i1"
       },
       {

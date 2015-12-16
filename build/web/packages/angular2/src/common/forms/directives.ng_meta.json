@@ -251,8 +251,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-control]",
-      "exportAs": "form",
+      "selector": "[ngControl]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgControlName",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_name.dart",
@@ -281,8 +281,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-form-control]",
-      "exportAs": "form",
+      "selector": "[ngFormControl]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgFormControl",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_control.dart",
@@ -310,8 +310,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-model]:not([ng-control]):not([ng-form-control])",
-      "exportAs": "form",
+      "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgModel",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_model.dart",
@@ -338,8 +338,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-control-group]",
-      "exportAs": "form",
+      "selector": "[ngControlGroup]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgControlGroup",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_group.dart",
@@ -347,7 +347,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "name": "ng-control-group"
+        "name": "ngControlGroup"
       },
       "outputs": {},
       "hostListeners": {},
@@ -365,8 +365,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-form-model]",
-      "exportAs": "form",
+      "selector": "[ngFormModel]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgFormModel",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_model.dart",
@@ -374,7 +374,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "form": "ng-form-model"
+        "form": "ngFormModel"
       },
       "outputs": {
         "ngSubmit": "ngSubmit"
@@ -395,8 +395,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "form:not([ng-no-form]):not([ng-form-model]),ng-form,[ng-form]",
-      "exportAs": "form",
+      "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgForm",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form.dart",
@@ -421,7 +421,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input:not([type=checkbox])[ng-control],textarea[ng-control],input:not([type=checkbox])[ng-form-control],textarea[ng-form-control],input:not([type=checkbox])[ng-model],textarea[ng-model],[ng-default-control]",
+      "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
       "exportAs": null,
       "type": {
         "name": "DefaultValueAccessor",
@@ -433,8 +433,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -447,7 +446,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input[type=checkbox][ng-control],input[type=checkbox][ng-form-control],input[type=checkbox][ng-model]",
+      "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",
       "exportAs": null,
       "type": {
         "name": "CheckboxControlValueAccessor",
@@ -472,7 +471,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input[type=number][ng-control],input[type=number][ng-form-control],input[type=number][ng-model]",
+      "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",
       "exportAs": null,
       "type": {
         "name": "NumberValueAccessor",
@@ -498,7 +497,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-control],[ng-model],[ng-form-control]",
+      "selector": "[ngControl],[ngModel],[ngFormControl]",
       "exportAs": null,
       "type": {
         "name": "NgControlStatus",
@@ -549,7 +548,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "select[ng-control],select[ng-form-control],select[ng-model]",
+      "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
       "exportAs": null,
       "type": {
         "name": "SelectControlValueAccessor",
@@ -575,7 +574,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[required][ng-control],[required][ng-form-control],[required][ng-model]",
+      "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
       "exportAs": null,
       "type": {
         "name": "RequiredValidator",
@@ -597,7 +596,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[minlength][ng-control],[minlength][ng-form-control],[minlength][ng-model]",
+      "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
       "exportAs": null,
       "type": {
         "name": "MinLengthValidator",
@@ -619,7 +618,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[maxlength][ng-control],[maxlength][ng-form-control],[maxlength][ng-model]",
+      "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",
       "exportAs": null,
       "type": {
         "name": "MaxLengthValidator",

@@ -17,7 +17,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
         "2": [
           "DOM"
         ],

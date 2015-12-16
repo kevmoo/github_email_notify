@@ -38,6 +38,7 @@
         "2": [
           "Lexer",
           "EOF",
+          "isIdentifier",
           "Token",
           "$PERIOD",
           "$COLON",
@@ -85,7 +86,8 @@
           "FunctionCall",
           "TemplateBinding",
           "ASTWithSource",
-          "AstVisitor"
+          "AstVisitor",
+          "Quote"
         ],
         "5": false
       }

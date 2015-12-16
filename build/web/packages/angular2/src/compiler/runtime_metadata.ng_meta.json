@@ -29,15 +29,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "MapWrapper",
-          "StringMapWrapper",
-          "ListWrapper"
-        ],
-        "5": false
-      },
-      {
         "1": "directive_metadata.dart",
         "4": "cpl",
         "5": false
@@ -110,6 +101,13 @@
         "1": "util.dart",
         "2": [
           "MODULE_SUFFIX"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.dart",
+        "2": [
+          "getUrlScheme"
         ],
         "5": false
       }
@@ -197,6 +195,10 @@
       {
         "1": "util.ng_deps.dart",
         "4": "i11"
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.ng_deps.dart",
+        "4": "i12"
       }
     ]
   }

@@ -14,10 +14,13 @@
         "1": "package:angular2/common.dart"
       },
       {
-        "1": "package:angular2/profile.dart"
+        "1": "package:angular2/instrumentation.dart"
       },
       {
-        "1": "package:angular2/lifecycle_hooks.dart"
+        "1": "package:angular2/src/core/angular_entrypoint.dart",
+        "2": [
+          "AngularEntrypoint"
+        ]
       },
       {
         "1": "package:angular2/src/core/application_tokens.dart",
@@ -27,7 +30,16 @@
         ]
       },
       {
-        "1": "package:angular2/src/core/render/dom/dom_tokens.dart"
+        "1": "package:angular2/src/platform/dom/dom_tokens.dart"
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart"
+      },
+      {
+        "1": "package:angular2/src/platform/dom/events/event_manager.dart"
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.dart"
       }
     ],
     "6": "angular2.dart"

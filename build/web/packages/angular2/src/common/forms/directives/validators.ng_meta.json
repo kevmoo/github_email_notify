@@ -3,16 +3,10 @@
     "1": "angular2.src.common.forms.directives.validators",
     "3": [
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "Provider",
-          "OpaqueToken"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
-        "2": [
+          "OpaqueToken",
           "Attribute",
           "Directive"
         ],
@@ -55,7 +49,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[required][ng-control],[required][ng-form-control],[required][ng-model]\""
+                "2": "\"[required][ngControl],[required][ngFormControl],[required][ngModel]\""
               },
               {
                 "1": "providers",
@@ -78,7 +72,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[minlength][ng-control],[minlength][ng-form-control],[minlength][ng-model]\""
+                "2": "\"[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]\""
               },
               {
                 "1": "providers",
@@ -113,7 +107,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[maxlength][ng-control],[maxlength][ng-form-control],[maxlength][ng-model]\""
+                "2": "\"[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]\""
               },
               {
                 "1": "providers",
@@ -133,7 +127,7 @@
             "3": [
               "const Attribute(\"maxlength\")"
             ],
-            "4": "minLength"
+            "4": "maxLength"
           }
         ],
         "6": [
@@ -144,20 +138,16 @@
     "6": "validators.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/metadata.ng_deps.dart",
+        "1": "../validators.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "../validators.ng_deps.dart",
-        "4": "i2"
-      },
-      {
         "1": "../model.ng_deps.dart",
-        "4": "i3"
+        "4": "i2"
       }
     ]
   },
@@ -166,7 +156,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[required][ng-control],[required][ng-form-control],[required][ng-model]",
+      "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
       "exportAs": null,
       "type": {
         "name": "RequiredValidator",
@@ -188,7 +178,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[minlength][ng-control],[minlength][ng-form-control],[minlength][ng-model]",
+      "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
       "exportAs": null,
       "type": {
         "name": "MinLengthValidator",
@@ -210,7 +200,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[maxlength][ng-control],[maxlength][ng-form-control],[maxlength][ng-model]",
+      "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",
       "exportAs": null,
       "type": {
         "name": "MaxLengthValidator",

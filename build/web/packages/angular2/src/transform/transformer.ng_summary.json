@@ -11,6 +11,10 @@
         "5": false
       },
       {
+        "1": "common/eager_transformer_wrapper.dart",
+        "5": false
+      },
+      {
         "1": "common/formatter.dart",
         "4": "formatter",
         "5": false

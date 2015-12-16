@@ -21,7 +21,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/dom/util.dart",
+        "1": "package:angular2/src/platform/dom/util.dart",
         "2": [
           "camelCaseToDashCase"
         ],
@@ -35,7 +35,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
         "2": [
           "DOM"
         ],

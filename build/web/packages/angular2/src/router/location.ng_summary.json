@@ -10,14 +10,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "StringWrapper",
-          "isPresent"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
           "EventEmitter",
@@ -26,26 +18,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "isBlank"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException",
-          "WrappedException"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/angular2.dart",
-        "2": [
-          "OpaqueToken",
           "Injectable",
-          "Optional",
           "Inject"
         ],
         "5": false
@@ -68,14 +43,6 @@
           {
             "1": "LocationStrategy",
             "4": "platformStrategy"
-          },
-          {
-            "1": "String",
-            "3": [
-              "const Optional()",
-              "const Inject(APP_BASE_HREF)"
-            ],
-            "4": "href"
           }
         ]
       }

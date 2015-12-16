@@ -24,7 +24,8 @@
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "ListWrapper",
-          "SetWrapper"
+          "SetWrapper",
+          "MapWrapper"
         ],
         "5": false
       },

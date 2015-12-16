@@ -1,33 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular.core.facade.dom",
-    "3": [
+    "1": "angular2.browser_adapter_reexport",
+    "4": [
       {
-        "1": "dart:html",
-        "5": false
-      },
-      {
-        "1": "dom_adapter.dart",
-        "2": [
-          "setRootDomAdapter"
-        ],
-        "5": false
-      },
-      {
-        "1": "generic_browser_adapter.dart",
-        "2": [
-          "GenericBrowserDomAdapter"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/browser.dart",
-        "5": false
-      },
-      {
-        "1": "dart:js",
-        "4": "js",
-        "5": false
+        "1": "package:angular2/src/platform/browser/browser_adapter.dart"
       }
     ],
     "6": "browser_adapter.dart"

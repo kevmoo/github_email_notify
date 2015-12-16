@@ -3,37 +3,13 @@
     "1": "angular2.src.common.directives.ng_style",
     "3": [
       {
-        "1": "package:angular2/lifecycle_hooks.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "DoCheck"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/change_detection.dart",
-        "2": [
+          "DoCheck",
           "KeyValueDiffer",
-          "KeyValueDiffers"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
-          "ElementRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/metadata.dart",
-        "2": [
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render.dart",
-        "2": [
+          "KeyValueDiffers",
+          "ElementRef",
+          "Directive",
           "Renderer"
         ],
         "5": false
@@ -57,11 +33,11 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[ng-style]\""
+                "2": "\"[ngStyle]\""
               },
               {
                 "1": "inputs",
-                "2": "const [\"rawStyle: ng-style\"]"
+                "2": "const [\"rawStyle: ngStyle\"]"
               }
             ],
             "4": false,
@@ -93,24 +69,8 @@
     "6": "ng_style.dart",
     "10": [
       {
-        "1": "package:angular2/lifecycle_hooks.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:angular2/src/core/change_detection.ng_deps.dart",
-        "4": "i1"
-      },
-      {
-        "1": "package:angular2/src/core/linker.ng_deps.dart",
-        "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/core/metadata.ng_deps.dart",
-        "4": "i3"
-      },
-      {
-        "1": "package:angular2/src/core/render.ng_deps.dart",
-        "4": "i4"
       }
     ]
   },
@@ -119,7 +79,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-style]",
+      "selector": "[ngStyle]",
       "exportAs": null,
       "type": {
         "name": "NgStyle",
@@ -128,7 +88,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "rawStyle": "ng-style"
+        "rawStyle": "ngStyle"
       },
       "outputs": {},
       "hostListeners": {},

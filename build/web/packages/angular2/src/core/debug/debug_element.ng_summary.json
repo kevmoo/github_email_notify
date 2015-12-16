@@ -28,13 +28,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/element_injector.dart",
         "2": [
           "ElementInjector"

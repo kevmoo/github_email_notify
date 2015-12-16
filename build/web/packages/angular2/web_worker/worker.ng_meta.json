@@ -3,174 +3,52 @@
     "1": "angular2.web_worker.worker",
     "4": [
       {
-        "1": "../lifecycle_hooks.dart"
+        "1": "../common.dart"
       },
       {
-        "1": "../src/core/metadata.dart"
+        "1": "../core.dart"
       },
       {
-        "1": "../src/core/util.dart"
+        "1": "../platform/worker_app.dart"
       },
       {
-        "1": "../src/core/di.dart"
-      },
-      {
-        "1": "../src/common/pipes.dart"
-      },
-      {
-        "1": "package:angular2/src/facade/facade.dart"
-      },
-      {
-        "1": "../src/core/application_ref.dart"
-      },
-      {
-        "1": "../src/core/services.dart"
-      },
-      {
-        "1": "../src/core/linker.dart"
-      },
-      {
-        "1": "../src/core/zone.dart"
-      },
-      {
-        "1": "../src/core/render/render.dart",
+        "1": "../compiler.dart",
         "2": [
-          "RenderEventDispatcher",
-          "Renderer",
-          "RenderElementRef",
-          "RenderViewRef",
-          "RenderProtoViewRef",
-          "RenderFragmentRef",
-          "RenderViewWithFragments",
-          "RenderTemplateCmd",
-          "RenderCommandVisitor",
-          "RenderTextCmd",
-          "RenderNgContentCmd",
-          "RenderBeginElementCmd",
-          "RenderBeginComponentCmd",
-          "RenderEmbeddedTemplateCmd",
-          "RenderBeginCmd"
+          "UrlResolver"
         ]
       },
       {
-        "1": "../src/common/directives.dart"
+        "1": "../instrumentation.dart"
       },
       {
-        "1": "../src/common/forms.dart"
-      },
-      {
-        "1": "../src/core/debug.dart"
-      },
-      {
-        "1": "../src/core/change_detection.dart"
-      },
-      {
-        "1": "../profile.dart"
-      },
-      {
-        "1": "../src/web_workers/worker/application.dart"
-      },
-      {
-        "1": "../src/web_workers/shared/client_message_broker.dart",
-        "2": [
-          "ClientMessageBroker",
-          "ClientMessageBrokerFactory",
-          "FnArg",
-          "UiArguments"
-        ]
-      },
-      {
-        "1": "../src/web_workers/shared/service_message_broker.dart",
-        "2": [
-          "ReceivedMessage",
-          "ServiceMessageBroker",
-          "ServiceMessageBrokerFactory"
-        ]
-      },
-      {
-        "1": "../src/web_workers/shared/serializer.dart",
-        "2": [
-          "PRIMITIVE"
-        ]
+        "1": "package:angular2/src/platform/worker_app.dart"
       }
     ],
     "6": "worker.dart",
     "10": [
       {
-        "1": "../lifecycle_hooks.ng_deps.dart",
+        "1": "../common.ng_deps.dart",
         "4": "i0"
       },
       {
-        "1": "../src/core/metadata.ng_deps.dart",
+        "1": "../core.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "../src/core/di.ng_deps.dart",
+        "1": "../platform/worker_app.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "../src/common/pipes.ng_deps.dart",
+        "1": "../compiler.ng_deps.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/facade/facade.ng_deps.dart",
+        "1": "../instrumentation.ng_deps.dart",
         "4": "i4"
       },
       {
-        "1": "../src/core/application_ref.ng_deps.dart",
+        "1": "package:angular2/src/platform/worker_app.ng_deps.dart",
         "4": "i5"
-      },
-      {
-        "1": "../src/core/services.ng_deps.dart",
-        "4": "i6"
-      },
-      {
-        "1": "../src/core/linker.ng_deps.dart",
-        "4": "i7"
-      },
-      {
-        "1": "../src/core/zone.ng_deps.dart",
-        "4": "i8"
-      },
-      {
-        "1": "../src/core/render/render.ng_deps.dart",
-        "4": "i9"
-      },
-      {
-        "1": "../src/common/directives.ng_deps.dart",
-        "4": "i10"
-      },
-      {
-        "1": "../src/common/forms.ng_deps.dart",
-        "4": "i11"
-      },
-      {
-        "1": "../src/core/debug.ng_deps.dart",
-        "4": "i12"
-      },
-      {
-        "1": "../src/core/change_detection.ng_deps.dart",
-        "4": "i13"
-      },
-      {
-        "1": "../profile.ng_deps.dart",
-        "4": "i14"
-      },
-      {
-        "1": "../src/web_workers/worker/application.ng_deps.dart",
-        "4": "i15"
-      },
-      {
-        "1": "../src/web_workers/shared/client_message_broker.ng_deps.dart",
-        "4": "i16"
-      },
-      {
-        "1": "../src/web_workers/shared/service_message_broker.ng_deps.dart",
-        "4": "i17"
-      },
-      {
-        "1": "../src/web_workers/shared/serializer.ng_deps.dart",
-        "4": "i18"
       }
     ]
   },
@@ -179,7 +57,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-class]",
+      "selector": "[ngClass]",
       "exportAs": null,
       "type": {
         "name": "NgClass",
@@ -188,7 +66,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "rawClass": "ng-class",
+        "rawClass": "ngClass",
         "initialClasses": "class"
       },
       "outputs": {},
@@ -207,7 +85,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-for][ng-for-of]",
+      "selector": "[ngFor][ngForOf]",
       "exportAs": null,
       "type": {
         "name": "NgFor",
@@ -234,7 +112,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-if]",
+      "selector": "[ngIf]",
       "exportAs": null,
       "type": {
         "name": "NgIf",
@@ -258,7 +136,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-style]",
+      "selector": "[ngStyle]",
       "exportAs": null,
       "type": {
         "name": "NgStyle",
@@ -267,7 +145,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "rawStyle": "ng-style"
+        "rawStyle": "ngStyle"
       },
       "outputs": {},
       "hostListeners": {},
@@ -284,7 +162,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-switch]",
+      "selector": "[ngSwitch]",
       "exportAs": null,
       "type": {
         "name": "NgSwitch",
@@ -308,7 +186,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-switch-when]",
+      "selector": "[ngSwitchWhen]",
       "exportAs": null,
       "type": {
         "name": "NgSwitchWhen",
@@ -332,7 +210,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-switch-default]",
+      "selector": "[ngSwitchDefault]",
       "exportAs": null,
       "type": {
         "name": "NgSwitchDefault",
@@ -354,8 +232,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-control]",
-      "exportAs": "form",
+      "selector": "[ngControl]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgControlName",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_name.dart",
@@ -384,8 +262,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-form-control]",
-      "exportAs": "form",
+      "selector": "[ngFormControl]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgFormControl",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_control.dart",
@@ -413,8 +291,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-model]:not([ng-control]):not([ng-form-control])",
-      "exportAs": "form",
+      "selector": "[ngModel]:not([ngControl]):not([ngFormControl])",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgModel",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_model.dart",
@@ -441,8 +319,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-control-group]",
-      "exportAs": "form",
+      "selector": "[ngControlGroup]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgControlGroup",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_group.dart",
@@ -450,7 +328,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "name": "ng-control-group"
+        "name": "ngControlGroup"
       },
       "outputs": {},
       "hostListeners": {},
@@ -468,8 +346,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-form-model]",
-      "exportAs": "form",
+      "selector": "[ngFormModel]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgFormModel",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_model.dart",
@@ -477,7 +355,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "form": "ng-form-model"
+        "form": "ngFormModel"
       },
       "outputs": {
         "ngSubmit": "ngSubmit"
@@ -498,8 +376,8 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "form:not([ng-no-form]):not([ng-form-model]),ng-form,[ng-form]",
-      "exportAs": "form",
+      "selector": "form:not([ngNoForm]):not([ngFormModel]),ngForm,[ngForm]",
+      "exportAs": "ngForm",
       "type": {
         "name": "NgForm",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form.dart",
@@ -524,7 +402,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input:not([type=checkbox])[ng-control],textarea[ng-control],input:not([type=checkbox])[ng-form-control],textarea[ng-form-control],input:not([type=checkbox])[ng-model],textarea[ng-model],[ng-default-control]",
+      "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
       "exportAs": null,
       "type": {
         "name": "DefaultValueAccessor",
@@ -536,8 +414,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -550,7 +427,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-control],[ng-model],[ng-form-control]",
+      "selector": "[ngControl],[ngModel],[ngFormControl]",
       "exportAs": null,
       "type": {
         "name": "NgControlStatus",
@@ -579,7 +456,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input[type=checkbox][ng-control],input[type=checkbox][ng-form-control],input[type=checkbox][ng-model]",
+      "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",
       "exportAs": null,
       "type": {
         "name": "CheckboxControlValueAccessor",
@@ -626,7 +503,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "select[ng-control],select[ng-form-control],select[ng-model]",
+      "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
       "exportAs": null,
       "type": {
         "name": "SelectControlValueAccessor",
@@ -652,7 +529,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[required][ng-control],[required][ng-form-control],[required][ng-model]",
+      "selector": "[required][ngControl],[required][ngFormControl],[required][ngModel]",
       "exportAs": null,
       "type": {
         "name": "RequiredValidator",
@@ -674,7 +551,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[minlength][ng-control],[minlength][ng-form-control],[minlength][ng-model]",
+      "selector": "[minlength][ngControl],[minlength][ngFormControl],[minlength][ngModel]",
       "exportAs": null,
       "type": {
         "name": "MinLengthValidator",
@@ -696,7 +573,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[maxlength][ng-control],[maxlength][ng-form-control],[maxlength][ng-model]",
+      "selector": "[maxlength][ngControl],[maxlength][ngFormControl],[maxlength][ngModel]",
       "exportAs": null,
       "type": {
         "name": "MaxLengthValidator",
@@ -718,7 +595,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input[type=number][ng-control],input[type=number][ng-form-control],input[type=number][ng-model]",
+      "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",
       "exportAs": null,
       "type": {
         "name": "NumberValueAccessor",
@@ -738,6 +615,19 @@
       "lifecycleHooks": [],
       "template": null
     }
+  },
+  "WORKER_APP_PLATFORM": {
+    "kind": "alias",
+    "value": [
+      "PLATFORM_COMMON_PROVIDERS"
+    ]
+  },
+  "COMMON_DIRECTIVES": {
+    "kind": "alias",
+    "value": [
+      "CORE_DIRECTIVES",
+      "FORM_DIRECTIVES"
+    ]
   },
   "COMMON_PIPES": {
     "kind": "alias",
@@ -765,10 +655,6 @@
       "NgSwitchDefault"
     ]
   },
-  "_EMPTY_LIST": {
-    "kind": "alias",
-    "value": []
-  },
   "FORM_PROVIDERS": {
     "kind": "alias",
     "value": [
@@ -794,5 +680,9 @@
       "MinLengthValidator",
       "MaxLengthValidator"
     ]
+  },
+  "_EMPTY_LIST": {
+    "kind": "alias",
+    "value": []
   }
 }

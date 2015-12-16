@@ -85,7 +85,10 @@
       },
       {
         "1": "view.dart",
-        "4": "viewModule",
+        "2": [
+          "AppViewContainer",
+          "AppView"
+        ],
         "5": false
       },
       {
@@ -162,6 +165,13 @@
         "1": "package:angular2/src/core/linker/event_config.dart",
         "2": [
           "EventConfig"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/interfaces.dart",
+        "2": [
+          "AfterViewChecked"
         ],
         "5": false
       },

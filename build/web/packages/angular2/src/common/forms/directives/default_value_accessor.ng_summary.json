@@ -3,29 +3,11 @@
     "1": "angular2.src.common.forms.directives.default_value_accessor",
     "3": [
       {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
-          "ElementRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render.dart",
-        "2": [
-          "Renderer"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
+          "Directive",
+          "ElementRef",
+          "Renderer",
           "Self",
           "Provider"
         ],
@@ -45,13 +27,6 @@
           "isBlank"
         ],
         "5": false
-      },
-      {
-        "1": "shared.dart",
-        "2": [
-          "setProperty"
-        ],
-        "5": false
       }
     ],
     "5": [
@@ -63,11 +38,11 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"input:not([type=checkbox])[ng-control],textarea[ng-control],input:not([type=checkbox])[ng-form-control],textarea[ng-form-control],input:not([type=checkbox])[ng-model],textarea[ng-model],[ng-default-control]\""
+                "2": "\"input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]\""
               },
               {
                 "1": "host",
-                "2": "const {\"(change)\" : \"onChange(\\$event.target.value)\", \"(input)\" : \"onChange(\\$event.target.value)\", \"(blur)\" : \"onTouched()\"}"
+                "2": "const {\"(input)\" : \"onChange(\\$event.target.value)\", \"(blur)\" : \"onTouched()\"}"
               },
               {
                 "1": "bindings",
@@ -103,7 +78,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input:not([type=checkbox])[ng-control],textarea[ng-control],input:not([type=checkbox])[ng-form-control],textarea[ng-form-control],input:not([type=checkbox])[ng-model],textarea[ng-model],[ng-default-control]",
+      "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
       "exportAs": null,
       "type": {
         "name": "DefaultValueAccessor",
@@ -115,8 +90,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
-        "change": "onChange($event.target.value)"
+        "blur": "onTouched()"
       },
       "hostProperties": {},
       "hostAttributes": {},

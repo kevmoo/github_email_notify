@@ -119,21 +119,8 @@
       {
         "1": "package:angular2/src/compiler/url_resolver.dart",
         "2": [
-          "UrlResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/app_root_url.dart",
-        "2": [
-          "AppRootUrl"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/anchor_based_app_root_url.dart",
-        "2": [
-          "AnchorBasedAppRootUrl"
+          "UrlResolver",
+          "DEFAULT_PACKAGE_URL_PROVIDER"
         ],
         "5": false
       },
@@ -173,6 +160,15 @@
         "2": [
           "PLATFORM_DIRECTIVES",
           "PLATFORM_PIPES"
+        ]
+      },
+      {
+        "1": "package:angular2/src/compiler/template_ast.dart"
+      },
+      {
+        "1": "package:angular2/src/compiler/template_parser.dart",
+        "2": [
+          "TEMPLATE_TRANSFORMS"
         ]
       }
     ],

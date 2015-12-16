@@ -3,29 +3,11 @@
     "1": "angular2.src.common.forms.directives.number_value_accessor",
     "3": [
       {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
-          "ElementRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render.dart",
-        "2": [
-          "Renderer"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
+          "Directive",
+          "ElementRef",
+          "Renderer",
           "Self",
           "Provider"
         ],
@@ -46,13 +28,6 @@
           "NumberWrapper"
         ],
         "5": false
-      },
-      {
-        "1": "shared.dart",
-        "2": [
-          "setProperty"
-        ],
-        "5": false
       }
     ],
     "5": [
@@ -64,7 +39,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"input[type=number][ng-control],input[type=number][ng-form-control],input[type=number][ng-model]\""
+                "2": "\"input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]\""
               },
               {
                 "1": "host",
@@ -104,7 +79,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "input[type=number][ng-control],input[type=number][ng-form-control],input[type=number][ng-model]",
+      "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",
       "exportAs": null,
       "type": {
         "name": "NumberValueAccessor",

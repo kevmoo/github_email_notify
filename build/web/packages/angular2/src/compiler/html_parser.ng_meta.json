@@ -6,17 +6,19 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "isPresent",
+          "isBlank",
           "StringWrapper",
           "stringify",
           "assertionsEnabled",
-          "StringJoiner"
+          "StringJoiner",
+          "serializeEnum"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "1": "package:angular2/src/facade/collection.dart",
         "2": [
-          "DOM"
+          "ListWrapper"
         ],
         "5": false
       },
@@ -26,16 +28,7 @@
           "HtmlAst",
           "HtmlAttrAst",
           "HtmlTextAst",
-          "HtmlElementAst",
-          "HtmlAstVisitor",
-          "htmlVisitAll"
-        ],
-        "5": false
-      },
-      {
-        "1": "util.dart",
-        "2": [
-          "escapeDoubleQuoteString"
+          "HtmlElementAst"
         ],
         "5": false
       },
@@ -43,6 +36,33 @@
         "1": "package:angular2/src/core/di.dart",
         "2": [
           "Injectable"
+        ],
+        "5": false
+      },
+      {
+        "1": "html_lexer.dart",
+        "2": [
+          "HtmlToken",
+          "HtmlTokenType",
+          "tokenizeHtml"
+        ],
+        "5": false
+      },
+      {
+        "1": "parse_util.dart",
+        "2": [
+          "ParseError",
+          "ParseLocation",
+          "ParseSourceSpan"
+        ],
+        "5": false
+      },
+      {
+        "1": "html_tags.dart",
+        "2": [
+          "HtmlTagDefinition",
+          "getHtmlTagDefinition",
+          "getNsPrefix"
         ],
         "5": false
       }
@@ -65,19 +85,19 @@
     "6": "html_parser.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.ng_deps.dart",
+        "1": "html_ast.ng_deps.dart",
         "4": "i0"
       },
       {
-        "1": "html_ast.ng_deps.dart",
+        "1": "package:angular2/src/core/di.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "util.ng_deps.dart",
+        "1": "html_lexer.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "html_tags.ng_deps.dart",
         "4": "i3"
       }
     ]

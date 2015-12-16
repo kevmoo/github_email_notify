@@ -53,6 +53,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/router/router_link_dsl.dart",
+        "5": false
+      },
+      {
         "1": "xhr_impl.dart",
         "5": false
       },

@@ -3,7 +3,7 @@
     "1": "angular2.core.compiler.pipe_lifecycle_reflector",
     "3": [
       {
-        "1": "package:angular2/src/core/change_detection/pipe_transform.dart",
+        "1": "package:angular2/src/core/linker/interfaces.dart",
         "5": false
       }
     ],

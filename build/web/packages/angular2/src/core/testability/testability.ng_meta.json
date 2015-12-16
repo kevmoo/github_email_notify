@@ -10,13 +10,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "Map",
@@ -90,20 +83,16 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "../zone/ng_zone.ng_deps.dart",
         "4": "i2"
       },
       {
-        "1": "../zone/ng_zone.ng_deps.dart",
-        "4": "i3"
-      },
-      {
         "1": "package:angular2/src/facade/async.ng_deps.dart",
-        "4": "i4"
+        "4": "i3"
       }
     ]
   }

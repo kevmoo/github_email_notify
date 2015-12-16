@@ -81,7 +81,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-class]",
+      "selector": "[ngClass]",
       "exportAs": null,
       "type": {
         "name": "NgClass",
@@ -90,7 +90,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "rawClass": "ng-class",
+        "rawClass": "ngClass",
         "initialClasses": "class"
       },
       "outputs": {},
@@ -109,7 +109,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-for][ng-for-of]",
+      "selector": "[ngFor][ngForOf]",
       "exportAs": null,
       "type": {
         "name": "NgFor",
@@ -136,7 +136,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-if]",
+      "selector": "[ngIf]",
       "exportAs": null,
       "type": {
         "name": "NgIf",
@@ -160,7 +160,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-style]",
+      "selector": "[ngStyle]",
       "exportAs": null,
       "type": {
         "name": "NgStyle",
@@ -169,7 +169,7 @@
       },
       "changeDetection": 5,
       "inputs": {
-        "rawStyle": "ng-style"
+        "rawStyle": "ngStyle"
       },
       "outputs": {},
       "hostListeners": {},
@@ -186,7 +186,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-switch]",
+      "selector": "[ngSwitch]",
       "exportAs": null,
       "type": {
         "name": "NgSwitch",
@@ -210,7 +210,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-switch-when]",
+      "selector": "[ngSwitchWhen]",
       "exportAs": null,
       "type": {
         "name": "NgSwitchWhen",
@@ -234,7 +234,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-switch-default]",
+      "selector": "[ngSwitchDefault]",
       "exportAs": null,
       "type": {
         "name": "NgSwitchDefault",

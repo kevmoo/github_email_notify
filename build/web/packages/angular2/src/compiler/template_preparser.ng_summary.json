@@ -16,6 +16,13 @@
           "isPresent"
         ],
         "5": false
+      },
+      {
+        "1": "html_tags.dart",
+        "2": [
+          "splitNsName"
+        ],
+        "5": false
       }
     ],
     "6": "template_preparser.dart"

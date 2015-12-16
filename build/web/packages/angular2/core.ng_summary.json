@@ -3,56 +3,82 @@
     "1": "angular2.core",
     "4": [
       {
-        "1": "package:angular2/src/core/metadata.dart"
+        "1": "./src/core/metadata.dart"
       },
       {
-        "1": "package:angular2/src/core/util.dart"
+        "1": "./src/core/util.dart"
       },
       {
-        "1": "package:angular2/src/core/dev_mode.dart"
-      },
-      {
-        "1": "package:angular2/src/core/di.dart"
-      },
-      {
-        "1": "package:angular2/src/common/pipes.dart"
-      },
-      {
-        "1": "package:angular2/src/facade/facade.dart"
-      },
-      {
-        "1": "package:angular2/src/core/application_ref.dart",
-        "3": [
-          "ApplicationRef_",
-          "PlatformRef_"
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "enableProdMode"
         ]
       },
       {
-        "1": "package:angular2/src/core/services.dart"
+        "1": "./src/core/di.dart",
+        "3": [
+          "ForwardRefFn",
+          "resolveForwardRef",
+          "forwardRef"
+        ]
       },
       {
-        "1": "package:angular2/src/core/linker.dart"
+        "1": "./src/facade/facade.dart"
       },
       {
-        "1": "package:angular2/src/core/zone.dart"
+        "1": "./src/core/application_ref.dart",
+        "2": [
+          "platform",
+          "createNgZone",
+          "PlatformRef",
+          "ApplicationRef"
+        ]
       },
       {
-        "1": "package:angular2/src/core/render.dart"
+        "1": "./src/core/application_tokens.dart",
+        "2": [
+          "APP_ID",
+          "APP_COMPONENT",
+          "APP_INITIALIZER",
+          "PACKAGE_ROOT_URL",
+          "PLATFORM_INITIALIZER"
+        ]
       },
       {
-        "1": "package:angular2/src/common/directives.dart"
+        "1": "./src/core/zone.dart"
       },
       {
-        "1": "package:angular2/src/common/forms.dart"
+        "1": "./src/core/render.dart"
       },
       {
-        "1": "package:angular2/src/core/debug.dart"
+        "1": "./src/core/linker.dart"
       },
       {
-        "1": "package:angular2/src/core/change_detection.dart"
+        "1": "./src/core/debug/debug_element.dart",
+        "2": [
+          "DebugElement",
+          "Scope",
+          "inspectElement",
+          "asNativeElements"
+        ]
       },
       {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.dart"
+        "1": "./src/core/testability/testability.dart"
+      },
+      {
+        "1": "./src/core/change_detection.dart"
+      },
+      {
+        "1": "./src/core/platform_directives_and_pipes.dart"
+      },
+      {
+        "1": "./src/core/platform_common_providers.dart"
+      },
+      {
+        "1": "./src/core/application_common_providers.dart"
+      },
+      {
+        "1": "./src/core/reflection/reflection.dart"
       }
     ],
     "6": "core.dart"

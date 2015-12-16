@@ -6,33 +6,30 @@
         "1": "package:angular2/src/facade/facade.dart"
       },
       {
+        "1": "../src/core/di.dart"
+      },
+      {
+        "1": "../src/core/application_ref.dart",
+        "2": [
+          "platform",
+          "PlatformRef",
+          "ApplicationRef"
+        ]
+      },
+      {
+        "1": "../src/core/application_tokens.dart",
+        "2": [
+          "APP_ID",
+          "APP_COMPONENT",
+          "APP_INITIALIZER",
+          "PLATFORM_INITIALIZER"
+        ]
+      },
+      {
         "1": "../src/core/zone.dart"
       },
       {
-        "1": "../src/web_workers/ui/application.dart"
-      },
-      {
-        "1": "../src/web_workers/shared/client_message_broker.dart",
-        "2": [
-          "ClientMessageBroker",
-          "ClientMessageBrokerFactory",
-          "FnArg",
-          "UiArguments"
-        ]
-      },
-      {
-        "1": "../src/web_workers/shared/service_message_broker.dart",
-        "2": [
-          "ReceivedMessage",
-          "ServiceMessageBroker",
-          "ServiceMessageBrokerFactory"
-        ]
-      },
-      {
-        "1": "../src/web_workers/shared/serializer.dart",
-        "2": [
-          "PRIMITIVE"
-        ]
+        "1": "package:angular2/platform/worker_render.dart"
       }
     ],
     "6": "ui.dart"

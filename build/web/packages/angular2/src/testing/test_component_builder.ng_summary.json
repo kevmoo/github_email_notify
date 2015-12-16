@@ -3,11 +3,18 @@
     "1": "angular2.src.testing.test_component_builder",
     "3": [
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
+          "ComponentRef",
+          "DebugElement",
+          "DirectiveResolver",
+          "DynamicComponentLoader",
           "Injector",
-          "provide",
-          "Injectable"
+          "Injectable",
+          "ViewMetadata",
+          "ViewRef",
+          "ViewResolver",
+          "provide"
         ],
         "5": false
       },
@@ -36,27 +43,6 @@
         "5": false
       },
       {
-        "1": "../core/metadata.dart",
-        "2": [
-          "ViewMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/directive_resolver.dart",
-        "2": [
-          "DirectiveResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_resolver.dart",
-        "2": [
-          "ViewResolver"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/view.dart",
         "2": [
           "AppView"
@@ -66,16 +52,7 @@
       {
         "1": "package:angular2/src/core/linker/view_ref.dart",
         "2": [
-          "internalView",
-          "ViewRef"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
-        "2": [
-          "DynamicComponentLoader",
-          "ComponentRef"
+          "internalView"
         ],
         "5": false
       },
@@ -87,14 +64,14 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/render.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
         "2": [
           "DOCUMENT"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/dom_adapter.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
         "2": [
           "DOM"
         ],
@@ -103,7 +80,6 @@
       {
         "1": "package:angular2/src/core/debug/debug_element.dart",
         "2": [
-          "DebugElement",
           "DebugElement_"
         ],
         "5": false

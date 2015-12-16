@@ -119,21 +119,8 @@
       {
         "1": "package:angular2/src/compiler/url_resolver.dart",
         "2": [
-          "UrlResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/app_root_url.dart",
-        "2": [
-          "AppRootUrl"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/anchor_based_app_root_url.dart",
-        "2": [
-          "AnchorBasedAppRootUrl"
+          "UrlResolver",
+          "DEFAULT_PACKAGE_URL_PROVIDER"
         ],
         "5": false
       },
@@ -173,6 +160,15 @@
         "2": [
           "PLATFORM_DIRECTIVES",
           "PLATFORM_PIPES"
+        ]
+      },
+      {
+        "1": "package:angular2/src/compiler/template_ast.dart"
+      },
+      {
+        "1": "package:angular2/src/compiler/template_parser.dart",
+        "2": [
+          "TEMPLATE_TRANSFORMS"
         ]
       }
     ],
@@ -239,28 +235,24 @@
         "4": "i14"
       },
       {
-        "1": "package:angular2/src/compiler/app_root_url.ng_deps.dart",
+        "1": "template_compiler.ng_deps.dart",
         "4": "i15"
       },
       {
-        "1": "package:angular2/src/compiler/anchor_based_app_root_url.ng_deps.dart",
+        "1": "directive_metadata.ng_deps.dart",
         "4": "i16"
       },
       {
-        "1": "template_compiler.ng_deps.dart",
+        "1": "source_module.ng_deps.dart",
         "4": "i17"
       },
       {
-        "1": "directive_metadata.ng_deps.dart",
+        "1": "package:angular2/src/core/platform_directives_and_pipes.ng_deps.dart",
         "4": "i18"
       },
       {
-        "1": "source_module.ng_deps.dart",
+        "1": "package:angular2/src/compiler/template_ast.ng_deps.dart",
         "4": "i19"
-      },
-      {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.ng_deps.dart",
-        "4": "i20"
       }
     ]
   }

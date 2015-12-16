@@ -7,6 +7,9 @@
       },
       {
         "1": "src/compiler/xhr.dart"
+      },
+      {
+        "1": "src/compiler/compiler.dart"
       }
     ],
     "6": "compiler.dart"

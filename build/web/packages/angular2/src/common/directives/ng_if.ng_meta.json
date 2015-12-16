@@ -3,15 +3,9 @@
     "1": "angular2.src.common.directives.ng_if",
     "3": [
       {
-        "1": "package:angular2/src/core/metadata.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Directive"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker.dart",
-        "2": [
+          "Directive",
           "ViewContainerRef",
           "TemplateRef"
         ],
@@ -34,7 +28,7 @@
             "3": [
               {
                 "1": "selector",
-                "2": "\"[ng-if]\""
+                "2": "\"[ngIf]\""
               },
               {
                 "1": "inputs",
@@ -63,12 +57,8 @@
     "6": "ng_if.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/metadata.ng_deps.dart",
+        "1": "package:angular2/core.ng_deps.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:angular2/src/core/linker.ng_deps.dart",
-        "4": "i1"
       }
     ]
   },
@@ -77,7 +67,7 @@
     "value": {
       "isComponent": false,
       "dynamicLoadable": true,
-      "selector": "[ng-if]",
+      "selector": "[ngIf]",
       "exportAs": null,
       "type": {
         "name": "NgIf",

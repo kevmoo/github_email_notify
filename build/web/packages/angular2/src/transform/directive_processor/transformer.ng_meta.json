@@ -15,7 +15,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/dom/html_adapter.dart",
+        "1": "package:angular2/src/platform/server/html_adapter.dart",
         "5": false
       },
       {
@@ -43,7 +43,7 @@
     "6": "transformer.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/dom/html_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/server/html_adapter.ng_deps.dart",
         "4": "i0"
       },
       {

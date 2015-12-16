@@ -16,6 +16,13 @@
           "Type"
         ],
         "5": false
+      },
+      {
+        "1": "instruction.dart",
+        "2": [
+          "RouteData"
+        ],
+        "5": false
       }
     ],
     "6": "route_handler.dart"

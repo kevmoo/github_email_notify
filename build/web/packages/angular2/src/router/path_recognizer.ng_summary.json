@@ -32,26 +32,11 @@
         "5": false
       },
       {
-        "1": "route_handler.dart",
-        "2": [
-          "RouteHandler"
-        ],
-        "5": false
-      },
-      {
         "1": "url_parser.dart",
         "2": [
           "Url",
           "RootUrl",
           "serializeParams"
-        ],
-        "5": false
-      },
-      {
-        "1": "instruction.dart",
-        "2": [
-          "ComponentInstruction",
-          "ComponentInstruction_"
         ],
         "5": false
       }

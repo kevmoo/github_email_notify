@@ -85,7 +85,10 @@
       },
       {
         "1": "view.dart",
-        "4": "viewModule",
+        "2": [
+          "AppViewContainer",
+          "AppView"
+        ],
         "5": false
       },
       {
@@ -162,6 +165,13 @@
         "1": "package:angular2/src/core/linker/event_config.dart",
         "2": [
           "EventConfig"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/interfaces.dart",
+        "2": [
+          "AfterViewChecked"
         ],
         "5": false
       },
@@ -254,12 +264,16 @@
         "4": "i15"
       },
       {
-        "1": "package:angular2/src/core/pipes/pipe_provider.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/interfaces.ng_deps.dart",
         "4": "i16"
       },
       {
-        "1": "interfaces.ng_deps.dart",
+        "1": "package:angular2/src/core/pipes/pipe_provider.ng_deps.dart",
         "4": "i17"
+      },
+      {
+        "1": "interfaces.ng_deps.dart",
+        "4": "i18"
       }
     ]
   }

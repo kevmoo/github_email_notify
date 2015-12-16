@@ -3,7 +3,7 @@
     "1": "angular2.transform.template_compiler.url_resolver",
     "3": [
       {
-        "1": "package:angular2/src/core/services.dart",
+        "1": "package:angular2/compiler.dart",
         "5": false
       },
       {

@@ -16,7 +16,7 @@
       {
         "1": "package:angular2/bootstrap_static.dart",
         "2": [
-          "bootstrap"
+          "bootstrapStatic"
         ],
         "5": false
       },
@@ -138,7 +138,7 @@
       ],
       "template": {
         "encapsulation": 2,
-        "template": "<div class=\"unloaded\" *ng-if=\"root == null\">\n  <em>Requesting API data...</em>\n</div>\n\n<div class=\"loaded\" *ng-if=\"root != null\">\n  <ul class=\"triage\">\n    <li *ng-for=\"#triageUri of root.triageUris.keys\">\n      <a [href]=\"root.triageUris[triageUri]\">{{ triageUri }}</a>\n    </li>\n  </ul>\n  <div class=\"user\" *ng-if=\"root.currentUser == null\">\n    <p><a href=\"{{ root.loginUrl }}\">Login</a></p>\n  </div>\n  <div class=\"user\" *ng-if=\"root.currentUser != null\">\n    <p><a href=\"{{ root.logoutUrl }}\">Logout</a></p>\n    <user-comp [user]=\"root.currentUser\"></user-comp>\n  </div>\n  <div class=\"admin\" *ng-if=\"root.adminObject != null\">\n    <h3>Admin</h3>\n    <div *ng-if=\"root.adminObject.authorizedEmail == null\">\n      <Button (click)=\"login()\" [disabled]=\"loginDisabled\">Email sender login</Button>\n    </div>\n    <div *ng-if=\"root.adminObject.authorizedEmail != null\">\n      <p>Notifications are sent with: {{ root.adminObject.authorizedEmail }}</p>\n\n      <p><Button (click)=\"sendTestMessage()\" [disabled]=\"loginDisabled\">Send test message</Button></p>\n      <p><Button (click)=\"updateGithubLabels()\" [disabled]=\"loginDisabled\">Update GitHub labels</Button></p>\n      <p><Button (click)=\"emailSenderLogout()\" [disabled]=\"loginDisabled\">Email sender logut</Button></p>\n\n    </div>\n  </div>\n</div>\n",
+        "template": "<div class=\"unloaded\" *ngIf=\"root == null\">\n  <em>Requesting API data...</em>\n</div>\n\n<div class=\"loaded\" *ngIf=\"root != null\">\n  <ul class=\"triage\">\n    <li *ngFor=\"#triageUri of triageUriKeys\">\n      <a [href]=\"root.triageUris[triageUri]\">{{ triageUri }}</a>\n    </li>\n  </ul>\n  <div class=\"user\" *ngIf=\"root.currentUser == null\">\n    <p><a href=\"{{ root.loginUrl }}\">Login</a></p>\n  </div>\n  <div class=\"user\" *ngIf=\"root.currentUser != null\">\n    <p><a href=\"{{ root.logoutUrl }}\">Logout</a></p>\n    <user-comp [user]=\"root.currentUser\"></user-comp>\n  </div>\n  <div class=\"admin\" *ngIf=\"root.adminObject != null\">\n    <h3>Admin</h3>\n    <div *ngIf=\"root.adminObject.authorizedEmail == null\">\n      <Button (click)=\"login()\" [disabled]=\"loginDisabled\">Email sender login</Button>\n    </div>\n    <div *ngIf=\"root.adminObject.authorizedEmail != null\">\n      <p>Notifications are sent with: {{ root.adminObject.authorizedEmail }}</p>\n\n      <p><Button (click)=\"sendTestMessage()\" [disabled]=\"loginDisabled\">Send test message</Button></p>\n      <p><Button (click)=\"updateGithubLabels()\" [disabled]=\"loginDisabled\">Update GitHub labels</Button></p>\n      <p><Button (click)=\"emailSenderLogout()\" [disabled]=\"loginDisabled\">Email sender logut</Button></p>\n\n    </div>\n  </div>\n</div>\n",
         "templateUrl": "asset:github_email_notify/web/client_app.html",
         "styles": [],
         "styleUrls": [],

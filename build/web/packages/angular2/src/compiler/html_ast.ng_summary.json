@@ -8,6 +8,13 @@
           "isPresent"
         ],
         "5": false
+      },
+      {
+        "1": "parse_util.dart",
+        "2": [
+          "ParseSourceSpan"
+        ],
+        "5": false
       }
     ],
     "6": "html_ast.dart"

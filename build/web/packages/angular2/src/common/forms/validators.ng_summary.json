@@ -33,7 +33,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "OpaqueToken"
         ],

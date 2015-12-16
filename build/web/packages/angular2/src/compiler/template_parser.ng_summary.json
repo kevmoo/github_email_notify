@@ -5,7 +5,6 @@
       {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
-          "MapWrapper",
           "ListWrapper",
           "StringMapWrapper",
           "SetWrapper"
@@ -18,17 +17,17 @@
           "RegExpWrapper",
           "isPresent",
           "StringWrapper",
-          "StringJoiner",
-          "stringify",
-          "assertionsEnabled",
           "isBlank"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Injectable"
+          "Injectable",
+          "Inject",
+          "OpaqueToken",
+          "Optional"
         ],
         "5": false
       },
@@ -70,6 +69,22 @@
         "5": false
       },
       {
+        "1": "html_tags.dart",
+        "2": [
+          "splitNsName"
+        ],
+        "5": false
+      },
+      {
+        "1": "parse_util.dart",
+        "2": [
+          "ParseSourceSpan",
+          "ParseError",
+          "ParseLocation"
+        ],
+        "5": false
+      },
+      {
         "1": "template_ast.dart",
         "2": [
           "ElementAst",
@@ -77,6 +92,8 @@
           "BoundEventAst",
           "VariableAst",
           "TemplateAst",
+          "TemplateAstVisitor",
+          "templateVisitAll",
           "TextAst",
           "BoundTextAst",
           "EmbeddedTemplateAst",
@@ -134,8 +151,6 @@
       {
         "1": "util.dart",
         "2": [
-          "dashCaseToCamelCase",
-          "camelCaseToDashCase",
           "splitAtColon"
         ],
         "5": false
@@ -166,6 +181,15 @@
           {
             "1": "HtmlParser",
             "4": "_htmlParser"
+          },
+          {
+            "1": "List",
+            "2": "<TemplateAstVisitor>",
+            "3": [
+              "const Optional()",
+              "const Inject(TEMPLATE_TRANSFORMS)"
+            ],
+            "4": "transforms"
           }
         ]
       }

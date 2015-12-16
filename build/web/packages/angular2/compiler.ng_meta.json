@@ -7,6 +7,9 @@
       },
       {
         "1": "src/compiler/xhr.dart"
+      },
+      {
+        "1": "src/compiler/compiler.dart"
       }
     ],
     "6": "compiler.dart",
@@ -18,6 +21,10 @@
       {
         "1": "src/compiler/xhr.ng_deps.dart",
         "4": "i1"
+      },
+      {
+        "1": "src/compiler/compiler.ng_deps.dart",
+        "4": "i2"
       }
     ]
   }

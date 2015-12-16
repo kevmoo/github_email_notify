@@ -3,7 +3,7 @@
     "1": "angular2.src.testing.benchmark_util",
     "3": [
       {
-        "1": "package:angular2/src/core/dom/browser_adapter.dart",
+        "1": "package:angular2/src/platform/browser/browser_adapter.dart",
         "2": [
           "BrowserDomAdapter"
         ],
@@ -37,7 +37,7 @@
     "6": "benchmark_util.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/dom/browser_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/browser/browser_adapter.ng_deps.dart",
         "4": "i0"
       },
       {

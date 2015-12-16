@@ -3,95 +3,25 @@
     "1": "angular2.web_worker.worker",
     "4": [
       {
-        "1": "../lifecycle_hooks.dart"
+        "1": "../common.dart"
       },
       {
-        "1": "../src/core/metadata.dart"
+        "1": "../core.dart"
       },
       {
-        "1": "../src/core/util.dart"
+        "1": "../platform/worker_app.dart"
       },
       {
-        "1": "../src/core/di.dart"
-      },
-      {
-        "1": "../src/common/pipes.dart"
-      },
-      {
-        "1": "package:angular2/src/facade/facade.dart"
-      },
-      {
-        "1": "../src/core/application_ref.dart"
-      },
-      {
-        "1": "../src/core/services.dart"
-      },
-      {
-        "1": "../src/core/linker.dart"
-      },
-      {
-        "1": "../src/core/zone.dart"
-      },
-      {
-        "1": "../src/core/render/render.dart",
+        "1": "../compiler.dart",
         "2": [
-          "RenderEventDispatcher",
-          "Renderer",
-          "RenderElementRef",
-          "RenderViewRef",
-          "RenderProtoViewRef",
-          "RenderFragmentRef",
-          "RenderViewWithFragments",
-          "RenderTemplateCmd",
-          "RenderCommandVisitor",
-          "RenderTextCmd",
-          "RenderNgContentCmd",
-          "RenderBeginElementCmd",
-          "RenderBeginComponentCmd",
-          "RenderEmbeddedTemplateCmd",
-          "RenderBeginCmd"
+          "UrlResolver"
         ]
       },
       {
-        "1": "../src/common/directives.dart"
+        "1": "../instrumentation.dart"
       },
       {
-        "1": "../src/common/forms.dart"
-      },
-      {
-        "1": "../src/core/debug.dart"
-      },
-      {
-        "1": "../src/core/change_detection.dart"
-      },
-      {
-        "1": "../profile.dart"
-      },
-      {
-        "1": "../src/web_workers/worker/application.dart"
-      },
-      {
-        "1": "../src/web_workers/shared/client_message_broker.dart",
-        "2": [
-          "ClientMessageBroker",
-          "ClientMessageBrokerFactory",
-          "FnArg",
-          "UiArguments"
-        ]
-      },
-      {
-        "1": "../src/web_workers/shared/service_message_broker.dart",
-        "2": [
-          "ReceivedMessage",
-          "ServiceMessageBroker",
-          "ServiceMessageBrokerFactory"
-        ]
-      },
-      {
-        "1": "../src/web_workers/shared/serializer.dart",
-        "2": [
-          "PRIMITIVE"
-        ]
+        "1": "package:angular2/src/platform/worker_app.dart"
       }
     ],
     "6": "worker.dart"

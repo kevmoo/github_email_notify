@@ -3,6 +3,13 @@
     "1": "angular2.router",
     "3": [
       {
+        "1": "src/router/platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ],
+        "5": false
+      },
+      {
         "1": "src/router/location_strategy.dart",
         "2": [
           "LocationStrategy"
@@ -41,7 +48,8 @@
       {
         "1": "src/router/route_registry.dart",
         "2": [
-          "RouteRegistry"
+          "RouteRegistry",
+          "ROUTER_PRIMARY_COMPONENT"
         ],
         "5": false
       },
@@ -53,7 +61,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "ApplicationRef",
           "provide",
@@ -97,15 +105,23 @@
         ]
       },
       {
+        "1": "src/router/platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ]
+      },
+      {
         "1": "src/router/route_registry.dart",
         "2": [
-          "RouteRegistry"
+          "RouteRegistry",
+          "ROUTER_PRIMARY_COMPONENT"
         ]
       },
       {
         "1": "src/router/location_strategy.dart",
         "2": [
-          "LocationStrategy"
+          "LocationStrategy",
+          "APP_BASE_HREF"
         ]
       },
       {
@@ -123,8 +139,7 @@
       {
         "1": "src/router/location.dart",
         "2": [
-          "Location",
-          "APP_BASE_HREF"
+          "Location"
         ]
       },
       {
@@ -157,7 +172,7 @@
         ]
       },
       {
-        "1": "package:angular2/angular2.dart",
+        "1": "package:angular2/core.dart",
         "2": [
           "OpaqueToken"
         ]
