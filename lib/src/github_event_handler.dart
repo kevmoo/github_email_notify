@@ -19,8 +19,8 @@ Future<Null> githubRequestHandler(HookRequest request) async {
     }
   }
   Logger.root
-      .info('Nothing to do with this GitHub event: ${request.githubEvent}./n'
-          'Content: ${request.content}');
+      .info('Nothing to do with this GitHub event: ${request.githubEvent}.\n'
+          'Content: ${_flattenMap(request.content).join(', ')}');
 }
 
 Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
@@ -80,4 +80,13 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
       request.issue.user.githubUrl);
 
   await sendEmail(content);
+}
+
+Iterable<String> _flattenMap(Map input) sync* {
+  for (var key in input.keys) {
+    var val = input[key];
+    if (val != null && val is! Map) {
+      yield '$key: $val';
+    }
+  }
 }
