@@ -26,9 +26,11 @@ class ClientApp implements OnInit {
 
   ApiObject root;
 
+  final List<String> triageUriKeys = <String>[];
+
   ClientApp(BrowserClient client) : this._client = client;
 
-  void onInit() {
+  void ngOnInit() {
     assert(loginDisabled);
     assert(root == null);
     _refreshData();
@@ -36,6 +38,7 @@ class ClientApp implements OnInit {
 
   void _refreshData() {
     root = null;
+    triageUriKeys.clear();
     _client.get('/api').then((response) {
       _onApiRoot(JSON.decode(response.body));
     });
@@ -43,6 +46,8 @@ class ClientApp implements OnInit {
 
   _onApiRoot(json) async {
     root = new ApiObject.fromJson(json);
+    triageUriKeys.clear();
+    triageUriKeys.addAll(root.triageUris.keys);
 
     if (root.adminObject != null) {
       final clientId =

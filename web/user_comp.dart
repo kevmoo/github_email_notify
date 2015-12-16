@@ -14,7 +14,7 @@ class UserComponent implements OnInit {
 
   _FirebaseThing selectionItems;
 
-  onInit() async {
+  ngOnInit() async {
     assert(selectionItems == null);
 
     var firebase = new Firebase(user.firebaseBase);
