@@ -15,24 +15,31 @@ Future<Null> githubRequestHandler(HookRequest request) async {
   if (request is IssuesHookRequest) {
     if (request.action == 'labeled') {
       await _handleLabeledEvent(request);
+      return;
     }
   }
+  Logger.root
+      .info('Nothing to do with this GitHub event: ${request.githubEvent}./n'
+          'Content: ${request.content}');
 }
 
 Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
   assert(request.action == 'labeled');
 
   assert(request.label != null);
-
-  var client = new FirebaseClient(firebaseSecret);
-
   var labeledRepository = request.repository.fullName;
 
   var labelName = request.label.name.toLowerCase();
 
+  Logger.root.info(
+      'Repository: ${labeledRepository} issue ${request.issue.number} labeled ${labelName}.');
+
+  var client = new FirebaseClient(firebaseSecret);
+
   var items = await client.get(getUsersForRepoUri(labeledRepository)) as Map;
 
   if (items == null) {
+    Logger.root.info('No users for repo: $labeledRepository.');
     return;
   }
 
