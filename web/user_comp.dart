@@ -25,6 +25,8 @@ class UserComponent implements OnInit {
   }
 
   void toggle(_FirebaseItem item) => selectionItems.toggle(item);
+
+  void clearInvalid() => selectionItems.clearInvalid();
 }
 
 class _FirebaseThing {
@@ -33,6 +35,7 @@ class _FirebaseThing {
 
   Map<String, bool> _itemsCache;
   Map<String, dynamic> _pickedCache;
+  final List<String> invalid = new List<String>();
 
   final List<_FirebaseItem> items = new List<_FirebaseItem>();
 
@@ -53,6 +56,18 @@ class _FirebaseThing {
     var picked = root.child(pickedPath);
 
     return new _FirebaseThing._(items, picked);
+  }
+
+  clearInvalid() async {
+    var invalidCache = invalid.toSet();
+
+    for (var item in invalidCache) {
+      if (_isPicked(item) && !_itemsCache.containsKey(item)) {
+        var realKey =
+            _pickedCache.keys.firstWhere((i) => i.toLowerCase() == item);
+        await _picked.child(realKey).remove();
+      }
+    }
   }
 
   toggle(_FirebaseItem item) async {
@@ -102,6 +117,16 @@ class _FirebaseThing {
 
     // Now sort!
     items.sort();
+
+    // now clear and re-populate invalid set
+    invalid.clear();
+
+    if (_pickedCache != null) {
+      var newItems = _pickedCache.keys.map((k) => k.toLowerCase()).toSet();
+      newItems.removeAll(_itemsCache.keys);
+      invalid.addAll(newItems);
+      invalid.sort();
+    }
   }
 }
 
