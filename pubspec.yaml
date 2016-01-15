@@ -23,11 +23,13 @@ dependencies:
   shelf_appengine: ^0.2.3
   stack_trace: ^1.3.4
 dev_dependencies:
+  dart_to_js_script_rewriter: ^0.1.0+4
   source_gen: ^0.4.2
 transformers:
 - angular2:
     entry_points:
         - web/client_app.dart
+- dart_to_js_script_rewriter
 - $dart2js:
     minify: false
     commandLineOptions: ['--no-frequency-based-minification', '--trust-type-annotations', '--trust-primitives']

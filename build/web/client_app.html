@@ -1,32 +1,33 @@
-<div class="unloaded" *ngIf="root == null">
+<html><head></head><body><div class="unloaded" *ngif="root == null">
   <em>Requesting API data...</em>
 </div>
 
-<div class="loaded" *ngIf="root != null">
+<div class="loaded" *ngif="root != null">
   <ul class="triage">
-    <li *ngFor="#triageUri of triageUriKeys">
+    <li *ngfor="#triageUri of triageUriKeys">
       <a [href]="root.triageUris[triageUri]">{{ triageUri }}</a>
     </li>
   </ul>
-  <div class="user" *ngIf="root.currentUser == null">
+  <div class="user" *ngif="root.currentUser == null">
     <p><a href="{{ root.loginUrl }}">Login</a></p>
   </div>
-  <div class="user" *ngIf="root.currentUser != null">
+  <div class="user" *ngif="root.currentUser != null">
     <p><a href="{{ root.logoutUrl }}">Logout</a></p>
     <user-comp [user]="root.currentUser"></user-comp>
   </div>
-  <div class="admin" *ngIf="root.adminObject != null">
+  <div class="admin" *ngif="root.adminObject != null">
     <h3>Admin</h3>
-    <div *ngIf="root.adminObject.authorizedEmail == null">
-      <Button (click)="login()" [disabled]="loginDisabled">Email sender login</Button>
+    <div *ngif="root.adminObject.authorizedEmail == null">
+      <button (click)="login()" [disabled]="loginDisabled">Email sender login</button>
     </div>
-    <div *ngIf="root.adminObject.authorizedEmail != null">
+    <div *ngif="root.adminObject.authorizedEmail != null">
       <p>Notifications are sent with: {{ root.adminObject.authorizedEmail }}</p>
 
-      <p><Button (click)="sendTestMessage()" [disabled]="loginDisabled">Send test message</Button></p>
-      <p><Button (click)="updateGithubLabels()" [disabled]="loginDisabled">Update GitHub labels</Button></p>
-      <p><Button (click)="emailSenderLogout()" [disabled]="loginDisabled">Email sender logut</Button></p>
+      <p><button (click)="sendTestMessage()" [disabled]="loginDisabled">Send test message</button></p>
+      <p><button (click)="updateGithubLabels()" [disabled]="loginDisabled">Update GitHub labels</button></p>
+      <p><button (click)="emailSenderLogout()" [disabled]="loginDisabled">Email sender logut</button></p>
 
     </div>
   </div>
 </div>
+</body></html>
