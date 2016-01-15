@@ -85,6 +85,7 @@
   "UserComponent": {
     "kind": "type",
     "value": {
+      "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
       "selector": "user-comp",
