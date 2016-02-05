@@ -3,12 +3,7 @@
     "1": "angular2",
     "4": [
       {
-        "1": "package:angular2/core.dart",
-        "3": [
-          "forwardRef",
-          "resolveForwardRef",
-          "ForwardRefFn"
-        ]
+        "1": "package:angular2/core.dart"
       },
       {
         "1": "package:angular2/common.dart"
@@ -45,35 +40,35 @@
     "6": "angular2.dart",
     "10": [
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/common.ng_deps.dart",
+        "1": "package:angular2/common.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/instrumentation.ng_deps.dart",
+        "1": "package:angular2/instrumentation.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/application_tokens.ng_deps.dart",
+        "1": "package:angular2/src/core/application_tokens.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/platform/dom/events/event_manager.ng_deps.dart",
+        "1": "package:angular2/src/platform/dom/events/event_manager.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.ng_deps.dart",
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
         "4": "i7"
       }
     ]
@@ -239,6 +234,7 @@
       },
       "changeDetection": 5,
       "inputs": {
+        "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },

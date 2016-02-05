@@ -58,6 +58,13 @@
           "VIEW_ENCAPSULATION_VALUES"
         ],
         "5": false
+      },
+      {
+        "1": "serialized_types.dart",
+        "2": [
+          "LocationType"
+        ],
+        "5": false
       }
     ],
     "5": [
@@ -84,23 +91,23 @@
     "6": "serializer.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/render/api.ng_deps.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_store.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/render_store.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.ng_deps.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i4"
       }
     ]

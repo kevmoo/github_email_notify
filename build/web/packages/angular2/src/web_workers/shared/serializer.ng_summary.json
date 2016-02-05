@@ -58,6 +58,13 @@
           "VIEW_ENCAPSULATION_VALUES"
         ],
         "5": false
+      },
+      {
+        "1": "serialized_types.dart",
+        "2": [
+          "LocationType"
+        ],
+        "5": false
       }
     ],
     "5": [

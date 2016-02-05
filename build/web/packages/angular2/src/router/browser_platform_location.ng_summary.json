@@ -1,14 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.platform_location",
+    "1": "angular2.src.router.browser_platform_location",
     "3": [
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/core.dart",
         "2": [
@@ -19,16 +12,36 @@
       {
         "1": "package:angular2/src/facade/browser.dart",
         "2": [
-          "EventListener",
           "History",
           "Location"
+        ],
+        "5": false
+      },
+      {
+        "1": "platform_location.dart",
+        "2": [
+          "UrlChangeListener"
+        ],
+        "5": false
+      },
+      {
+        "1": "platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
         ],
         "5": false
       }
     ],
     "5": [
       {
-        "1": "PlatformLocation",
+        "1": "BrowserPlatformLocation",
         "4": [
           {
             "1": "Injectable",
@@ -41,6 +54,6 @@
         ]
       }
     ],
-    "6": "platform_location.dart"
+    "6": "browser_platform_location.dart"
   }
 }

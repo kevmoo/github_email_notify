@@ -87,15 +87,15 @@
     "6": "date_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/intl.ng_deps.dart",
+        "1": "package:angular2/src/facade/intl.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       },
       {
-        "1": "invalid_pipe_argument_exception.ng_deps.dart",
+        "1": "invalid_pipe_argument_exception.template.dart",
         "4": "i2"
       }
     ]

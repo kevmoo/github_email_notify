@@ -6,12 +6,12 @@
         "1": "package:angular2/core.dart",
         "2": [
           "ComponentRef",
-          "DebugElement",
           "DirectiveResolver",
           "DynamicComponentLoader",
           "Injector",
           "Injectable",
           "ViewMetadata",
+          "ElementRef",
           "EmbeddedViewRef",
           "ViewResolver",
           "provide"
@@ -78,9 +78,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/debug/debug_element.dart",
+        "1": "package:angular2/src/core/debug/debug_node.dart",
         "2": [
-          "DebugElement_"
+          "DebugNode",
+          "DebugElement",
+          "getDebugNode"
         ],
         "5": false
       }

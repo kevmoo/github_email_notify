@@ -16,7 +16,8 @@
           "serializeMouseEvent",
           "serializeKeyboardEvent",
           "serializeGenericEvent",
-          "serializeEventWithTarget"
+          "serializeEventWithTarget",
+          "serializeTransitionEvent"
         ],
         "5": false
       },
@@ -47,15 +48,15 @@
     "6": "event_dispatcher.dart",
     "10": [
       {
-        "1": "package:angular2/src/web_workers/shared/serializer.ng_deps.dart",
+        "1": "package:angular2/src/web_workers/shared/serializer.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i2"
       }
     ]

@@ -45,8 +45,8 @@
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
-          "ELEMENT_PROBE_BINDINGS",
           "ELEMENT_PROBE_PROVIDERS",
+          "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
           "BrowserDomAdapter",
           "By",

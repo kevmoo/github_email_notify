@@ -12,11 +12,11 @@
     "6": "browser.dart",
     "10": [
       {
-        "1": "src/shared.ng_deps.dart",
+        "1": "src/shared.template.dart",
         "4": "i0"
       },
       {
-        "1": "src/models.ng_deps.dart",
+        "1": "src/models.template.dart",
         "4": "i1"
       }
     ]

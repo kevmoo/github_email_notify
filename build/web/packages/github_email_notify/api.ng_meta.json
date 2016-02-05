@@ -54,27 +54,27 @@
     "6": "api.dart",
     "10": [
       {
-        "1": "src/admin_logic.ng_deps.dart",
+        "1": "src/admin_logic.template.dart",
         "4": "i0"
       },
       {
-        "1": "src/firebase.ng_deps.dart",
+        "1": "src/firebase.template.dart",
         "4": "i1"
       },
       {
-        "1": "src/models.ng_deps.dart",
+        "1": "src/models.template.dart",
         "4": "i2"
       },
       {
-        "1": "src/server_utils.ng_deps.dart",
+        "1": "src/server_utils.template.dart",
         "4": "i3"
       },
       {
-        "1": "src/github_event_handler.ng_deps.dart",
+        "1": "src/github_event_handler.template.dart",
         "4": "i4"
       },
       {
-        "1": "src/shared.ng_deps.dart",
+        "1": "src/shared.template.dart",
         "4": "i5"
       }
     ]

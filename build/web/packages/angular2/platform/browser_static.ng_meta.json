@@ -45,8 +45,8 @@
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
-          "ELEMENT_PROBE_BINDINGS",
           "ELEMENT_PROBE_PROVIDERS",
+          "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
           "BrowserDomAdapter",
           "By",
@@ -59,11 +59,11 @@
     "6": "browser_static.dart",
     "10": [
       {
-        "1": "package:angular2/src/platform/browser_common.ng_deps.dart",
+        "1": "package:angular2/src/platform/browser_common.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/core.ng_deps.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
       }
     ]

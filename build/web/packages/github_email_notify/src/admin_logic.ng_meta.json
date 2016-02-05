@@ -60,27 +60,27 @@
     "6": "admin_logic.dart",
     "10": [
       {
-        "1": "email_sender_credentials.ng_deps.dart",
+        "1": "email_sender_credentials.template.dart",
         "4": "i0"
       },
       {
-        "1": "firebase.ng_deps.dart",
+        "1": "firebase.template.dart",
         "4": "i1"
       },
       {
-        "1": "gmail.ng_deps.dart",
+        "1": "gmail.template.dart",
         "4": "i2"
       },
       {
-        "1": "mime_email.ng_deps.dart",
+        "1": "mime_email.template.dart",
         "4": "i3"
       },
       {
-        "1": "models.ng_deps.dart",
+        "1": "models.template.dart",
         "4": "i4"
       },
       {
-        "1": "server_utils.ng_deps.dart",
+        "1": "server_utils.template.dart",
         "4": "i5"
       }
     ]

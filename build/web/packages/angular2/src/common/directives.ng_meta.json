@@ -47,31 +47,31 @@
     "6": "directives.dart",
     "10": [
       {
-        "1": "directives/ng_class.ng_deps.dart",
+        "1": "directives/ng_class.template.dart",
         "4": "i0"
       },
       {
-        "1": "directives/ng_for.ng_deps.dart",
+        "1": "directives/ng_for.template.dart",
         "4": "i1"
       },
       {
-        "1": "directives/ng_if.ng_deps.dart",
+        "1": "directives/ng_if.template.dart",
         "4": "i2"
       },
       {
-        "1": "directives/ng_style.ng_deps.dart",
+        "1": "directives/ng_style.template.dart",
         "4": "i3"
       },
       {
-        "1": "directives/ng_switch.ng_deps.dart",
+        "1": "directives/ng_switch.template.dart",
         "4": "i4"
       },
       {
-        "1": "directives/observable_list_diff.ng_deps.dart",
+        "1": "directives/observable_list_diff.template.dart",
         "4": "i5"
       },
       {
-        "1": "directives/core_directives.ng_deps.dart",
+        "1": "directives/core_directives.template.dart",
         "4": "i6"
       }
     ]
@@ -120,6 +120,7 @@
       },
       "changeDetection": 5,
       "inputs": {
+        "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },

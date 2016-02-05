@@ -76,13 +76,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/compiler.dart",
-        "2": [
-          "COMPILER_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/web_workers/shared/serializer.dart",
         "2": [
           "Serializer"

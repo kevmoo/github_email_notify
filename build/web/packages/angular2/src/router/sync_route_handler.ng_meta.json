@@ -37,15 +37,15 @@
     "6": "sync_route_handler.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
       },
       {
-        "1": "route_handler.ng_deps.dart",
+        "1": "route_handler.template.dart",
         "4": "i1"
       },
       {
-        "1": "instruction.ng_deps.dart",
+        "1": "instruction.template.dart",
         "4": "i2"
       }
     ]

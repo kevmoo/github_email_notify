@@ -73,7 +73,8 @@
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer",
-          "RootRenderer"
+          "RootRenderer",
+          "RenderDebugInfo"
         ],
         "5": false
       },

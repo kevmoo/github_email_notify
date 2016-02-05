@@ -8,6 +8,13 @@
           "ViewEncapsulation"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di/injector.dart",
+        "2": [
+          "Injector"
+        ],
+        "5": false
       }
     ],
     "6": "api.dart"

@@ -38,15 +38,15 @@
     "6": "github_event_handler.dart",
     "10": [
       {
-        "1": "gmail.ng_deps.dart",
+        "1": "gmail.template.dart",
         "4": "i0"
       },
       {
-        "1": "mime_email.ng_deps.dart",
+        "1": "mime_email.template.dart",
         "4": "i1"
       },
       {
-        "1": "server_utils.ng_deps.dart",
+        "1": "server_utils.template.dart",
         "4": "i2"
       }
     ]

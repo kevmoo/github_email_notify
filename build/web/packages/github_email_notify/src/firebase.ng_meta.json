@@ -26,7 +26,7 @@
     "6": "firebase.dart",
     "10": [
       {
-        "1": "server_utils.ng_deps.dart",
+        "1": "server_utils.template.dart",
         "4": "i0"
       }
     ]

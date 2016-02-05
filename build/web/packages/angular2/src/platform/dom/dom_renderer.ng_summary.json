@@ -47,11 +47,12 @@
         "5": false
       },
       {
-        "1": "package:angular2/core.dart",
+        "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "Renderer",
           "RootRenderer",
-          "RenderComponentType"
+          "RenderComponentType",
+          "RenderDebugInfo"
         ],
         "5": false
       },

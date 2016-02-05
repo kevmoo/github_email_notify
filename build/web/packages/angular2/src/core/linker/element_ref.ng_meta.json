@@ -20,11 +20,11 @@
     "6": "element_ref.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "element.ng_deps.dart",
+        "1": "element.template.dart",
         "4": "i1"
       }
     ]

@@ -75,23 +75,23 @@
     "6": "runtime_compiler.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/linker/compiler.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/compiler.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/linker/view_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/view_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "template_compiler.ng_deps.dart",
+        "1": "template_compiler.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i4"
       }
     ]

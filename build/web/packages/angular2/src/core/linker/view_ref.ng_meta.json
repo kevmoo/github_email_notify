@@ -28,15 +28,15 @@
     "6": "view_ref.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "../change_detection/change_detector_ref.ng_deps.dart",
+        "1": "../change_detection/change_detector_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "view.ng_deps.dart",
+        "1": "view.template.dart",
         "4": "i2"
       }
     ]

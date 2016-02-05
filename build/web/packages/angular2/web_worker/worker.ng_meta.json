@@ -27,27 +27,27 @@
     "6": "worker.dart",
     "10": [
       {
-        "1": "../common.ng_deps.dart",
+        "1": "../common.template.dart",
         "4": "i0"
       },
       {
-        "1": "../core.ng_deps.dart",
+        "1": "../core.template.dart",
         "4": "i1"
       },
       {
-        "1": "../platform/worker_app.ng_deps.dart",
+        "1": "../platform/worker_app.template.dart",
         "4": "i2"
       },
       {
-        "1": "../compiler.ng_deps.dart",
+        "1": "../compiler.template.dart",
         "4": "i3"
       },
       {
-        "1": "../instrumentation.ng_deps.dart",
+        "1": "../instrumentation.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/worker_app.ng_deps.dart",
+        "1": "package:angular2/src/platform/worker_app.template.dart",
         "4": "i5"
       }
     ]
@@ -213,6 +213,7 @@
       },
       "changeDetection": 5,
       "inputs": {
+        "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },

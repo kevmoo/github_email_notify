@@ -116,23 +116,23 @@
     "6": "client_app.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/bootstrap_static.ng_deps.dart",
+        "1": "package:angular2/bootstrap_static.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.ng_deps.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:github_email_notify/browser.ng_deps.dart",
+        "1": "package:github_email_notify/browser.template.dart",
         "4": "i3"
       },
       {
-        "1": "user_comp.ng_deps.dart",
+        "1": "user_comp.template.dart",
         "4": "i4"
       }
     ]

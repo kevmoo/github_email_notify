@@ -67,13 +67,6 @@
         "5": false
       },
       {
-        "1": "linker/view_listener.dart",
-        "2": [
-          "AppViewListener"
-        ],
-        "5": false
-      },
-      {
         "1": "linker/directive_resolver.dart",
         "2": [
           "DirectiveResolver"

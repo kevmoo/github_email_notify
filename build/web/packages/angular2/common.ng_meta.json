@@ -18,19 +18,19 @@
     "6": "common.dart",
     "10": [
       {
-        "1": "src/common/pipes.ng_deps.dart",
+        "1": "src/common/pipes.template.dart",
         "4": "i0"
       },
       {
-        "1": "src/common/directives.ng_deps.dart",
+        "1": "src/common/directives.template.dart",
         "4": "i1"
       },
       {
-        "1": "src/common/forms.ng_deps.dart",
+        "1": "src/common/forms.template.dart",
         "4": "i2"
       },
       {
-        "1": "src/common/common_directives.ng_deps.dart",
+        "1": "src/common/common_directives.template.dart",
         "4": "i3"
       }
     ]
@@ -79,6 +79,7 @@
       },
       "changeDetection": 5,
       "inputs": {
+        "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },

@@ -187,6 +187,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/router/browser_platform_location.dart",
+        "2": [
+          "BrowserPlatformLocation"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/web_workers/shared/service_message_broker.dart",
         "2": [
           "ServiceMessageBrokerFactory",
@@ -231,6 +238,12 @@
     "value": [
       "MessageBasedRenderer",
       "MessageBasedXHRImpl"
+    ]
+  },
+  "WORKER_RENDER_ROUTER": {
+    "kind": "alias",
+    "value": [
+      "BrowserPlatformLocation"
     ]
   }
 }

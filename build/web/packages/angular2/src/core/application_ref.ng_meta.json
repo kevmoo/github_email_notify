@@ -126,47 +126,47 @@
     "6": "application_ref.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/zone/ng_zone.ng_deps.dart",
+        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "application_tokens.ng_deps.dart",
+        "1": "application_tokens.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/testability/testability.ng_deps.dart",
+        "1": "package:angular2/src/core/testability/testability.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.ng_deps.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/console.ng_deps.dart",
+        "1": "package:angular2/src/core/console.template.dart",
         "4": "i7"
       },
       {
-        "1": "profile/profile.ng_deps.dart",
+        "1": "profile/profile.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detector_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/change_detection/change_detector_ref.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/linker/element_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/element_ref.template.dart",
         "4": "i10"
       }
     ]

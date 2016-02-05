@@ -83,11 +83,11 @@
     "6": "user_comp.dart",
     "10": [
       {
-        "1": "package:angular2/angular2.ng_deps.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:github_email_notify/browser.ng_deps.dart",
+        "1": "package:github_email_notify/browser.template.dart",
         "4": "i1"
       }
     ]

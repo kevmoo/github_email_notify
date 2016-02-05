@@ -138,83 +138,83 @@
     "6": "forms.dart",
     "10": [
       {
-        "1": "forms/model.ng_deps.dart",
+        "1": "forms/model.template.dart",
         "4": "i0"
       },
       {
-        "1": "forms/directives/abstract_control_directive.ng_deps.dart",
+        "1": "forms/directives/abstract_control_directive.template.dart",
         "4": "i1"
       },
       {
-        "1": "forms/directives/form_interface.ng_deps.dart",
+        "1": "forms/directives/form_interface.template.dart",
         "4": "i2"
       },
       {
-        "1": "forms/directives/control_container.ng_deps.dart",
+        "1": "forms/directives/control_container.template.dart",
         "4": "i3"
       },
       {
-        "1": "forms/directives/ng_control_name.ng_deps.dart",
+        "1": "forms/directives/ng_control_name.template.dart",
         "4": "i4"
       },
       {
-        "1": "forms/directives/ng_form_control.ng_deps.dart",
+        "1": "forms/directives/ng_form_control.template.dart",
         "4": "i5"
       },
       {
-        "1": "forms/directives/ng_model.ng_deps.dart",
+        "1": "forms/directives/ng_model.template.dart",
         "4": "i6"
       },
       {
-        "1": "forms/directives/ng_control.ng_deps.dart",
+        "1": "forms/directives/ng_control.template.dart",
         "4": "i7"
       },
       {
-        "1": "forms/directives/ng_control_group.ng_deps.dart",
+        "1": "forms/directives/ng_control_group.template.dart",
         "4": "i8"
       },
       {
-        "1": "forms/directives/ng_form_model.ng_deps.dart",
+        "1": "forms/directives/ng_form_model.template.dart",
         "4": "i9"
       },
       {
-        "1": "forms/directives/ng_form.ng_deps.dart",
+        "1": "forms/directives/ng_form.template.dart",
         "4": "i10"
       },
       {
-        "1": "forms/directives/control_value_accessor.ng_deps.dart",
+        "1": "forms/directives/control_value_accessor.template.dart",
         "4": "i11"
       },
       {
-        "1": "forms/directives/default_value_accessor.ng_deps.dart",
+        "1": "forms/directives/default_value_accessor.template.dart",
         "4": "i12"
       },
       {
-        "1": "forms/directives/ng_control_status.ng_deps.dart",
+        "1": "forms/directives/ng_control_status.template.dart",
         "4": "i13"
       },
       {
-        "1": "forms/directives/checkbox_value_accessor.ng_deps.dart",
+        "1": "forms/directives/checkbox_value_accessor.template.dart",
         "4": "i14"
       },
       {
-        "1": "forms/directives/select_control_value_accessor.ng_deps.dart",
+        "1": "forms/directives/select_control_value_accessor.template.dart",
         "4": "i15"
       },
       {
-        "1": "forms/directives.ng_deps.dart",
+        "1": "forms/directives.template.dart",
         "4": "i16"
       },
       {
-        "1": "forms/validators.ng_deps.dart",
+        "1": "forms/validators.template.dart",
         "4": "i17"
       },
       {
-        "1": "forms/directives/validators.ng_deps.dart",
+        "1": "forms/directives/validators.template.dart",
         "4": "i18"
       },
       {
-        "1": "forms/form_builder.ng_deps.dart",
+        "1": "forms/form_builder.template.dart",
         "4": "i19"
       }
     ]

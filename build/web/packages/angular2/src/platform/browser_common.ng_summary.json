@@ -151,6 +151,13 @@
           "EVENT_MANAGER_PLUGINS"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/platform/common_dom.dart",
+        "2": [
+          "ELEMENT_PROBE_PROVIDERS"
+        ],
+        "5": false
       }
     ],
     "4": [
@@ -169,9 +176,8 @@
       {
         "1": "package:angular2/platform/common_dom.dart",
         "2": [
-          "DebugElementViewListener",
           "ELEMENT_PROBE_PROVIDERS",
-          "ELEMENT_PROBE_BINDINGS",
+          "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
           "By"
         ]

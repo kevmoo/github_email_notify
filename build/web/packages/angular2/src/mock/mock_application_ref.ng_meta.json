@@ -71,23 +71,23 @@
     "6": "mock_application_ref.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/application_ref.ng_deps.dart",
+        "1": "package:angular2/src/core/application_ref.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.ng_deps.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.ng_deps.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.ng_deps.dart",
+        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/facade/async.ng_deps.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i4"
       }
     ]
