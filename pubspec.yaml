@@ -32,4 +32,8 @@ transformers:
 - dart_to_js_script_rewriter
 - $dart2js:
     minify: false
-    commandLineOptions: ['--no-frequency-based-minification', '--trust-type-annotations', '--trust-primitives']
+    commandLineOptions:
+      - no-frequency-based-minification
+      - trust-type-annotations
+      - trust-primitives
+      - dump-info
