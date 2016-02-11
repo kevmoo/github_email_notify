@@ -47,6 +47,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
         "1": "key.dart",
         "2": [
           "Key"
@@ -74,12 +81,16 @@
         "4": "i1"
       },
       {
-        "1": "key.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "metadata.template.dart",
+        "1": "key.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "metadata.template.dart",
+        "4": "i4"
       }
     ]
   }

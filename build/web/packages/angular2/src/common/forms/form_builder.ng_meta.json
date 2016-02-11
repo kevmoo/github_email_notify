@@ -57,11 +57,5 @@
         "4": "i1"
       }
     ]
-  },
-  "FORM_PROVIDERS": {
-    "kind": "alias",
-    "value": [
-      "FormBuilder"
-    ]
   }
 }

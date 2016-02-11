@@ -73,6 +73,13 @@
         "5": false
       },
       {
+        "1": "directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor"
+        ],
+        "5": false
+      },
+      {
         "1": "directives/ng_control_status.dart",
         "2": [
           "NgControlStatus"
@@ -144,6 +151,13 @@
         "1": "directives/checkbox_value_accessor.dart",
         "2": [
           "CheckboxControlValueAccessor"
+        ]
+      },
+      {
+        "1": "directives/radio_control_value_accessor.dart",
+        "2": [
+          "RadioControlValueAccessor",
+          "RadioButtonState"
         ]
       },
       {
@@ -225,24 +239,28 @@
         "4": "i8"
       },
       {
-        "1": "directives/ng_control_status.template.dart",
+        "1": "directives/radio_control_value_accessor.template.dart",
         "4": "i9"
       },
       {
-        "1": "directives/select_control_value_accessor.template.dart",
+        "1": "directives/ng_control_status.template.dart",
         "4": "i10"
       },
       {
-        "1": "directives/validators.template.dart",
+        "1": "directives/select_control_value_accessor.template.dart",
         "4": "i11"
       },
       {
-        "1": "directives/ng_control.template.dart",
+        "1": "directives/validators.template.dart",
         "4": "i12"
       },
       {
-        "1": "directives/control_value_accessor.template.dart",
+        "1": "directives/ng_control.template.dart",
         "4": "i13"
+      },
+      {
+        "1": "directives/control_value_accessor.template.dart",
+        "4": "i14"
       }
     ]
   },
@@ -474,6 +492,37 @@
       "template": null
     }
   },
+  "RadioControlValueAccessor": {
+    "kind": "type",
+    "value": {
+      "class": "Directive",
+      "isComponent": false,
+      "dynamicLoadable": true,
+      "selector": "input[type=radio][ngControl],input[type=radio][ngFormControl],input[type=radio][ngModel]",
+      "exportAs": null,
+      "type": {
+        "name": "RadioControlValueAccessor",
+        "moduleUrl": "asset:angular2/lib/src/common/forms/directives/radio_control_value_accessor.dart",
+        "isHost": false
+      },
+      "changeDetection": 5,
+      "inputs": {
+        "name": "name"
+      },
+      "outputs": {},
+      "hostListeners": {
+        "blur": "onTouched()",
+        "change": "onChange()"
+      },
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        1,
+        0
+      ],
+      "template": null
+    }
+  },
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
@@ -663,6 +712,7 @@
       "NumberValueAccessor",
       "CheckboxControlValueAccessor",
       "SelectControlValueAccessor",
+      "RadioControlValueAccessor",
       "NgControlStatus",
       "RequiredValidator",
       "MinLengthValidator",

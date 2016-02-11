@@ -38,7 +38,7 @@
                 "2": "const {\"(change)\" : \"onChange(\\$event.target.checked)\", \"(blur)\" : \"onTouched()\"}"
               },
               {
-                "1": "bindings",
+                "1": "providers",
                 "2": "const [CHECKBOX_VALUE_ACCESSOR]"
               }
             ],
