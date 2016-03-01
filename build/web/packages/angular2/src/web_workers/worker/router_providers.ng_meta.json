@@ -3,6 +3,10 @@
     "1": "angular2.src.web_workers.worker.router_providers",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/core.dart",
         "2": [
           "ApplicationRef",
@@ -32,13 +36,6 @@
           "ROUTER_PROVIDERS_COMMON"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future"
-        ],
-        "5": false
       }
     ],
     "6": "router_providers.dart",
@@ -54,10 +51,6 @@
       {
         "1": "package:angular2/src/router/router_providers_common.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/facade/async.template.dart",
-        "4": "i3"
       }
     ]
   }

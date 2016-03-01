@@ -3,6 +3,10 @@
     "1": "angular2.src.testing.test_component_builder",
     "3": [
       {
+        "1": "dart:async",
+        "5": false
+      },
+      {
         "1": "package:angular2/core.dart",
         "2": [
           "ComponentRef",
@@ -24,13 +28,6 @@
           "Type",
           "isPresent",
           "isBlank"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "Future"
         ],
         "5": false
       },

@@ -1,15 +1,14 @@
-<html><head></head><body><div *ngif="user != null">
+<div *ngIf="user != null">
   <div>{{ user.email }}</div>
   <div>Repo: <a [href]="user.githubRepoUri">{{ user.githubRepoName }}</a></div>
-  <div class="label-pick" *ngif="selectionItems != null">
-    <label *ngfor="#item of selectionItems.items">
+  <div class="label-pick" *ngIf="selectionItems != null">
+    <label *ngFor="#item of selectionItems.items">
       <input type="checkbox" (click)="toggle(item)" [checked]="item.selected">
       {{item.name}}
     </label>
   </div>
-  <div class="admin" *ngif="selectionItems?.invalid?.isNotEmpty">
+  <div class="admin" *ngIf="selectionItems?.invalid?.isNotEmpty">
     <button (click)="clearInvalid()">Clear invalid</button>
     {{ selectionItems.invalid.join(', ') }}
   </div>
 </div>
-</body></html>

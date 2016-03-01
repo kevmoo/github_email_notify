@@ -6,7 +6,7 @@ homepage: https://github.com/kevmoo/github_email_notify
 environment:
   sdk: '>=1.11.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.5
+  angular2: 2.0.0-beta.7
   appengine: '^0.3.1+1'
   browser: ^0.10.0+2
   collection: ^1.2.0
@@ -23,7 +23,7 @@ dependencies:
   shelf_appengine: ^0.2.3
   stack_trace: ^1.3.4
 dev_dependencies:
-  dart_to_js_script_rewriter: ^0.1.0+4
+  dart_to_js_script_rewriter: ^1.0.1
   source_gen: ^0.4.2
 transformers:
 - angular2:

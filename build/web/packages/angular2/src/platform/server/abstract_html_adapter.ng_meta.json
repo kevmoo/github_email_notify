@@ -33,10 +33,6 @@
       {
         "1": "package:angular2/platform/common_dom.template.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:angular2/src/compiler/xhr.template.dart",
-        "4": "i1"
       }
     ]
   }

@@ -12,13 +12,13 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.27.1+2"
+    version: "0.27.2"
   angular2:
     description:
       name: angular2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-beta.5"
+    version: "2.0.0-beta.7"
   appengine:
     description:
       name: appengine
@@ -30,7 +30,7 @@ packages:
       name: args
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.3+3"
+    version: "0.13.3+4"
   async:
     description:
       name: async
@@ -96,7 +96,7 @@ packages:
       name: dart_to_js_script_rewriter
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.0+4"
+    version: "1.0.1"
   firebase:
     description:
       name: firebase
@@ -150,7 +150,7 @@ packages:
       name: googleapis_auth
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.3+1"
+    version: "0.2.3+2"
   googleapis_beta:
     description:
       name: googleapis_beta
@@ -324,7 +324,7 @@ packages:
       name: utf
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.0+2"
+    version: "0.9.0+3"
   watcher:
     description:
       name: watcher

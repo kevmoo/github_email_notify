@@ -81,12 +81,8 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/compiler/xhr.template.dart",
-        "4": "i2"
-      },
-      {
         "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
-        "4": "i3"
+        "4": "i2"
       }
     ]
   }

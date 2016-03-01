@@ -107,52 +107,48 @@
     "6": "worker_app_common.dart",
     "10": [
       {
-        "1": "package:angular2/src/compiler/xhr.template.dart",
+        "1": "package:angular2/src/web_workers/worker/xhr_impl.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/web_workers/worker/xhr_impl.template.dart",
+        "1": "package:angular2/src/web_workers/worker/renderer.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/web_workers/worker/renderer.template.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/core.template.dart",
+        "1": "package:angular2/common.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/common.template.dart",
+        "1": "package:angular2/src/web_workers/shared/client_message_broker.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/client_message_broker.template.dart",
+        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
+        "1": "package:angular2/src/web_workers/shared/serializer.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/serializer.template.dart",
+        "1": "package:angular2/src/web_workers/shared/api.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/api.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
-        "4": "i10"
-      },
-      {
         "1": "package:angular2/src/web_workers/shared/render_store.template.dart",
-        "4": "i11"
+        "4": "i10"
       }
     ]
   },
