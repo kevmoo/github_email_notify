@@ -37,7 +37,24 @@
       {
         "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i1"
       }
     ]
-  }
+  },
+  "Console": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Console",
+      "moduleUrl": "asset:angular2/lib/src/core/console.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

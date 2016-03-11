@@ -43,5 +43,36 @@
       }
     ],
     "6": "reflection_info_code.dart"
-  }
+  },
+  "ReflectionInfoVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionInfoVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/reflection_info_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_PropertyMetadataVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_PropertyMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/reflection_info_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ReflectionWriterMixin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionWriterMixin",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/reflection_info_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

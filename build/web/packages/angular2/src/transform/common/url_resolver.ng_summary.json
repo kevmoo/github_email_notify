@@ -12,5 +12,16 @@
       }
     ],
     "6": "url_resolver.dart"
-  }
+  },
+  "TransformerUrlResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TransformerUrlResolver",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/url_resolver.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

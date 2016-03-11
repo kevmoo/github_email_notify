@@ -3,6 +3,10 @@
     "1": "angular.core.facade.exceptions",
     "3": [
       {
+        "1": "base_wrapped_exception.dart",
+        "5": false
+      },
+      {
         "1": "exception_handler.dart",
         "5": false
       }
@@ -15,9 +19,54 @@
     "6": "exceptions.dart",
     "10": [
       {
-        "1": "exception_handler.template.dart",
+        "1": "base_wrapped_exception.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "exception_handler.template.dart",
+        "4": "i1"
       }
     ]
-  }
+  },
+  "BaseException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BaseException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WrappedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WrappedException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ArrayLogger": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ArrayLogger",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ExceptionHandler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExceptionHandler",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

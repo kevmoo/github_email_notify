@@ -23,5 +23,16 @@
       }
     ],
     "6": "ng_meta.dart"
-  }
+  },
+  "NgMeta": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgMeta",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/ng_meta.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

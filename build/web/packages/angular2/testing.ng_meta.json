@@ -84,5 +84,167 @@
         "4": "i7"
       }
     ]
-  }
+  },
+  "ComponentFixture": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentFixture",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentFixture_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentFixture_",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TestComponentBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TestComponentBuilder",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "TestInjector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InjectSetupWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InjectSetupWrapper",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionWithParamTokens": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionWithParamTokens",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_u": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_u",
+      "moduleUrl": "asset:angular2/lib/src/testing/fake_async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MockViewResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockViewResolver",
+      "moduleUrl": "asset:angular2/lib/src/mock/view_resolver_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "MockXHR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockXHR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_PendingRequest": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_PendingRequest",
+      "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_Expectation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_Expectation",
+      "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MockNgZone": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockNgZone",
+      "moduleUrl": "asset:angular2/lib/src/mock/ng_zone_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "MockApplicationRef": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockApplicationRef",
+      "moduleUrl": "asset:angular2/lib/src/mock/mock_application_ref.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "MockDirectiveResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockDirectiveResolver",
+      "moduleUrl": "asset:angular2/lib/src/mock/directive_resolver_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

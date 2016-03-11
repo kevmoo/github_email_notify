@@ -22,5 +22,16 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "WebWorkerDomAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WebWorkerDomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/server/webworker_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

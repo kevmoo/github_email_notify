@@ -1,0 +1,74 @@
+{
+  "ngDeps": null,
+  "routerCanReuse": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "routerCanReuse",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "routerCanDeactivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "routerCanDeactivate",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "routerOnActivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "routerOnActivate",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "routerOnReuse": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "routerOnReuse",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "routerOnDeactivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "routerOnDeactivate",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RouteLifecycleHook": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RouteLifecycleHook",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CanActivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CanActivate",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

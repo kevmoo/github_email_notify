@@ -26,5 +26,66 @@
       }
     ],
     "6": "view_ref.dart"
-  }
+  },
+  "ViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EmbeddedViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EmbeddedViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactoryRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactoryRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactoryRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactoryRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

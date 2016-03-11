@@ -147,6 +147,7 @@
           "RequiredValidator",
           "MinLengthValidator",
           "MaxLengthValidator",
+          "PatternValidator",
           "Validator"
         ]
       },
@@ -165,5 +166,16 @@
       "FormBuilder",
       "RadioControlRegistry"
     ]
-  }
+  },
+  "FORM_BINDINGS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FORM_BINDINGS",
+      "moduleUrl": "asset:angular2/lib/src/common/forms.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": true
 }

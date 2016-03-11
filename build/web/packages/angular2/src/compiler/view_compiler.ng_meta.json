@@ -164,49 +164,134 @@
     "6": "view_compiler.dart",
     "10": [
       {
-        "1": "template_ast.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "directive_metadata.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "source_module.template.dart",
+        "1": "template_ast.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view.template.dart",
+        "1": "directive_metadata.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/view_manager.template.dart",
+        "1": "source_module.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/element.template.dart",
+        "1": "package:angular2/src/core/linker/view.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "package:angular2/src/core/linker/view_type.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "1": "package:angular2/src/core/linker/view_manager.template.dart",
         "4": "i7"
       },
       {
-        "1": "util.template.dart",
+        "1": "package:angular2/src/core/linker/element.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i9"
       },
       {
-        "1": "proto_view_compiler.template.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i10"
+      },
+      {
+        "1": "util.template.dart",
+        "4": "i11"
+      },
+      {
+        "1": "package:angular2/src/core/di.template.dart",
+        "4": "i12"
+      },
+      {
+        "1": "proto_view_compiler.template.dart",
+        "4": "i13"
       }
     ]
-  }
+  },
+  "VIEW_JIT_IMPORTS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "VIEW_JIT_IMPORTS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ViewCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "ViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CodeGenViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CodeGenViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RuntimeViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RuntimeViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParentElement": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParentElement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewBuilderVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewBuilderVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

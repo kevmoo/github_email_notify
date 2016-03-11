@@ -1,0 +1,14 @@
+{
+  "ngDeps": null,
+  "ForwardRefFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ForwardRefFn",
+      "moduleUrl": "asset:angular2/lib/src/core/di/forward_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

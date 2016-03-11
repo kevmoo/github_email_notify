@@ -39,5 +39,26 @@
       }
     ],
     "6": "browser_adapter.dart"
-  }
+  },
+  "_IdentitySanitizer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_IdentitySanitizer",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BrowserDomAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BrowserDomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

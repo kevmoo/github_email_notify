@@ -118,5 +118,69 @@
       }
     ],
     "6": "parser.dart"
-  }
+  },
+  "ParseException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParseException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Parser": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Parser",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "_ParseAST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ParseAST",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SimpleExpressionChecker": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SimpleExpressionChecker",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

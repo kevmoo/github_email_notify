@@ -32,5 +32,6 @@
       "CORE_DIRECTIVES",
       "FORM_DIRECTIVES"
     ]
-  }
+  },
+  "definesAlias": true
 }

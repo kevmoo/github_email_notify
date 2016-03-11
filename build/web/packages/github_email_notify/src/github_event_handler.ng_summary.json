@@ -36,5 +36,6 @@
       }
     ],
     "6": "github_event_handler.dart"
-  }
+  },
+  "definesAlias": false
 }

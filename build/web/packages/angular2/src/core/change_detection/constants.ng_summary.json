@@ -13,5 +13,26 @@
       }
     ],
     "6": "constants.dart"
-  }
+  },
+  "ChangeDetectorState": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorState",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectionStrategy": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectionStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

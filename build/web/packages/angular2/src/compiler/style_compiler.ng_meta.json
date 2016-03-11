@@ -132,29 +132,101 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/compiler/xhr.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/compiler/shadow_css.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i5"
       },
       {
-        "1": "style_url_resolver.template.dart",
+        "1": "package:angular2/src/compiler/shadow_css.template.dart",
         "4": "i6"
       },
       {
-        "1": "util.template.dart",
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "style_url_resolver.template.dart",
         "4": "i8"
+      },
+      {
+        "1": "util.template.dart",
+        "4": "i9"
+      },
+      {
+        "1": "package:angular2/src/core/di.template.dart",
+        "4": "i10"
       }
     ]
-  }
+  },
+  "COMPONENT_VARIABLE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "COMPONENT_VARIABLE",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HOST_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HOST_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CONTENT_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CONTENT_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StyleCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "StyleCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

@@ -44,7 +44,9 @@
       {
         "1": "package:angular2/core.dart",
         "2": [
-          "RootRenderer"
+          "RootRenderer",
+          "NgZone",
+          "ApplicationRef"
         ],
         "5": false
       },
@@ -57,5 +59,56 @@
       }
     ],
     "6": "ng_probe.dart"
-  }
+  },
+  "CORE_TOKENS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CORE_TOKENS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "INSPECT_GLOBAL_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "INSPECT_GLOBAL_NAME",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CORE_TOKENS_GLOBAL_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CORE_TOKENS_GLOBAL_NAME",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROBE_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROBE_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROBE_PROVIDERS_PROD_MODE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

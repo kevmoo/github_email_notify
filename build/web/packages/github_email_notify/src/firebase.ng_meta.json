@@ -30,5 +30,16 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "_credsKey": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_credsKey",
+      "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

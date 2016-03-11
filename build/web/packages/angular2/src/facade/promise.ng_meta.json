@@ -1,0 +1,24 @@
+{
+  "ngDeps": null,
+  "PromiseWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PromiseCompleter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseCompleter",
+      "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

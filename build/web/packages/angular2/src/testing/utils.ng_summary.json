@@ -52,5 +52,28 @@
       }
     ],
     "6": "utils.dart"
-  }
+  },
+  "Log": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Log",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "BrowserDetection": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BrowserDetection",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

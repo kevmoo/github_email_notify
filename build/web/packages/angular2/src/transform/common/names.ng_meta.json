@@ -1,0 +1,204 @@
+{
+  "ngDeps": null,
+  "BOOTSTRAP_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BOOTSTRAP_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BOOTSTRAP_STATIC_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BOOTSTRAP_STATIC_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SETUP_METHOD_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SETUP_METHOD_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REFLECTOR_VAR_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REFLECTOR_VAR_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TRANSFORM_DYNAMIC_MODE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TRANSFORM_DYNAMIC_MODE",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CSS_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CSS_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DEFERRED_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DEFERRED_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SHIMMED_STYLESHEET_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SHIMMED_STYLESHEET_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NON_SHIMMED_STYLESHEET_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NON_SHIMMED_STYLESHEET_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "META_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "META_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REFLECTION_CAPABILITIES_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REFLECTION_CAPABILITIES_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REFLECTOR_IMPORT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REFLECTOR_IMPORT",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REFLECTOR_PREFIX": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REFLECTOR_PREFIX",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REGISTER_TYPE_METHOD_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REGISTER_TYPE_METHOD_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REGISTER_GETTERS_METHOD_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REGISTER_GETTERS_METHOD_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REGISTER_SETTERS_METHOD_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REGISTER_SETTERS_METHOD_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REGISTER_METHODS_METHOD_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REGISTER_METHODS_METHOD_NAME",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SUMMARY_META_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SUMMARY_META_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TEMPLATE_EXTENSION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TEMPLATE_EXTENSION",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ALL_EXTENSIONS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ALL_EXTENSIONS",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/names.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

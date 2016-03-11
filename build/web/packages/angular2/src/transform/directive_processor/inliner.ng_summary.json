@@ -48,5 +48,16 @@
       }
     ],
     "6": "inliner.dart"
-  }
+  },
+  "_NgDepsDirectivesVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_NgDepsDirectivesVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -30,5 +30,16 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "_SimpleCallback": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_SimpleCallback",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/zone.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

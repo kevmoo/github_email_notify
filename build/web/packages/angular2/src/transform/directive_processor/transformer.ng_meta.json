@@ -51,17 +51,32 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/transform/common/options.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/transform/common/zone.template.dart",
+        "1": "package:angular2/src/transform/common/options.template.dart",
         "4": "i3"
       },
       {
-        "1": "rewriter.template.dart",
+        "1": "package:angular2/src/transform/common/zone.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "rewriter.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "DirectiveProcessor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveProcessor",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

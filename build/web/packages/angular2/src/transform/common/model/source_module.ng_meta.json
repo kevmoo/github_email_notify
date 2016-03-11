@@ -35,5 +35,6 @@
         "4": "i2"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

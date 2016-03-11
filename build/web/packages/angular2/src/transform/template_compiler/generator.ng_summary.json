@@ -70,5 +70,16 @@
       }
     ],
     "6": "generator.dart"
-  }
+  },
+  "Outputs": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Outputs",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/generator.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

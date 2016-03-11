@@ -28,5 +28,26 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "ElementRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ElementRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ElementRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ElementRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

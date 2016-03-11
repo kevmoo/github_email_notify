@@ -52,5 +52,6 @@
       }
     ],
     "6": "api.dart"
-  }
+  },
+  "definesAlias": false
 }

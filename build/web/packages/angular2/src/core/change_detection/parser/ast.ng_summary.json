@@ -11,5 +11,266 @@
       }
     ],
     "6": "ast.dart"
-  }
+  },
+  "AST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AST",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Quote": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Quote",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EmptyExpr": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EmptyExpr",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ImplicitReceiver": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ImplicitReceiver",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Chain": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Chain",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Conditional": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Conditional",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PropertyRead": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PropertyRead",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PropertyWrite": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PropertyWrite",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SafePropertyRead": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SafePropertyRead",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyedRead": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyedRead",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyedWrite": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyedWrite",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BindingPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BindingPipe",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LiteralPrimitive": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LiteralPrimitive",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LiteralArray": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LiteralArray",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LiteralMap": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LiteralMap",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Interpolation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Interpolation",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Binary": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Binary",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PrefixNot": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrefixNot",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MethodCall": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MethodCall",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SafeMethodCall": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SafeMethodCall",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionCall": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionCall",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ASTWithSource": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ASTWithSource",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TemplateBinding": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplateBinding",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AstVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AstVisitor",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RecursiveAstVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RecursiveAstVisitor",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AstTransformer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AstTransformer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

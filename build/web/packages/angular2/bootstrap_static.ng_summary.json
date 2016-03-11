@@ -16,5 +16,6 @@
       }
     ],
     "6": "bootstrap_static.dart"
-  }
+  },
+  "definesAlias": false
 }

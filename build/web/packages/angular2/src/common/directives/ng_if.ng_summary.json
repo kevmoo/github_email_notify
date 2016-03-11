@@ -65,9 +65,34 @@
       "selector": "[ngIf]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NgIf",
         "moduleUrl": "asset:angular2/lib/src/common/directives/ng_if.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -78,7 +103,9 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

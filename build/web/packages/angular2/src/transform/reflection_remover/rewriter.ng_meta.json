@@ -47,13 +47,42 @@
         "4": "i1"
       },
       {
-        "1": "codegen.template.dart",
+        "1": "package:angular2/src/transform/common/mirror_mode.template.dart",
         "4": "i2"
       },
       {
-        "1": "entrypoint_matcher.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "codegen.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "entrypoint_matcher.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "Rewriter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Rewriter",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/rewriter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_RewriterVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_RewriterVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/rewriter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

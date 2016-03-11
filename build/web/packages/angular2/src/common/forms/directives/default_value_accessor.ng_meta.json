@@ -80,8 +80,22 @@
       {
         "1": "control_value_accessor.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i2"
       }
     ]
+  },
+  "DEFAULT_VALUE_ACCESSOR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DEFAULT_VALUE_ACCESSOR",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/default_value_accessor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
   },
   "DefaultValueAccessor": {
     "kind": "type",
@@ -92,9 +106,34 @@
       "selector": "input:not([type=checkbox])[ngControl],textarea[ngControl],input:not([type=checkbox])[ngFormControl],textarea[ngFormControl],input:not([type=checkbox])[ngModel],textarea[ngModel],[ngDefaultControl]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "DefaultValueAccessor",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/default_value_accessor.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -106,7 +145,9 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

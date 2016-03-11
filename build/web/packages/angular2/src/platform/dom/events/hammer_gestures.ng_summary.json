@@ -46,5 +46,28 @@
       }
     ],
     "6": "hammer_gestures.dart"
-  }
+  },
+  "HammerGesturesPlugin": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "HammerGesturesPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/hammer_gestures.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "HammerEvent": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HammerEvent",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/hammer_gestures.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

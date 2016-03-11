@@ -17,5 +17,26 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "PLATFORM_DIRECTIVES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_DIRECTIVES",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PLATFORM_PIPES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_PIPES",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

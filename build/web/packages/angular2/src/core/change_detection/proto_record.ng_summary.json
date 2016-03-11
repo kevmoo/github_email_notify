@@ -18,5 +18,26 @@
       }
     ],
     "6": "proto_record.dart"
-  }
+  },
+  "RecordType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RecordType",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

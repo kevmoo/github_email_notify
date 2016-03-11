@@ -25,5 +25,16 @@
       }
     ],
     "6": "reflection.dart"
-  }
+  },
+  "NoReflectionCapabilities": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NoReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

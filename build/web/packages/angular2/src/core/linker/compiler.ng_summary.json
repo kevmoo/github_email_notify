@@ -81,5 +81,28 @@
       }
     ],
     "6": "compiler.dart"
-  }
+  },
+  "Compiler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Compiler",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Compiler_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Compiler_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

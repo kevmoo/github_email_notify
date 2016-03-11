@@ -7,7 +7,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/browser_platform_location.dart",
+        "1": "package:angular2/src/router/location/browser_platform_location.dart",
         "2": [
           "BrowserPlatformLocation"
         ],
@@ -74,7 +74,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/platform_location.dart",
+        "1": "package:angular2/src/router/location/platform_location.dart",
         "2": [
           "UrlChangeListener"
         ],
@@ -115,5 +115,65 @@
       }
     ],
     "6": "platform_location.dart"
-  }
+  },
+  "MessageBasedPlatformLocation": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MessageBasedPlatformLocation",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/platform_location.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "MessageBus",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

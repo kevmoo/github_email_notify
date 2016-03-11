@@ -3,6 +3,10 @@
     "1": "angular.core.facade.exceptions",
     "3": [
       {
+        "1": "base_wrapped_exception.dart",
+        "5": false
+      },
+      {
         "1": "exception_handler.dart",
         "5": false
       }
@@ -13,5 +17,26 @@
       }
     ],
     "6": "exceptions.dart"
-  }
+  },
+  "BaseException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BaseException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WrappedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WrappedException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -35,5 +35,6 @@
       }
     ],
     "6": "benchmark_util.dart"
-  }
+  },
+  "definesAlias": false
 }

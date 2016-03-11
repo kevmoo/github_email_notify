@@ -32,5 +32,6 @@
       "BROWSER_APP_PROVIDERS",
       "ADDITIONAL_TEST_BROWSER_PROVIDERS"
     ]
-  }
+  },
+  "definesAlias": true
 }

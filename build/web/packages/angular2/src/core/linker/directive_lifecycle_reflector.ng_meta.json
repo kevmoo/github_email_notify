@@ -22,5 +22,16 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "INTERFACES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "INTERFACES",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/directive_lifecycle_reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

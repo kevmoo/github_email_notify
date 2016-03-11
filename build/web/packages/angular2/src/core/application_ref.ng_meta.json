@@ -133,45 +133,94 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "application_tokens.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "application_tokens.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/testability/testability.template.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/core/testability/testability.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/console.template.dart",
+        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
         "4": "i7"
       },
       {
-        "1": "profile/profile.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/change_detection/change_detector_ref.template.dart",
+        "1": "package:angular2/src/core/console.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/linker/element_ref.template.dart",
+        "1": "profile/profile.template.dart",
         "4": "i10"
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/change_detector_ref.template.dart",
+        "4": "i11"
+      },
+      {
+        "1": "package:angular2/src/core/linker/element_ref.template.dart",
+        "4": "i12"
       }
     ]
-  }
+  },
+  "PlatformRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PlatformRef",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PlatformRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PlatformRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ApplicationRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ApplicationRef",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ApplicationRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ApplicationRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

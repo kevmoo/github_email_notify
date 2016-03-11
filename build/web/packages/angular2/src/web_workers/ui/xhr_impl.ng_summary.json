@@ -71,5 +71,39 @@
       }
     ],
     "6": "xhr_impl.dart"
-  }
+  },
+  "MessageBasedXHRImpl": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MessageBasedXHRImpl",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/xhr_impl.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

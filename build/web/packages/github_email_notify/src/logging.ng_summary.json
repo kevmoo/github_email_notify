@@ -9,5 +9,6 @@
       }
     ],
     "6": "logging.dart"
-  }
+  },
+  "definesAlias": false
 }

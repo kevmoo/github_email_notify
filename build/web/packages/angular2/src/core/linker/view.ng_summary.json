@@ -139,5 +139,56 @@
       }
     ],
     "6": "view.dart"
-  }
+  },
+  "REFLECT_PREFIX": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REFLECT_PREFIX",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EMPTY_CONTEXT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EMPTY_CONTEXT",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AppView": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AppView",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AppProtoView": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AppProtoView",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

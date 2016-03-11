@@ -127,5 +127,46 @@
       }
     ],
     "6": "application_ref.dart"
-  }
+  },
+  "PlatformRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PlatformRef",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PlatformRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PlatformRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ApplicationRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ApplicationRef",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ApplicationRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ApplicationRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

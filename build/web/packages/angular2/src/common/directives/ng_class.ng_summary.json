@@ -7,8 +7,6 @@
         "2": [
           "isPresent",
           "isString",
-          "StringWrapper",
-          "isBlank",
           "isArray"
         ],
         "5": false
@@ -20,11 +18,13 @@
           "OnDestroy",
           "Directive",
           "ElementRef",
-          "IterableDiffer",
           "IterableDiffers",
-          "KeyValueDiffer",
           "KeyValueDiffers",
-          "Renderer"
+          "Renderer",
+          "IterableDiffer",
+          "KeyValueDiffer",
+          "CollectionChangeRecord",
+          "KeyValueChangeRecord"
         ],
         "5": false
       },
@@ -95,9 +95,54 @@
       "selector": "[ngClass]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NgClass",
         "moduleUrl": "asset:angular2/lib/src/common/directives/ng_class.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -112,7 +157,9 @@
         2,
         1
       ],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

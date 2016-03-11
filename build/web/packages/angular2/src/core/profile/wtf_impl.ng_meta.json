@@ -1,0 +1,14 @@
+{
+  "ngDeps": null,
+  "WtfScopeFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WtfScopeFn",
+      "moduleUrl": "asset:angular2/lib/src/core/profile/wtf_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

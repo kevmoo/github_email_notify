@@ -41,9 +41,14 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

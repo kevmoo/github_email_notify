@@ -156,6 +156,16 @@
     ],
     "6": "ng_form_model.dart"
   },
+  "formDirectiveProvider": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "formDirectiveProvider",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_model.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NgFormModel": {
     "kind": "type",
     "value": {
@@ -165,9 +175,46 @@
       "selector": "[ngFormModel]",
       "exportAs": "ngForm",
       "type": {
+        "class": "Type",
         "name": "NgFormModel",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_model.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_VALIDATORS",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_ASYNC_VALIDATORS",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -184,7 +231,9 @@
       "lifecycleHooks": [
         3
       ],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

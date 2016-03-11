@@ -26,5 +26,6 @@
       }
     ],
     "6": "server_utils.dart"
-  }
+  },
+  "definesAlias": false
 }

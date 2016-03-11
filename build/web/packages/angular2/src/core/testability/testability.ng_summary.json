@@ -77,5 +77,67 @@
       }
     ],
     "6": "testability.dart"
-  }
+  },
+  "Testability": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Testability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "NgZone",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "TestabilityRegistry": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TestabilityRegistry",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "GetTestability": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "GetTestability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_NoopGetTestability": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_NoopGetTestability",
+      "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

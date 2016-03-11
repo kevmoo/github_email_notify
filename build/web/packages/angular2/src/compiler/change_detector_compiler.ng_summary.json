@@ -121,5 +121,69 @@
       }
     ],
     "6": "change_detector_compiler.dart"
-  }
+  },
+  "ABSTRACT_CHANGE_DETECTOR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ABSTRACT_CHANGE_DETECTOR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "UTIL": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "UTIL",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CHANGE_DETECTOR_STATE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CHANGE_DETECTOR_STATE",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CHANGE_DETECTION_JIT_IMPORTS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CHANGE_DETECTION_JIT_IMPORTS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectionCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ChangeDetectionCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

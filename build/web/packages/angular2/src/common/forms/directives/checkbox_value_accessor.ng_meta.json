@@ -76,6 +76,16 @@
       }
     ]
   },
+  "CHECKBOX_VALUE_ACCESSOR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CHECKBOX_VALUE_ACCESSOR",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/checkbox_value_accessor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "CheckboxControlValueAccessor": {
     "kind": "type",
     "value": {
@@ -85,9 +95,34 @@
       "selector": "input[type=checkbox][ngControl],input[type=checkbox][ngFormControl],input[type=checkbox][ngModel]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "CheckboxControlValueAccessor",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/checkbox_value_accessor.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -99,7 +134,20 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "CHECKBOX_VALUE_ACCESSOR",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "useClass": null
+        }
+      ]
     }
-  }
+  },
+  "definesAlias": false
 }

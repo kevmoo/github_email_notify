@@ -100,7 +100,1703 @@
       {
         "1": "package:angular2/src/core/change_detection/change_detection_util.template.dart",
         "4": "i7"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i8"
       }
     ]
-  }
+  },
+  "_Context": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_Context",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/abstract_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AbstractChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AbstractChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/abstract_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorState": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorState",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectionStrategy": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectionStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DirectiveIndex": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveIndex",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/directive_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DirectiveRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/directive_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DebugContext": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DebugContext",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDispatcher": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDispatcher",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorGenConfig": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorGenConfig",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorDefinition": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorDefinition",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Pipes": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Pipes",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SelectedPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SelectedPipe",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RecordType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RecordType",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WrappedValue": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WrappedValue",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SimpleChange": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SimpleChange",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectionUtil": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectionUtil",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "keyValDiff": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "keyValDiff",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "iterableDiff": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "iterableDiff",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "defaultIterableDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "defaultIterableDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "defaultKeyValueDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "defaultKeyValueDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DefaultKeyValueDifferFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DefaultKeyValueDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DefaultKeyValueDiffer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DefaultKeyValueDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyValueChangeRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyValueChangeRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DefaultIterableDifferFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DefaultIterableDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DefaultIterableDiffer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DefaultIterableDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CollectionChangeRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CollectionChangeRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_DuplicateItemRecordList": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_DuplicateItemRecordList",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_DuplicateMap": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_DuplicateMap",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AST",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Quote": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Quote",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EmptyExpr": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EmptyExpr",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ImplicitReceiver": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ImplicitReceiver",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Chain": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Chain",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Conditional": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Conditional",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PropertyRead": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PropertyRead",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PropertyWrite": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PropertyWrite",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SafePropertyRead": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SafePropertyRead",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyedRead": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyedRead",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyedWrite": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyedWrite",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BindingPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BindingPipe",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LiteralPrimitive": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LiteralPrimitive",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LiteralArray": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LiteralArray",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LiteralMap": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LiteralMap",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Interpolation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Interpolation",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Binary": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Binary",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PrefixNot": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrefixNot",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MethodCall": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MethodCall",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SafeMethodCall": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SafeMethodCall",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionCall": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionCall",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ASTWithSource": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ASTWithSource",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TemplateBinding": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplateBinding",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AstVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AstVisitor",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RecursiveAstVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RecursiveAstVisitor",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AstTransformer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AstTransformer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TokenType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TokenType",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$EOF": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$EOF",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$TAB": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$TAB",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LF": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LF",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$VTAB": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$VTAB",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$FF": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$FF",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$CR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$CR",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SPACE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SPACE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$BANG": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$BANG",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$DQ": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$DQ",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$HASH": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$HASH",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$$": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$$",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$PERCENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$PERCENT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$AMPERSAND": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$AMPERSAND",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SQ": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SQ",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LPAREN": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LPAREN",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$RPAREN": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$RPAREN",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$STAR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$STAR",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$PLUS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$PLUS",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$COMMA": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$COMMA",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$MINUS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$MINUS",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$PERIOD": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$PERIOD",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SLASH": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SLASH",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$COLON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$COLON",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SEMICOLON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SEMICOLON",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$EQ": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$EQ",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$GT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$GT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$QUESTION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$QUESTION",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$0": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$0",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$9": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$9",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$A": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$A",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$E": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$E",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$Z": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$Z",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LBRACKET": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LBRACKET",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$BACKSLASH": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$BACKSLASH",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$RBRACKET": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$RBRACKET",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$CARET": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$CARET",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$_",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$a": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$a",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$e": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$e",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$f": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$f",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$n": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$n",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$r": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$r",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$t": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$t",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$u": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$u",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$v": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$v",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$z": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$z",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LBRACE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LBRACE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$BAR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$BAR",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$RBRACE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$RBRACE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$NBSP": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$NBSP",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Lexer": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Lexer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "Token": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Token",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ScannerError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ScannerError",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_Scanner": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_Scanner",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParseException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParseException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Parser": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Parser",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "_ParseAST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ParseAST",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SimpleExpressionChecker": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SimpleExpressionChecker",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Locals": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Locals",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/locals.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ExpressionChangedAfterItHasBeenCheckedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExpressionChangedAfterItHasBeenCheckedException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectionError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectionError",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DehydratedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DehydratedException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventEvaluationError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventEvaluationError",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventEvaluationErrorContext": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventEvaluationErrorContext",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicProtoChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DynamicProtoChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoRecordBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoRecordBuilder",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ConvertAstIntoProtoRecords": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ConvertAstIntoProtoRecords",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/proto_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "JitProtoChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "JitProtoChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/jit_proto_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DIRECTIVE_LIFECYCLE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DIRECTIVE_LIFECYCLE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BINDING": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BINDING",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DIRECTIVE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DIRECTIVE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROPERTY": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROPERTY",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_ATTRIBUTE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_ATTRIBUTE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_CLASS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_CLASS",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_STYLE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_STYLE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TEXT_NODE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TEXT_NODE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EVENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EVENT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HOST_EVENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HOST_EVENT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BindingTarget": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BindingTarget",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BindingRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BindingRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DynamicChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/dynamic_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorRef",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TrackByFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TrackByFn",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableDiffer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IterableDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableDifferFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IterableDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "IterableDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "KeyValueDiffer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyValueDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyValueDifferFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyValueDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyValueDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "KeyValueDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "PipeTransform": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PipeTransform",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/pipe_transform.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IS_DART": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IS_DART",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_NAN_KEY": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_NAN_KEY",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_IS_DART_VM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_IS_DART_VM",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Math": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Math",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CONST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CONST",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StringWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StringWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StringJoiner": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StringJoiner",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NumberWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NumberWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RegExpWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RegExpWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RegExpMatcherWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RegExpMatcherWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_JSLikeMatch": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_JSLikeMatch",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Json",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DateWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DateWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

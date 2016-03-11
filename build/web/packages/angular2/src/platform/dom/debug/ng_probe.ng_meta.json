@@ -44,7 +44,9 @@
       {
         "1": "package:angular2/core.dart",
         "2": [
-          "RootRenderer"
+          "RootRenderer",
+          "NgZone",
+          "ApplicationRef"
         ],
         "5": false
       },
@@ -59,29 +61,84 @@
     "6": "ng_probe.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/debug/debug_node.template.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_renderer.template.dart",
+        "1": "package:angular2/src/core/debug/debug_node.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/core.template.dart",
+        "1": "package:angular2/src/platform/dom/dom_renderer.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/debug/debug_renderer.template.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "package:angular2/src/core/debug/debug_renderer.template.dart",
+        "4": "i6"
       }
     ]
-  }
+  },
+  "CORE_TOKENS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CORE_TOKENS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "INSPECT_GLOBAL_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "INSPECT_GLOBAL_NAME",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CORE_TOKENS_GLOBAL_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CORE_TOKENS_GLOBAL_NAME",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROBE_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROBE_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROBE_PROVIDERS_PROD_MODE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

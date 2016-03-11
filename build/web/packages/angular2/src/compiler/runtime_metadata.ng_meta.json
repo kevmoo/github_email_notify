@@ -174,57 +174,137 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "directive_metadata.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/metadata/directives.template.dart",
+        "1": "directive_metadata.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/directive_resolver.template.dart",
+        "1": "package:angular2/src/core/metadata/directives.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/pipe_resolver.template.dart",
+        "1": "package:angular2/src/core/linker/directive_resolver.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/linker/view_resolver.template.dart",
+        "1": "package:angular2/src/core/linker/pipe_resolver.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "1": "package:angular2/src/core/linker/view_resolver.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/linker/directive_lifecycle_reflector.template.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/linker/interfaces.template.dart",
+        "1": "package:angular2/src/core/linker/directive_lifecycle_reflector.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "1": "package:angular2/src/core/linker/interfaces.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/core/platform_directives_and_pipes.template.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i11"
       },
       {
-        "1": "util.template.dart",
+        "1": "package:angular2/src/core/platform_directives_and_pipes.template.dart",
         "4": "i12"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "1": "util.template.dart",
         "4": "i13"
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "4": "i14"
       }
     ]
-  }
+  },
+  "RuntimeMetadataResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "RuntimeMetadataResolver",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "PLATFORM_DIRECTIVES",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": true
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "PLATFORM_PIPES",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": true
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

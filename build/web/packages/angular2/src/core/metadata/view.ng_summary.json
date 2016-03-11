@@ -11,5 +11,26 @@
       }
     ],
     "6": "view.dart"
-  }
+  },
+  "ViewEncapsulation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewEncapsulation",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

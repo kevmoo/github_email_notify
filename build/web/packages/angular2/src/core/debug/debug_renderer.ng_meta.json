@@ -35,13 +35,38 @@
     "6": "debug_renderer.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/debug/debug_node.template.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/core/debug/debug_node.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "DebugDomRootRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DebugDomRootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/debug/debug_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DebugDomRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DebugDomRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/debug/debug_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

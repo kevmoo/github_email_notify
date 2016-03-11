@@ -29,5 +29,26 @@
       }
     ],
     "6": "abstract_html_adapter.dart"
-  }
+  },
+  "_attrToPropMap": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_attrToPropMap",
+      "moduleUrl": "asset:angular2/lib/src/platform/server/abstract_html_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AbstractHtml5LibAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AbstractHtml5LibAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/server/abstract_html_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

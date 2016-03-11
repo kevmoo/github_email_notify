@@ -40,5 +40,6 @@
       }
     ],
     "6": "remove_reflection_capabilities.dart"
-  }
+  },
+  "definesAlias": false
 }

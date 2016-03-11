@@ -94,17 +94,85 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/linker/view_manager.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i2"
       },
       {
-        "1": "element_ref.template.dart",
+        "1": "package:angular2/src/core/linker/view_manager.template.dart",
         "4": "i3"
       },
       {
-        "1": "view_ref.template.dart",
+        "1": "element_ref.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "view_ref.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "ComponentRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicComponentLoader": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DynamicComponentLoader",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicComponentLoader_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DynamicComponentLoader_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

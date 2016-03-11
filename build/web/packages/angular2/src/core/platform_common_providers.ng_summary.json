@@ -46,5 +46,16 @@
       }
     ],
     "6": "platform_common_providers.dart"
-  }
+  },
+  "PLATFORM_COMMON_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_COMMON_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

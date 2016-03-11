@@ -20,5 +20,76 @@
       }
     ],
     "6": "application_tokens.dart"
-  }
+  },
+  "APP_COMPONENT_REF_PROMISE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "APP_COMPONENT_REF_PROMISE",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "APP_COMPONENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "APP_COMPONENT",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "APP_ID": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "APP_ID",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "APP_ID_RANDOM_PROVIDER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "APP_ID_RANDOM_PROVIDER",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PLATFORM_INITIALIZER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_INITIALIZER",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "APP_INITIALIZER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "APP_INITIALIZER",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PACKAGE_ROOT_URL": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PACKAGE_ROOT_URL",
+      "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

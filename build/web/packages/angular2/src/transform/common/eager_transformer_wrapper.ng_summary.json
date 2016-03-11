@@ -8,5 +8,36 @@
       }
     ],
     "6": "eager_transformer_wrapper.dart"
-  }
+  },
+  "EagerTransformerWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EagerTransformerWrapper",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/eager_transformer_wrapper.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_EagerTransformerWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_EagerTransformerWrapper",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/eager_transformer_wrapper.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_EagerAggregateTransformerWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_EagerAggregateTransformerWrapper",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/eager_transformer_wrapper.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

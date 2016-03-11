@@ -10,6 +10,13 @@
         "5": false
       }
     ],
-    "6": "util.dart"
-  }
+    "6": "util.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "definesAlias": false
 }

@@ -58,9 +58,53 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/application_tokens.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/core/application_tokens.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "DEFAULT_PACKAGE_URL_PROVIDER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DEFAULT_PACKAGE_URL_PROVIDER",
+      "moduleUrl": "asset:angular2/lib/src/compiler/url_resolver.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "UrlResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "UrlResolver",
+      "moduleUrl": "asset:angular2/lib/src/compiler/url_resolver.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "PACKAGE_ROOT_URL",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

@@ -46,9 +46,34 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/transform/common/url_resolver.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/transform/common/url_resolver.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "_FindDeferredLibraries": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_FindDeferredLibraries",
+      "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/rewriter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_FindLoadLibraryCalls": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_FindLoadLibraryCalls",
+      "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/rewriter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

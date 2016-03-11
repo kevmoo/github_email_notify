@@ -8,5 +8,36 @@
       }
     ],
     "6": "intl.dart"
-  }
+  },
+  "NumberFormatStyle": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NumberFormatStyle",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NumberFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NumberFormatter",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DateFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DateFormatter",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

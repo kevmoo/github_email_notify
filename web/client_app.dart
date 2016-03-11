@@ -4,17 +4,16 @@ import 'dart:convert';
 
 import 'package:angular2/angular2.dart' hide Response;
 import 'package:angular2/bootstrap.dart' show bootstrap;
-import 'package:angular2/src/core/reflection/reflection_capabilities.dart';
-import 'package:angular2/src/core/reflection/reflection.dart';
 import 'package:github_email_notify/browser.dart';
 import 'package:googleapis_auth/auth_browser.dart' as auth;
 import 'package:http/browser_client.dart';
 import 'package:http/http.dart';
-import 'package:stack_trace/stack_trace.dart';
 
 import 'user_comp.dart';
 
-@Component(selector: "app", providers: const [BrowserClient])
+@Component(
+    selector: "app",
+    providers: const [const Provider('browserClient', useFactory: browserClientFactory)])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])
@@ -28,7 +27,7 @@ class ClientApp implements OnInit {
 
   final List<String> triageUriKeys = <String>[];
 
-  ClientApp(BrowserClient client) : this._client = client;
+  ClientApp(@Inject('browserClient') BrowserClient client) : this._client = client;
 
   void ngOnInit() {
     assert(loginDisabled);
@@ -124,14 +123,8 @@ _errorHandler(Response response) {
 }
 
 main() {
-  Chain.capture(() {
-    reflector.registerType(BrowserClient,
-        new ReflectionInfo(null, null, () => new BrowserClient()));
-
-    reflector.reflectionCapabilities = new ReflectionCapabilities();
-    bootstrap(ClientApp);
-  }, onError: (error, Chain chain) {
-    print(error);
-    print(chain.terse);
-  });
+  bootstrap(ClientApp);
 }
+
+@Injectable()
+BrowserClient browserClientFactory() => new BrowserClient();

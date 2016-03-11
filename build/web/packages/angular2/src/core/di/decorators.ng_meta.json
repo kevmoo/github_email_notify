@@ -19,5 +19,136 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "Inject": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Inject",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Optional": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Optional",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Injectable": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Injectable",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Self": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Self",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Host": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Host",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SkipSelf": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SkipSelf",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InjectMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InjectMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OptionalMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OptionalMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DependencyMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DependencyMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InjectableMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InjectableMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SelfMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SelfMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SkipSelfMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SkipSelfMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

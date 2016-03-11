@@ -13,5 +13,6 @@
       }
     ],
     "6": "compiler.dart"
-  }
+  },
+  "definesAlias": false
 }

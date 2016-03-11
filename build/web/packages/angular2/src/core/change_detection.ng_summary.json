@@ -18,10 +18,13 @@
           "KeyValueDiffers",
           "KeyValueDiffer",
           "KeyValueDifferFactory",
+          "CollectionChangeRecord",
+          "KeyValueChangeRecord",
           "TrackByFn"
         ]
       }
     ],
     "6": "change_detection.dart"
-  }
+  },
+  "definesAlias": false
 }

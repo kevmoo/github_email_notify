@@ -64,7 +64,7 @@
         "5": false
       },
       {
-        "1": "route_config_impl.dart",
+        "1": "route_config/route_config_impl.dart",
         "2": [
           "RouteConfig",
           "AsyncRoute",
@@ -76,7 +76,7 @@
         "5": false
       },
       {
-        "1": "route_recognizer.dart",
+        "1": "rules/rules.dart",
         "2": [
           "PathMatch",
           "RedirectMatch",
@@ -85,9 +85,9 @@
         "5": false
       },
       {
-        "1": "component_recognizer.dart",
+        "1": "rules/rule_set.dart",
         "2": [
-          "ComponentRecognizer"
+          "RuleSet"
         ],
         "5": false
       },
@@ -103,7 +103,7 @@
         "5": false
       },
       {
-        "1": "route_config_nomalizer.dart",
+        "1": "route_config/route_config_normalizer.dart",
         "2": [
           "normalizeRouteConfig",
           "assertComponentExists"
@@ -115,6 +115,7 @@
         "2": [
           "parser",
           "Url",
+          "convertUrlParamsToArray",
           "pathSegmentsToUrl"
         ],
         "5": false
@@ -145,5 +146,45 @@
       }
     ],
     "6": "route_registry.dart"
-  }
+  },
+  "ROUTER_PRIMARY_COMPONENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ROUTER_PRIMARY_COMPONENT",
+      "moduleUrl": "asset:angular2/lib/src/router/route_registry.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RouteRegistry": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "RouteRegistry",
+      "moduleUrl": "asset:angular2/lib/src/router/route_registry.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ROUTER_PRIMARY_COMPONENT",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

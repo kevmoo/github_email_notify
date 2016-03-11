@@ -22,9 +22,28 @@
     "6": "reflection_capabilities.dart",
     "10": [
       {
-        "1": "platform_reflection_capabilities.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "types.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "platform_reflection_capabilities.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "ReflectionCapabilities": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

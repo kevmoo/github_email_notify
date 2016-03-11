@@ -33,5 +33,6 @@
       }
     ],
     "6": "ui.dart"
-  }
+  },
+  "definesAlias": false
 }

@@ -33,5 +33,16 @@
       }
     ],
     "6": "transformer.dart"
-  }
+  },
+  "DirectiveMetadataLinker": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveMetadataLinker",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_metadata_linker/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

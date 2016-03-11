@@ -47,7 +47,32 @@
       {
         "1": "generic_browser_adapter.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "_IdentitySanitizer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_IdentitySanitizer",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BrowserDomAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BrowserDomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

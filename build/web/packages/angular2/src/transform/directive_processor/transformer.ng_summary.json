@@ -41,5 +41,16 @@
       }
     ],
     "6": "transformer.dart"
-  }
+  },
+  "DirectiveProcessor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveProcessor",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

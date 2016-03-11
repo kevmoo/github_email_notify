@@ -22,6 +22,77 @@
         "5": false
       }
     ],
-    "6": "shadow_css.dart"
-  }
+    "6": "shadow_css.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i1"
+      }
+    ]
+  },
+  "OPEN_CURLY": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OPEN_CURLY",
+      "moduleUrl": "asset:angular2/lib/src/compiler/shadow_css.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CLOSE_CURLY": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CLOSE_CURLY",
+      "moduleUrl": "asset:angular2/lib/src/compiler/shadow_css.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BLOCK_PLACEHOLDER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BLOCK_PLACEHOLDER",
+      "moduleUrl": "asset:angular2/lib/src/compiler/shadow_css.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ShadowCss": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ShadowCss",
+      "moduleUrl": "asset:angular2/lib/src/compiler/shadow_css.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CssRule": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CssRule",
+      "moduleUrl": "asset:angular2/lib/src/compiler/shadow_css.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StringWithEscapedBlocks": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StringWithEscapedBlocks",
+      "moduleUrl": "asset:angular2/lib/src/compiler/shadow_css.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

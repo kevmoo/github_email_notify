@@ -70,25 +70,60 @@
         "4": "i2"
       },
       {
-        "1": "annotation_code.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i3"
       },
       {
-        "1": "import_export_code.template.dart",
+        "1": "annotation_code.template.dart",
         "4": "i4"
       },
       {
-        "1": "reflection_info_code.template.dart",
+        "1": "import_export_code.template.dart",
         "4": "i5"
       },
       {
-        "1": "parameter_code.template.dart",
+        "1": "reflection_info_code.template.dart",
         "4": "i6"
       },
       {
-        "1": "queries_code.template.dart",
+        "1": "parameter_code.template.dart",
         "4": "i7"
+      },
+      {
+        "1": "queries_code.template.dart",
+        "4": "i8"
       }
     ]
-  }
+  },
+  "NgDepsVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgDepsVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NgDepsWriter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgDepsWriter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NgDepsWriterMixin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgDepsWriterMixin",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

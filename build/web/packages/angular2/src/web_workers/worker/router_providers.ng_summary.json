@@ -17,7 +17,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/platform_location.dart",
+        "1": "package:angular2/src/router/location/platform_location.dart",
         "2": [
           "PlatformLocation"
         ],
@@ -39,5 +39,6 @@
       }
     ],
     "6": "router_providers.dart"
-  }
+  },
+  "definesAlias": false
 }

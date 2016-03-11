@@ -65,5 +65,26 @@
       }
     ],
     "6": "reflector.dart"
-  }
+  },
+  "ReflectionInfo": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionInfo",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Reflector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Reflector",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

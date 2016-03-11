@@ -52,13 +52,6 @@
         "5": false
       },
       {
-        "1": "constants.dart",
-        "2": [
-          "ChangeDetectionStrategy"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
@@ -69,23 +62,23 @@
     "6": "codegen_logic_util.dart",
     "10": [
       {
-        "1": "codegen_name_util.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "proto_record.template.dart",
+        "1": "codegen_name_util.template.dart",
         "4": "i1"
       },
       {
-        "1": "binding_record.template.dart",
+        "1": "proto_record.template.dart",
         "4": "i2"
       },
       {
-        "1": "directive_record.template.dart",
+        "1": "binding_record.template.dart",
         "4": "i3"
       },
       {
-        "1": "constants.template.dart",
+        "1": "directive_record.template.dart",
         "4": "i4"
       },
       {
@@ -93,5 +86,16 @@
         "4": "i5"
       }
     ]
-  }
+  },
+  "CodegenLogicUtil": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CodegenLogicUtil",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_logic_util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

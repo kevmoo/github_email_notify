@@ -33,5 +33,76 @@
       }
     ],
     "6": "directives.dart"
-  }
+  },
+  "DirectiveMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PipeMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PipeMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InputMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InputMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OutputMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OutputMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostBindingMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostBindingMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostListenerMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostListenerMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

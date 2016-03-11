@@ -31,17 +31,262 @@
     "6": "facade.dart",
     "10": [
       {
-        "1": "async.template.dart",
+        "1": "lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "exceptions.template.dart",
+        "1": "async.template.dart",
         "4": "i1"
       },
       {
-        "1": "exception_handler.template.dart",
+        "1": "exceptions.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "exception_handler.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "IS_DART": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IS_DART",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_NAN_KEY": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_NAN_KEY",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_IS_DART_VM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_IS_DART_VM",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Math": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Math",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CONST": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CONST",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StringWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StringWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StringJoiner": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StringJoiner",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NumberWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NumberWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RegExpWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RegExpWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RegExpMatcherWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RegExpMatcherWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_JSLikeMatch": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_JSLikeMatch",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Json",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DateWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DateWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BaseException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BaseException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WrappedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WrappedException",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ArrayLogger": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ArrayLogger",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ExceptionHandler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExceptionHandler",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TimerWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TimerWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ObservableWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ObservableWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventEmitter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventEmitter",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Subject": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Subject",
+      "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PromiseWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PromiseCompleter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseCompleter",
+      "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

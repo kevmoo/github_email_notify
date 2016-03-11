@@ -74,5 +74,39 @@
       }
     ],
     "6": "resolved_metadata_cache.dart"
-  }
+  },
+  "ResolvedMetadataCache": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ResolvedMetadataCache",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/resolved_metadata_cache.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

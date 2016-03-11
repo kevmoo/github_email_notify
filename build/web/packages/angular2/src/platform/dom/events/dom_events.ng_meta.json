@@ -55,5 +55,18 @@
         "4": "i2"
       }
     ]
-  }
+  },
+  "DomEventsPlugin": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DomEventsPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/dom_events.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

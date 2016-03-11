@@ -16,5 +16,26 @@
       }
     ],
     "6": "util.dart"
-  }
+  },
+  "Statement": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Statement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Expression": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Expression",
+      "moduleUrl": "asset:angular2/lib/src/compiler/util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -12,5 +12,56 @@
       }
     ],
     "6": "exceptions.dart"
-  }
+  },
+  "ExpressionChangedAfterItHasBeenCheckedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ExpressionChangedAfterItHasBeenCheckedException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectionError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectionError",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DehydratedException": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DehydratedException",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventEvaluationError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventEvaluationError",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventEvaluationErrorContext": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventEvaluationErrorContext",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

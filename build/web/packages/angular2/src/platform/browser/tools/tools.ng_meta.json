@@ -32,5 +32,6 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

@@ -6,8 +6,7 @@
         "1": "differs/iterable_differs.dart",
         "2": [
           "IterableDiffers",
-          "IterableDifferFactory",
-          "TrackByFn"
+          "IterableDifferFactory"
         ],
         "5": false
       },
@@ -29,19 +28,27 @@
       {
         "1": "differs/default_keyvalue_differ.dart",
         "2": [
-          "DefaultKeyValueDifferFactory"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isPresent"
+          "DefaultKeyValueDifferFactory",
+          "KeyValueChangeRecord"
         ],
         "5": false
       }
     ],
     "4": [
+      {
+        "1": "differs/default_keyvalue_differ.dart",
+        "2": [
+          "DefaultKeyValueDifferFactory",
+          "KeyValueChangeRecord"
+        ]
+      },
+      {
+        "1": "differs/default_iterable_differ.dart",
+        "2": [
+          "DefaultIterableDifferFactory",
+          "CollectionChangeRecord"
+        ]
+      },
       {
         "1": "parser/ast.dart",
         "2": [
@@ -167,5 +174,46 @@
       }
     ],
     "6": "change_detection.dart"
-  }
+  },
+  "keyValDiff": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "keyValDiff",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "iterableDiff": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "iterableDiff",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "defaultIterableDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "defaultIterableDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "defaultKeyValueDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "defaultKeyValueDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

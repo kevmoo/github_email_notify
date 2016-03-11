@@ -45,7 +45,46 @@
       {
         "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "TestInjector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InjectSetupWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InjectSetupWrapper",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionWithParamTokens": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionWithParamTokens",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -34,5 +34,36 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "QueriesVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "QueriesVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_QueriesPropertyVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_QueriesPropertyVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_QueriesAnnotationVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_QueriesAnnotationVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

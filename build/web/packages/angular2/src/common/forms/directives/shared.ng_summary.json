@@ -122,5 +122,6 @@
       }
     ],
     "6": "shared.dart"
-  }
+  },
+  "definesAlias": false
 }

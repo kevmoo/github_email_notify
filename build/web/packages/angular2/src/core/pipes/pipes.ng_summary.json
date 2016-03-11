@@ -52,5 +52,26 @@
       }
     ],
     "6": "pipes.dart"
-  }
+  },
+  "ProtoPipes": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoPipes",
+      "moduleUrl": "asset:angular2/lib/src/core/pipes/pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Pipes": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Pipes",
+      "moduleUrl": "asset:angular2/lib/src/core/pipes/pipes.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

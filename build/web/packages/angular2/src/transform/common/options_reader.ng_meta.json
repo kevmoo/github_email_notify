@@ -26,9 +26,24 @@
         "4": "i0"
       },
       {
-        "1": "options.template.dart",
+        "1": "mirror_mode.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "options.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "CUSTOM_ANNOTATIONS_ERROR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CUSTOM_ANNOTATIONS_ERROR",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

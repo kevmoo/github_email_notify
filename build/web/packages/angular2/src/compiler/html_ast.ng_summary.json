@@ -18,5 +18,56 @@
       }
     ],
     "6": "html_ast.dart"
-  }
+  },
+  "HtmlAst": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlTextAst": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlTextAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlAttrAst": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlAttrAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlElementAst": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlElementAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlAstVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlAstVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_ast.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

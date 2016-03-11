@@ -10,5 +10,6 @@
       }
     ],
     "6": "browser.dart"
-  }
+  },
+  "definesAlias": false
 }

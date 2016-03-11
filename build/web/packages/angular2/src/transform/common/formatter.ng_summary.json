@@ -8,5 +8,36 @@
       }
     ],
     "6": "formatter.dart"
-  }
+  },
+  "AngularDartFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AngularDartFormatter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/formatter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_PassThroughFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_PassThroughFormatter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/formatter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_RealFormatter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_RealFormatter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/formatter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

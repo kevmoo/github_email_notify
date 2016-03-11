@@ -22,7 +22,62 @@
       {
         "1": "instruction.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i1"
       }
     ]
-  }
+  },
+  "OnActivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnActivate",
+      "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnReuse": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnReuse",
+      "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnDeactivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnDeactivate",
+      "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CanReuse": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CanReuse",
+      "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CanDeactivate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CanDeactivate",
+      "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -29,5 +29,26 @@
       }
     ],
     "6": "ruler.dart"
-  }
+  },
+  "Rectangle": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Rectangle",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/ruler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Ruler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Ruler",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/ruler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

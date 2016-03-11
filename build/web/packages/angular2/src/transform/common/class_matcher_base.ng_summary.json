@@ -31,5 +31,26 @@
       }
     ],
     "6": "class_matcher_base.dart"
-  }
+  },
+  "ClassMatcherBase": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ClassMatcherBase",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/class_matcher_base.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ClassDescriptor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ClassDescriptor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/class_matcher_base.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -17,7 +17,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/platform_location.dart",
+        "1": "package:angular2/src/router/location/platform_location.dart",
         "2": [
           "PlatformLocation"
         ],
@@ -45,13 +45,18 @@
         "4": "i0"
       },
       {
-        "1": "platform_location.template.dart",
+        "1": "package:angular2/src/router/location/platform_location.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/router/router_providers_common.template.dart",
+        "1": "platform_location.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/router/router_providers_common.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

@@ -67,17 +67,79 @@
     "6": "iterable_differs.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "../change_detector_ref.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "../change_detector_ref.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:angular2/src/core/di.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "TrackByFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TrackByFn",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableDiffer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IterableDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableDifferFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IterableDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "IterableDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

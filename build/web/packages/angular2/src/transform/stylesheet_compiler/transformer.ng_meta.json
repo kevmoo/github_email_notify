@@ -43,13 +43,28 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/transform/common/zone.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i2"
       },
       {
-        "1": "processor.template.dart",
+        "1": "package:angular2/src/transform/common/zone.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "processor.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "StylesheetCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StylesheetCompiler",
+      "moduleUrl": "asset:angular2/lib/src/transform/stylesheet_compiler/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

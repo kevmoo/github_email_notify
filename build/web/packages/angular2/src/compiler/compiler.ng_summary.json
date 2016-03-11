@@ -180,5 +180,16 @@
       }
     ],
     "6": "compiler.dart"
-  }
+  },
+  "COMPILER_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "COMPILER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

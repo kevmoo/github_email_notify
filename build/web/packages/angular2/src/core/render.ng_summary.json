@@ -12,5 +12,6 @@
       }
     ],
     "6": "render.dart"
-  }
+  },
+  "definesAlias": false
 }

@@ -27,5 +27,36 @@
       }
     ],
     "6": "message_bus.dart"
-  }
+  },
+  "MessageBus": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageBus",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MessageBusSource": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageBusSource",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MessageBusSink": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MessageBusSink",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

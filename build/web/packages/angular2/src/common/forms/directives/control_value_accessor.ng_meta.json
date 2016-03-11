@@ -17,5 +17,26 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "NG_VALUE_ACCESSOR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NG_VALUE_ACCESSOR",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ControlValueAccessor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ControlValueAccessor",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

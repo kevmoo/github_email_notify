@@ -50,13 +50,56 @@
     "6": "xhr_mock.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/compiler/xhr.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "MockXHR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockXHR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_PendingRequest": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_PendingRequest",
+      "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_Expectation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_Expectation",
+      "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

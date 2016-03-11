@@ -81,5 +81,86 @@
   "_EMPTY_LIST": {
     "kind": "alias",
     "value": []
-  }
+  },
+  "Dependency": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Dependency",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Provider": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Provider",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Binding": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Binding",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ResolvedProvider": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ResolvedProvider",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ResolvedBinding": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ResolvedBinding",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ResolvedProvider_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ResolvedProvider_",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ResolvedFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ResolvedFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProviderBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProviderBuilder",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": true
 }

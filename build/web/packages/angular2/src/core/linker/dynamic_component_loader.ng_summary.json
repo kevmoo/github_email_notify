@@ -84,5 +84,69 @@
       }
     ],
     "6": "dynamic_component_loader.dart"
-  }
+  },
+  "ComponentRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicComponentLoader": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DynamicComponentLoader",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicComponentLoader_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DynamicComponentLoader_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

@@ -25,7 +25,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/location.dart",
+        "1": "package:angular2/src/router/location/location.dart",
         "2": [
           "Location"
         ],
@@ -61,9 +61,26 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/router/location.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/router/location/location.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "SpyLocation": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "SpyLocation",
+      "moduleUrl": "asset:angular2/lib/src/mock/location_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

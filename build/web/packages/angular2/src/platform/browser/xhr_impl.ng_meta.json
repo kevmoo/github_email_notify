@@ -45,7 +45,24 @@
       {
         "1": "package:angular2/core.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/compiler/xhr.template.dart",
+        "4": "i1"
       }
     ]
-  }
+  },
+  "XHRImpl": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "XHRImpl",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/xhr_impl.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

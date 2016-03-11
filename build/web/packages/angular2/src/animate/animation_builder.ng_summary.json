@@ -46,5 +46,29 @@
       }
     ],
     "6": "animation_builder.dart"
-  }
+  },
+  "AnimationBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "AnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/animate/animation_builder.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

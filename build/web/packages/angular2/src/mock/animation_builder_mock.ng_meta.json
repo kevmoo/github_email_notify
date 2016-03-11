@@ -75,13 +75,60 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/animate/animation.template.dart",
+        "1": "package:angular2/src/animate/css_animation_options.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/animate/browser_details.template.dart",
+        "1": "package:angular2/src/animate/animation.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/animate/browser_details.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "MockAnimationBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockAnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "MockCssAnimationBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockCssAnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MockBrowserAbstraction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockBrowserAbstraction",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MockAnimation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockAnimation",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -13,5 +13,6 @@
       }
     ],
     "6": "zone.dart"
-  }
+  },
+  "definesAlias": false
 }

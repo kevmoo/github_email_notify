@@ -40,5 +40,6 @@
       }
     ],
     "6": "ng_meta_linker.dart"
-  }
+  },
+  "definesAlias": false
 }

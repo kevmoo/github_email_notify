@@ -65,5 +65,66 @@
       }
     ],
     "6": "type_metadata_reader.dart"
-  }
+  },
+  "TypeMetadataReader": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TypeMetadataReader",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_CompileTypeMetadataVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_CompileTypeMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_DirectiveMetadataVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_DirectiveMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_LifecycleHookVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_LifecycleHookVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_CompileTemplateMetadataVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_CompileTemplateMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_PipeMetadataVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_PipeMetadataVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/type_metadata_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

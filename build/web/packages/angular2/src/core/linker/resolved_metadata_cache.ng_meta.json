@@ -80,21 +80,59 @@
         "4": "i0"
       },
       {
-        "1": "element.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "directive_resolver.template.dart",
+        "1": "element.template.dart",
         "4": "i2"
       },
       {
-        "1": "../pipes/pipe_provider.template.dart",
+        "1": "directive_resolver.template.dart",
         "4": "i3"
       },
       {
-        "1": "pipe_resolver.template.dart",
+        "1": "../pipes/pipe_provider.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "pipe_resolver.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "ResolvedMetadataCache": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ResolvedMetadataCache",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/resolved_metadata_cache.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

@@ -63,12 +63,16 @@
     "6": "uppercase_pipe.dart",
     "10": [
       {
-        "1": "package:angular2/core.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "invalid_pipe_argument_exception.template.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "invalid_pipe_argument_exception.template.dart",
+        "4": "i2"
       }
     ]
   },
@@ -77,12 +81,17 @@
     "value": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "UpperCasePipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
       },
       "name": "uppercase",
       "pure": false
     }
-  }
+  },
+  "definesAlias": false
 }

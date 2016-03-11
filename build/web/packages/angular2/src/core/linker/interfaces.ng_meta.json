@@ -20,9 +20,104 @@
     "6": "interfaces.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/change_detection/change_detection_util.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/core/change_detection/change_detection_util.template.dart",
+        "4": "i1"
       }
     ]
-  }
+  },
+  "LifecycleHooks": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LifecycleHooks",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnChanges": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnChanges",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnInit": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnInit",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DoCheck": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DoCheck",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnDestroy": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnDestroy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterContentInit": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterContentInit",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterContentChecked": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterContentChecked",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterViewInit": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterViewInit",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterViewChecked": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterViewChecked",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

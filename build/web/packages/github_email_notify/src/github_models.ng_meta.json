@@ -1,0 +1,44 @@
+{
+  "ngDeps": null,
+  "User": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "User",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Label": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Label",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Repository": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Repository",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Issue": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Issue",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

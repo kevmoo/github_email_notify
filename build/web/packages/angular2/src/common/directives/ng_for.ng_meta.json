@@ -24,6 +24,14 @@
           "isBlank"
         ],
         "5": false
+      },
+      {
+        "1": "../../core/change_detection/differs/default_iterable_differ.dart",
+        "2": [
+          "DefaultIterableDiffer",
+          "CollectionChangeRecord"
+        ],
+        "5": false
       }
     ],
     "5": [
@@ -77,6 +85,14 @@
       {
         "1": "package:angular2/core.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "../../core/change_detection/differs/default_iterable_differ.template.dart",
+        "4": "i2"
       }
     ]
   },
@@ -89,9 +105,54 @@
       "selector": "[ngFor][ngForOf]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NgFor",
         "moduleUrl": "asset:angular2/lib/src/common/directives/ng_for.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -106,7 +167,19 @@
       "lifecycleHooks": [
         2
       ],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "RecordViewTuple": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RecordViewTuple",
+      "moduleUrl": "asset:angular2/lib/src/common/directives/ng_for.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

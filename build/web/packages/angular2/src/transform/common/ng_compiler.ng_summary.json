@@ -70,5 +70,6 @@
       }
     ],
     "6": "ng_compiler.dart"
-  }
+  },
+  "definesAlias": false
 }

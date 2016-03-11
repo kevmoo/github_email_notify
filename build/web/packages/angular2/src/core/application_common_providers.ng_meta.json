@@ -112,45 +112,60 @@
     "6": "application_common_providers.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "application_tokens.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "change_detection/change_detection.template.dart",
+        "1": "application_tokens.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/resolved_metadata_cache.template.dart",
+        "1": "change_detection/change_detection.template.dart",
         "4": "i3"
       },
       {
-        "1": "linker/view_manager.template.dart",
+        "1": "package:angular2/src/core/linker/resolved_metadata_cache.template.dart",
         "4": "i4"
       },
       {
-        "1": "linker/view_resolver.template.dart",
+        "1": "linker/view_manager.template.dart",
         "4": "i5"
       },
       {
-        "1": "linker/directive_resolver.template.dart",
+        "1": "linker/view_resolver.template.dart",
         "4": "i6"
       },
       {
-        "1": "linker/pipe_resolver.template.dart",
+        "1": "linker/directive_resolver.template.dart",
         "4": "i7"
       },
       {
-        "1": "linker/compiler.template.dart",
+        "1": "linker/pipe_resolver.template.dart",
         "4": "i8"
       },
       {
-        "1": "linker/dynamic_component_loader.template.dart",
+        "1": "linker/compiler.template.dart",
         "4": "i9"
+      },
+      {
+        "1": "linker/dynamic_component_loader.template.dart",
+        "4": "i10"
       }
     ]
-  }
+  },
+  "APPLICATION_COMMON_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "APPLICATION_COMMON_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/core/application_common_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

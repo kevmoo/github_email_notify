@@ -57,17 +57,22 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/transform/common/model/import_export_model.pb.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/transform/common/model/ng_deps_model.pb.template.dart",
+        "1": "package:angular2/src/transform/common/model/import_export_model.pb.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/common/url_resolver.template.dart",
+        "1": "package:angular2/src/transform/common/model/ng_deps_model.pb.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "package:angular2/src/transform/common/url_resolver.template.dart",
+        "4": "i6"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

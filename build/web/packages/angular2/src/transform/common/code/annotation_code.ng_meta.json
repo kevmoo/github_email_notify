@@ -48,5 +48,26 @@
         "4": "i2"
       }
     ]
-  }
+  },
+  "AnnotationVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AnnotationVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/annotation_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AnnotationWriterMixin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AnnotationWriterMixin",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/annotation_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

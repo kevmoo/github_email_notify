@@ -31,9 +31,18 @@
     "6": "coalesce.dart",
     "10": [
       {
-        "1": "proto_record.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "proto_record.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

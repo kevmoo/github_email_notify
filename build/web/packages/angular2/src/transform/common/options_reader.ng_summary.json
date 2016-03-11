@@ -20,5 +20,16 @@
       }
     ],
     "6": "options_reader.dart"
-  }
+  },
+  "CUSTOM_ANNOTATIONS_ERROR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CUSTOM_ANNOTATIONS_ERROR",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options_reader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -40,5 +40,16 @@
         "4": "i2"
       }
     ]
-  }
+  },
+  "Form": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Form",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/form_interface.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

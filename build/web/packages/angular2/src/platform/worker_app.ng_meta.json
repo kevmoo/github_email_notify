@@ -58,5 +58,36 @@
         "4": "i5"
       }
     ]
-  }
+  },
+  "RENDER_SEND_PORT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RENDER_SEND_PORT",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WORKER_APP_APPLICATION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_APP_APPLICATION",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WebWorkerMessageBusSink": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WebWorkerMessageBusSink",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

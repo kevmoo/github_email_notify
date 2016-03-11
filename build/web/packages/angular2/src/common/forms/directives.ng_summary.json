@@ -99,7 +99,8 @@
         "2": [
           "RequiredValidator",
           "MinLengthValidator",
-          "MaxLengthValidator"
+          "MaxLengthValidator",
+          "PatternValidator"
         ],
         "5": false
       }
@@ -184,7 +185,8 @@
         "2": [
           "RequiredValidator",
           "MinLengthValidator",
-          "MaxLengthValidator"
+          "MaxLengthValidator",
+          "PatternValidator"
         ]
       },
       {
@@ -220,7 +222,9 @@
       "NgControlStatus",
       "RequiredValidator",
       "MinLengthValidator",
-      "MaxLengthValidator"
+      "MaxLengthValidator",
+      "PatternValidator"
     ]
-  }
+  },
+  "definesAlias": true
 }

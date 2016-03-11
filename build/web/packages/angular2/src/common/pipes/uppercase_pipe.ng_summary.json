@@ -67,12 +67,17 @@
     "value": {
       "class": "Pipe",
       "type": {
+        "class": "Type",
         "name": "UpperCasePipe",
         "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
       },
       "name": "uppercase",
       "pure": false
     }
-  }
+  },
+  "definesAlias": false
 }

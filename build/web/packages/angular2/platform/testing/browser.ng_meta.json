@@ -30,6 +30,445 @@
       }
     ]
   },
+  "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ADDITIONAL_TEST_BROWSER_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ADDITIONAL_TEST_BROWSER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TEST_BROWSER_STATIC_APPLICATION_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TEST_BROWSER_STATIC_APPLICATION_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BROWSER_APP_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BROWSER_APP_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AngularEntrypoint": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AngularEntrypoint",
+      "moduleUrl": "asset:angular2/lib/src/core/angular_entrypoint.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BROWSER_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BROWSER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BROWSER_APP_COMMON_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BROWSER_APP_COMMON_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DOCUMENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DOCUMENT",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Title": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Title",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/title.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_IdentitySanitizer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_IdentitySanitizer",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BrowserDomAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BrowserDomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DomAdapter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DomAdapter",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_adapter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NAMESPACE_URIS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NAMESPACE_URIS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TEMPLATE_COMMENT_TEXT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TEMPLATE_COMMENT_TEXT",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "COMPONENT_VARIABLE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "COMPONENT_VARIABLE",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HOST_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HOST_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CONTENT_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CONTENT_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DomRootRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DomRootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DomRootRenderer_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DomRootRenderer_",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "DOCUMENT",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "EventManager",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "DomSharedStylesHost",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "AnimationBuilder",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "DomRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DomRenderer",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_renderer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SharedStylesHost": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "SharedStylesHost",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/shared_styles_host.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "DomSharedStylesHost": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DomSharedStylesHost",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/shared_styles_host.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "DOCUMENT",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "DomEventsPlugin": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DomEventsPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/dom_events.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "EVENT_MANAGER_PLUGINS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EVENT_MANAGER_PLUGINS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventManager": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "EventManager",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "EVENT_MANAGER_PLUGINS",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "EventManagerPlugin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventManagerPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "By": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "By",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/by.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CORE_TOKENS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CORE_TOKENS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "INSPECT_GLOBAL_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "INSPECT_GLOBAL_NAME",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CORE_TOKENS_GLOBAL_NAME": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CORE_TOKENS_GLOBAL_NAME",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROBE_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROBE_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROBE_PROVIDERS_PROD_MODE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "TEST_BROWSER_PLATFORM_PROVIDERS": {
     "kind": "alias",
     "value": [
@@ -42,5 +481,6 @@
       "BROWSER_APP_PROVIDERS",
       "ADDITIONAL_TEST_BROWSER_PROVIDERS"
     ]
-  }
+  },
+  "definesAlias": true
 }

@@ -62,5 +62,28 @@
       }
     ],
     "6": "dom_element_schema_registry.dart"
-  }
+  },
+  "NAMESPACE_URIS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NAMESPACE_URIS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/schema/dom_element_schema_registry.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DomElementSchemaRegistry": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DomElementSchemaRegistry",
+      "moduleUrl": "asset:angular2/lib/src/compiler/schema/dom_element_schema_registry.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

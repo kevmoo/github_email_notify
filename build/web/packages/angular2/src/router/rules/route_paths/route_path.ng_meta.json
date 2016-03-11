@@ -1,0 +1,52 @@
+{
+  "ngDeps": {
+    "1": "angular2.src.router.rules.route_paths.route_path",
+    "3": [
+      {
+        "1": "../../url_parser.dart",
+        "2": [
+          "Url"
+        ],
+        "5": false
+      }
+    ],
+    "6": "route_path.dart",
+    "10": [
+      {
+        "1": "../../url_parser.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "MatchedUrl": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MatchedUrl",
+      "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/route_path.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "GeneratedUrl": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "GeneratedUrl",
+      "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/route_path.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RoutePath": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RoutePath",
+      "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/route_path.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

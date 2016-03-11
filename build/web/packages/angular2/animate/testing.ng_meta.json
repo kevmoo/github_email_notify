@@ -13,5 +13,48 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "MockAnimationBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockAnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "MockCssAnimationBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockCssAnimationBuilder",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MockBrowserAbstraction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockBrowserAbstraction",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MockAnimation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MockAnimation",
+      "moduleUrl": "asset:angular2/lib/src/mock/animation_builder_mock.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

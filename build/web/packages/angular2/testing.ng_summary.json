@@ -50,5 +50,6 @@
       }
     ],
     "6": "testing.dart"
-  }
+  },
+  "definesAlias": false
 }

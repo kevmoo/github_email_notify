@@ -62,7 +62,8 @@
         "2": [
           "HtmlTagDefinition",
           "getHtmlTagDefinition",
-          "getNsPrefix"
+          "getNsPrefix",
+          "mergeNsAndName"
         ],
         "5": false
       }
@@ -85,21 +86,76 @@
     "6": "html_parser.dart",
     "10": [
       {
-        "1": "html_ast.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "html_lexer.template.dart",
+        "1": "html_ast.template.dart",
         "4": "i2"
       },
       {
-        "1": "html_tags.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "html_lexer.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "parse_util.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "html_tags.template.dart",
+        "4": "i6"
       }
     ]
-  }
+  },
+  "HtmlTreeError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlTreeError",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlParseTreeResult": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlParseTreeResult",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlParser": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "HtmlParser",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "TreeBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TreeBuilder",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

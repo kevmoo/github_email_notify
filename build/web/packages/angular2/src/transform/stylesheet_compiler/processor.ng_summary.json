@@ -41,5 +41,6 @@
       }
     ],
     "6": "processor.dart"
-  }
+  },
+  "definesAlias": false
 }

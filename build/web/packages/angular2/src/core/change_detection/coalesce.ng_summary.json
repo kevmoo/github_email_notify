@@ -29,5 +29,6 @@
       }
     ],
     "6": "coalesce.dart"
-  }
+  },
+  "definesAlias": false
 }

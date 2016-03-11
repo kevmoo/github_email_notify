@@ -138,41 +138,103 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i3"
       },
       {
-        "1": "style_url_resolver.template.dart",
+        "1": "package:angular2/src/compiler/xhr.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "1": "style_url_resolver.template.dart",
         "4": "i6"
       },
       {
-        "1": "html_ast.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i7"
       },
       {
-        "1": "html_parser.template.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i8"
       },
       {
-        "1": "template_preparser.template.dart",
+        "1": "html_ast.template.dart",
         "4": "i9"
+      },
+      {
+        "1": "html_parser.template.dart",
+        "4": "i10"
+      },
+      {
+        "1": "template_preparser.template.dart",
+        "4": "i11"
       }
     ]
-  }
+  },
+  "TemplateNormalizer": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TemplateNormalizer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_normalizer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "TemplatePreparseVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplatePreparseVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_normalizer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

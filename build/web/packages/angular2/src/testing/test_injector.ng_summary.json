@@ -37,5 +37,36 @@
       }
     ],
     "6": "test_injector.dart"
-  }
+  },
+  "TestInjector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "InjectSetupWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "InjectSetupWrapper",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FunctionWithParamTokens": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FunctionWithParamTokens",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

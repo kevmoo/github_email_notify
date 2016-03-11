@@ -148,6 +148,16 @@
     ],
     "6": "ng_form_control.dart"
   },
+  "formControlBinding": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "formControlBinding",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_control.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NgFormControl": {
     "kind": "type",
     "value": {
@@ -157,9 +167,62 @@
       "selector": "[ngFormControl]",
       "exportAs": "ngForm",
       "type": {
+        "class": "Type",
         "name": "NgFormControl",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_control.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_VALIDATORS",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_ASYNC_VALIDATORS",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_VALUE_ACCESSOR",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -175,7 +238,9 @@
       "lifecycleHooks": [
         3
       ],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

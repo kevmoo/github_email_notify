@@ -126,6 +126,16 @@
     ],
     "6": "ng_control_group.dart"
   },
+  "controlGroupProvider": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "controlGroupProvider",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_group.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NgControlGroup": {
     "kind": "type",
     "value": {
@@ -135,9 +145,62 @@
       "selector": "[ngControlGroup]",
       "exportAs": "ngForm",
       "type": {
+        "class": "Type",
         "name": "NgControlGroup",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_group.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "ControlContainer",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": true,
+            "isSkipSelf": true,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_VALIDATORS",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "NG_ASYNC_VALIDATORS",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": true,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": true
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {
@@ -151,7 +214,20 @@
         0,
         1
       ],
-      "template": null
+      "template": null,
+      "providers": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "controlGroupProvider",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "useClass": null
+        }
+      ]
     }
-  }
+  },
+  "definesAlias": false
 }

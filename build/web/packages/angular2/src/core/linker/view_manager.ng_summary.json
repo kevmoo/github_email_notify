@@ -42,7 +42,8 @@
         "2": [
           "AppView",
           "HostViewFactory",
-          "flattenNestedViewRenderNodes"
+          "flattenNestedViewRenderNodes",
+          "findLastRenderNode"
         ],
         "5": false
       },
@@ -156,5 +157,55 @@
       }
     ],
     "6": "view_manager.dart"
-  }
+  },
+  "AppViewManager": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AppViewManager",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AppViewManager_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "AppViewManager_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "APP_ID",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

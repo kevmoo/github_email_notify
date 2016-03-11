@@ -23,5 +23,26 @@
       }
     ],
     "6": "observable_list_diff.dart"
-  }
+  },
+  "ObservableListDiff": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ObservableListDiff",
+      "moduleUrl": "asset:angular2/lib/src/common/directives/observable_list_diff.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ObservableListDiffFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ObservableListDiffFactory",
+      "moduleUrl": "asset:angular2/lib/src/common/directives/observable_list_diff.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

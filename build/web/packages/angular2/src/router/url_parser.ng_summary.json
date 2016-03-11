@@ -28,5 +28,36 @@
       }
     ],
     "6": "url_parser.dart"
-  }
+  },
+  "Url": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Url",
+      "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RootUrl": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RootUrl",
+      "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "UrlParser": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "UrlParser",
+      "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

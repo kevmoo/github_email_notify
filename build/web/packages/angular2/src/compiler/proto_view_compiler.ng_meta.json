@@ -132,37 +132,182 @@
     "6": "proto_view_compiler.dart",
     "10": [
       {
-        "1": "template_ast.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "directive_metadata.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "source_module.template.dart",
+        "1": "template_ast.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view.template.dart",
+        "1": "directive_metadata.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/element.template.dart",
+        "1": "source_module.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/resolved_metadata_cache.template.dart",
+        "1": "package:angular2/src/core/linker/view.template.dart",
         "4": "i5"
       },
       {
-        "1": "util.template.dart",
+        "1": "package:angular2/src/core/linker/view_type.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/core/linker/element.template.dart",
         "4": "i7"
+      },
+      {
+        "1": "package:angular2/src/core/linker/resolved_metadata_cache.template.dart",
+        "4": "i8"
+      },
+      {
+        "1": "util.template.dart",
+        "4": "i9"
+      },
+      {
+        "1": "package:angular2/src/core/di.template.dart",
+        "4": "i10"
       }
     ]
-  }
+  },
+  "PROTO_VIEW_JIT_IMPORTS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PROTO_VIEW_JIT_IMPORTS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IMPLICIT_TEMPLATE_VAR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IMPLICIT_TEMPLATE_VAR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CLASS_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CLASS_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "STYLE_ATTR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "STYLE_ATTR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoViewCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ProtoViewCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "CompileProtoViews": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CompileProtoViews",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CompileProtoView": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CompileProtoView",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CompileProtoElement": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CompileProtoElement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CodeGenProtoViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CodeGenProtoViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RuntimeProtoViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RuntimeProtoViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoViewBuilderVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoViewBuilderVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DirectiveContext": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveContext",
+      "moduleUrl": "asset:angular2/lib/src/compiler/proto_view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

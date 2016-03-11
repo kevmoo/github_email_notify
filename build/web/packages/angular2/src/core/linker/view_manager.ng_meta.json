@@ -42,7 +42,8 @@
         "2": [
           "AppView",
           "HostViewFactory",
-          "flattenNestedViewRenderNodes"
+          "flattenNestedViewRenderNodes",
+          "findLastRenderNode"
         ],
         "5": false
       },
@@ -162,49 +163,111 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "view.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
       },
       {
-        "1": "element.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i3"
       },
       {
-        "1": "element_ref.template.dart",
+        "1": "view.template.dart",
         "4": "i4"
       },
       {
-        "1": "view_ref.template.dart",
+        "1": "element.template.dart",
         "4": "i5"
       },
       {
-        "1": "view_container_ref.template.dart",
+        "1": "element_ref.template.dart",
         "4": "i6"
       },
       {
-        "1": "template_ref.template.dart",
+        "1": "view_ref.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "view_container_ref.template.dart",
         "4": "i8"
       },
       {
-        "1": "../profile/profile.template.dart",
+        "1": "template_ref.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/core/application_tokens.template.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "1": "../profile/profile.template.dart",
         "4": "i11"
+      },
+      {
+        "1": "package:angular2/src/core/application_tokens.template.dart",
+        "4": "i12"
+      },
+      {
+        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "4": "i13"
+      },
+      {
+        "1": "view_type.template.dart",
+        "4": "i14"
       }
     ]
-  }
+  },
+  "AppViewManager": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AppViewManager",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AppViewManager_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "AppViewManager_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "APP_ID",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

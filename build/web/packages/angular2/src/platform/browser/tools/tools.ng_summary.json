@@ -22,5 +22,6 @@
       }
     ],
     "6": "tools.dart"
-  }
+  },
+  "definesAlias": false
 }

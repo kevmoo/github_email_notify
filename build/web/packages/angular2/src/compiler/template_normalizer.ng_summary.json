@@ -132,5 +132,59 @@
       }
     ],
     "6": "template_normalizer.dart"
-  }
+  },
+  "TemplateNormalizer": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TemplateNormalizer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_normalizer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "TemplatePreparseVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplatePreparseVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_normalizer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

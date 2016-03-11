@@ -3,7 +3,7 @@
     "1": "angular2.src.router.router_providers",
     "3": [
       {
-        "1": "package:angular2/router.dart",
+        "1": "router_providers_common.dart",
         "2": [
           "ROUTER_PROVIDERS_COMMON"
         ],
@@ -17,14 +17,14 @@
         "5": false
       },
       {
-        "1": "browser_platform_location.dart",
+        "1": "location/browser_platform_location.dart",
         "2": [
           "BrowserPlatformLocation"
         ],
         "5": false
       },
       {
-        "1": "platform_location.dart",
+        "1": "location/platform_location.dart",
         "2": [
           "PlatformLocation"
         ],
@@ -34,7 +34,7 @@
     "6": "router_providers.dart",
     "10": [
       {
-        "1": "package:angular2/router.template.dart",
+        "1": "router_providers_common.template.dart",
         "4": "i0"
       },
       {
@@ -42,9 +42,34 @@
         "4": "i1"
       },
       {
-        "1": "browser_platform_location.template.dart",
+        "1": "location/browser_platform_location.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "location/platform_location.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "ROUTER_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ROUTER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ROUTER_BINDINGS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ROUTER_BINDINGS",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -106,5 +106,49 @@
       }
     ],
     "6": "test_component_builder.dart"
-  }
+  },
+  "ComponentFixture": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentFixture",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentFixture_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentFixture_",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TestComponentBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TestComponentBuilder",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

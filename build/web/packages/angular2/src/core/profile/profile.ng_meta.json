@@ -16,6 +16,23 @@
         ]
       }
     ],
-    "6": "profile.dart"
-  }
+    "6": "profile.dart",
+    "10": [
+      {
+        "1": "wtf_impl.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "WtfScopeFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WtfScopeFn",
+      "moduleUrl": "asset:angular2/lib/src/core/profile/wtf_impl.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

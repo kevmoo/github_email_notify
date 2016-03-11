@@ -58,9 +58,40 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "Log": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Log",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "BrowserDetection": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BrowserDetection",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -67,13 +67,86 @@
     "6": "reflector.dart",
     "10": [
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "platform_reflection_capabilities.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "types.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "platform_reflection_capabilities.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "ReflectionInfo": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionInfo",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Reflector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Reflector",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SetterFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SetterFn",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "GetterFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "GetterFn",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MethodFn": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MethodFn",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PlatformReflectionCapabilities": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PlatformReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/platform_reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

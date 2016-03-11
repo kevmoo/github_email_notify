@@ -197,5 +197,26 @@
       }
     ],
     "6": "browser_common.dart"
-  }
+  },
+  "BROWSER_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BROWSER_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BROWSER_APP_COMMON_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BROWSER_APP_COMMON_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

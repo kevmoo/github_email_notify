@@ -58,5 +58,6 @@
       }
     ],
     "6": "admin_logic.dart"
-  }
+  },
+  "definesAlias": false
 }

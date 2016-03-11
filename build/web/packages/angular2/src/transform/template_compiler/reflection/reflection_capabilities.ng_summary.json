@@ -8,5 +8,16 @@
       }
     ],
     "6": "reflection_capabilities.dart"
-  }
+  },
+  "NullReflectionCapabilities": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NullReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/reflection_capabilities.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

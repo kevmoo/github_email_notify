@@ -8,5 +8,6 @@
       }
     ],
     "6": "pipe_lifecycle_reflector.dart"
-  }
+  },
+  "definesAlias": false
 }

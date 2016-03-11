@@ -56,5 +56,36 @@
       }
     ],
     "6": "ng_deps_code.dart"
-  }
+  },
+  "NgDepsVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgDepsVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NgDepsWriter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgDepsWriter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NgDepsWriterMixin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NgDepsWriterMixin",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

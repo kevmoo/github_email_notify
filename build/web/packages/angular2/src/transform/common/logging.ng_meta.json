@@ -30,5 +30,26 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "PrintLogger": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrintLogger",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/logging.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PrintLoggerError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrintLoggerError",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/logging.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -74,6 +74,16 @@
     ],
     "6": "number_value_accessor.dart"
   },
+  "NUMBER_VALUE_ACCESSOR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NUMBER_VALUE_ACCESSOR",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/number_value_accessor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NumberValueAccessor": {
     "kind": "type",
     "value": {
@@ -83,9 +93,34 @@
       "selector": "input[type=number][ngControl],input[type=number][ngFormControl],input[type=number][ngModel]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NumberValueAccessor",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/number_value_accessor.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -98,7 +133,9 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

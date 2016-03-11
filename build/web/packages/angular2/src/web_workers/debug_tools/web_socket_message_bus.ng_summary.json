@@ -19,5 +19,36 @@
       }
     ],
     "6": "web_socket_message_bus.dart"
-  }
+  },
+  "WebSocketMessageBus": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WebSocketMessageBus",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/debug_tools/web_socket_message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WebSocketMessageBusSink": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WebSocketMessageBusSink",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/debug_tools/web_socket_message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WebSocketMessageBusSource": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WebSocketMessageBusSource",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/debug_tools/web_socket_message_bus.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

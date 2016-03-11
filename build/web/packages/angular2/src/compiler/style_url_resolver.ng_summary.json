@@ -22,5 +22,16 @@
       }
     ],
     "6": "style_url_resolver.dart"
-  }
+  },
+  "StyleWithImports": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StyleWithImports",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

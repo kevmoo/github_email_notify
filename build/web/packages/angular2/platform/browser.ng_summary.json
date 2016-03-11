@@ -84,5 +84,16 @@
       }
     ],
     "6": "browser.dart"
-  }
+  },
+  "BROWSER_APP_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BROWSER_APP_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

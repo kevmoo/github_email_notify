@@ -18,5 +18,16 @@
       }
     ],
     "6": "event_binding.dart"
-  }
+  },
+  "EventBinding": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventBinding",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/event_binding.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

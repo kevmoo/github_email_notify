@@ -108,5 +108,136 @@
         "4": "i10"
       }
     ]
-  }
+  },
+  "AngularTransformerGroup": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AngularTransformerGroup",
+      "moduleUrl": "asset:angular2/lib/src/transform/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CUSTOM_ANNOTATIONS_PARAM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CUSTOM_ANNOTATIONS_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ENTRY_POINT_PARAM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ENTRY_POINT_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "FORMAT_CODE_PARAM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "FORMAT_CODE_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "REFLECT_PROPERTIES_AS_ATTRIBUTES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "REFLECT_PROPERTIES_AS_ATTRIBUTES",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PLATFORM_DIRECTIVES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_DIRECTIVES",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PLATFORM_PIPES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_PIPES",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RESOLVED_IDENTIFIERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RESOLVED_IDENTIFIERS",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "INIT_REFLECTOR_PARAM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "INIT_REFLECTOR_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "INLINE_VIEWS_PARAM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "INLINE_VIEWS_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MIRROR_MODE_PARAM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MIRROR_MODE_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LAZY_TRANSFORMERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LAZY_TRANSFORMERS",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TransformerOptions": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TransformerOptions",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -234,5 +234,149 @@
       }
     ],
     "6": "template_compiler.dart"
-  }
+  },
+  "TemplateCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "TemplateCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "NormalizedComponentWithViewDirectives": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NormalizedComponentWithViewDirectives",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CompiledTemplate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CompiledTemplate",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DirectiveCollector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveCollector",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PipeVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PipeVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

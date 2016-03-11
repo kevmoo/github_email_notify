@@ -162,5 +162,78 @@
       }
     ],
     "6": "view_compiler.dart"
-  }
+  },
+  "VIEW_JIT_IMPORTS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "VIEW_JIT_IMPORTS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ViewCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "ViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "CodeGenViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CodeGenViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RuntimeViewFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RuntimeViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParentElement": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParentElement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewBuilderVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewBuilderVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

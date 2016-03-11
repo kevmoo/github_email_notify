@@ -11,5 +11,6 @@
       }
     ],
     "6": "property_utils.dart"
-  }
+  },
+  "definesAlias": false
 }

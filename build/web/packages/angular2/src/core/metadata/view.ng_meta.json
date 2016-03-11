@@ -10,6 +10,33 @@
         "5": false
       }
     ],
-    "6": "view.dart"
-  }
+    "6": "view.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "ViewEncapsulation": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewEncapsulation",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewMetadata": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

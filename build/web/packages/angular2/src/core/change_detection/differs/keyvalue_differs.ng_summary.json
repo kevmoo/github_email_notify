@@ -65,5 +65,49 @@
       }
     ],
     "6": "keyvalue_differs.dart"
-  }
+  },
+  "KeyValueDiffer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyValueDiffer",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyValueDifferFactory": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "KeyValueDifferFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "KeyValueDiffers": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "KeyValueDiffers",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

@@ -17,5 +17,6 @@
       }
     ],
     "6": "profile.dart"
-  }
+  },
+  "definesAlias": false
 }

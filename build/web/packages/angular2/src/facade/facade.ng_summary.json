@@ -29,5 +29,6 @@
       }
     ],
     "6": "facade.dart"
-  }
+  },
+  "definesAlias": false
 }

@@ -99,13 +99,6 @@
         "5": false
       },
       {
-        "1": "observable_facade.dart",
-        "2": [
-          "isObservable"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
           "ObservableWrapper"
@@ -116,53 +109,78 @@
     "6": "abstract_change_detector.dart",
     "10": [
       {
-        "1": "change_detection_util.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "change_detector_ref.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "directive_record.template.dart",
+        "1": "change_detection_util.template.dart",
         "4": "i2"
       },
       {
-        "1": "interfaces.template.dart",
+        "1": "change_detector_ref.template.dart",
         "4": "i3"
       },
       {
-        "1": "pipes.template.dart",
+        "1": "directive_record.template.dart",
         "4": "i4"
       },
       {
-        "1": "exceptions.template.dart",
+        "1": "interfaces.template.dart",
         "4": "i5"
       },
       {
-        "1": "binding_record.template.dart",
+        "1": "pipes.template.dart",
         "4": "i6"
       },
       {
-        "1": "parser/locals.template.dart",
+        "1": "exceptions.template.dart",
         "4": "i7"
       },
       {
-        "1": "constants.template.dart",
+        "1": "binding_record.template.dart",
         "4": "i8"
       },
       {
-        "1": "../profile/profile.template.dart",
+        "1": "parser/locals.template.dart",
         "4": "i9"
       },
       {
-        "1": "observable_facade.template.dart",
+        "1": "constants.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "../profile/profile.template.dart",
         "4": "i11"
+      },
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i12"
       }
     ]
-  }
+  },
+  "_Context": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_Context",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/abstract_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AbstractChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AbstractChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/abstract_change_detector.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

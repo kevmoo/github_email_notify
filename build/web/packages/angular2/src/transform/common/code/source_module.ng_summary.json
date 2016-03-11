@@ -27,5 +27,6 @@
       }
     ],
     "6": "source_module.dart"
-  }
+  },
+  "definesAlias": false
 }

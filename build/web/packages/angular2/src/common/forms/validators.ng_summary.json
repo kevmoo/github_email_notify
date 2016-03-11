@@ -47,5 +47,36 @@
       }
     ],
     "6": "validators.dart"
-  }
+  },
+  "NG_VALIDATORS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NG_VALIDATORS",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NG_ASYNC_VALIDATORS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NG_ASYNC_VALIDATORS",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Validators": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Validators",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

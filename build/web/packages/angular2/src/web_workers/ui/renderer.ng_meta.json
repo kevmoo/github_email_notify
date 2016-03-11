@@ -134,17 +134,89 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/web_workers/ui/event_dispatcher.template.dart",
+        "1": "package:angular2/src/web_workers/shared/messaging_api.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/render_store.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
+        "1": "package:angular2/src/web_workers/ui/event_dispatcher.template.dart",
         "4": "i6"
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/render_store.template.dart",
+        "4": "i7"
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
+        "4": "i8"
       }
     ]
-  }
+  },
+  "MessageBasedRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MessageBasedRenderer",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/renderer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

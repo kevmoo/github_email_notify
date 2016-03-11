@@ -26,5 +26,96 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "PropertyMetadataModel$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PropertyMetadataModel$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PrefixedType$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrefixedType$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ReflectionInfoModel$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionInfoModel$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PropertyMetadataModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PropertyMetadataModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyPropertyMetadataModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyPropertyMetadataModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PrefixedType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrefixedType",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyPrefixedType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyPrefixedType",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ReflectionInfoModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectionInfoModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyReflectionInfoModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyReflectionInfoModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/reflection_info_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

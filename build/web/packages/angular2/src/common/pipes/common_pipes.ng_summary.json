@@ -52,6 +52,27 @@
           "CurrencyPipe"
         ],
         "5": false
+      },
+      {
+        "1": "replace_pipe.dart",
+        "2": [
+          "ReplacePipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "i18n_plural_pipe.dart",
+        "2": [
+          "I18nPluralPipe"
+        ],
+        "5": false
+      },
+      {
+        "1": "i18n_select_pipe.dart",
+        "2": [
+          "I18nSelectPipe"
+        ],
+        "5": false
       }
     ],
     "6": "common_pipes.dart"
@@ -67,7 +88,11 @@
       "DecimalPipe",
       "PercentPipe",
       "CurrencyPipe",
-      "DatePipe"
+      "DatePipe",
+      "ReplacePipe",
+      "I18nPluralPipe",
+      "I18nSelectPipe"
     ]
-  }
+  },
+  "definesAlias": true
 }

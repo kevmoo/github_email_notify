@@ -30,5 +30,16 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "_u": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_u",
+      "moduleUrl": "asset:angular2/lib/src/testing/fake_async.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -76,7 +76,71 @@
       {
         "1": "package:angular2/src/core/zone/ng_zone.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "EVENT_MANAGER_PLUGINS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EVENT_MANAGER_PLUGINS",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EventManager": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "EventManager",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "EVENT_MANAGER_PLUGINS",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "EventManagerPlugin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventManagerPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

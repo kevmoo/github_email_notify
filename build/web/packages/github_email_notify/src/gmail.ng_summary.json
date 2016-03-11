@@ -28,5 +28,6 @@
       }
     ],
     "6": "gmail.dart"
-  }
+  },
+  "definesAlias": false
 }

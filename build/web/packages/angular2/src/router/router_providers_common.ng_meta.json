@@ -3,14 +3,14 @@
     "1": "angular2.src.router.router_providers_common",
     "3": [
       {
-        "1": "package:angular2/src/router/location_strategy.dart",
+        "1": "package:angular2/src/router/location/location_strategy.dart",
         "2": [
           "LocationStrategy"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/router/path_location_strategy.dart",
+        "1": "package:angular2/src/router/location/path_location_strategy.dart",
         "2": [
           "PathLocationStrategy"
         ],
@@ -33,7 +33,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/location.dart",
+        "1": "package:angular2/src/router/location/location.dart",
         "2": [
           "Location"
         ],
@@ -66,11 +66,11 @@
     "6": "router_providers_common.dart",
     "10": [
       {
-        "1": "package:angular2/src/router/location_strategy.template.dart",
+        "1": "package:angular2/src/router/location/location_strategy.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/router/path_location_strategy.template.dart",
+        "1": "package:angular2/src/router/location/path_location_strategy.template.dart",
         "4": "i1"
       },
       {
@@ -82,17 +82,32 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/router/location.template.dart",
+        "1": "package:angular2/src/router/location/location.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/core.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i6"
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "4": "i7"
       }
     ]
-  }
+  },
+  "ROUTER_PROVIDERS_COMMON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ROUTER_PROVIDERS_COMMON",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

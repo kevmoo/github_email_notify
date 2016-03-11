@@ -41,5 +41,396 @@
       }
     ],
     "6": "html_lexer.dart"
-  }
+  },
+  "HtmlTokenType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlTokenType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$EOF": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$EOF",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$TAB": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$TAB",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LF": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LF",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$FF": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$FF",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$CR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$CR",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SPACE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SPACE",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$BANG": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$BANG",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$DQ": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$DQ",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$HASH": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$HASH",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$$": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$$",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$AMPERSAND": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$AMPERSAND",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SQ": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SQ",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$MINUS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$MINUS",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SLASH": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SLASH",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$0": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$0",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$SEMICOLON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$SEMICOLON",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$9": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$9",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$COLON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$COLON",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LT",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$EQ": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$EQ",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$GT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$GT",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$QUESTION": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$QUESTION",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$LBRACKET": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$LBRACKET",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$RBRACKET": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$RBRACKET",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$A": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$A",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$F": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$F",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$X": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$X",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$Z": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$Z",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$a": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$a",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$f": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$f",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$z": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$z",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$x": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$x",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "$NBSP": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "$NBSP",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlToken": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlToken",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlTokenError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlTokenError",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HtmlTokenizeResult": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HtmlTokenizeResult",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ControlFlowError": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ControlFlowError",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_HtmlTokenizer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_HtmlTokenizer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_lexer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

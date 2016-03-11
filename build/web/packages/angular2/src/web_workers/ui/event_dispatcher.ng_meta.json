@@ -56,9 +56,24 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/facade/async.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "EventDispatcher": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventDispatcher",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/event_dispatcher.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

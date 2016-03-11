@@ -48,21 +48,36 @@
     "6": "platform_common_providers.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/console.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i1"
       },
       {
-        "1": "reflection/reflection.template.dart",
+        "1": "package:angular2/src/core/console.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/testability/testability.template.dart",
+        "1": "reflection/reflection.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "package:angular2/src/core/testability/testability.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "PLATFORM_COMMON_PROVIDERS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PLATFORM_COMMON_PROVIDERS",
+      "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

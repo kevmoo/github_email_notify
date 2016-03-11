@@ -89,5 +89,49 @@
       }
     ],
     "6": "serializer.dart"
-  }
+  },
+  "PRIMITIVE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PRIMITIVE",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Serializer": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Serializer",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "RenderStoreObject": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderStoreObject",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

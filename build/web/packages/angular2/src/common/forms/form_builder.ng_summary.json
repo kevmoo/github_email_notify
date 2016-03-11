@@ -47,5 +47,18 @@
       }
     ],
     "6": "form_builder.dart"
-  }
+  },
+  "FormBuilder": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "FormBuilder",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/form_builder.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

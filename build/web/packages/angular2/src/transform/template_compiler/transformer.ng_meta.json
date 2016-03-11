@@ -71,17 +71,42 @@
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/common/options.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/transform/common/zone.template.dart",
+        "1": "package:angular2/src/transform/common/options.template.dart",
         "4": "i6"
       },
       {
-        "1": "generator.template.dart",
+        "1": "package:angular2/src/transform/common/zone.template.dart",
         "4": "i7"
+      },
+      {
+        "1": "generator.template.dart",
+        "4": "i8"
       }
     ]
-  }
+  },
+  "_emptyNgDepsContents": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_emptyNgDepsContents",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TemplateCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplateCompiler",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -31,5 +31,46 @@
         "4": "i1"
       }
     ]
-  }
+  },
+  "__varargSentinel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "__varargSentinel",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_JsObjectProxyable": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_JsObjectProxyable",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PublicTestability": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PublicTestability",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BrowserGetTestability": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BrowserGetTestability",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/testability.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

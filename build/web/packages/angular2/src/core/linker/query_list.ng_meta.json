@@ -18,5 +18,16 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "QueryList": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "QueryList",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/query_list.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

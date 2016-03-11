@@ -1,0 +1,74 @@
+{
+  "ngDeps": null,
+  "Predicate": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Predicate",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MapIterator": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MapIterator",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "IterableMap": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "IterableMap",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "MapWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "MapWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "StringMapWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "StringMapWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ListWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ListWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SetWrapper": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SetWrapper",
+      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

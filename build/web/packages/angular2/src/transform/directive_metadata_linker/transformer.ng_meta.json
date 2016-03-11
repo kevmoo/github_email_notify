@@ -39,13 +39,28 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/zone.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i1"
       },
       {
-        "1": "ng_meta_linker.template.dart",
+        "1": "package:angular2/src/transform/common/zone.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "ng_meta_linker.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "DirectiveMetadataLinker": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DirectiveMetadataLinker",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_metadata_linker/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

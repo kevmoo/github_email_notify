@@ -85,13 +85,34 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i5"
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "4": "i6"
       }
     ]
-  }
+  },
+  "ViewResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ViewResolver",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_resolver.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

@@ -41,5 +41,66 @@
       }
     ],
     "6": "interfaces.dart"
-  }
+  },
+  "DebugContext": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DebugContext",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDispatcher": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDispatcher",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ProtoChangeDetector": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoChangeDetector",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorGenConfig": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorGenConfig",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ChangeDetectorDefinition": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ChangeDetectorDefinition",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

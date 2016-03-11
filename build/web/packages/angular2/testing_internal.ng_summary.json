@@ -19,5 +19,6 @@
       }
     ],
     "6": "testing_internal.dart"
-  }
+  },
+  "definesAlias": false
 }

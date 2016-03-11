@@ -187,7 +187,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/browser_platform_location.dart",
+        "1": "package:angular2/src/router/location/browser_platform_location.dart",
         "2": [
           "BrowserPlatformLocation"
         ],
@@ -233,6 +233,16 @@
     ],
     "6": "worker_render_common.dart"
   },
+  "WORKER_SCRIPT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_SCRIPT",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "WORKER_RENDER_MESSAGING_PROVIDERS": {
     "kind": "alias",
     "value": [
@@ -240,10 +250,31 @@
       "MessageBasedXHRImpl"
     ]
   },
+  "WORKER_RENDER_PLATFORM": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_PLATFORM",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "WORKER_RENDER_ROUTER": {
     "kind": "alias",
     "value": [
       "BrowserPlatformLocation"
     ]
-  }
+  },
+  "WORKER_RENDER_APPLICATION_COMMON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_APPLICATION_COMMON",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": true
 }

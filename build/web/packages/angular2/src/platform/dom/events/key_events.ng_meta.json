@@ -76,17 +76,38 @@
         "4": "i0"
       },
       {
-        "1": "event_manager.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "event_manager.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/core/di.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "KeyEventsPlugin": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "KeyEventsPlugin",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/events/key_events.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

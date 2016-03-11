@@ -56,5 +56,6 @@
       }
     ],
     "6": "worker_app.dart"
-  }
+  },
+  "definesAlias": false
 }

@@ -76,5 +76,16 @@
       }
     ],
     "6": "change_definition_factory.dart"
-  }
+  },
+  "ProtoViewVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ProtoViewVisitor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/change_definition_factory.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

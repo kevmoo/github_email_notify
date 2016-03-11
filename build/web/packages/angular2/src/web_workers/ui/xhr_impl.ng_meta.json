@@ -81,9 +81,51 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
+        "1": "package:angular2/src/web_workers/shared/messaging_api.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/compiler/xhr.template.dart",
+        "4": "i3"
+      },
+      {
+        "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
+        "4": "i4"
       }
     ]
-  }
+  },
+  "MessageBasedXHRImpl": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MessageBasedXHRImpl",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/xhr_impl.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

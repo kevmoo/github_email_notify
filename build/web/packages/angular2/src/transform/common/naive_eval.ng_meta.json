@@ -8,5 +8,6 @@
       }
     ],
     "6": "naive_eval.dart"
-  }
+  },
+  "definesAlias": false
 }

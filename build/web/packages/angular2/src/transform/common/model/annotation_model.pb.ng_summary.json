@@ -8,5 +8,66 @@
       }
     ],
     "6": "annotation_model.pb.dart"
-  }
+  },
+  "NamedParameter$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NamedParameter$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/annotation_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AnnotationModel$json": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AnnotationModel$json",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/annotation_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "NamedParameter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "NamedParameter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/annotation_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyNamedParameter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyNamedParameter",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/annotation_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AnnotationModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AnnotationModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/annotation_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_ReadonlyAnnotationModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_ReadonlyAnnotationModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/model/annotation_model.pb.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

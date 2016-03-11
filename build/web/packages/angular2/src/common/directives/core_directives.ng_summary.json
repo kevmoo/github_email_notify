@@ -60,5 +60,6 @@
       "NgSwitchWhen",
       "NgSwitchDefault"
     ]
-  }
+  },
+  "definesAlias": true
 }

@@ -16,5 +16,6 @@
       }
     ],
     "6": "bootstrap.dart"
-  }
+  },
+  "definesAlias": false
 }

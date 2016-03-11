@@ -12,5 +12,46 @@
       }
     ],
     "6": "source_module.dart"
-  }
+  },
+  "SourceModule": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SourceModule",
+      "moduleUrl": "asset:angular2/lib/src/compiler/source_module.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SourceExpression": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SourceExpression",
+      "moduleUrl": "asset:angular2/lib/src/compiler/source_module.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SourceExpressions": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SourceExpressions",
+      "moduleUrl": "asset:angular2/lib/src/compiler/source_module.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SourceWithImports": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SourceWithImports",
+      "moduleUrl": "asset:angular2/lib/src/compiler/source_module.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

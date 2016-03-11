@@ -116,6 +116,16 @@
       }
     ]
   },
+  "SELECT_VALUE_ACCESSOR": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SELECT_VALUE_ACCESSOR",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/select_control_value_accessor.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NgSelectOption": {
     "kind": "type",
     "value": {
@@ -125,9 +135,13 @@
       "selector": "option",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "NgSelectOption",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/select_control_value_accessor.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
       },
       "changeDetection": 5,
       "inputs": {},
@@ -136,7 +150,8 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": []
     }
   },
   "SelectControlValueAccessor": {
@@ -148,9 +163,63 @@
       "selector": "select[ngControl],select[ngFormControl],select[ngModel]",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "SelectControlValueAccessor",
         "moduleUrl": "asset:angular2/lib/src/common/forms/directives/select_control_value_accessor.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": [
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": null,
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "QueryList",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null
+            },
+            "query": {
+              "selectors": [
+                {
+                  "class": "Identifier",
+                  "name": "NgSelectOption",
+                  "moduleUrl": null,
+                  "prefix": null,
+                  "constConstructor": null
+                }
+              ],
+              "descendants": true,
+              "first": false,
+              "propertyName": null
+            },
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          }
+        ]
       },
       "changeDetection": 5,
       "inputs": {},
@@ -162,7 +231,9 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [],
-      "template": null
+      "template": null,
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

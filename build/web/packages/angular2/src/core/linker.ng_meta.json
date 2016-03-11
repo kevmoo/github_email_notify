@@ -132,5 +132,384 @@
         "4": "i10"
       }
     ]
-  }
+  },
+  "LifecycleHooks": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LifecycleHooks",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnChanges": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnChanges",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnInit": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnInit",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DoCheck": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DoCheck",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "OnDestroy": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "OnDestroy",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterContentInit": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterContentInit",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterContentChecked": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterContentChecked",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterViewInit": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterViewInit",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AfterViewChecked": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AfterViewChecked",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/interfaces.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DirectiveResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DirectiveResolver",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/directive_resolver.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "ViewResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ViewResolver",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_resolver.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "Compiler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Compiler",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Compiler_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "Compiler_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "AppViewManager": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "AppViewManager",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AppViewManager_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "AppViewManager_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "APP_ID",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "QueryList": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "QueryList",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/query_list.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicComponentLoader": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DynamicComponentLoader",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DynamicComponentLoader_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "DynamicComponentLoader_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "ElementRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ElementRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ElementRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ElementRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TemplateRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplateRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TemplateRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplateRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EmbeddedViewRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EmbeddedViewRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactoryRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactoryRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HostViewFactoryRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HostViewFactoryRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewContainerRef": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewContainerRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ViewContainerRef_": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewContainerRef_",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

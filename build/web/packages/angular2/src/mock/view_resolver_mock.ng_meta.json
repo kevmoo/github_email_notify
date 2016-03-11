@@ -73,17 +73,38 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "../core/metadata.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/linker/view_resolver.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "../core/metadata.template.dart",
+        "4": "i4"
+      },
+      {
+        "1": "package:angular2/src/core/linker/view_resolver.template.dart",
+        "4": "i5"
       }
     ]
-  }
+  },
+  "MockViewResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "MockViewResolver",
+      "moduleUrl": "asset:angular2/lib/src/mock/view_resolver_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

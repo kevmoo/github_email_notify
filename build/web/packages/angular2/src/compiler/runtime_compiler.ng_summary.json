@@ -69,5 +69,39 @@
       }
     ],
     "6": "runtime_compiler.dart"
-  }
+  },
+  "RuntimeCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RuntimeCompiler",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_compiler.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RuntimeCompiler_": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "RuntimeCompiler_",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_compiler.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

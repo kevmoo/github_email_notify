@@ -34,5 +34,86 @@
       }
     ],
     "6": "instruction.dart"
-  }
+  },
+  "RouteParams": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RouteParams",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RouteData": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RouteData",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Instruction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Instruction",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ResolvedInstruction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ResolvedInstruction",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DefaultInstruction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DefaultInstruction",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "UnresolvedInstruction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "UnresolvedInstruction",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RedirectInstruction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RedirectInstruction",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ComponentInstruction": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ComponentInstruction",
+      "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

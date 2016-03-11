@@ -46,9 +46,36 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "1": "package:angular2/src/facade/math.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "4": "i2"
       }
     ]
-  }
+  },
+  "BrowserDetails": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "BrowserDetails",
+      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "RafQueue": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RafQueue",
+      "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

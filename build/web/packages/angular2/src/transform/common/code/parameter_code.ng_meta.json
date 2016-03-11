@@ -38,5 +38,26 @@
         "4": "i2"
       }
     ]
-  }
+  },
+  "ParameterVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParameterVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/parameter_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParameterWriterMixin": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParameterWriterMixin",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/parameter_code.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

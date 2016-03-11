@@ -59,13 +59,18 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/transform/common/ng_compiler.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/common/zone.template.dart",
+        "1": "package:angular2/src/transform/common/ng_compiler.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "package:angular2/src/transform/common/zone.template.dart",
+        "4": "i6"
       }
     ]
-  }
+  },
+  "definesAlias": false
 }

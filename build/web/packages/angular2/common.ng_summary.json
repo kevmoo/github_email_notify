@@ -16,5 +16,6 @@
       }
     ],
     "6": "common.dart"
-  }
+  },
+  "definesAlias": false
 }

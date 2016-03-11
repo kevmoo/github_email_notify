@@ -49,5 +49,26 @@
       }
     ],
     "6": "transformer.dart"
-  }
+  },
+  "_emptyNgDepsContents": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_emptyNgDepsContents",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TemplateCompiler": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TemplateCompiler",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/transformer.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

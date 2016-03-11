@@ -57,5 +57,18 @@
       }
     ],
     "6": "pipe_resolver.dart"
-  }
+  },
+  "PipeResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "PipeResolver",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/pipe_resolver.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

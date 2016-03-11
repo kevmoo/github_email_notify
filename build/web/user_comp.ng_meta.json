@@ -92,6 +92,26 @@
       }
     ]
   },
+  "_FirebaseThing": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_FirebaseThing",
+      "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_FirebaseItem": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_FirebaseItem",
+      "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "UserComponent": {
     "kind": "type",
     "value": {
@@ -101,9 +121,13 @@
       "selector": "user-comp",
       "exportAs": null,
       "type": {
+        "class": "Type",
         "name": "UserComponent",
         "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
-        "isHost": false
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": []
       },
       "changeDetection": 5,
       "inputs": {
@@ -124,7 +148,9 @@
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []
-      }
+      },
+      "providers": []
     }
-  }
+  },
+  "definesAlias": false
 }

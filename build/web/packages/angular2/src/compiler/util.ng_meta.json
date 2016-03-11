@@ -15,6 +15,33 @@
         "5": false
       }
     ],
-    "6": "util.dart"
-  }
+    "6": "util.dart",
+    "10": [
+      {
+        "1": "package:angular2/src/facade/lang.template.dart",
+        "4": "i0"
+      }
+    ]
+  },
+  "Statement": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Statement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Expression": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Expression",
+      "moduleUrl": "asset:angular2/lib/src/compiler/util.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

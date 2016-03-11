@@ -11,5 +11,6 @@
       }
     ],
     "6": "normalize_validator.dart"
-  }
+  },
+  "definesAlias": false
 }

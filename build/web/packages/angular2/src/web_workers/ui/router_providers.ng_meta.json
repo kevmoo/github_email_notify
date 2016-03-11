@@ -10,7 +10,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/router/browser_platform_location.dart",
+        "1": "package:angular2/src/router/location/browser_platform_location.dart",
         "2": [
           "BrowserPlatformLocation"
         ],
@@ -34,7 +34,7 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/router/browser_platform_location.template.dart",
+        "1": "package:angular2/src/router/location/browser_platform_location.template.dart",
         "4": "i1"
       },
       {
@@ -42,5 +42,16 @@
         "4": "i2"
       }
     ]
-  }
+  },
+  "WORKER_RENDER_ROUTER": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_ROUTER",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/ui/router_providers.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

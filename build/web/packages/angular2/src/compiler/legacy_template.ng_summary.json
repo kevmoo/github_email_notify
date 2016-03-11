@@ -65,5 +65,38 @@
       }
     ],
     "6": "legacy_template.dart"
-  }
+  },
+  "SPECIAL_CASES": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SPECIAL_CASES",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LegacyHtmlAstTransformer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "LegacyHtmlAstTransformer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "LegacyHtmlParser": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "LegacyHtmlParser",
+      "moduleUrl": "asset:angular2/lib/src/compiler/legacy_template.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

@@ -37,5 +37,26 @@
       }
     ],
     "6": "rewriter.dart"
-  }
+  },
+  "Rewriter": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Rewriter",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/rewriter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "_RewriterVisitor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "_RewriterVisitor",
+      "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/rewriter.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

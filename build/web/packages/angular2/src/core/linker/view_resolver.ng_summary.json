@@ -71,5 +71,18 @@
       }
     ],
     "6": "view_resolver.dart"
-  }
+  },
+  "ViewResolver": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "ViewResolver",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_resolver.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "definesAlias": false
 }

@@ -42,13 +42,52 @@
     "6": "debug_node.dart",
     "10": [
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
+      },
+      {
+        "1": "package:angular2/src/core/di.template.dart",
+        "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/core/render/api.template.dart",
+        "4": "i3"
       }
     ]
-  }
+  },
+  "EventListener": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EventListener",
+      "moduleUrl": "asset:angular2/lib/src/core/debug/debug_node.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DebugNode": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DebugNode",
+      "moduleUrl": "asset:angular2/lib/src/core/debug/debug_node.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DebugElement": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DebugElement",
+      "moduleUrl": "asset:angular2/lib/src/core/debug/debug_node.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

@@ -1,0 +1,14 @@
+{
+  "ngDeps": null,
+  "ViewType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ViewType",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_type.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
+}

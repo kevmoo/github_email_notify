@@ -10,5 +10,6 @@
       }
     ],
     "6": "prod_mode.dart"
-  }
+  },
+  "definesAlias": false
 }

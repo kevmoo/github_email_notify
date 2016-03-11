@@ -111,5 +111,26 @@
     "value": [
       "PLATFORM_COMMON_PROVIDERS"
     ]
-  }
+  },
+  "WORKER_APP_APPLICATION_COMMON": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_APP_APPLICATION_COMMON",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PrintLogger": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PrintLogger",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_app_common.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": true
 }

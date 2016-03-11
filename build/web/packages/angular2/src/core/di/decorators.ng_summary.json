@@ -13,5 +13,66 @@
       }
     ],
     "6": "decorators.dart"
-  }
+  },
+  "Inject": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Inject",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Optional": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Optional",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Injectable": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Injectable",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Self": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Self",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Host": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Host",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "SkipSelf": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "SkipSelf",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

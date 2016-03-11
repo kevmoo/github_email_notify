@@ -67,5 +67,59 @@
       }
     ],
     "6": "worker_render.dart"
-  }
+  },
+  "WORKER_RENDER_APP": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "WORKER_RENDER_APP",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "UIMessageBusSource": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "UIMessageBusSource",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "WebWorkerInstance": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "WebWorkerInstance",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": [
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        },
+        {
+          "token": null,
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
+    }
+  },
+  "definesAlias": false
 }

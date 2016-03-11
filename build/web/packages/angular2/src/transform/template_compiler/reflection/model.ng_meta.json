@@ -14,5 +14,26 @@
         "4": "i0"
       }
     ]
-  }
+  },
+  "CodegenModel": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "CodegenModel",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ReflectiveAccessor": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ReflectiveAccessor",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }

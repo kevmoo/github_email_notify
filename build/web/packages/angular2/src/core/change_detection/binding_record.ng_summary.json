@@ -34,5 +34,126 @@
       }
     ],
     "6": "binding_record.dart"
-  }
+  },
+  "DIRECTIVE_LIFECYCLE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DIRECTIVE_LIFECYCLE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BINDING": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BINDING",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "DIRECTIVE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "DIRECTIVE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_PROPERTY": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_PROPERTY",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_ATTRIBUTE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_ATTRIBUTE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_CLASS": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_CLASS",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ELEMENT_STYLE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ELEMENT_STYLE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "TEXT_NODE": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "TEXT_NODE",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "EVENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "EVENT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "HOST_EVENT": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "HOST_EVENT",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BindingTarget": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BindingTarget",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "BindingRecord": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "BindingRecord",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/binding_record.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "definesAlias": false
 }
