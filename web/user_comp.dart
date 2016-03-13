@@ -123,7 +123,7 @@ class _FirebaseThing {
 
     if (_pickedCache != null) {
       var newItems = _pickedCache.keys.map((k) => k.toLowerCase()).toSet();
-      newItems.removeAll(_itemsCache.keys);
+      newItems.removeAll(_itemsCache.keys.map((k) => k.toLowerCase()));
       invalid.addAll(newItems);
       invalid.sort();
     }
