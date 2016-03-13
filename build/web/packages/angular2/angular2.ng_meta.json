@@ -196,242 +196,6 @@
       "constConstructor": null
     }
   },
-  "ObservableStrategy": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ObservableStrategy",
-      "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PromiseStrategy": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "PromiseStrategy",
-      "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AsyncPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "AsyncPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "async",
-      "pure": false
-    }
-  },
-  "DatePipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "DatePipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "date",
-      "pure": true
-    }
-  },
-  "JsonPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "JsonPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "json",
-      "pure": false
-    }
-  },
-  "SlicePipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "SlicePipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "slice",
-      "pure": false
-    }
-  },
-  "LowerCasePipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "LowerCasePipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "lowercase",
-      "pure": false
-    }
-  },
-  "NumberPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Type",
-      "name": "NumberPipe",
-      "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
-      "prefix": null,
-      "isHost": false,
-      "constConstructor": null,
-      "diDeps": []
-    }
-  },
-  "DecimalPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "DecimalPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "number",
-      "pure": false
-    }
-  },
-  "PercentPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "PercentPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "percent",
-      "pure": false
-    }
-  },
-  "CurrencyPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "CurrencyPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "currency",
-      "pure": false
-    }
-  },
-  "UpperCasePipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "UpperCasePipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "uppercase",
-      "pure": false
-    }
-  },
-  "ReplacePipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "ReplacePipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/replace_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "replace",
-      "pure": false
-    }
-  },
-  "I18nPluralPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "I18nPluralPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_plural_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "i18nPlural",
-      "pure": true
-    }
-  },
-  "I18nSelectPipe": {
-    "kind": "type",
-    "value": {
-      "class": "Pipe",
-      "type": {
-        "class": "Type",
-        "name": "I18nSelectPipe",
-        "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_select_pipe.dart",
-        "prefix": null,
-        "isHost": false,
-        "constConstructor": null,
-        "diDeps": null
-      },
-      "name": "i18nSelect",
-      "pure": true
-    }
-  },
   "NgClass": {
     "kind": "type",
     "value": {
@@ -930,6 +694,242 @@
       "moduleUrl": "asset:angular2/lib/src/common/directives/observable_list_diff.dart",
       "prefix": null,
       "constConstructor": null
+    }
+  },
+  "ObservableStrategy": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ObservableStrategy",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "PromiseStrategy": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "PromiseStrategy",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "AsyncPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "AsyncPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "async",
+      "pure": false
+    }
+  },
+  "DatePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "DatePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "date",
+      "pure": true
+    }
+  },
+  "JsonPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "JsonPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/json_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "json",
+      "pure": false
+    }
+  },
+  "SlicePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "SlicePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/slice_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "slice",
+      "pure": false
+    }
+  },
+  "LowerCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "LowerCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/lowercase_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "lowercase",
+      "pure": false
+    }
+  },
+  "NumberPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Type",
+      "name": "NumberPipe",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+      "prefix": null,
+      "isHost": false,
+      "constConstructor": null,
+      "diDeps": []
+    }
+  },
+  "DecimalPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "DecimalPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "number",
+      "pure": false
+    }
+  },
+  "PercentPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "PercentPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "percent",
+      "pure": false
+    }
+  },
+  "CurrencyPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "CurrencyPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "currency",
+      "pure": false
+    }
+  },
+  "UpperCasePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "UpperCasePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/uppercase_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "uppercase",
+      "pure": false
+    }
+  },
+  "ReplacePipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "ReplacePipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/replace_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "replace",
+      "pure": false
+    }
+  },
+  "I18nPluralPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "I18nPluralPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_plural_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "i18nPlural",
+      "pure": true
+    }
+  },
+  "I18nSelectPipe": {
+    "kind": "type",
+    "value": {
+      "class": "Pipe",
+      "type": {
+        "class": "Type",
+        "name": "I18nSelectPipe",
+        "moduleUrl": "asset:angular2/lib/src/common/pipes/i18n_select_pipe.dart",
+        "prefix": null,
+        "isHost": false,
+        "constConstructor": null,
+        "diDeps": null
+      },
+      "name": "i18nSelect",
+      "pure": true
     }
   },
   "FORM_BINDINGS": {
@@ -4968,6 +4968,56 @@
       "constConstructor": null
     }
   },
+  "RenderComponentType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderComponentType",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RenderDebugInfo": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderDebugInfo",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParentRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParentRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Renderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Renderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RootRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NoReflectionCapabilities": {
     "kind": "type",
     "value": {
@@ -5034,56 +5084,6 @@
       "class": "Identifier",
       "name": "PlatformReflectionCapabilities",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/platform_reflection_capabilities.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RenderComponentType": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RenderComponentType",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RenderDebugInfo": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RenderDebugInfo",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ParentRenderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ParentRenderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Renderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Renderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RootRenderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RootRenderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
       "prefix": null,
       "constConstructor": null
     }
@@ -5775,6 +5775,18 @@
       "FORM_DIRECTIVES"
     ]
   },
+  "CORE_DIRECTIVES": {
+    "kind": "alias",
+    "value": [
+      "NgClass",
+      "NgFor",
+      "NgIf",
+      "NgStyle",
+      "NgSwitch",
+      "NgSwitchWhen",
+      "NgSwitchDefault"
+    ]
+  },
   "COMMON_PIPES": {
     "kind": "alias",
     "value": [
@@ -5790,18 +5802,6 @@
       "ReplacePipe",
       "I18nPluralPipe",
       "I18nSelectPipe"
-    ]
-  },
-  "CORE_DIRECTIVES": {
-    "kind": "alias",
-    "value": [
-      "NgClass",
-      "NgFor",
-      "NgIf",
-      "NgStyle",
-      "NgSwitch",
-      "NgSwitchWhen",
-      "NgSwitchDefault"
     ]
   },
   "FORM_PROVIDERS": {

@@ -2728,6 +2728,56 @@
       "constConstructor": null
     }
   },
+  "RenderComponentType": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderComponentType",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RenderDebugInfo": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RenderDebugInfo",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "ParentRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "ParentRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "Renderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "Renderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
+  "RootRenderer": {
+    "kind": "type",
+    "value": {
+      "class": "Identifier",
+      "name": "RootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+      "prefix": null,
+      "constConstructor": null
+    }
+  },
   "NoReflectionCapabilities": {
     "kind": "type",
     "value": {
@@ -2794,56 +2844,6 @@
       "class": "Identifier",
       "name": "PlatformReflectionCapabilities",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/platform_reflection_capabilities.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RenderComponentType": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RenderComponentType",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RenderDebugInfo": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RenderDebugInfo",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ParentRenderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ParentRenderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Renderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Renderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RootRenderer": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RootRenderer",
-      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
       "prefix": null,
       "constConstructor": null
     }
