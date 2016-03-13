@@ -11,9 +11,9 @@ import 'package:http/http.dart';
 
 import 'user_comp.dart';
 
-@Component(
-    selector: "app",
-    providers: const [const Provider('browserClient', useFactory: browserClientFactory)])
+@Component(selector: "app", providers: const [
+  const Provider('browserClient', useFactory: browserClientFactory)
+])
 @View(
     templateUrl: 'client_app.html',
     directives: const [NgIf, NgFor, UserComponent])
@@ -27,7 +27,8 @@ class ClientApp implements OnInit {
 
   final List<String> triageUriKeys = <String>[];
 
-  ClientApp(@Inject('browserClient') BrowserClient client) : this._client = client;
+  ClientApp(@Inject('browserClient') BrowserClient client)
+      : this._client = client;
 
   void ngOnInit() {
     assert(loginDisabled);
