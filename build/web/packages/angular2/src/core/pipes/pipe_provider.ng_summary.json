@@ -37,15 +37,15 @@
     ],
     "6": "pipe_provider.dart"
   },
-  "PipeProvider": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "PipeProvider": {
       "class": "Identifier",
       "name": "PipeProvider",
       "moduleUrl": "asset:angular2/lib/src/core/pipes/pipe_provider.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

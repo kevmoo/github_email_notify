@@ -132,12 +132,37 @@
     ],
     "6": "router.dart"
   },
-  "ROUTER_DIRECTIVES": {
-    "kind": "alias",
-    "value": [
+  "type": {
+    "ROUTER_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "ROUTER_DIRECTIVES",
+      "moduleUrl": "asset:angular2/lib/router.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "RouterOutlet",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "RouterLink",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ]
+    }
+  },
+  "alias": {
+    "ROUTER_DIRECTIVES": [
       "RouterOutlet",
       "RouterLink"
     ]
-  },
-  "definesAlias": true
+  }
 }

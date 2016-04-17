@@ -60,9 +60,8 @@
     ],
     "6": "json_pipe.dart"
   },
-  "JsonPipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "JsonPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -71,11 +70,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "json",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

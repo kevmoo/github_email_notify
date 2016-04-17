@@ -9,35 +9,31 @@
     ],
     "6": "eager_transformer_wrapper.dart"
   },
-  "EagerTransformerWrapper": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "EagerTransformerWrapper": {
       "class": "Identifier",
       "name": "EagerTransformerWrapper",
       "moduleUrl": "asset:angular2/lib/src/transform/common/eager_transformer_wrapper.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_EagerTransformerWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_EagerTransformerWrapper": {
       "class": "Identifier",
       "name": "_EagerTransformerWrapper",
       "moduleUrl": "asset:angular2/lib/src/transform/common/eager_transformer_wrapper.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_EagerAggregateTransformerWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_EagerAggregateTransformerWrapper": {
       "class": "Identifier",
       "name": "_EagerAggregateTransformerWrapper",
       "moduleUrl": "asset:angular2/lib/src/transform/common/eager_transformer_wrapper.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

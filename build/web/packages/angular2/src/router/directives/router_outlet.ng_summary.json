@@ -128,9 +128,8 @@
     ],
     "6": "router_outlet.dart"
   },
-  "RouterOutlet": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouterOutlet": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -143,29 +142,17 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": null,
-            "query": null,
-            "viewQuery": null,
-            "isAttribute": false,
-            "isSelf": false,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": false
-          },
-          {
-            "token": null,
-            "query": null,
-            "viewQuery": null,
-            "isAttribute": false,
-            "isSelf": false,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": false
-          },
-          {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -177,11 +164,39 @@
           {
             "token": {
               "class": "Identifier",
-              "name": "String",
+              "name": "DynamicComponentLoader",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": null,
+              "prefix": "routerMod",
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": "name",
             "query": null,
             "viewQuery": null,
             "isAttribute": true,
@@ -202,8 +217,11 @@
         1
       ],
       "template": null,
-      "providers": []
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

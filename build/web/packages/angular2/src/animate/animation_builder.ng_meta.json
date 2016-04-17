@@ -61,18 +61,25 @@
       }
     ]
   },
-  "AnimationBuilder": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AnimationBuilder": {
       "class": "Type",
       "name": "AnimationBuilder",
       "moduleUrl": "asset:angular2/lib/src/animate/animation_builder.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "BrowserDetails",
+            "moduleUrl": "asset:angular2/lib/src/animate/browser_details.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -84,5 +91,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

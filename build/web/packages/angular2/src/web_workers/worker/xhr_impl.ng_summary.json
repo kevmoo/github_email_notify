@@ -61,15 +61,15 @@
     ],
     "6": "xhr_impl.dart"
   },
-  "WebWorkerXHRImpl": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WebWorkerXHRImpl": {
       "class": "Type",
       "name": "WebWorkerXHRImpl",
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/xhr_impl.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
           "token": {
@@ -77,7 +77,8 @@
             "name": "ClientMessageBrokerFactory",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -90,5 +91,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

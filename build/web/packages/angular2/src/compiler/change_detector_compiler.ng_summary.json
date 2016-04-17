@@ -122,58 +122,57 @@
     ],
     "6": "change_detector_compiler.dart"
   },
-  "ABSTRACT_CHANGE_DETECTOR": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ABSTRACT_CHANGE_DETECTOR": {
       "class": "Identifier",
       "name": "ABSTRACT_CHANGE_DETECTOR",
       "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UTIL": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "UTIL": {
       "class": "Identifier",
       "name": "UTIL",
       "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CHANGE_DETECTOR_STATE": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CHANGE_DETECTOR_STATE": {
       "class": "Identifier",
       "name": "CHANGE_DETECTOR_STATE",
       "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CHANGE_DETECTION_JIT_IMPORTS": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CHANGE_DETECTION_JIT_IMPORTS": {
       "class": "Identifier",
       "name": "CHANGE_DETECTION_JIT_IMPORTS",
       "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ChangeDetectionCompiler": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ChangeDetectionCompiler": {
       "class": "Type",
       "name": "ChangeDetectionCompiler",
       "moduleUrl": "asset:angular2/lib/src/compiler/change_detector_compiler.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "ChangeDetectorGenConfig",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -185,5 +184,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

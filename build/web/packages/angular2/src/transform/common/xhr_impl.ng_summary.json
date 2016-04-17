@@ -28,15 +28,15 @@
     ],
     "6": "xhr_impl.dart"
   },
-  "XhrImpl": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "XhrImpl": {
       "class": "Identifier",
       "name": "XhrImpl",
       "moduleUrl": "asset:angular2/lib/src/transform/common/xhr_impl.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

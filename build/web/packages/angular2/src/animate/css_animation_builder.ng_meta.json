@@ -40,15 +40,15 @@
       }
     ]
   },
-  "CssAnimationBuilder": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "CssAnimationBuilder": {
       "class": "Identifier",
       "name": "CssAnimationBuilder",
       "moduleUrl": "asset:angular2/lib/src/animate/css_animation_builder.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

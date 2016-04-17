@@ -52,17 +52,17 @@
     ],
     "6": "location_mock.dart"
   },
-  "SpyLocation": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "SpyLocation": {
       "class": "Type",
       "name": "SpyLocation",
       "moduleUrl": "asset:angular2/lib/src/mock/location_mock.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

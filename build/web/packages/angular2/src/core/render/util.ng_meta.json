@@ -18,5 +18,23 @@
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "camelCaseToDashCase": {
+      "class": "Identifier",
+      "name": "camelCaseToDashCase",
+      "moduleUrl": "asset:angular2/lib/src/core/render/util.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "dashCaseToCamelCase": {
+      "class": "Identifier",
+      "name": "dashCaseToCamelCase",
+      "moduleUrl": "asset:angular2/lib/src/core/render/util.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

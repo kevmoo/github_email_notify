@@ -56,17 +56,17 @@
       }
     ]
   },
-  "DomEventsPlugin": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DomEventsPlugin": {
       "class": "Type",
       "name": "DomEventsPlugin",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/events/dom_events.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

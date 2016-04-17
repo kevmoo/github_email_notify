@@ -50,5 +50,23 @@
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "normalizeRouteConfig": {
+      "class": "Identifier",
+      "name": "normalizeRouteConfig",
+      "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_normalizer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "assertComponentExists": {
+      "class": "Identifier",
+      "name": "assertComponentExists",
+      "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_normalizer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

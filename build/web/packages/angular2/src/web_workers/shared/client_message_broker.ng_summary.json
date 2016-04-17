@@ -99,28 +99,33 @@
     ],
     "6": "client_message_broker.dart"
   },
-  "ClientMessageBrokerFactory": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ClientMessageBrokerFactory": {
       "class": "Identifier",
       "name": "ClientMessageBrokerFactory",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ClientMessageBrokerFactory_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ClientMessageBrokerFactory_": {
       "class": "Type",
       "name": "ClientMessageBrokerFactory_",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "MessageBus",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -135,7 +140,8 @@
             "name": "Serializer",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -146,57 +152,47 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "ClientMessageBroker": {
-    "kind": "type",
-    "value": {
+    },
+    "ClientMessageBroker": {
       "class": "Identifier",
       "name": "ClientMessageBroker",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ClientMessageBroker_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ClientMessageBroker_": {
       "class": "Identifier",
       "name": "ClientMessageBroker_",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MessageData": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "MessageData": {
       "class": "Identifier",
       "name": "MessageData",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "FnArg": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "FnArg": {
       "class": "Identifier",
       "name": "FnArg",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UiArguments": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "UiArguments": {
       "class": "Identifier",
       "name": "UiArguments",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

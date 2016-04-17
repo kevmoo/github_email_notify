@@ -46,5 +46,31 @@
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "writeSourceModule": {
+      "class": "Identifier",
+      "name": "writeSourceModule",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/source_module.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "writeTemplateFile": {
+      "class": "Identifier",
+      "name": "writeTemplateFile",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/source_module.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_sanitizeLibName": {
+      "class": "Identifier",
+      "name": "_sanitizeLibName",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/source_module.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

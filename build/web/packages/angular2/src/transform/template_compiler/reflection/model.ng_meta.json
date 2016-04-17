@@ -15,25 +15,31 @@
       }
     ]
   },
-  "CodegenModel": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "CodegenModel": {
       "class": "Identifier",
       "name": "CodegenModel",
       "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ReflectiveAccessor": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ReflectiveAccessor": {
       "class": "Identifier",
       "name": "ReflectiveAccessor",
       "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "sanitizePropertyName": {
+      "class": "Identifier",
+      "name": "sanitizePropertyName",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/model.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

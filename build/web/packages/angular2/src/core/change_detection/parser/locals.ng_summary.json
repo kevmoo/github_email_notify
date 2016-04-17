@@ -27,15 +27,15 @@
     ],
     "6": "locals.dart"
   },
-  "Locals": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Locals": {
       "class": "Identifier",
       "name": "Locals",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/locals.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

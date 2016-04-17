@@ -142,15 +142,15 @@
     ],
     "6": "renderer.dart"
   },
-  "WebWorkerRootRenderer": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WebWorkerRootRenderer": {
       "class": "Type",
       "name": "WebWorkerRootRenderer",
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/renderer.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
           "token": {
@@ -158,7 +158,8 @@
             "name": "ClientMessageBrokerFactory",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -174,7 +175,8 @@
             "name": "MessageBus",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -185,7 +187,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Serializer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -195,7 +204,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "RenderStore",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -205,37 +221,39 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "WebWorkerRenderer": {
-    "kind": "type",
-    "value": {
+    },
+    "WebWorkerRenderer": {
       "class": "Identifier",
       "name": "WebWorkerRenderer",
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/renderer.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NamedEventEmitter": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "NamedEventEmitter": {
       "class": "Identifier",
       "name": "NamedEventEmitter",
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/renderer.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "WebWorkerRenderNode": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "eventNameWithTarget": {
+      "class": "Identifier",
+      "name": "eventNameWithTarget",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/worker/renderer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "WebWorkerRenderNode": {
       "class": "Identifier",
       "name": "WebWorkerRenderNode",
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/renderer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

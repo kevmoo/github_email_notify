@@ -85,48 +85,49 @@
     ],
     "6": "dynamic_component_loader.dart"
   },
-  "ComponentRef": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ComponentRef": {
       "class": "Identifier",
       "name": "ComponentRef",
       "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ComponentRef_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ComponentRef_": {
       "class": "Identifier",
       "name": "ComponentRef_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DynamicComponentLoader": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DynamicComponentLoader": {
       "class": "Identifier",
       "name": "DynamicComponentLoader",
       "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DynamicComponentLoader_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DynamicComponentLoader_": {
       "class": "Type",
       "name": "DynamicComponentLoader_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Compiler",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -136,7 +137,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "AppViewManager",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -148,5 +156,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

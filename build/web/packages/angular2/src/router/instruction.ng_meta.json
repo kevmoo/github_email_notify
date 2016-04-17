@@ -49,85 +49,71 @@
       }
     ]
   },
-  "RouteParams": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouteParams": {
       "class": "Identifier",
       "name": "RouteParams",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RouteData": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RouteData": {
       "class": "Identifier",
       "name": "RouteData",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Instruction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Instruction": {
       "class": "Identifier",
       "name": "Instruction",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ResolvedInstruction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ResolvedInstruction": {
       "class": "Identifier",
       "name": "ResolvedInstruction",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DefaultInstruction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DefaultInstruction": {
       "class": "Identifier",
       "name": "DefaultInstruction",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UnresolvedInstruction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "UnresolvedInstruction": {
       "class": "Identifier",
       "name": "UnresolvedInstruction",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RedirectInstruction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RedirectInstruction": {
       "class": "Identifier",
       "name": "RedirectInstruction",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ComponentInstruction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ComponentInstruction": {
       "class": "Identifier",
       "name": "ComponentInstruction",
       "moduleUrl": "asset:angular2/lib/src/router/instruction.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -84,17 +84,17 @@
       }
     ]
   },
-  "MockDirectiveResolver": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MockDirectiveResolver": {
       "class": "Type",
       "name": "MockDirectiveResolver",
       "moduleUrl": "asset:angular2/lib/src/mock/directive_resolver_mock.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

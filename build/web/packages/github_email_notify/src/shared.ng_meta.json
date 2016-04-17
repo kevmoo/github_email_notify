@@ -17,65 +17,63 @@
     ],
     "6": "shared.dart"
   },
-  "apiRoot": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "apiRoot": {
       "class": "Identifier",
       "name": "apiRoot",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "emailAuthPath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "emailAuthPath": {
       "class": "Identifier",
       "name": "emailAuthPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "emailAuthLogoutPath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "emailAuthLogoutPath": {
       "class": "Identifier",
       "name": "emailAuthLogoutPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "sendTestMessagePath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "sendTestMessagePath": {
       "class": "Identifier",
       "name": "sendTestMessagePath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "updateGithubLabelsPath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "updateGithubLabelsPath": {
       "class": "Identifier",
       "name": "updateGithubLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "scopes": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "scopes": {
       "class": "Identifier",
       "name": "scopes",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "prettyJson": {
+      "class": "Identifier",
+      "name": "prettyJson",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

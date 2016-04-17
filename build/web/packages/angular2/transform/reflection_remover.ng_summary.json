@@ -29,15 +29,15 @@
     ],
     "6": "reflection_remover.dart"
   },
-  "ReflectionRemover": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ReflectionRemover": {
       "class": "Identifier",
       "name": "ReflectionRemover",
       "moduleUrl": "asset:angular2/lib/transform/reflection_remover.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

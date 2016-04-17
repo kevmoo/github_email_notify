@@ -29,25 +29,39 @@
       }
     ]
   },
-  "APP_BASE_HREF": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "APP_BASE_HREF": {
       "class": "Identifier",
       "name": "APP_BASE_HREF",
       "moduleUrl": "asset:angular2/lib/src/router/location/location_strategy.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "LocationStrategy": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "LocationStrategy": {
       "class": "Identifier",
       "name": "LocationStrategy",
       "moduleUrl": "asset:angular2/lib/src/router/location/location_strategy.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "normalizeQueryParams": {
+      "class": "Identifier",
+      "name": "normalizeQueryParams",
+      "moduleUrl": "asset:angular2/lib/src/router/location/location_strategy.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "joinWithSlash": {
+      "class": "Identifier",
+      "name": "joinWithSlash",
+      "moduleUrl": "asset:angular2/lib/src/router/location/location_strategy.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

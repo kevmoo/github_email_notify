@@ -13,15 +13,15 @@
     ],
     "6": "processor.dart"
   },
-  "Processor": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Processor": {
       "class": "Identifier",
       "name": "Processor",
       "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/reflection/processor.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

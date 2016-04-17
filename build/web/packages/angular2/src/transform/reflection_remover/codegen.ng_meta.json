@@ -24,15 +24,15 @@
       }
     ]
   },
-  "Codegen": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Codegen": {
       "class": "Identifier",
       "name": "Codegen",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/codegen.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -94,17 +94,17 @@
       }
     ]
   },
-  "MockViewResolver": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MockViewResolver": {
       "class": "Type",
       "name": "MockViewResolver",
       "moduleUrl": "asset:angular2/lib/src/mock/view_resolver_mock.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

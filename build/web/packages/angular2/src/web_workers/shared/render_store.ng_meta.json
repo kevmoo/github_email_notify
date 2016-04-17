@@ -33,17 +33,17 @@
       }
     ]
   },
-  "RenderStore": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RenderStore": {
       "class": "Type",
       "name": "RenderStore",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/render_store.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

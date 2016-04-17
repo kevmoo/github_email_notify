@@ -65,15 +65,118 @@
     ],
     "6": "router_providers_common.dart"
   },
-  "ROUTER_PROVIDERS_COMMON": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ROUTER_PROVIDERS_COMMON": {
       "class": "Identifier",
       "name": "ROUTER_PROVIDERS_COMMON",
       "moduleUrl": "asset:angular2/lib/src/router/router_providers_common.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "RouteRegistry",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "LocationStrategy",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "PathLocationStrategy",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "Location",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "Router",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "routerFactory",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "ROUTER_PRIMARY_COMPONENT",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "routerPrimaryComponentFactory",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        }
+      ]
+    },
+    "routerFactory": {
+      "class": "Identifier",
+      "name": "routerFactory",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "routerPrimaryComponentFactory": {
+      "class": "Identifier",
+      "name": "routerPrimaryComponentFactory",
+      "moduleUrl": "asset:angular2/lib/src/router/router_providers_common.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

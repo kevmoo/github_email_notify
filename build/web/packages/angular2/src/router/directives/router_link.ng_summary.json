@@ -79,9 +79,8 @@
     ],
     "6": "router_link.dart"
   },
-  "RouterLink": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouterLink": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -94,9 +93,17 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -106,7 +113,14 @@
             "isOptional": false
           },
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "Location",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -133,8 +147,11 @@
       "hostAttributes": {},
       "lifecycleHooks": [],
       "template": null,
-      "providers": []
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

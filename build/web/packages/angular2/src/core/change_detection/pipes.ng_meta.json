@@ -18,25 +18,23 @@
       }
     ]
   },
-  "Pipes": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Pipes": {
       "class": "Identifier",
       "name": "Pipes",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/pipes.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SelectedPipe": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SelectedPipe": {
       "class": "Identifier",
       "name": "SelectedPipe",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/pipes.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

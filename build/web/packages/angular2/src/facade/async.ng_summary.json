@@ -22,45 +22,39 @@
     ],
     "6": "async.dart"
   },
-  "TimerWrapper": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "TimerWrapper": {
       "class": "Identifier",
       "name": "TimerWrapper",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ObservableWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ObservableWrapper": {
       "class": "Identifier",
       "name": "ObservableWrapper",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "EventEmitter": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "EventEmitter": {
       "class": "Identifier",
       "name": "EventEmitter",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Subject": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Subject": {
       "class": "Identifier",
       "name": "Subject",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

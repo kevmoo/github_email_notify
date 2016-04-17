@@ -52,17 +52,17 @@
       }
     ]
   },
-  "XHRImpl": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "XHRImpl": {
       "class": "Type",
       "name": "XHRImpl",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/xhr_impl.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

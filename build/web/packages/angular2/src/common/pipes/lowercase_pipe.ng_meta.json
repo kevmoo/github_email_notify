@@ -76,9 +76,8 @@
       }
     ]
   },
-  "LowerCasePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "LowerCasePipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -87,11 +86,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "lowercase",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

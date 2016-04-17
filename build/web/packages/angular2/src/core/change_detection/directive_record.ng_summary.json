@@ -22,25 +22,23 @@
     ],
     "6": "directive_record.dart"
   },
-  "DirectiveIndex": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DirectiveIndex": {
       "class": "Identifier",
       "name": "DirectiveIndex",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/directive_record.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DirectiveRecord": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DirectiveRecord": {
       "class": "Identifier",
       "name": "DirectiveRecord",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/directive_record.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

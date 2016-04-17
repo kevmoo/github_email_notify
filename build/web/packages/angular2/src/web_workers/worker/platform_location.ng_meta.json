@@ -180,23 +180,24 @@
       }
     ]
   },
-  "WebWorkerPlatformLocation": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WebWorkerPlatformLocation": {
       "class": "Type",
       "name": "WebWorkerPlatformLocation",
       "moduleUrl": "asset:angular2/lib/src/web_workers/worker/platform_location.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
           "token": {
             "class": "Identifier",
             "name": "ClientMessageBrokerFactory",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/client_message_broker.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -210,9 +211,10 @@
           "token": {
             "class": "Identifier",
             "name": "MessageBus",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -223,7 +225,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Serializer",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -235,5 +244,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

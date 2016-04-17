@@ -45,35 +45,31 @@
     ],
     "6": "default_keyvalue_differ.dart"
   },
-  "DefaultKeyValueDifferFactory": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DefaultKeyValueDifferFactory": {
       "class": "Identifier",
       "name": "DefaultKeyValueDifferFactory",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DefaultKeyValueDiffer": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DefaultKeyValueDiffer": {
       "class": "Identifier",
       "name": "DefaultKeyValueDiffer",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "KeyValueChangeRecord": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "KeyValueChangeRecord": {
       "class": "Identifier",
       "name": "KeyValueChangeRecord",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

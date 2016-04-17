@@ -1,44 +1,38 @@
 {
   "ngDeps": null,
-  "RENDERER_CHANNEL": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RENDERER_CHANNEL": {
       "class": "Identifier",
       "name": "RENDERER_CHANNEL",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/messaging_api.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "XHR_CHANNEL": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "XHR_CHANNEL": {
       "class": "Identifier",
       "name": "XHR_CHANNEL",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/messaging_api.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "EVENT_CHANNEL": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "EVENT_CHANNEL": {
       "class": "Identifier",
       "name": "EVENT_CHANNEL",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/messaging_api.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ROUTER_CHANNEL": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ROUTER_CHANNEL": {
       "class": "Identifier",
       "name": "ROUTER_CHANNEL",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/messaging_api.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

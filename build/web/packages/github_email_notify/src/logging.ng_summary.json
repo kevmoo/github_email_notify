@@ -10,5 +10,15 @@
     ],
     "6": "logging.dart"
   },
-  "definesAlias": false
+  "type": {
+    "logger": {
+      "class": "Identifier",
+      "name": "logger",
+      "moduleUrl": "asset:github_email_notify/lib/src/logging.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

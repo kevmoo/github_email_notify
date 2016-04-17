@@ -14,75 +14,63 @@
       }
     ]
   },
-  "routerCanReuse": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "routerCanReuse": {
       "class": "Identifier",
       "name": "routerCanReuse",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "routerCanDeactivate": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "routerCanDeactivate": {
       "class": "Identifier",
       "name": "routerCanDeactivate",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "routerOnActivate": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "routerOnActivate": {
       "class": "Identifier",
       "name": "routerOnActivate",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "routerOnReuse": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "routerOnReuse": {
       "class": "Identifier",
       "name": "routerOnReuse",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "routerOnDeactivate": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "routerOnDeactivate": {
       "class": "Identifier",
       "name": "routerOnDeactivate",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RouteLifecycleHook": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RouteLifecycleHook": {
       "class": "Identifier",
       "name": "RouteLifecycleHook",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CanActivate": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CanActivate": {
       "class": "Identifier",
       "name": "CanActivate",
       "moduleUrl": "asset:angular2/lib/src/router/lifecycle/lifecycle_annotations_impl.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

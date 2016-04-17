@@ -56,27 +56,25 @@
       }
     ]
   },
-  "MockLocationStrategy": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MockLocationStrategy": {
       "class": "Type",
       "name": "MockLocationStrategy",
       "moduleUrl": "asset:angular2/lib/src/mock/mock_location_strategy.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
-    }
-  },
-  "_MockPopStateEvent": {
-    "kind": "type",
-    "value": {
+    },
+    "_MockPopStateEvent": {
       "class": "Identifier",
       "name": "_MockPopStateEvent",
       "moduleUrl": "asset:angular2/lib/src/mock/mock_location_strategy.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -38,35 +38,87 @@
     ],
     "6": "test_injector.dart"
   },
-  "TestInjector": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "TestInjector": {
       "class": "Identifier",
       "name": "TestInjector",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InjectSetupWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "getTestInjector": {
+      "class": "Identifier",
+      "name": "getTestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "setBaseTestProviders": {
+      "class": "Identifier",
+      "name": "setBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "resetBaseTestProviders": {
+      "class": "Identifier",
+      "name": "resetBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "inject": {
+      "class": "Identifier",
+      "name": "inject",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectSetupWrapper": {
       "class": "Identifier",
       "name": "InjectSetupWrapper",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "FunctionWithParamTokens": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "withProviders": {
+      "class": "Identifier",
+      "name": "withProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "injectAsync": {
+      "class": "Identifier",
+      "name": "injectAsync",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "emptyArray": {
+      "class": "Identifier",
+      "name": "emptyArray",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "FunctionWithParamTokens": {
       "class": "Identifier",
       "name": "FunctionWithParamTokens",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -65,25 +65,23 @@
     ],
     "6": "event_manager.dart"
   },
-  "EVENT_MANAGER_PLUGINS": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "EVENT_MANAGER_PLUGINS": {
       "class": "Identifier",
       "name": "EVENT_MANAGER_PLUGINS",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "EventManager": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "EventManager": {
       "class": "Type",
       "name": "EventManager",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
           "token": {
@@ -91,7 +89,8 @@
             "name": "EVENT_MANAGER_PLUGINS",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -102,7 +101,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "NgZone",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -112,17 +118,15 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "EventManagerPlugin": {
-    "kind": "type",
-    "value": {
+    },
+    "EventManagerPlugin": {
       "class": "Identifier",
       "name": "EventManagerPlugin",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/events/event_manager.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

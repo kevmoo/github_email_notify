@@ -41,31 +41,6 @@
         "5": false
       }
     ],
-    "5": [
-      {
-        "1": "WebWorkerInstance",
-        "4": [
-          {
-            "1": "Injectable",
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
-          }
-        ],
-        "5": [
-          {
-            "1": "Isolate",
-            "4": "worker"
-          },
-          {
-            "1": "MessageBus",
-            "4": "bus"
-          }
-        ]
-      }
-    ],
     "6": "worker_render.dart",
     "10": [
       {
@@ -94,58 +69,47 @@
       }
     ]
   },
-  "WORKER_RENDER_APP": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WORKER_RENDER_APP": {
       "class": "Identifier",
       "name": "WORKER_RENDER_APP",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UIMessageBusSource": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "initIsolate": {
+      "class": "Identifier",
+      "name": "initIsolate",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "spawnIsolate": {
+      "class": "Identifier",
+      "name": "spawnIsolate",
+      "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UIMessageBusSource": {
       "class": "Identifier",
       "name": "UIMessageBusSource",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "WebWorkerInstance": {
-    "kind": "type",
-    "value": {
-      "class": "Type",
+      "constConstructor": null,
+      "value": null
+    },
+    "WebWorkerInstance": {
+      "class": "Identifier",
       "name": "WebWorkerInstance",
       "moduleUrl": "asset:angular2/lib/src/platform/worker_render.dart",
       "prefix": null,
-      "isHost": false,
       "constConstructor": null,
-      "diDeps": [
-        {
-          "token": null,
-          "query": null,
-          "viewQuery": null,
-          "isAttribute": false,
-          "isSelf": false,
-          "isHost": false,
-          "isSkipSelf": false,
-          "isOptional": false
-        },
-        {
-          "token": null,
-          "query": null,
-          "viewQuery": null,
-          "isAttribute": false,
-          "isSelf": false,
-          "isHost": false,
-          "isSkipSelf": false,
-          "isOptional": false
-        }
-      ]
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

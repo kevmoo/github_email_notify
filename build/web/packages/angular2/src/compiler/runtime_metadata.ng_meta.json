@@ -113,6 +113,13 @@
         "5": false
       },
       {
+        "1": "assertions.dart",
+        "2": [
+          "assertArrayOfStrings"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/compiler/url_resolver.dart",
         "2": [
           "getUrlScheme"
@@ -226,23 +233,34 @@
         "4": "i13"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "1": "assertions.template.dart",
         "4": "i14"
+      },
+      {
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "4": "i15"
       }
     ]
   },
-  "RuntimeMetadataResolver": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RuntimeMetadataResolver": {
       "class": "Type",
       "name": "RuntimeMetadataResolver",
       "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "DirectiveResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/directive_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -252,7 +270,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "PipeResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/pipe_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -262,7 +287,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "ViewResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/view_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -275,9 +307,10 @@
           "token": {
             "class": "Identifier",
             "name": "PLATFORM_DIRECTIVES",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -291,9 +324,10 @@
           "token": {
             "class": "Identifier",
             "name": "PLATFORM_PIPES",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -304,7 +338,47 @@
           "isOptional": true
         }
       ]
+    },
+    "flattenDirectives": {
+      "class": "Identifier",
+      "name": "flattenDirectives",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "flattenPipes": {
+      "class": "Identifier",
+      "name": "flattenPipes",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "flattenArray": {
+      "class": "Identifier",
+      "name": "flattenArray",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "isValidType": {
+      "class": "Identifier",
+      "name": "isValidType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "calcModuleUrl": {
+      "class": "Identifier",
+      "name": "calcModuleUrl",
+      "moduleUrl": "asset:angular2/lib/src/compiler/runtime_metadata.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -29,15 +29,15 @@
       }
     ]
   },
-  "ControlContainer": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ControlContainer": {
       "class": "Identifier",
       "name": "ControlContainer",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_container.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

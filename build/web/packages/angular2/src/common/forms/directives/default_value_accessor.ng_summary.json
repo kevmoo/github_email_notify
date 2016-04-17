@@ -73,19 +73,37 @@
     ],
     "6": "default_value_accessor.dart"
   },
-  "DEFAULT_VALUE_ACCESSOR": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DEFAULT_VALUE_ACCESSOR": {
       "class": "Identifier",
       "name": "DEFAULT_VALUE_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/default_value_accessor.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DefaultValueAccessor": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "NG_VALUE_ACCESSOR",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "DefaultValueAccessor",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "DefaultValueAccessor": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -98,9 +116,17 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "Renderer",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -110,7 +136,14 @@
             "isOptional": false
           },
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": null,
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -132,8 +165,20 @@
       "hostAttributes": {},
       "lifecycleHooks": [],
       "template": null,
-      "providers": []
+      "providers": [
+        {
+          "class": "Identifier",
+          "name": "DEFAULT_VALUE_ACCESSOR",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

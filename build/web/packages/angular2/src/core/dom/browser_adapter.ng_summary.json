@@ -8,5 +8,6 @@
     ],
     "6": "browser_adapter.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

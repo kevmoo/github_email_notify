@@ -28,6 +28,7 @@
           "HtmlAst",
           "HtmlAttrAst",
           "HtmlTextAst",
+          "HtmlCommentAst",
           "HtmlElementAst"
         ],
         "5": false
@@ -115,47 +116,49 @@
       }
     ]
   },
-  "HtmlTreeError": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "HtmlTreeError": {
       "class": "Identifier",
       "name": "HtmlTreeError",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HtmlParseTreeResult": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlParseTreeResult": {
       "class": "Identifier",
       "name": "HtmlParseTreeResult",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HtmlParser": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HtmlParser": {
       "class": "Type",
       "name": "HtmlParser",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
-    }
-  },
-  "TreeBuilder": {
-    "kind": "type",
-    "value": {
+    },
+    "TreeBuilder": {
       "class": "Identifier",
       "name": "TreeBuilder",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "getElementFullName": {
+      "class": "Identifier",
+      "name": "getElementFullName",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

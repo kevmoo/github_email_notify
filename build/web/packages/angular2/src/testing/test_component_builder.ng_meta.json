@@ -145,38 +145,41 @@
       }
     ]
   },
-  "ComponentFixture": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ComponentFixture": {
       "class": "Identifier",
       "name": "ComponentFixture",
       "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ComponentFixture_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ComponentFixture_": {
       "class": "Identifier",
       "name": "ComponentFixture_",
       "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "TestComponentBuilder": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "TestComponentBuilder": {
       "class": "Type",
       "name": "TestComponentBuilder",
       "moduleUrl": "asset:angular2/lib/src/testing/test_component_builder.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Injector",
+            "moduleUrl": "asset:angular2/lib/src/core/di/injector.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -188,5 +191,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

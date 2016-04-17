@@ -72,6 +72,14 @@
           "selectValueAccessor"
         ],
         "5": false
+      },
+      {
+        "1": "validators.dart",
+        "2": [
+          "ValidatorFn",
+          "AsyncValidatorFn"
+        ],
+        "5": false
       }
     ],
     "5": [
@@ -148,19 +156,37 @@
     ],
     "6": "ng_form_control.dart"
   },
-  "formControlBinding": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "formControlBinding": {
       "class": "Identifier",
       "name": "formControlBinding",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_control.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NgFormControl": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "NgControl",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "NgFormControl",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "NgFormControl": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -173,6 +199,7 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
             "token": {
@@ -180,7 +207,8 @@
               "name": "NG_VALIDATORS",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -196,7 +224,8 @@
               "name": "NG_ASYNC_VALIDATORS",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -212,7 +241,8 @@
               "name": "NG_VALUE_ACCESSOR",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -239,8 +269,20 @@
         3
       ],
       "template": null,
-      "providers": []
+      "providers": [
+        {
+          "class": "Identifier",
+          "name": "formControlBinding",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

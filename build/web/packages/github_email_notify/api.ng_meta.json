@@ -58,86 +58,328 @@
         "4": "i0"
       },
       {
-        "1": "src/firebase.template.dart",
+        "1": "src/environment_variable_access.template.dart",
         "4": "i1"
       },
       {
-        "1": "src/models.template.dart",
+        "1": "src/firebase.template.dart",
         "4": "i2"
       },
       {
-        "1": "src/server_utils.template.dart",
+        "1": "src/models.template.dart",
         "4": "i3"
       },
       {
-        "1": "src/github_event_handler.template.dart",
+        "1": "src/server_utils.template.dart",
         "4": "i4"
       },
       {
-        "1": "src/shared.template.dart",
+        "1": "src/github_event_handler.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "src/shared.template.dart",
+        "4": "i6"
       }
     ]
   },
-  "apiRoot": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "rootObject": {
+      "class": "Identifier",
+      "name": "rootObject",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "dartSdkNoAreaIssues": {
+      "class": "Identifier",
+      "name": "dartSdkNoAreaIssues",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_githubUrlFromRepo": {
+      "class": "Identifier",
+      "name": "_githubUrlFromRepo",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getDartSdkTriageLinks": {
+      "class": "Identifier",
+      "name": "_getDartSdkTriageLinks",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "updateGithubLabels": {
+      "class": "Identifier",
+      "name": "updateGithubLabels",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "authenticateUserWithAuthCode": {
+      "class": "Identifier",
+      "name": "authenticateUserWithAuthCode",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "sendTestEmail": {
+      "class": "Identifier",
+      "name": "sendTestEmail",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "forgetEmailSender": {
+      "class": "Identifier",
+      "name": "forgetEmailSender",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getAdminObject": {
+      "class": "Identifier",
+      "name": "getAdminObject",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getAuthorizedEmail": {
+      "class": "Identifier",
+      "name": "_getAuthorizedEmail",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getAuthorizedEmailCore": {
+      "class": "Identifier",
+      "name": "_getAuthorizedEmailCore",
+      "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "appName": {
+      "class": "Identifier",
+      "name": "appName",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "clientIdentifier": {
+      "class": "Identifier",
+      "name": "clientIdentifier",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "clientSecret": {
+      "class": "Identifier",
+      "name": "clientSecret",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "firebaseDomain": {
+      "class": "Identifier",
+      "name": "firebaseDomain",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "firebaseSecret": {
+      "class": "Identifier",
+      "name": "firebaseSecret",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "githubRepo": {
+      "class": "Identifier",
+      "name": "githubRepo",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "githubSecret": {
+      "class": "Identifier",
+      "name": "githubSecret",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "githubToken": {
+      "class": "Identifier",
+      "name": "githubToken",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "senderEmailAccount": {
+      "class": "Identifier",
+      "name": "senderEmailAccount",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getEnvValue": {
+      "class": "Identifier",
+      "name": "_getEnvValue",
+      "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "githubRequestHandler": {
+      "class": "Identifier",
+      "name": "githubRequestHandler",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_handleLabeledEvent": {
+      "class": "Identifier",
+      "name": "_handleLabeledEvent",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_flattenMap": {
+      "class": "Identifier",
+      "name": "_flattenMap",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "logError": {
+      "class": "Identifier",
+      "name": "logError",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getLabelsPath": {
+      "class": "Identifier",
+      "name": "getLabelsPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getLabelsUri": {
+      "class": "Identifier",
+      "name": "getLabelsUri",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getUsersForRepoUri": {
+      "class": "Identifier",
+      "name": "getUsersForRepoUri",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getMyLabelsPath": {
+      "class": "Identifier",
+      "name": "getMyLabelsPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getFirebaseSecurityToken": {
+      "class": "Identifier",
+      "name": "getFirebaseSecurityToken",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "apiRoot": {
       "class": "Identifier",
       "name": "apiRoot",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "emailAuthPath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "emailAuthPath": {
       "class": "Identifier",
       "name": "emailAuthPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "emailAuthLogoutPath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "emailAuthLogoutPath": {
       "class": "Identifier",
       "name": "emailAuthLogoutPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "sendTestMessagePath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "sendTestMessagePath": {
       "class": "Identifier",
       "name": "sendTestMessagePath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "updateGithubLabelsPath": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "updateGithubLabelsPath": {
       "class": "Identifier",
       "name": "updateGithubLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "scopes": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "scopes": {
       "class": "Identifier",
       "name": "scopes",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "prettyJson": {
+      "class": "Identifier",
+      "name": "prettyJson",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

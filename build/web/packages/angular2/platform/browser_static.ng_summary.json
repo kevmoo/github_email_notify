@@ -55,15 +55,23 @@
     ],
     "6": "browser_static.dart"
   },
-  "BROWSER_APP_PROVIDERS": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "BROWSER_APP_PROVIDERS": {
       "class": "Identifier",
       "name": "BROWSER_APP_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "bootstrapStatic": {
+      "class": "Identifier",
+      "name": "bootstrapStatic",
+      "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

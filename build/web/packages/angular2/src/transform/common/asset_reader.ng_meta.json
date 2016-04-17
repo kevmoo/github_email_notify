@@ -17,25 +17,23 @@
     ],
     "6": "asset_reader.dart"
   },
-  "AssetReader": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AssetReader": {
       "class": "Identifier",
       "name": "AssetReader",
       "moduleUrl": "asset:angular2/lib/src/transform/common/asset_reader.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_TransformAssetReader": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_TransformAssetReader": {
       "class": "Identifier",
       "name": "_TransformAssetReader",
       "moduleUrl": "asset:angular2/lib/src/transform/common/asset_reader.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

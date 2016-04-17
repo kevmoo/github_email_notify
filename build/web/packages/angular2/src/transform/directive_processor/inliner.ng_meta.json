@@ -67,15 +67,31 @@
       }
     ]
   },
-  "_NgDepsDirectivesVisitor": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "inlineParts": {
+      "class": "Identifier",
+      "name": "inlineParts",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getAllDeclarations": {
+      "class": "Identifier",
+      "name": "_getAllDeclarations",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_NgDepsDirectivesVisitor": {
       "class": "Identifier",
       "name": "_NgDepsDirectivesVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/inliner.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -104,25 +104,23 @@
       }
     ]
   },
-  "ViewContainerRef": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ViewContainerRef": {
       "class": "Identifier",
       "name": "ViewContainerRef",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewContainerRef_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewContainerRef_": {
       "class": "Identifier",
       "name": "ViewContainerRef_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

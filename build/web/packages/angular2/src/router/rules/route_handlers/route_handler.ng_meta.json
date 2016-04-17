@@ -33,15 +33,15 @@
       }
     ]
   },
-  "RouteHandler": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouteHandler": {
       "class": "Identifier",
       "name": "RouteHandler",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_handlers/route_handler.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

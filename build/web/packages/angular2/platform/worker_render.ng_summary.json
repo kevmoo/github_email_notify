@@ -60,15 +60,15 @@
     ],
     "6": "worker_render.dart"
   },
-  "WORKER_RENDER_APP": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WORKER_RENDER_APP": {
       "class": "Identifier",
       "name": "WORKER_RENDER_APP",
       "moduleUrl": "asset:angular2/lib/platform/worker_render.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

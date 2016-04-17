@@ -1,34 +1,30 @@
 {
   "ngDeps": null,
-  "UrlChangeListener": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "UrlChangeListener": {
       "class": "Identifier",
       "name": "UrlChangeListener",
       "moduleUrl": "asset:angular2/lib/src/router/location/platform_location.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PlatformLocation": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "PlatformLocation": {
       "class": "Identifier",
       "name": "PlatformLocation",
       "moduleUrl": "asset:angular2/lib/src/router/location/platform_location.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UrlChangeEvent": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "UrlChangeEvent": {
       "class": "Identifier",
       "name": "UrlChangeEvent",
       "moduleUrl": "asset:angular2/lib/src/router/location/platform_location.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

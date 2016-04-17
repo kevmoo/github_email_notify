@@ -49,55 +49,47 @@
     ],
     "6": "default_iterable_differ.dart"
   },
-  "DefaultIterableDifferFactory": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DefaultIterableDifferFactory": {
       "class": "Identifier",
       "name": "DefaultIterableDifferFactory",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DefaultIterableDiffer": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DefaultIterableDiffer": {
       "class": "Identifier",
       "name": "DefaultIterableDiffer",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CollectionChangeRecord": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CollectionChangeRecord": {
       "class": "Identifier",
       "name": "CollectionChangeRecord",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_DuplicateItemRecordList": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_DuplicateItemRecordList": {
       "class": "Identifier",
       "name": "_DuplicateItemRecordList",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_DuplicateMap": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_DuplicateMap": {
       "class": "Identifier",
       "name": "_DuplicateMap",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

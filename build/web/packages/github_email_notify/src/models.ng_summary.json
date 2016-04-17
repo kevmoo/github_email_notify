@@ -9,65 +9,79 @@
     ],
     "6": "models.dart"
   },
-  "_$AdminObjectSerializerMixin": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_$AdminObjectFromJson": {
+      "class": "Identifier",
+      "name": "_$AdminObjectFromJson",
+      "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_$AdminObjectSerializerMixin": {
       "class": "Identifier",
       "name": "_$AdminObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_$ApiObjectSerializerMixin": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_$ApiObjectFromJson": {
+      "class": "Identifier",
+      "name": "_$ApiObjectFromJson",
+      "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_$ApiObjectSerializerMixin": {
       "class": "Identifier",
       "name": "_$ApiObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_$UserObjectSerializerMixin": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_$UserObjectFromJson": {
+      "class": "Identifier",
+      "name": "_$UserObjectFromJson",
+      "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_$UserObjectSerializerMixin": {
       "class": "Identifier",
       "name": "_$UserObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AdminObject": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AdminObject": {
       "class": "Identifier",
       "name": "AdminObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ApiObject": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ApiObject": {
       "class": "Identifier",
       "name": "ApiObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UserObject": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "UserObject": {
       "class": "Identifier",
       "name": "UserObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

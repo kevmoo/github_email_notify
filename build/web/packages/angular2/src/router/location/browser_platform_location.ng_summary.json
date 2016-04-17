@@ -56,17 +56,17 @@
     ],
     "6": "browser_platform_location.dart"
   },
-  "BrowserPlatformLocation": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "BrowserPlatformLocation": {
       "class": "Type",
       "name": "BrowserPlatformLocation",
       "moduleUrl": "asset:angular2/lib/src/router/location/browser_platform_location.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

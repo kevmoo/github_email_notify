@@ -166,9 +166,8 @@
       }
     ]
   },
-  "RouterOutlet": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouterOutlet": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -181,29 +180,17 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": null,
-            "query": null,
-            "viewQuery": null,
-            "isAttribute": false,
-            "isSelf": false,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": false
-          },
-          {
-            "token": null,
-            "query": null,
-            "viewQuery": null,
-            "isAttribute": false,
-            "isSelf": false,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": false
-          },
-          {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -215,11 +202,39 @@
           {
             "token": {
               "class": "Identifier",
-              "name": "String",
-              "moduleUrl": null,
+              "name": "DynamicComponentLoader",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": {
+              "class": "Identifier",
+              "name": "Router",
+              "moduleUrl": "asset:angular2/lib/src/router/router.dart",
+              "prefix": "routerMod",
+              "constConstructor": null,
+              "value": null
+            },
+            "query": null,
+            "viewQuery": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false
+          },
+          {
+            "token": "name",
             "query": null,
             "viewQuery": null,
             "isAttribute": true,
@@ -240,8 +255,11 @@
         1
       ],
       "template": null,
-      "providers": []
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

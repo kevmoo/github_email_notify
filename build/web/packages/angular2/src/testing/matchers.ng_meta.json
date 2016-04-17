@@ -38,35 +38,71 @@
       }
     ]
   },
-  "_u": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_u": {
       "class": "Identifier",
       "name": "_u",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Expect": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "expect": {
+      "class": "Identifier",
+      "name": "expect",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "elementContainsStyle": {
+      "class": "Identifier",
+      "name": "elementContainsStyle",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "expectErrorMessage": {
+      "class": "Identifier",
+      "name": "expectErrorMessage",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "expectException": {
+      "class": "Identifier",
+      "name": "expectException",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Expect": {
       "class": "Identifier",
       "name": "Expect",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NotExpect": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "NotExpect": {
       "class": "Identifier",
       "name": "NotExpect",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "elementText": {
+      "class": "Identifier",
+      "name": "elementText",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

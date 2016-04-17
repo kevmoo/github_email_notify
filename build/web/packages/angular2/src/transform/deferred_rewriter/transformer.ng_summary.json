@@ -30,15 +30,31 @@
     ],
     "6": "transformer.dart"
   },
-  "DeferredRewriter": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DeferredRewriter": {
       "class": "Identifier",
       "name": "DeferredRewriter",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/transformer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "_assetToProcess": {
+      "class": "Identifier",
+      "name": "_assetToProcess",
+      "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/transformer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "rewriteDeferredLibraries": {
+      "class": "Identifier",
+      "name": "rewriteDeferredLibraries",
+      "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/transformer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

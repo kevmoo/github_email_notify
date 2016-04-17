@@ -43,25 +43,23 @@
       }
     ]
   },
-  "_ArrayLogger": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_ArrayLogger": {
       "class": "Identifier",
       "name": "_ArrayLogger",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ExceptionHandler": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ExceptionHandler": {
       "class": "Identifier",
       "name": "ExceptionHandler",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

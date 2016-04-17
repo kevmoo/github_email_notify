@@ -32,8 +32,22 @@
       {
         "1": "email_sender_credentials.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "environment_variable_access.template.dart",
+        "4": "i1"
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "sendEmail": {
+      "class": "Identifier",
+      "name": "sendEmail",
+      "moduleUrl": "asset:github_email_notify/lib/src/gmail.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

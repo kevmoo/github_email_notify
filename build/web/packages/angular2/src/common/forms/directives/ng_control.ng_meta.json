@@ -22,6 +22,14 @@
           "unimplemented"
         ],
         "5": false
+      },
+      {
+        "1": "validators.dart",
+        "2": [
+          "AsyncValidatorFn",
+          "ValidatorFn"
+        ],
+        "5": false
       }
     ],
     "6": "ng_control.dart",
@@ -37,18 +45,22 @@
       {
         "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "validators.template.dart",
+        "4": "i3"
       }
     ]
   },
-  "NgControl": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NgControl": {
       "class": "Identifier",
       "name": "NgControl",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

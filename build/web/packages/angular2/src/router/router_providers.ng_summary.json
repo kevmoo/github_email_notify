@@ -33,25 +33,56 @@
     ],
     "6": "router_providers.dart"
   },
-  "ROUTER_PROVIDERS": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ROUTER_PROVIDERS": {
       "class": "Identifier",
       "name": "ROUTER_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/src/router/router_providers.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ROUTER_BINDINGS": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "ROUTER_PROVIDERS_COMMON",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "PlatformLocation",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "BrowserPlatformLocation",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        }
+      ]
+    },
+    "ROUTER_BINDINGS": {
       "class": "Identifier",
       "name": "ROUTER_BINDINGS",
       "moduleUrl": "asset:angular2/lib/src/router/router_providers.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

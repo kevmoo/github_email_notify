@@ -19,15 +19,15 @@
       }
     ]
   },
-  "JitProtoChangeDetector": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "JitProtoChangeDetector": {
       "class": "Identifier",
       "name": "JitProtoChangeDetector",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/jit_proto_change_detector.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

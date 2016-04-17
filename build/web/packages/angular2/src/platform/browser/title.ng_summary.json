@@ -12,15 +12,15 @@
     ],
     "6": "title.dart"
   },
-  "Title": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Title": {
       "class": "Identifier",
       "name": "Title",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/title.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

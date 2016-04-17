@@ -20,35 +20,31 @@
     ],
     "6": "single_client_server_message_bus.dart"
   },
-  "SingleClientServerMessageBus": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "SingleClientServerMessageBus": {
       "class": "Identifier",
       "name": "SingleClientServerMessageBus",
       "moduleUrl": "asset:angular2/lib/src/web_workers/debug_tools/single_client_server_message_bus.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SingleClientServerMessageBusSink": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SingleClientServerMessageBusSink": {
       "class": "Identifier",
       "name": "SingleClientServerMessageBusSink",
       "moduleUrl": "asset:angular2/lib/src/web_workers/debug_tools/single_client_server_message_bus.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SingleClientServerMessageBusSource": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SingleClientServerMessageBusSource": {
       "class": "Identifier",
       "name": "SingleClientServerMessageBusSource",
       "moduleUrl": "asset:angular2/lib/src/web_workers/debug_tools/single_client_server_message_bus.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

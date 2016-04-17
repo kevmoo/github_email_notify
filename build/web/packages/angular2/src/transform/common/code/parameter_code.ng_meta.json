@@ -39,25 +39,23 @@
       }
     ]
   },
-  "ParameterVisitor": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ParameterVisitor": {
       "class": "Identifier",
       "name": "ParameterVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/parameter_code.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ParameterWriterMixin": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ParameterWriterMixin": {
       "class": "Identifier",
       "name": "ParameterWriterMixin",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/parameter_code.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

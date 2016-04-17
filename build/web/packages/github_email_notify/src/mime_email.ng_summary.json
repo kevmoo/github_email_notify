@@ -9,5 +9,23 @@
     ],
     "6": "mime_email.dart"
   },
-  "definesAlias": false
+  "type": {
+    "createLabelEmailContent": {
+      "class": "Identifier",
+      "name": "createLabelEmailContent",
+      "moduleUrl": "asset:github_email_notify/lib/src/mime_email.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_createMimeContent": {
+      "class": "Identifier",
+      "name": "_createMimeContent",
+      "moduleUrl": "asset:github_email_notify/lib/src/mime_email.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

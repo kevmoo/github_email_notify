@@ -87,5 +87,6 @@
     ],
     "6": "linker.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

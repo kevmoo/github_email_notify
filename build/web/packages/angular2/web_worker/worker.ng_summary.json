@@ -26,5 +26,6 @@
     ],
     "6": "worker.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

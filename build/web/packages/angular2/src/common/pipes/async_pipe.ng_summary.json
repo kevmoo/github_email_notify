@@ -89,29 +89,24 @@
     ],
     "6": "async_pipe.dart"
   },
-  "ObservableStrategy": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ObservableStrategy": {
       "class": "Identifier",
       "name": "ObservableStrategy",
       "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PromiseStrategy": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "PromiseStrategy": {
       "class": "Identifier",
       "name": "PromiseStrategy",
       "moduleUrl": "asset:angular2/lib/src/common/pipes/async_pipe.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AsyncPipe": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AsyncPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -120,11 +115,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "async",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -71,9 +71,8 @@
     ],
     "6": "i18n_select_pipe.dart"
   },
-  "I18nSelectPipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "I18nSelectPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -82,11 +81,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "i18nSelect",
       "pure": true
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

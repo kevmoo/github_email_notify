@@ -101,18 +101,25 @@
       }
     ]
   },
-  "ResolvedMetadataCache": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ResolvedMetadataCache": {
       "class": "Type",
       "name": "ResolvedMetadataCache",
       "moduleUrl": "asset:angular2/lib/src/core/linker/resolved_metadata_cache.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "DirectiveResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/directive_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -122,7 +129,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "PipeResolver",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/pipe_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -134,5 +148,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

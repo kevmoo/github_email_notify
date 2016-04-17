@@ -14,75 +14,63 @@
       }
     ]
   },
-  "RouteConfig": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouteConfig": {
       "class": "Identifier",
       "name": "RouteConfig",
       "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AbstractRoute": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AbstractRoute": {
       "class": "Identifier",
       "name": "AbstractRoute",
       "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Route": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Route": {
       "class": "Identifier",
       "name": "Route",
       "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AuxRoute": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AuxRoute": {
       "class": "Identifier",
       "name": "AuxRoute",
       "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AsyncRoute": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AsyncRoute": {
       "class": "Identifier",
       "name": "AsyncRoute",
       "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Redirect": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Redirect": {
       "class": "Identifier",
       "name": "Redirect",
       "moduleUrl": "asset:angular2/lib/src/router/route_config/route_config_impl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RouteDefinition": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RouteDefinition": {
       "class": "Identifier",
       "name": "RouteDefinition",
       "moduleUrl": "asset:angular2/lib/src/router/route_definition.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

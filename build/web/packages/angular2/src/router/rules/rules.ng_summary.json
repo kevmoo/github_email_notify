@@ -74,65 +74,55 @@
     ],
     "6": "rules.dart"
   },
-  "RouteMatch": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RouteMatch": {
       "class": "Identifier",
       "name": "RouteMatch",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rules.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PathMatch": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "PathMatch": {
       "class": "Identifier",
       "name": "PathMatch",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rules.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RedirectMatch": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RedirectMatch": {
       "class": "Identifier",
       "name": "RedirectMatch",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rules.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AbstractRule": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AbstractRule": {
       "class": "Identifier",
       "name": "AbstractRule",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rules.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RedirectRule": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RedirectRule": {
       "class": "Identifier",
       "name": "RedirectRule",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rules.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RouteRule": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RouteRule": {
       "class": "Identifier",
       "name": "RouteRule",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rules.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -67,17 +67,17 @@
     ],
     "6": "mock_application_ref.dart"
   },
-  "MockApplicationRef": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MockApplicationRef": {
       "class": "Type",
       "name": "MockApplicationRef",
       "moduleUrl": "asset:angular2/lib/src/mock/mock_application_ref.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

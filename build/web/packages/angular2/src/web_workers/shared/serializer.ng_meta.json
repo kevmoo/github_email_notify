@@ -124,28 +124,33 @@
       }
     ]
   },
-  "PRIMITIVE": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "PRIMITIVE": {
       "class": "Identifier",
       "name": "PRIMITIVE",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Serializer": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Serializer": {
       "class": "Type",
       "name": "Serializer",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "RenderStore",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/render_store.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -155,17 +160,15 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "RenderStoreObject": {
-    "kind": "type",
-    "value": {
+    },
+    "RenderStoreObject": {
       "class": "Identifier",
       "name": "RenderStoreObject",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

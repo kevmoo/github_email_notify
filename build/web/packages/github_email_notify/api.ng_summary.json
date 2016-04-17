@@ -53,5 +53,39 @@
     ],
     "6": "api.dart"
   },
-  "definesAlias": false
+  "type": {
+    "rootObject": {
+      "class": "Identifier",
+      "name": "rootObject",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "dartSdkNoAreaIssues": {
+      "class": "Identifier",
+      "name": "dartSdkNoAreaIssues",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_githubUrlFromRepo": {
+      "class": "Identifier",
+      "name": "_githubUrlFromRepo",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_getDartSdkTriageLinks": {
+      "class": "Identifier",
+      "name": "_getDartSdkTriageLinks",
+      "moduleUrl": "asset:github_email_notify/lib/api.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -62,9 +62,8 @@
     ],
     "6": "uppercase_pipe.dart"
   },
-  "UpperCasePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "UpperCasePipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -73,11 +72,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "uppercase",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

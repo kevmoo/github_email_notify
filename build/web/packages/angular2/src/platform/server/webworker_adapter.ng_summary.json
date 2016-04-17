@@ -13,15 +13,15 @@
     ],
     "6": "webworker_adapter.dart"
   },
-  "WebWorkerDomAdapter": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WebWorkerDomAdapter": {
       "class": "Identifier",
       "name": "WebWorkerDomAdapter",
       "moduleUrl": "asset:angular2/lib/src/platform/server/webworker_adapter.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

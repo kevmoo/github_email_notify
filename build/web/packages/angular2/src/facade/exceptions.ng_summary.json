@@ -18,25 +18,39 @@
     ],
     "6": "exceptions.dart"
   },
-  "BaseException": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "BaseException": {
       "class": "Identifier",
       "name": "BaseException",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "WrappedException": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "WrappedException": {
       "class": "Identifier",
       "name": "WrappedException",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "makeTypeError": {
+      "class": "Identifier",
+      "name": "makeTypeError",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "unimplemented": {
+      "class": "Identifier",
+      "name": "unimplemented",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

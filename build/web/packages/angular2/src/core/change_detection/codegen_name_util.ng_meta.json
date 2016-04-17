@@ -65,135 +65,119 @@
       }
     ]
   },
-  "_STATE_ACCESSOR": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_STATE_ACCESSOR": {
       "class": "Identifier",
       "name": "_STATE_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_CONTEXT_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_CONTEXT_ACCESSOR": {
       "class": "Identifier",
       "name": "_CONTEXT_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_PROP_BINDING_INDEX": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_PROP_BINDING_INDEX": {
       "class": "Identifier",
       "name": "_PROP_BINDING_INDEX",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_DIRECTIVES_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_DIRECTIVES_ACCESSOR": {
       "class": "Identifier",
       "name": "_DIRECTIVES_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_DISPATCHER_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_DISPATCHER_ACCESSOR": {
       "class": "Identifier",
       "name": "_DISPATCHER_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_LOCALS_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_LOCALS_ACCESSOR": {
       "class": "Identifier",
       "name": "_LOCALS_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_MODE_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_MODE_ACCESSOR": {
       "class": "Identifier",
       "name": "_MODE_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_PIPES_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_PIPES_ACCESSOR": {
       "class": "Identifier",
       "name": "_PIPES_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_PROTOS_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_PROTOS_ACCESSOR": {
       "class": "Identifier",
       "name": "_PROTOS_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CONTEXT_ACCESSOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CONTEXT_ACCESSOR": {
       "class": "Identifier",
       "name": "CONTEXT_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CONTEXT_INDEX": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CONTEXT_INDEX": {
       "class": "Identifier",
       "name": "CONTEXT_INDEX",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_FIELD_PREFIX": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_FIELD_PREFIX": {
       "class": "Identifier",
       "name": "_FIELD_PREFIX",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CodegenNameUtil": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "sanitizeName": {
+      "class": "Identifier",
+      "name": "sanitizeName",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "CodegenNameUtil": {
       "class": "Identifier",
       "name": "CodegenNameUtil",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_name_util.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -32,15 +32,15 @@
     ],
     "6": "async_route_handler.dart"
   },
-  "AsyncRouteHandler": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AsyncRouteHandler": {
       "class": "Identifier",
       "name": "AsyncRouteHandler",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_handlers/async_route_handler.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

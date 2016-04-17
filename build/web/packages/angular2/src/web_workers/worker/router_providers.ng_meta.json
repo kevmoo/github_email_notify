@@ -58,5 +58,15 @@
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "initRouter": {
+      "class": "Identifier",
+      "name": "initRouter",
+      "moduleUrl": "asset:angular2/lib/src/web_workers/worker/router_providers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

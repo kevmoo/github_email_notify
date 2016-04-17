@@ -43,85 +43,87 @@
     ],
     "6": "exceptions.dart"
   },
-  "AbstractProviderError": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "findFirstClosedCycle": {
+      "class": "Identifier",
+      "name": "findFirstClosedCycle",
+      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "constructResolvingPath": {
+      "class": "Identifier",
+      "name": "constructResolvingPath",
+      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AbstractProviderError": {
       "class": "Identifier",
       "name": "AbstractProviderError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NoProviderError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "NoProviderError": {
       "class": "Identifier",
       "name": "NoProviderError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CyclicDependencyError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CyclicDependencyError": {
       "class": "Identifier",
       "name": "CyclicDependencyError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InstantiationError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "InstantiationError": {
       "class": "Identifier",
       "name": "InstantiationError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InvalidProviderError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "InvalidProviderError": {
       "class": "Identifier",
       "name": "InvalidProviderError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NoAnnotationError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "NoAnnotationError": {
       "class": "Identifier",
       "name": "NoAnnotationError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "OutOfBoundsError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "OutOfBoundsError": {
       "class": "Identifier",
       "name": "OutOfBoundsError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MixingMultiProvidersWithRegularProvidersError": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "MixingMultiProvidersWithRegularProvidersError": {
       "class": "Identifier",
       "name": "MixingMultiProvidersWithRegularProvidersError",
       "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -37,5 +37,31 @@
     ],
     "6": "github_event_handler.dart"
   },
-  "definesAlias": false
+  "type": {
+    "githubRequestHandler": {
+      "class": "Identifier",
+      "name": "githubRequestHandler",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_handleLabeledEvent": {
+      "class": "Identifier",
+      "name": "_handleLabeledEvent",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_flattenMap": {
+      "class": "Identifier",
+      "name": "_flattenMap",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

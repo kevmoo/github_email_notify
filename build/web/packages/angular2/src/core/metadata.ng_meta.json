@@ -64,315 +64,255 @@
       }
     ]
   },
-  "Directive": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Directive": {
       "class": "Identifier",
       "name": "Directive",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Component": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Component": {
       "class": "Identifier",
       "name": "Component",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "View": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "View": {
       "class": "Identifier",
       "name": "View",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Pipe": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Pipe": {
       "class": "Identifier",
       "name": "Pipe",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Attribute": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Attribute": {
       "class": "Identifier",
       "name": "Attribute",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Query": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Query": {
       "class": "Identifier",
       "name": "Query",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ContentChildren": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ContentChildren": {
       "class": "Identifier",
       "name": "ContentChildren",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ContentChild": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ContentChild": {
       "class": "Identifier",
       "name": "ContentChild",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewQuery": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewQuery": {
       "class": "Identifier",
       "name": "ViewQuery",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewChildren": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewChildren": {
       "class": "Identifier",
       "name": "ViewChildren",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewChild": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewChild": {
       "class": "Identifier",
       "name": "ViewChild",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Input": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Input": {
       "class": "Identifier",
       "name": "Input",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Output": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Output": {
       "class": "Identifier",
       "name": "Output",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HostBinding": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HostBinding": {
       "class": "Identifier",
       "name": "HostBinding",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HostListener": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HostListener": {
       "class": "Identifier",
       "name": "HostListener",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AttributeMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AttributeMetadata": {
       "class": "Identifier",
       "name": "AttributeMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "QueryMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "QueryMetadata": {
       "class": "Identifier",
       "name": "QueryMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ContentChildrenMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ContentChildrenMetadata": {
       "class": "Identifier",
       "name": "ContentChildrenMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ContentChildMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ContentChildMetadata": {
       "class": "Identifier",
       "name": "ContentChildMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewQueryMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewQueryMetadata": {
       "class": "Identifier",
       "name": "ViewQueryMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewChildrenMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewChildrenMetadata": {
       "class": "Identifier",
       "name": "ViewChildrenMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewChildMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewChildMetadata": {
       "class": "Identifier",
       "name": "ViewChildMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DirectiveMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DirectiveMetadata": {
       "class": "Identifier",
       "name": "DirectiveMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ComponentMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ComponentMetadata": {
       "class": "Identifier",
       "name": "ComponentMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PipeMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "PipeMetadata": {
       "class": "Identifier",
       "name": "PipeMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InputMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "InputMetadata": {
       "class": "Identifier",
       "name": "InputMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "OutputMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "OutputMetadata": {
       "class": "Identifier",
       "name": "OutputMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HostBindingMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HostBindingMetadata": {
       "class": "Identifier",
       "name": "HostBindingMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HostListenerMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HostListenerMetadata": {
       "class": "Identifier",
       "name": "HostListenerMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewEncapsulation": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewEncapsulation": {
       "class": "Identifier",
       "name": "ViewEncapsulation",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ViewMetadata": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ViewMetadata": {
       "class": "Identifier",
       "name": "ViewMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

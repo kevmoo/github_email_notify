@@ -137,35 +137,46 @@
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/serialized_types.template.dart",
+        "1": "bind.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/web_workers/shared/message_bus.template.dart",
+        "1": "package:angular2/src/web_workers/shared/serialized_types.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/web_workers/shared/message_bus.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/router/location/platform_location.template.dart",
+        "1": "package:angular2/src/facade/async.template.dart",
         "4": "i8"
+      },
+      {
+        "1": "package:angular2/src/router/location/platform_location.template.dart",
+        "4": "i9"
       }
     ]
   },
-  "MessageBasedPlatformLocation": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MessageBasedPlatformLocation": {
       "class": "Type",
       "name": "MessageBasedPlatformLocation",
       "moduleUrl": "asset:angular2/lib/src/web_workers/ui/platform_location.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "ServiceMessageBrokerFactory",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/service_message_broker.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -175,7 +186,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "BrowserPlatformLocation",
+            "moduleUrl": "asset:angular2/lib/src/router/location/browser_platform_location.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -188,9 +206,10 @@
           "token": {
             "class": "Identifier",
             "name": "MessageBus",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -201,7 +220,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Serializer",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/serializer.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -213,5 +239,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

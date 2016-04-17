@@ -90,9 +90,8 @@
       }
     ]
   },
-  "ReplacePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ReplacePipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -101,11 +100,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "replace",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

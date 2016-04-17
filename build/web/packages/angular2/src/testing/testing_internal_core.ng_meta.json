@@ -91,687 +91,282 @@
       }
     ]
   },
-  "AsyncTestCompleter": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AsyncTestCompleter": {
       "class": "Identifier",
       "name": "AsyncTestCompleter",
       "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SpyFunction": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "setDartBaseTestProviders": {
+      "class": "Identifier",
+      "name": "setDartBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "testSetup": {
+      "class": "Identifier",
+      "name": "testSetup",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "beforeEachProviders": {
+      "class": "Identifier",
+      "name": "beforeEachProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "beforeEachBindings": {
+      "class": "Identifier",
+      "name": "beforeEachBindings",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "beforeEach": {
+      "class": "Identifier",
+      "name": "beforeEach",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_it": {
+      "class": "Identifier",
+      "name": "_it",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "it": {
+      "class": "Identifier",
+      "name": "it",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "iit": {
+      "class": "Identifier",
+      "name": "iit",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "xit": {
+      "class": "Identifier",
+      "name": "xit",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "describe": {
+      "class": "Identifier",
+      "name": "describe",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ddescribe": {
+      "class": "Identifier",
+      "name": "ddescribe",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "xdescribe": {
+      "class": "Identifier",
+      "name": "xdescribe",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "SpyFunction": {
       "class": "Identifier",
       "name": "SpyFunction",
       "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SpyObject": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SpyObject": {
       "class": "Identifier",
       "name": "SpyObject",
       "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_u": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "isInInnerZone": {
+      "class": "Identifier",
+      "name": "isInInnerZone",
+      "moduleUrl": "asset:angular2/lib/src/testing/testing_internal_core.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_u": {
       "class": "Identifier",
       "name": "_u",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Expect": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "expect": {
+      "class": "Identifier",
+      "name": "expect",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "elementContainsStyle": {
+      "class": "Identifier",
+      "name": "elementContainsStyle",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "expectErrorMessage": {
+      "class": "Identifier",
+      "name": "expectErrorMessage",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "expectException": {
+      "class": "Identifier",
+      "name": "expectException",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Expect": {
       "class": "Identifier",
       "name": "Expect",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NotExpect": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "NotExpect": {
       "class": "Identifier",
       "name": "NotExpect",
       "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "TestInjector": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "elementText": {
+      "class": "Identifier",
+      "name": "elementText",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "TestInjector": {
       "class": "Identifier",
       "name": "TestInjector",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InjectSetupWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "getTestInjector": {
+      "class": "Identifier",
+      "name": "getTestInjector",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "setBaseTestProviders": {
+      "class": "Identifier",
+      "name": "setBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "resetBaseTestProviders": {
+      "class": "Identifier",
+      "name": "resetBaseTestProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "inject": {
+      "class": "Identifier",
+      "name": "inject",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "InjectSetupWrapper": {
       "class": "Identifier",
       "name": "InjectSetupWrapper",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "FunctionWithParamTokens": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "withProviders": {
+      "class": "Identifier",
+      "name": "withProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "injectAsync": {
+      "class": "Identifier",
+      "name": "injectAsync",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "emptyArray": {
+      "class": "Identifier",
+      "name": "emptyArray",
+      "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "FunctionWithParamTokens": {
       "class": "Identifier",
       "name": "FunctionWithParamTokens",
       "moduleUrl": "asset:angular2/lib/src/testing/test_injector.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "Predicate": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Predicate",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MapIterator": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "MapIterator",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "IterableMap": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "IterableMap",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MapWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "MapWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "StringMapWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "StringMapWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ListWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ListWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SetWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "SetWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/collection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NoReflectionCapabilities": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "NoReflectionCapabilities",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflection.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ReflectionInfo": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ReflectionInfo",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Reflector": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Reflector",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SetterFn": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "SetterFn",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "GetterFn": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "GetterFn",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MethodFn": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "MethodFn",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PlatformReflectionCapabilities": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "PlatformReflectionCapabilities",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/platform_reflection_capabilities.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Dependency": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Dependency",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Provider": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Provider",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Binding": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Binding",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ResolvedProvider": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ResolvedProvider",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ResolvedBinding": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ResolvedBinding",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ResolvedProvider_": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ResolvedProvider_",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ResolvedFactory": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ResolvedFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ProviderBuilder": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ProviderBuilder",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "IS_DART": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "IS_DART",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_NAN_KEY": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "_NAN_KEY",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_IS_DART_VM": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "_IS_DART_VM",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Math": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Math",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CONST": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "CONST",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "StringWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "StringWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "StringJoiner": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "StringJoiner",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NumberWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "NumberWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RegExpWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RegExpWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RegExpMatcherWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "RegExpMatcherWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_JSLikeMatch": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "_JSLikeMatch",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "FunctionWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "FunctionWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Json": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Json",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DateWrapper": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "DateWrapper",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Key": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "Key",
-      "moduleUrl": "asset:angular2/lib/src/core/di/key.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "KeyRegistry": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "KeyRegistry",
-      "moduleUrl": "asset:angular2/lib/src/core/di/key.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InjectMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "InjectMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "OptionalMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "OptionalMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DependencyMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "DependencyMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InjectableMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "InjectableMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SelfMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "SelfMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SkipSelfMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "SkipSelfMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HostMetadata": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "HostMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AbstractProviderError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "AbstractProviderError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NoProviderError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "NoProviderError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CyclicDependencyError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "CyclicDependencyError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InstantiationError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "InstantiationError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "InvalidProviderError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "InvalidProviderError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NoAnnotationError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "NoAnnotationError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "OutOfBoundsError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "OutOfBoundsError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MixingMultiProvidersWithRegularProvidersError": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "MixingMultiProvidersWithRegularProvidersError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ForwardRefFn": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ForwardRefFn",
-      "moduleUrl": "asset:angular2/lib/src/core/di/forward_ref.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "BaseException": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "BaseException",
-      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "WrappedException": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "WrappedException",
-      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_ArrayLogger": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "_ArrayLogger",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ExceptionHandler": {
-    "kind": "type",
-    "value": {
-      "class": "Identifier",
-      "name": "ExceptionHandler",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
-      "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_platformProviders": {
-    "kind": "alias",
-    "value": []
-  },
-  "_applicationProviders": {
-    "kind": "alias",
-    "value": []
-  },
-  "_EMPTY_LIST": {
-    "kind": "alias",
-    "value": []
-  },
-  "definesAlias": true
+  "alias": {
+    "_platformProviders": [],
+    "_applicationProviders": []
+  }
 }

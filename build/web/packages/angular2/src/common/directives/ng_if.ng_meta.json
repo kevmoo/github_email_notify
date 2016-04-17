@@ -66,9 +66,8 @@
       }
     ]
   },
-  "NgIf": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NgIf": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -81,9 +80,17 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "ViewContainerRef",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -93,7 +100,14 @@
             "isOptional": false
           },
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "TemplateRef",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -114,8 +128,11 @@
       "hostAttributes": {},
       "lifecycleHooks": [],
       "template": null,
-      "providers": []
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

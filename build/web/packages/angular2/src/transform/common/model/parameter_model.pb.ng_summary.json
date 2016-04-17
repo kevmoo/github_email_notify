@@ -9,35 +9,31 @@
     ],
     "6": "parameter_model.pb.dart"
   },
-  "ParameterModel$json": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ParameterModel$json": {
       "class": "Identifier",
       "name": "ParameterModel$json",
       "moduleUrl": "asset:angular2/lib/src/transform/common/model/parameter_model.pb.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ParameterModel": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ParameterModel": {
       "class": "Identifier",
       "name": "ParameterModel",
       "moduleUrl": "asset:angular2/lib/src/transform/common/model/parameter_model.pb.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_ReadonlyParameterModel": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_ReadonlyParameterModel": {
       "class": "Identifier",
       "name": "_ReadonlyParameterModel",
       "moduleUrl": "asset:angular2/lib/src/transform/common/model/parameter_model.pb.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

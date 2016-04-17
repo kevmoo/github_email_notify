@@ -220,28 +220,33 @@
       }
     ]
   },
-  "AppViewManager": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AppViewManager": {
       "class": "Identifier",
       "name": "AppViewManager",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AppViewManager_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AppViewManager_": {
       "class": "Type",
       "name": "AppViewManager_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_manager.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -254,9 +259,10 @@
           "token": {
             "class": "Identifier",
             "name": "APP_ID",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/core/application_tokens.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -269,5 +275,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

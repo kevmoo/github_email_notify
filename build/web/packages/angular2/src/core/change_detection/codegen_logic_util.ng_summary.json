@@ -61,15 +61,15 @@
     ],
     "6": "codegen_logic_util.dart"
   },
-  "CodegenLogicUtil": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "CodegenLogicUtil": {
       "class": "Identifier",
       "name": "CodegenLogicUtil",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/codegen_logic_util.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

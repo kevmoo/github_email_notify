@@ -108,9 +108,8 @@
       }
     ]
   },
-  "DatePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DatePipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -119,11 +118,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "date",
       "pure": true
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

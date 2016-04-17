@@ -29,25 +29,23 @@
       }
     ]
   },
-  "ElementRef": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ElementRef": {
       "class": "Identifier",
       "name": "ElementRef",
       "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ElementRef_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ElementRef_": {
       "class": "Identifier",
       "name": "ElementRef_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

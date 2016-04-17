@@ -76,9 +76,8 @@
       }
     ]
   },
-  "NgControlStatus": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NgControlStatus": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -91,14 +90,16 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
             "token": {
               "class": "Identifier",
               "name": "NgControl",
-              "moduleUrl": null,
+              "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control.dart",
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -125,8 +126,11 @@
       "hostAttributes": {},
       "lifecycleHooks": [],
       "template": null,
-      "providers": []
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

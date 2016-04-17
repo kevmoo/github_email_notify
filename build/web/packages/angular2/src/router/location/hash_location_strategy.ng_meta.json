@@ -92,18 +92,25 @@
       }
     ]
   },
-  "HashLocationStrategy": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "HashLocationStrategy": {
       "class": "Type",
       "name": "HashLocationStrategy",
       "moduleUrl": "asset:angular2/lib/src/router/location/hash_location_strategy.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "PlatformLocation",
+            "moduleUrl": "asset:angular2/lib/src/router/location/platform_location.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -116,9 +123,10 @@
           "token": {
             "class": "Identifier",
             "name": "APP_BASE_HREF",
-            "moduleUrl": null,
+            "moduleUrl": "asset:angular2/lib/src/router/location/location_strategy.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -131,5 +139,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

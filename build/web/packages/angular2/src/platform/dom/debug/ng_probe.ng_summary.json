@@ -60,55 +60,119 @@
     ],
     "6": "ng_probe.dart"
   },
-  "CORE_TOKENS": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "CORE_TOKENS": {
       "class": "Identifier",
       "name": "CORE_TOKENS",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "INSPECT_GLOBAL_NAME": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "INSPECT_GLOBAL_NAME": {
       "class": "Identifier",
       "name": "INSPECT_GLOBAL_NAME",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CORE_TOKENS_GLOBAL_NAME": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CORE_TOKENS_GLOBAL_NAME": {
       "class": "Identifier",
       "name": "CORE_TOKENS_GLOBAL_NAME",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ELEMENT_PROBE_PROVIDERS": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ELEMENT_PROBE_PROVIDERS": {
       "class": "Identifier",
       "name": "ELEMENT_PROBE_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ELEMENT_PROBE_PROVIDERS_PROD_MODE": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "_createConditionalRootRenderer",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        }
+      ]
+    },
+    "ELEMENT_PROBE_PROVIDERS_PROD_MODE": {
       "class": "Identifier",
       "name": "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "RootRenderer",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "_createRootRenderer",
+            "prefix": null,
+            "moduleUrl": null,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          }
+        }
+      ]
+    },
+    "inspectNativeElement": {
+      "class": "Identifier",
+      "name": "inspectNativeElement",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_createConditionalRootRenderer": {
+      "class": "Identifier",
+      "name": "_createConditionalRootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_createRootRenderer": {
+      "class": "Identifier",
+      "name": "_createRootRenderer",
+      "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/ng_probe.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

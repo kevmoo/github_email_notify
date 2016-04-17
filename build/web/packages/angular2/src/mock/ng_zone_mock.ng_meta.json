@@ -56,17 +56,17 @@
       }
     ]
   },
-  "MockNgZone": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MockNgZone": {
       "class": "Type",
       "name": "MockNgZone",
       "moduleUrl": "asset:angular2/lib/src/mock/ng_zone_mock.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

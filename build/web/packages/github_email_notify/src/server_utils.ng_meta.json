@@ -25,7 +25,63 @@
         "5": false
       }
     ],
-    "6": "server_utils.dart"
+    "6": "server_utils.dart",
+    "10": [
+      {
+        "1": "environment_variable_access.template.dart",
+        "4": "i0"
+      }
+    ]
   },
-  "definesAlias": false
+  "type": {
+    "logError": {
+      "class": "Identifier",
+      "name": "logError",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getLabelsPath": {
+      "class": "Identifier",
+      "name": "getLabelsPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getLabelsUri": {
+      "class": "Identifier",
+      "name": "getLabelsUri",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getUsersForRepoUri": {
+      "class": "Identifier",
+      "name": "getUsersForRepoUri",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getMyLabelsPath": {
+      "class": "Identifier",
+      "name": "getMyLabelsPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getFirebaseSecurityToken": {
+      "class": "Identifier",
+      "name": "getFirebaseSecurityToken",
+      "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

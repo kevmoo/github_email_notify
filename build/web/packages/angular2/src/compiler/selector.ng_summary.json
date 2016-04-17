@@ -33,55 +33,47 @@
     ],
     "6": "selector.dart"
   },
-  "_EMPTY_ATTR_VALUE": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_EMPTY_ATTR_VALUE": {
       "class": "Identifier",
       "name": "_EMPTY_ATTR_VALUE",
       "moduleUrl": "asset:angular2/lib/src/compiler/selector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CssSelector": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CssSelector": {
       "class": "Identifier",
       "name": "CssSelector",
       "moduleUrl": "asset:angular2/lib/src/compiler/selector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SelectorMatcher": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SelectorMatcher": {
       "class": "Identifier",
       "name": "SelectorMatcher",
       "moduleUrl": "asset:angular2/lib/src/compiler/selector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SelectorListContext": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SelectorListContext": {
       "class": "Identifier",
       "name": "SelectorListContext",
       "moduleUrl": "asset:angular2/lib/src/compiler/selector.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SelectorContext": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SelectorContext": {
       "class": "Identifier",
       "name": "SelectorContext",
       "moduleUrl": "asset:angular2/lib/src/compiler/selector.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

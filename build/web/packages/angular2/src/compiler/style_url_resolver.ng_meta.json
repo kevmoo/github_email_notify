@@ -33,15 +33,31 @@
       }
     ]
   },
-  "StyleWithImports": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "StyleWithImports": {
       "class": "Identifier",
       "name": "StyleWithImports",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "isStyleUrlResolvable": {
+      "class": "Identifier",
+      "name": "isStyleUrlResolvable",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "extractStyleUrls": {
+      "class": "Identifier",
+      "name": "extractStyleUrls",
+      "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

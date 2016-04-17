@@ -71,6 +71,7 @@
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
+          "CACHED_TEMPLATE_PROVIDER",
           "ELEMENT_PROBE_PROVIDERS",
           "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
@@ -85,15 +86,64 @@
     ],
     "6": "browser.dart"
   },
-  "BROWSER_APP_PROVIDERS": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "BROWSER_APP_PROVIDERS": {
       "class": "Identifier",
       "name": "BROWSER_APP_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/browser.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BROWSER_APP_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "COMPILER_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "XHRImpl",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        }
+      ]
+    },
+    "bootstrap": {
+      "class": "Identifier",
+      "name": "bootstrap",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

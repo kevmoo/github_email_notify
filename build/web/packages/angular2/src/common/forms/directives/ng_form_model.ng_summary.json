@@ -156,19 +156,37 @@
     ],
     "6": "ng_form_model.dart"
   },
-  "formDirectiveProvider": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "formDirectiveProvider": {
       "class": "Identifier",
       "name": "formDirectiveProvider",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_form_model.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NgFormModel": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "ControlContainer",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "NgFormModel",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "NgFormModel": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -181,6 +199,7 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
             "token": {
@@ -188,7 +207,8 @@
               "name": "NG_VALIDATORS",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -204,7 +224,8 @@
               "name": "NG_ASYNC_VALIDATORS",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -232,8 +253,20 @@
         3
       ],
       "template": null,
-      "providers": []
+      "providers": [
+        {
+          "class": "Identifier",
+          "name": "formDirectiveProvider",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

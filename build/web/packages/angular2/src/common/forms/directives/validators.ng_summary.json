@@ -6,7 +6,6 @@
         "1": "package:angular2/core.dart",
         "2": [
           "Provider",
-          "OpaqueToken",
           "Attribute",
           "Directive"
         ],
@@ -23,7 +22,7 @@
       {
         "1": "../model.dart",
         "2": [
-          "Control"
+          "AbstractControl"
         ],
         "5": false
       },
@@ -172,59 +171,156 @@
     ],
     "6": "validators.dart"
   },
-  "REQUIRED_VALIDATOR": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "REQUIRED": {
+      "class": "Identifier",
+      "name": "REQUIRED",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "REQUIRED_VALIDATOR": {
       "class": "Identifier",
       "name": "REQUIRED_VALIDATOR",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MIN_LENGTH_VALIDATOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "NG_VALIDATORS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": null,
+        "useValue": {
+          "class": "Identifier",
+          "name": "REQUIRED",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useFactory": null
+      }
+    },
+    "ValidatorFn": {
+      "class": "Identifier",
+      "name": "ValidatorFn",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "AsyncValidatorFn": {
+      "class": "Identifier",
+      "name": "AsyncValidatorFn",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "MIN_LENGTH_VALIDATOR": {
       "class": "Identifier",
       "name": "MIN_LENGTH_VALIDATOR",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MAX_LENGTH_VALIDATOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "NG_VALIDATORS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "MinLengthValidator",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "MAX_LENGTH_VALIDATOR": {
       "class": "Identifier",
       "name": "MAX_LENGTH_VALIDATOR",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PATTERN_VALIDATOR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "NG_VALIDATORS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "MaxLengthValidator",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "PATTERN_VALIDATOR": {
       "class": "Identifier",
       "name": "PATTERN_VALIDATOR",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Validator": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "NG_VALIDATORS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "PatternValidator",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "Validator": {
       "class": "Identifier",
       "name": "Validator",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "RequiredValidator": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "RequiredValidator": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -237,6 +333,7 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": []
       },
       "changeDetection": 5,
@@ -249,21 +346,19 @@
       "template": null,
       "providers": [
         {
-          "token": {
-            "class": "Identifier",
-            "name": "REQUIRED_VALIDATOR",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null
-          },
-          "useClass": null
+          "class": "Identifier",
+          "name": "REQUIRED_VALIDATOR",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
         }
-      ]
-    }
-  },
-  "MinLengthValidator": {
-    "kind": "type",
-    "value": {
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MinLengthValidator": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -276,15 +371,10 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": {
-              "class": "Identifier",
-              "name": "String",
-              "moduleUrl": null,
-              "prefix": null,
-              "constConstructor": null
-            },
+            "token": "minlength",
             "query": null,
             "viewQuery": null,
             "isAttribute": true,
@@ -305,21 +395,19 @@
       "template": null,
       "providers": [
         {
-          "token": {
-            "class": "Identifier",
-            "name": "MIN_LENGTH_VALIDATOR",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null
-          },
-          "useClass": null
+          "class": "Identifier",
+          "name": "MIN_LENGTH_VALIDATOR",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
         }
-      ]
-    }
-  },
-  "MaxLengthValidator": {
-    "kind": "type",
-    "value": {
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "MaxLengthValidator": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -332,15 +420,10 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": {
-              "class": "Identifier",
-              "name": "String",
-              "moduleUrl": null,
-              "prefix": null,
-              "constConstructor": null
-            },
+            "token": "maxlength",
             "query": null,
             "viewQuery": null,
             "isAttribute": true,
@@ -361,21 +444,19 @@
       "template": null,
       "providers": [
         {
-          "token": {
-            "class": "Identifier",
-            "name": "MAX_LENGTH_VALIDATOR",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null
-          },
-          "useClass": null
+          "class": "Identifier",
+          "name": "MAX_LENGTH_VALIDATOR",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
         }
-      ]
-    }
-  },
-  "PatternValidator": {
-    "kind": "type",
-    "value": {
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    },
+    "PatternValidator": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -388,15 +469,10 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": {
-              "class": "Identifier",
-              "name": "String",
-              "moduleUrl": null,
-              "prefix": null,
-              "constConstructor": null
-            },
+            "token": "pattern",
             "query": null,
             "viewQuery": null,
             "isAttribute": true,
@@ -417,17 +493,18 @@
       "template": null,
       "providers": [
         {
-          "token": {
-            "class": "Identifier",
-            "name": "PATTERN_VALIDATOR",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null
-          },
-          "useClass": null
+          "class": "Identifier",
+          "name": "PATTERN_VALIDATOR",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
         }
-      ]
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

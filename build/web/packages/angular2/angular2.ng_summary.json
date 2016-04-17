@@ -39,5 +39,6 @@
     ],
     "6": "angular2.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

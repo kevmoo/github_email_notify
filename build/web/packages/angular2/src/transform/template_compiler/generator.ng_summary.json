@@ -56,6 +56,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/i18n.dart",
+        "5": false
+      },
+      {
         "1": "reflection/processor.dart",
         "4": "reg",
         "5": false
@@ -71,15 +75,31 @@
     ],
     "6": "generator.dart"
   },
-  "Outputs": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "processTemplates": {
+      "class": "Identifier",
+      "name": "processTemplates",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/generator.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "templatesAssetId": {
+      "class": "Identifier",
+      "name": "templatesAssetId",
+      "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/generator.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Outputs": {
       "class": "Identifier",
       "name": "Outputs",
       "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/generator.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

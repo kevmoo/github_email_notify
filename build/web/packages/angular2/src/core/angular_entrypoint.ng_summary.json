@@ -1,14 +1,14 @@
 {
   "ngDeps": null,
-  "AngularEntrypoint": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AngularEntrypoint": {
       "class": "Identifier",
       "name": "AngularEntrypoint",
       "moduleUrl": "asset:angular2/lib/src/core/angular_entrypoint.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

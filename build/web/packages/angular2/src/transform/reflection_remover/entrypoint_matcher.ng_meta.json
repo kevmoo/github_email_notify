@@ -31,25 +31,23 @@
       }
     ]
   },
-  "_defaultEntrypointName": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_defaultEntrypointName": {
       "class": "Identifier",
       "name": "_defaultEntrypointName",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "EntrypointMatcher": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "EntrypointMatcher": {
       "class": "Identifier",
       "name": "EntrypointMatcher",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -49,35 +49,31 @@
     ],
     "6": "xhr_mock.dart"
   },
-  "MockXHR": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MockXHR": {
       "class": "Identifier",
       "name": "MockXHR",
       "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_PendingRequest": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_PendingRequest": {
       "class": "Identifier",
       "name": "_PendingRequest",
       "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_Expectation": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_Expectation": {
       "class": "Identifier",
       "name": "_Expectation",
       "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -38,95 +38,79 @@
       }
     ]
   },
-  "MessageBus": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MessageBus": {
       "class": "Identifier",
       "name": "MessageBus",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MessageBusSource": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "MessageBusSource": {
       "class": "Identifier",
       "name": "MessageBusSource",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "MessageBusSink": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "MessageBusSink": {
       "class": "Identifier",
       "name": "MessageBusSink",
       "moduleUrl": "asset:angular2/lib/src/web_workers/shared/message_bus.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "TimerWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "TimerWrapper": {
       "class": "Identifier",
       "name": "TimerWrapper",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ObservableWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ObservableWrapper": {
       "class": "Identifier",
       "name": "ObservableWrapper",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "EventEmitter": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "EventEmitter": {
       "class": "Identifier",
       "name": "EventEmitter",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Subject": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "Subject": {
       "class": "Identifier",
       "name": "Subject",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PromiseWrapper": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "PromiseWrapper": {
       "class": "Identifier",
       "name": "PromiseWrapper",
       "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "PromiseCompleter": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "PromiseCompleter": {
       "class": "Identifier",
       "name": "PromiseCompleter",
       "moduleUrl": "asset:angular2/lib/src/facade/promise.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

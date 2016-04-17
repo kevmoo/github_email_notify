@@ -50,9 +50,16 @@
       {
         "1": "../validators.dart",
         "2": [
-          "Validators",
           "NG_VALIDATORS",
           "NG_ASYNC_VALIDATORS"
+        ],
+        "5": false
+      },
+      {
+        "1": "validators.dart",
+        "2": [
+          "AsyncValidatorFn",
+          "ValidatorFn"
         ],
         "5": false
       }
@@ -126,19 +133,37 @@
     ],
     "6": "ng_control_group.dart"
   },
-  "controlGroupProvider": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "controlGroupProvider": {
       "class": "Identifier",
       "name": "controlGroupProvider",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_group.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NgControlGroup": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": {
+        "class": "Provider",
+        "token": {
+          "class": "Identifier",
+          "name": "ControlContainer",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useClass": null,
+        "useExisting": {
+          "class": "Identifier",
+          "name": "NgControlGroup",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        "useValue": null,
+        "useFactory": null
+      }
+    },
+    "NgControlGroup": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -151,6 +176,7 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
             "token": {
@@ -158,7 +184,8 @@
               "name": "ControlContainer",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -174,7 +201,8 @@
               "name": "NG_VALIDATORS",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -190,7 +218,8 @@
               "name": "NG_ASYNC_VALIDATORS",
               "moduleUrl": null,
               "prefix": null,
-              "constConstructor": null
+              "constConstructor": null,
+              "value": null
             },
             "query": null,
             "viewQuery": null,
@@ -217,17 +246,18 @@
       "template": null,
       "providers": [
         {
-          "token": {
-            "class": "Identifier",
-            "name": "controlGroupProvider",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null
-          },
-          "useClass": null
+          "class": "Identifier",
+          "name": "controlGroupProvider",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
         }
-      ]
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

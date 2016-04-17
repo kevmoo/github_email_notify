@@ -31,5 +31,23 @@
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "hasLifecycleHook": {
+      "class": "Identifier",
+      "name": "hasLifecycleHook",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/route_lifecycle_reflector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "getCanActivateHook": {
+      "class": "Identifier",
+      "name": "getCanActivateHook",
+      "moduleUrl": "asset:angular2/lib/src/router/lifecycle/route_lifecycle_reflector.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -67,9 +67,8 @@
     ],
     "6": "i18n_plural_pipe.dart"
   },
-  "I18nPluralPipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "I18nPluralPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -78,11 +77,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "i18nPlural",
       "pure": true
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

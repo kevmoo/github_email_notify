@@ -165,48 +165,49 @@
       }
     ]
   },
-  "COMPONENT_VARIABLE": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "COMPONENT_VARIABLE": {
       "class": "Identifier",
       "name": "COMPONENT_VARIABLE",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "HOST_ATTR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "HOST_ATTR": {
       "class": "Identifier",
       "name": "HOST_ATTR",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CONTENT_ATTR": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "CONTENT_ATTR": {
       "class": "Identifier",
       "name": "CONTENT_ATTR",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "StyleCompiler": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "StyleCompiler": {
       "class": "Type",
       "name": "StyleCompiler",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_compiler.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": "asset:angular2/lib/src/compiler/xhr.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -216,7 +217,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "UrlResolver",
+            "moduleUrl": "asset:angular2/lib/src/compiler/url_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -228,5 +236,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

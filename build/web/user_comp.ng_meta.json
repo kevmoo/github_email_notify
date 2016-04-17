@@ -92,29 +92,32 @@
       }
     ]
   },
-  "_FirebaseThing": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_FirebaseThing": {
       "class": "Identifier",
       "name": "_FirebaseThing",
       "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_FirebaseItem": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_FirebaseItem": {
       "class": "Identifier",
       "name": "_FirebaseItem",
       "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "UserComponent": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_createNonNullCanonicalMap": {
+      "class": "Identifier",
+      "name": "_createNonNullCanonicalMap",
+      "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "UserComponent": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
@@ -127,6 +130,7 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": []
       },
       "changeDetection": 5,
@@ -149,8 +153,11 @@
         "styleUrls": [],
         "ngContentSelectors": []
       },
-      "providers": []
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

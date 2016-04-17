@@ -76,19 +76,76 @@
       }
     ]
   },
-  "CHECKBOX_VALUE_ACCESSOR": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "CHECKBOX_VALUE_ACCESSOR": {
       "class": "Identifier",
       "name": "CHECKBOX_VALUE_ACCESSOR",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/checkbox_value_accessor.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "CheckboxControlValueAccessor": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "NG_VALUE_ACCESSOR",
+            "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": {
+            "class": "Type",
+            "name": "CheckboxControlValueAccessor",
+            "moduleUrl": "asset:angular2/lib/src/common/forms/directives/checkbox_value_accessor.dart",
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "class": "Identifier",
+                  "name": "Renderer",
+                  "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+                  "prefix": null,
+                  "constConstructor": null,
+                  "value": null
+                },
+                "query": null,
+                "viewQuery": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false
+              },
+              {
+                "token": {
+                  "class": "Identifier",
+                  "name": "ElementRef",
+                  "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                  "prefix": null,
+                  "constConstructor": null,
+                  "value": null
+                },
+                "query": null,
+                "viewQuery": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false
+              }
+            ]
+          },
+          "useValue": null,
+          "useFactory": null
+        }
+      ]
+    },
+    "CheckboxControlValueAccessor": {
       "class": "Directive",
       "isComponent": false,
       "dynamicLoadable": true,
@@ -101,9 +158,17 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "Renderer",
+              "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -113,7 +178,14 @@
             "isOptional": false
           },
           {
-            "token": null,
+            "token": {
+              "class": "Identifier",
+              "name": "ElementRef",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+              "prefix": null,
+              "constConstructor": null,
+              "value": null
+            },
             "query": null,
             "viewQuery": null,
             "isAttribute": false,
@@ -137,17 +209,69 @@
       "template": null,
       "providers": [
         {
+          "class": "Provider",
           "token": {
             "class": "Identifier",
-            "name": "CHECKBOX_VALUE_ACCESSOR",
-            "moduleUrl": null,
+            "name": "NG_VALUE_ACCESSOR",
+            "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
-          "useClass": null
+          "useClass": null,
+          "useExisting": {
+            "class": "Type",
+            "name": "CheckboxControlValueAccessor",
+            "moduleUrl": "asset:angular2/lib/src/common/forms/directives/checkbox_value_accessor.dart",
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "class": "Identifier",
+                  "name": "Renderer",
+                  "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
+                  "prefix": null,
+                  "constConstructor": null,
+                  "value": null
+                },
+                "query": null,
+                "viewQuery": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false
+              },
+              {
+                "token": {
+                  "class": "Identifier",
+                  "name": "ElementRef",
+                  "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                  "prefix": null,
+                  "constConstructor": null,
+                  "value": null
+                },
+                "query": null,
+                "viewQuery": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false
+              }
+            ]
+          },
+          "useValue": null,
+          "useFactory": null
         }
-      ]
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

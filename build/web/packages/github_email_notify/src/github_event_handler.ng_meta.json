@@ -38,18 +38,48 @@
     "6": "github_event_handler.dart",
     "10": [
       {
-        "1": "gmail.template.dart",
+        "1": "environment_variable_access.template.dart",
         "4": "i0"
       },
       {
-        "1": "mime_email.template.dart",
+        "1": "gmail.template.dart",
         "4": "i1"
       },
       {
-        "1": "server_utils.template.dart",
+        "1": "mime_email.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "server_utils.template.dart",
+        "4": "i3"
       }
     ]
   },
-  "definesAlias": false
+  "type": {
+    "githubRequestHandler": {
+      "class": "Identifier",
+      "name": "githubRequestHandler",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_handleLabeledEvent": {
+      "class": "Identifier",
+      "name": "_handleLabeledEvent",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_flattenMap": {
+      "class": "Identifier",
+      "name": "_flattenMap",
+      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

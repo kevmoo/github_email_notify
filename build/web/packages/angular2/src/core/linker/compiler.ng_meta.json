@@ -112,27 +112,33 @@
       }
     ]
   },
-  "Compiler": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Compiler": {
       "class": "Identifier",
       "name": "Compiler",
       "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Compiler_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "isHostViewFactory": {
+      "class": "Identifier",
+      "name": "isHostViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Compiler_": {
       "class": "Type",
       "name": "Compiler_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/compiler.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -39,8 +39,16 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/transform/common/logging.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/zone.dart",
         "4": "zone",
+        "5": false
+      },
+      {
+        "1": "package:angular2/i18n.dart",
         "5": false
       },
       {
@@ -50,25 +58,23 @@
     ],
     "6": "transformer.dart"
   },
-  "_emptyNgDepsContents": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_emptyNgDepsContents": {
       "class": "Identifier",
       "name": "_emptyNgDepsContents",
       "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/transformer.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "TemplateCompiler": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "TemplateCompiler": {
       "class": "Identifier",
       "name": "TemplateCompiler",
       "moduleUrl": "asset:angular2/lib/src/transform/template_compiler/transformer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

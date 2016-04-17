@@ -29,5 +29,15 @@
     ],
     "6": "gmail.dart"
   },
-  "definesAlias": false
+  "type": {
+    "sendEmail": {
+      "class": "Identifier",
+      "name": "sendEmail",
+      "moduleUrl": "asset:github_email_notify/lib/src/gmail.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    }
+  },
+  "alias": {}
 }

@@ -48,25 +48,23 @@
       }
     ]
   },
-  "DebugDomRootRenderer": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DebugDomRootRenderer": {
       "class": "Identifier",
       "name": "DebugDomRootRenderer",
       "moduleUrl": "asset:angular2/lib/src/core/debug/debug_renderer.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DebugDomRenderer": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DebugDomRenderer": {
       "class": "Identifier",
       "name": "DebugDomRenderer",
       "moduleUrl": "asset:angular2/lib/src/core/debug/debug_renderer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -123,35 +123,271 @@
     ],
     "6": "browser_static.dart"
   },
-  "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS": {
       "class": "Identifier",
       "name": "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ADDITIONAL_TEST_BROWSER_PROVIDERS": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "PLATFORM_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "PLATFORM_INITIALIZER",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": {
+            "class": "Identifier",
+            "name": "initBrowserTests",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useFactory": null
+        }
+      ]
+    },
+    "ADDITIONAL_TEST_BROWSER_PROVIDERS": {
       "class": "Identifier",
       "name": "ADDITIONAL_TEST_BROWSER_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "TEST_BROWSER_STATIC_APPLICATION_PROVIDERS": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "APP_ID",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": "a",
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "ELEMENT_PROBE_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "DirectiveResolver",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "MockDirectiveResolver",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "ViewResolver",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "MockViewResolver",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "Log",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "TestComponentBuilder",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "NgZone",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "MockNgZone",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "LocationStrategy",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "MockLocationStrategy",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "AnimationBuilder",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "MockAnimationBuilder",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        }
+      ]
+    },
+    "TEST_BROWSER_STATIC_APPLICATION_PROVIDERS": {
       "class": "Identifier",
       "name": "TEST_BROWSER_STATIC_APPLICATION_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BROWSER_APP_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "XHRImpl",
+            "moduleUrl": null,
+            "prefix": null,
+            "isHost": false,
+            "constConstructor": null,
+            "value": null,
+            "diDeps": null
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null
+        },
+        {
+          "class": "Identifier",
+          "name": "ADDITIONAL_TEST_BROWSER_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "constConstructor": null,
+          "value": null
+        }
+      ]
+    },
+    "initBrowserTests": {
+      "class": "Identifier",
+      "name": "initBrowserTests",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -39,15 +39,15 @@
     ],
     "6": "sync_route_handler.dart"
   },
-  "SyncRouteHandler": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "SyncRouteHandler": {
       "class": "Identifier",
       "name": "SyncRouteHandler",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_handlers/sync_route_handler.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

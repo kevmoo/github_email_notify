@@ -35,35 +35,31 @@
       }
     ]
   },
-  "QueriesVisitor": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "QueriesVisitor": {
       "class": "Identifier",
       "name": "QueriesVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_QueriesPropertyVisitor": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueriesPropertyVisitor": {
       "class": "Identifier",
       "name": "_QueriesPropertyVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_QueriesAnnotationVisitor": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_QueriesAnnotationVisitor": {
       "class": "Identifier",
       "name": "_QueriesAnnotationVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/queries_code.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

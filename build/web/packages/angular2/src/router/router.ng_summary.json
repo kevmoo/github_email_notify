@@ -162,18 +162,25 @@
     ],
     "6": "router.dart"
   },
-  "Router": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Router": {
       "class": "Type",
       "name": "Router",
       "moduleUrl": "asset:angular2/lib/src/router/router.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "RouteRegistry",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -183,7 +190,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Router",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -193,7 +207,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "dynamic",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -203,7 +224,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Router",
+            "moduleUrl": null,
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -213,17 +241,15 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "RootRouter": {
-    "kind": "type",
-    "value": {
+    },
+    "RootRouter": {
       "class": "Type",
       "name": "RootRouter",
       "moduleUrl": "asset:angular2/lib/src/router/router.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
           "token": {
@@ -231,7 +257,8 @@
             "name": "RouteRegistry",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -247,7 +274,8 @@
             "name": "Location",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -263,7 +291,8 @@
             "name": "ROUTER_PRIMARY_COMPONENT",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null
+            "constConstructor": null,
+            "value": null
           },
           "query": null,
           "viewQuery": null,
@@ -274,17 +303,23 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "ChildRouter": {
-    "kind": "type",
-    "value": {
+    },
+    "ChildRouter": {
       "class": "Identifier",
       "name": "ChildRouter",
       "moduleUrl": "asset:angular2/lib/src/router/router.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "canActivateOne": {
+      "class": "Identifier",
+      "name": "canActivateOne",
+      "moduleUrl": "asset:angular2/lib/src/router/router.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

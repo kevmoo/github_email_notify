@@ -149,28 +149,41 @@
       }
     ]
   },
-  "ParseException": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ParseException": {
       "class": "Identifier",
       "name": "ParseException",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "Parser": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SplitInterpolation": {
+      "class": "Identifier",
+      "name": "SplitInterpolation",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "Parser": {
       "class": "Type",
       "name": "Parser",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Lexer",
+            "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/lexer.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -180,7 +193,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "Reflector",
+            "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -190,27 +210,23 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "_ParseAST": {
-    "kind": "type",
-    "value": {
+    },
+    "_ParseAST": {
       "class": "Identifier",
       "name": "_ParseAST",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SimpleExpressionChecker": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SimpleExpressionChecker": {
       "class": "Identifier",
       "name": "SimpleExpressionChecker",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/parser/parser.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

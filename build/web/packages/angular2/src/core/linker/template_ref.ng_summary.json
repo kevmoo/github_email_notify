@@ -13,25 +13,23 @@
     ],
     "6": "template_ref.dart"
   },
-  "TemplateRef": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "TemplateRef": {
       "class": "Identifier",
       "name": "TemplateRef",
       "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "TemplateRef_": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "TemplateRef_": {
       "class": "Identifier",
       "name": "TemplateRef_",
       "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

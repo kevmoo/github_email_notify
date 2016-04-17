@@ -9,35 +9,39 @@
     ],
     "6": "intl.dart"
   },
-  "NumberFormatStyle": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NumberFormatStyle": {
       "class": "Identifier",
       "name": "NumberFormatStyle",
       "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "NumberFormatter": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_normalizeLocale": {
+      "class": "Identifier",
+      "name": "_normalizeLocale",
+      "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "NumberFormatter": {
       "class": "Identifier",
       "name": "NumberFormatter",
       "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "DateFormatter": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "DateFormatter": {
       "class": "Identifier",
       "name": "DateFormatter",
       "moduleUrl": "asset:angular2/lib/src/facade/intl.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

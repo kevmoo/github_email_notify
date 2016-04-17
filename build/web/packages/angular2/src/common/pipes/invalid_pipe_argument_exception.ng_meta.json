@@ -31,15 +31,15 @@
       }
     ]
   },
-  "InvalidPipeArgumentException": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "InvalidPipeArgumentException": {
       "class": "Identifier",
       "name": "InvalidPipeArgumentException",
       "moduleUrl": "asset:angular2/lib/src/common/pipes/invalid_pipe_argument_exception.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -81,6 +81,7 @@
           "HtmlTextAst",
           "HtmlAttrAst",
           "HtmlAst",
+          "HtmlCommentAst",
           "htmlVisitAll"
         ],
         "5": false
@@ -183,18 +184,25 @@
       }
     ]
   },
-  "TemplateNormalizer": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "TemplateNormalizer": {
       "class": "Type",
       "name": "TemplateNormalizer",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_normalizer.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": "asset:angular2/lib/src/compiler/xhr.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -204,7 +212,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "UrlResolver",
+            "moduleUrl": "asset:angular2/lib/src/compiler/url_resolver.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -214,7 +229,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "HtmlParser",
+            "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -224,17 +246,15 @@
           "isOptional": false
         }
       ]
-    }
-  },
-  "TemplatePreparseVisitor": {
-    "kind": "type",
-    "value": {
+    },
+    "TemplatePreparseVisitor": {
       "class": "Identifier",
       "name": "TemplatePreparseVisitor",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_normalizer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

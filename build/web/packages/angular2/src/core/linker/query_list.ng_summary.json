@@ -13,15 +13,15 @@
     ],
     "6": "query_list.dart"
   },
-  "QueryList": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "QueryList": {
       "class": "Identifier",
       "name": "QueryList",
       "moduleUrl": "asset:angular2/lib/src/core/linker/query_list.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

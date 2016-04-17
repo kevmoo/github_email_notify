@@ -29,25 +29,23 @@
     ],
     "6": "key.dart"
   },
-  "Key": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Key": {
       "class": "Identifier",
       "name": "Key",
       "moduleUrl": "asset:angular2/lib/src/core/di/key.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "KeyRegistry": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "KeyRegistry": {
       "class": "Identifier",
       "name": "KeyRegistry",
       "moduleUrl": "asset:angular2/lib/src/core/di/key.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -189,21 +189,18 @@
       }
     ]
   },
-  "NumberPipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "NumberPipe": {
       "class": "Type",
       "name": "NumberPipe",
       "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
-    }
-  },
-  "DecimalPipe": {
-    "kind": "type",
-    "value": {
+    },
+    "DecimalPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -212,15 +209,13 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "number",
       "pure": false
-    }
-  },
-  "PercentPipe": {
-    "kind": "type",
-    "value": {
+    },
+    "PercentPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -229,15 +224,13 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "percent",
       "pure": false
-    }
-  },
-  "CurrencyPipe": {
-    "kind": "type",
-    "value": {
+    },
+    "CurrencyPipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -246,11 +239,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "currency",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

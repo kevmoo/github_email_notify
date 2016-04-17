@@ -14,25 +14,31 @@
     ],
     "6": "constants.dart"
   },
-  "ChangeDetectorState": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ChangeDetectorState": {
       "class": "Identifier",
       "name": "ChangeDetectorState",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ChangeDetectionStrategy": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ChangeDetectionStrategy": {
       "class": "Identifier",
       "name": "ChangeDetectionStrategy",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "isDefaultChangeDetectionStrategy": {
+      "class": "Identifier",
+      "name": "isDefaultChangeDetectionStrategy",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/constants.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

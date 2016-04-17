@@ -104,9 +104,8 @@
       }
     ]
   },
-  "SlicePipe": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "SlicePipe": {
       "class": "Pipe",
       "type": {
         "class": "Type",
@@ -115,11 +114,12 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": null
       },
       "name": "slice",
       "pure": false
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

@@ -35,25 +35,23 @@
     ],
     "6": "annotation_code.dart"
   },
-  "AnnotationVisitor": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "AnnotationVisitor": {
       "class": "Identifier",
       "name": "AnnotationVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/annotation_code.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "AnnotationWriterMixin": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "AnnotationWriterMixin": {
       "class": "Identifier",
       "name": "AnnotationWriterMixin",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/annotation_code.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

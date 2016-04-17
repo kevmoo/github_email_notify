@@ -88,5 +88,6 @@
     ],
     "6": "core.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

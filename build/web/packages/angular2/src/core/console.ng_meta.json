@@ -44,17 +44,17 @@
       }
     ]
   },
-  "Console": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "Console": {
       "class": "Type",
       "name": "Console",
       "moduleUrl": "asset:angular2/lib/src/core/console.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

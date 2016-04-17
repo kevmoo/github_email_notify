@@ -114,15 +114,15 @@
     ],
     "6": "rule_set.dart"
   },
-  "RuleSet": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "RuleSet": {
       "class": "Identifier",
       "name": "RuleSet",
       "moduleUrl": "asset:angular2/lib/src/router/rules/rule_set.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

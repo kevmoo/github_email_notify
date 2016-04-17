@@ -15,5 +15,6 @@
     ],
     "6": "instrumentation.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

@@ -69,5 +69,6 @@
     ],
     "6": "pregen_proto_change_detector.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

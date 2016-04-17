@@ -68,15 +68,31 @@
       }
     ]
   },
-  "DirectiveProcessor": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "DirectiveProcessor": {
       "class": "Identifier",
       "name": "DirectiveProcessor",
       "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/transformer.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "_ngSummaryAssetId": {
+      "class": "Identifier",
+      "name": "_ngSummaryAssetId",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/transformer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_deferredAssetId": {
+      "class": "Identifier",
+      "name": "_deferredAssetId",
+      "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/transformer.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

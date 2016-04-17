@@ -48,6 +48,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
+        "2": [
+          "ReflectorReader"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
           "reflector"
@@ -66,6 +73,12 @@
             "6": false,
             "7": true,
             "8": false
+          }
+        ],
+        "5": [
+          {
+            "1": "ReflectorReader",
+            "4": "_reflector"
           }
         ]
       }
@@ -97,22 +110,44 @@
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "1": "package:angular2/src/core/reflection/reflector_reader.template.dart",
         "4": "i6"
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "4": "i7"
       }
     ]
   },
-  "ViewResolver": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ViewResolver": {
       "class": "Type",
       "name": "ViewResolver",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_resolver.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
-      "diDeps": []
+      "value": null,
+      "diDeps": [
+        {
+          "token": {
+            "class": "Identifier",
+            "name": "ReflectorReader",
+            "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
+          "query": null,
+          "viewQuery": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false
+        }
+      ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

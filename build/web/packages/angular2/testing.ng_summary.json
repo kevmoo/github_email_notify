@@ -51,5 +51,6 @@
     ],
     "6": "testing.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

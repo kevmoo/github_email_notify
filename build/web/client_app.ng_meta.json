@@ -14,10 +14,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/bootstrap_static.dart",
-        "2": [
-          "bootstrapStatic"
-        ],
+        "1": "package:angular2/platform/browser_static.dart",
         "5": false
       },
       {
@@ -129,7 +126,7 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/bootstrap_static.template.dart",
+        "1": "package:angular2/platform/browser_static.template.dart",
         "4": "i1"
       },
       {
@@ -142,9 +139,33 @@
       }
     ]
   },
-  "ClientApp": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "_errorHandler": {
+      "class": "Identifier",
+      "name": "_errorHandler",
+      "moduleUrl": "asset:github_email_notify/web/client_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "main": {
+      "class": "Identifier",
+      "name": "main",
+      "moduleUrl": "asset:github_email_notify/web/client_app.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "browserClientFactory": {
+      "class": "Factory",
+      "name": "browserClientFactory",
+      "prefix": null,
+      "moduleUrl": "asset:github_email_notify/web/client_app.dart",
+      "constConstructor": null,
+      "value": null,
+      "diDeps": []
+    },
+    "ClientApp": {
       "class": "Directive",
       "isComponent": true,
       "dynamicLoadable": true,
@@ -157,6 +178,7 @@
         "prefix": null,
         "isHost": false,
         "constConstructor": null,
+        "value": null,
         "diDeps": [
           {
             "token": "browserClient",
@@ -189,11 +211,26 @@
       },
       "providers": [
         {
+          "class": "Provider",
           "token": "browserClient",
-          "useClass": null
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "browserClientFactory",
+            "prefix": null,
+            "moduleUrl": "asset:github_email_notify/web/client_app.dart",
+            "constConstructor": null,
+            "value": null,
+            "diDeps": []
+          }
         }
-      ]
+      ],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

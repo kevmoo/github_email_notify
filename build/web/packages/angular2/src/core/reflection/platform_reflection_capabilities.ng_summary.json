@@ -21,15 +21,15 @@
     ],
     "6": "platform_reflection_capabilities.dart"
   },
-  "PlatformReflectionCapabilities": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "PlatformReflectionCapabilities": {
       "class": "Identifier",
       "name": "PlatformReflectionCapabilities",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/platform_reflection_capabilities.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

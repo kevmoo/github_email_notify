@@ -52,5 +52,6 @@
     ],
     "6": "common_dom.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

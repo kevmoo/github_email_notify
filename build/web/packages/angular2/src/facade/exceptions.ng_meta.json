@@ -28,45 +28,55 @@
       }
     ]
   },
-  "BaseException": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "BaseException": {
       "class": "Identifier",
       "name": "BaseException",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "WrappedException": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "WrappedException": {
       "class": "Identifier",
       "name": "WrappedException",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "_ArrayLogger": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "makeTypeError": {
+      "class": "Identifier",
+      "name": "makeTypeError",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "unimplemented": {
+      "class": "Identifier",
+      "name": "unimplemented",
+      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "_ArrayLogger": {
       "class": "Identifier",
       "name": "_ArrayLogger",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ExceptionHandler": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "ExceptionHandler": {
       "class": "Identifier",
       "name": "ExceptionHandler",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

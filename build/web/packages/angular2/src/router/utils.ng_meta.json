@@ -30,15 +30,23 @@
       }
     ]
   },
-  "TouchMap": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "TouchMap": {
       "class": "Identifier",
       "name": "TouchMap",
       "moduleUrl": "asset:angular2/lib/src/router/utils.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
+    },
+    "normalizeString": {
+      "class": "Identifier",
+      "name": "normalizeString",
+      "moduleUrl": "asset:angular2/lib/src/router/utils.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

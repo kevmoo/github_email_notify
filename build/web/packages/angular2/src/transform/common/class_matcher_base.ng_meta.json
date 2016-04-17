@@ -42,25 +42,39 @@
       }
     ]
   },
-  "ClassMatcherBase": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "ClassMatcherBase": {
       "class": "Identifier",
       "name": "ClassMatcherBase",
       "moduleUrl": "asset:angular2/lib/src/transform/common/class_matcher_base.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ClassDescriptor": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_getMatchingImport": {
+      "class": "Identifier",
+      "name": "_getMatchingImport",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/class_matcher_base.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "isMatch": {
+      "class": "Identifier",
+      "name": "isMatch",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/class_matcher_base.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ClassDescriptor": {
       "class": "Identifier",
       "name": "ClassDescriptor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/class_matcher_base.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

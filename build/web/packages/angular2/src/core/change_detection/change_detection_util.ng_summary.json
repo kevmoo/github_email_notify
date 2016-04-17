@@ -78,35 +78,39 @@
     ],
     "6": "change_detection_util.dart"
   },
-  "WrappedValue": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "WrappedValue": {
       "class": "Identifier",
       "name": "WrappedValue",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "SimpleChange": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "SimpleChange": {
       "class": "Identifier",
       "name": "SimpleChange",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
       "prefix": null,
-      "constConstructor": null
-    }
-  },
-  "ChangeDetectionUtil": {
-    "kind": "type",
-    "value": {
+      "constConstructor": null,
+      "value": null
+    },
+    "_simpleChange": {
+      "class": "Identifier",
+      "name": "_simpleChange",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
+      "prefix": null,
+      "constConstructor": null,
+      "value": null
+    },
+    "ChangeDetectionUtil": {
       "class": "Identifier",
       "name": "ChangeDetectionUtil",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection_util.dart",
       "prefix": null,
-      "constConstructor": null
+      "constConstructor": null,
+      "value": null
     }
   },
-  "definesAlias": false
+  "alias": {}
 }

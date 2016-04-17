@@ -26,5 +26,6 @@
     ],
     "6": "change_detection.dart"
   },
-  "definesAlias": false
+  "type": {},
+  "alias": {}
 }

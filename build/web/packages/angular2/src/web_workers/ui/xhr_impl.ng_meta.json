@@ -91,21 +91,32 @@
       {
         "1": "package:angular2/src/web_workers/shared/service_message_broker.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "bind.template.dart",
+        "4": "i5"
       }
     ]
   },
-  "MessageBasedXHRImpl": {
-    "kind": "type",
-    "value": {
+  "type": {
+    "MessageBasedXHRImpl": {
       "class": "Type",
       "name": "MessageBasedXHRImpl",
       "moduleUrl": "asset:angular2/lib/src/web_workers/ui/xhr_impl.dart",
       "prefix": null,
       "isHost": false,
       "constConstructor": null,
+      "value": null,
       "diDeps": [
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "ServiceMessageBrokerFactory",
+            "moduleUrl": "asset:angular2/lib/src/web_workers/shared/service_message_broker.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -115,7 +126,14 @@
           "isOptional": false
         },
         {
-          "token": null,
+          "token": {
+            "class": "Identifier",
+            "name": "XHR",
+            "moduleUrl": "asset:angular2/lib/src/compiler/xhr.dart",
+            "prefix": null,
+            "constConstructor": null,
+            "value": null
+          },
           "query": null,
           "viewQuery": null,
           "isAttribute": false,
@@ -127,5 +145,5 @@
       ]
     }
   },
-  "definesAlias": false
+  "alias": {}
 }
