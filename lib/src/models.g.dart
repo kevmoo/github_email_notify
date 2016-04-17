@@ -1,5 +1,4 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// 2015-07-13T21:00:38.503Z
 
 part of api.models;
 
