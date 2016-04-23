@@ -6,23 +6,23 @@ homepage: https://github.com/kevmoo/github_email_notify
 environment:
   sdk: '>=1.11.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.15
+  angular2: 2.0.0-beta.19
   appengine: '^0.3.1+1'
   browser: ^0.10.0+2
   collection: ^1.2.0
   firebase: ^0.6.1
   github: ^2.2.3+1
   github_hook: ^0.2.2
-  googleapis: '>=0.14.0 <0.21.0'
+  googleapis: '>=0.14.0 <0.29.0'
   googleapis_auth: ^0.2.3+1
   http: ^0.11.2
   logging: ^0.11.1
-  markdown: ^0.9.0
+  markdown: ^0.11.0
   path: ^1.3.5
   shelf: ^0.6.0
   shelf_appengine: ^0.2.3
 dev_dependencies:
-  build: ^0.2.1
+  build: ^0.3.0
   dart_to_js_script_rewriter: ^1.0.1
   source_gen: ^0.5.0
 transformers:
