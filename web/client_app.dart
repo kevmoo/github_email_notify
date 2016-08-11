@@ -2,7 +2,7 @@ library github_hook.web.index;
 
 import 'dart:convert';
 
-import 'package:angular2/angular2.dart' hide Response;
+import 'package:angular2/angular2.dart';
 import 'package:angular2/platform/browser.dart';
 import 'package:github_email_notify/browser.dart';
 import 'package:googleapis_auth/auth_browser.dart' as auth;

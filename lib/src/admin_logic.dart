@@ -4,8 +4,8 @@ import 'dart:async';
 
 import 'package:appengine/api/users.dart';
 import 'package:github/server.dart';
-import 'package:googleapis_auth/auth_io.dart' as auth;
 import 'package:googleapis/oauth2/v2.dart';
+import 'package:googleapis_auth/auth_io.dart' as auth;
 import 'package:http/http.dart' as http;
 
 import 'email_sender_credentials.dart';
