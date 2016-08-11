@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.directives.ng_if",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/core.dart",
@@ -10,38 +10,11 @@
           "TemplateRef"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "isBlank"
-        ],
-        "5": false
       }
     ],
     "5": [
       {
         "1": "NgIf",
-        "4": [
-          {
-            "1": "Directive",
-            "3": [
-              {
-                "1": "selector",
-                "2": "\"[ngIf]\""
-              },
-              {
-                "1": "inputs",
-                "2": "const [\"ngIf\"]"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": false,
-            "7": true,
-            "8": false
-          }
-        ],
         "5": [
           {
             "1": "ViewContainerRef",
@@ -55,14 +28,10 @@
       }
     ],
     "6": "ng_if.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/core.template.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:angular2/src/facade/lang.template.dart",
-        "4": "i1"
       }
     ]
   },
@@ -70,7 +39,6 @@
     "NgIf": {
       "class": "Directive",
       "isComponent": false,
-      "dynamicLoadable": true,
       "selector": "[ngIf]",
       "exportAs": null,
       "type": {
@@ -79,42 +47,51 @@
         "moduleUrl": "asset:angular2/lib/src/common/directives/ng_if.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": [
           {
             "token": {
-              "class": "Identifier",
-              "name": "ViewContainerRef",
-              "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ViewContainerRef",
+                "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           },
           {
             "token": {
-              "class": "Identifier",
-              "name": "TemplateRef",
-              "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-              "prefix": null,
-              "constConstructor": null,
-              "value": null
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "TemplateRef",
+                "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
             },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           }
         ]
       },

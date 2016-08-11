@@ -6,7 +6,6 @@
       "name": "appName",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "clientIdentifier": {
@@ -14,7 +13,6 @@
       "name": "clientIdentifier",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "clientSecret": {
@@ -22,7 +20,6 @@
       "name": "clientSecret",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "firebaseDomain": {
@@ -30,7 +27,6 @@
       "name": "firebaseDomain",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "firebaseSecret": {
@@ -38,7 +34,6 @@
       "name": "firebaseSecret",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubRepo": {
@@ -46,7 +41,6 @@
       "name": "githubRepo",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubSecret": {
@@ -54,7 +48,6 @@
       "name": "githubSecret",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubToken": {
@@ -62,7 +55,6 @@
       "name": "githubToken",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "senderEmailAccount": {
@@ -70,7 +62,6 @@
       "name": "senderEmailAccount",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_getEnvValue": {
@@ -78,7 +69,6 @@
       "name": "_getEnvValue",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

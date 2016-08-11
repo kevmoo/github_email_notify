@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.compiler.query_list",
+    "1": "",
     "3": [
       {
         "1": "dart:collection",
@@ -9,13 +9,21 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/collection.dart",
+        "5": false
       }
     ],
     "6": "query_list.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/src/facade/async.template.dart",
         "4": "i0"
+      },
+      {
+        "1": "package:angular2/src/facade/collection.template.dart",
+        "4": "i1"
       }
     ]
   },
@@ -25,7 +33,6 @@
       "name": "QueryList",
       "moduleUrl": "asset:angular2/lib/src/core/linker/query_list.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

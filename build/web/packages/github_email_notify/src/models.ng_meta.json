@@ -15,7 +15,6 @@
       "name": "_$AdminObjectFromJson",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$AdminObjectSerializerMixin": {
@@ -23,7 +22,6 @@
       "name": "_$AdminObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$ApiObjectFromJson": {
@@ -31,7 +29,6 @@
       "name": "_$ApiObjectFromJson",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$ApiObjectSerializerMixin": {
@@ -39,7 +36,6 @@
       "name": "_$ApiObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$UserObjectFromJson": {
@@ -47,7 +43,6 @@
       "name": "_$UserObjectFromJson",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$UserObjectSerializerMixin": {
@@ -55,7 +50,6 @@
       "name": "_$UserObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "AdminObject": {
@@ -63,7 +57,6 @@
       "name": "AdminObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ApiObject": {
@@ -71,7 +64,6 @@
       "name": "ApiObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UserObject": {
@@ -79,7 +71,6 @@
       "name": "UserObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

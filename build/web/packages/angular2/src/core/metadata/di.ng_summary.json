@@ -1,24 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.metadata.di",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type",
-          "stringify",
-          "isPresent",
-          "isString"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "resolveForwardRef"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/core/di/metadata.dart",
         "2": [
@@ -35,7 +18,6 @@
       "name": "AttributeMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "QueryMetadata": {
@@ -43,7 +25,6 @@
       "name": "QueryMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ContentChildrenMetadata": {
@@ -51,7 +32,6 @@
       "name": "ContentChildrenMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ContentChildMetadata": {
@@ -59,7 +39,6 @@
       "name": "ContentChildMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ViewQueryMetadata": {
@@ -67,7 +46,6 @@
       "name": "ViewQueryMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ViewChildrenMetadata": {
@@ -75,7 +53,6 @@
       "name": "ViewChildrenMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ViewChildMetadata": {
@@ -83,7 +60,20 @@
       "name": "ViewChildMetadata",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "ProviderPropertyMetadata": {
+      "class": "Identifier",
+      "name": "ProviderPropertyMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
+      "prefix": null,
+      "value": null
+    },
+    "InjectorModuleMetadata": {
+      "class": "Identifier",
+      "name": "InjectorModuleMetadata",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
+      "prefix": null,
       "value": null
     }
   },

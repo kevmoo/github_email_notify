@@ -59,7 +59,6 @@
       "name": "rootObject",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "dartSdkNoAreaIssues": {
@@ -67,7 +66,6 @@
       "name": "dartSdkNoAreaIssues",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_githubUrlFromRepo": {
@@ -75,7 +73,6 @@
       "name": "_githubUrlFromRepo",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_getDartSdkTriageLinks": {
@@ -83,7 +80,6 @@
       "name": "_getDartSdkTriageLinks",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

@@ -4,7 +4,7 @@
 
 <div class="loaded" *ngIf="root != null">
   <ul class="triage">
-    <li *ngFor="#triageUri of triageUriKeys">
+    <li *ngFor="let triageUri of triageUriKeys">
       <a [href]="root.triageUris[triageUri]">{{ triageUri }}</a>
     </li>
   </ul>

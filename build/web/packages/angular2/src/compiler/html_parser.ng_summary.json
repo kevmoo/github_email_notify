@@ -1,17 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.html_parser",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/di.dart",
         "2": [
-          "isPresent",
-          "isBlank",
-          "StringWrapper",
-          "stringify",
-          "assertionsEnabled",
-          "StringJoiner",
-          "serializeEnum"
+          "Injectable"
         ],
         "5": false
       },
@@ -23,20 +17,23 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isPresent",
+          "isBlank"
+        ],
+        "5": false
+      },
+      {
         "1": "html_ast.dart",
         "2": [
           "HtmlAst",
           "HtmlAttrAst",
           "HtmlTextAst",
           "HtmlCommentAst",
-          "HtmlElementAst"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Injectable"
+          "HtmlElementAst",
+          "HtmlExpansionAst",
+          "HtmlExpansionCaseAst"
         ],
         "5": false
       },
@@ -50,21 +47,19 @@
         "5": false
       },
       {
-        "1": "parse_util.dart",
+        "1": "html_tags.dart",
         "2": [
-          "ParseError",
-          "ParseLocation",
-          "ParseSourceSpan"
+          "getHtmlTagDefinition",
+          "getNsPrefix",
+          "mergeNsAndName"
         ],
         "5": false
       },
       {
-        "1": "html_tags.dart",
+        "1": "parse_util.dart",
         "2": [
-          "HtmlTagDefinition",
-          "getHtmlTagDefinition",
-          "getNsPrefix",
-          "mergeNsAndName"
+          "ParseError",
+          "ParseSourceSpan"
         ],
         "5": false
       }
@@ -75,11 +70,7 @@
         "4": [
           {
             "1": "Injectable",
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       }
@@ -92,7 +83,6 @@
       "name": "HtmlTreeError",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HtmlParseTreeResult": {
@@ -100,7 +90,6 @@
       "name": "HtmlParseTreeResult",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "HtmlParser": {
@@ -109,7 +98,6 @@
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
       "isHost": false,
-      "constConstructor": null,
       "value": null,
       "diDeps": []
     },
@@ -118,7 +106,6 @@
       "name": "TreeBuilder",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getElementFullName": {
@@ -126,7 +113,13 @@
       "name": "getElementFullName",
       "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "lastOnStack": {
+      "class": "Identifier",
+      "name": "lastOnStack",
+      "moduleUrl": "asset:angular2/lib/src/compiler/html_parser.dart",
+      "prefix": null,
       "value": null
     }
   },

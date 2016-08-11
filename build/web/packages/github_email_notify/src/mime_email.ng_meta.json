@@ -15,7 +15,6 @@
       "name": "createLabelEmailContent",
       "moduleUrl": "asset:github_email_notify/lib/src/mime_email.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_createMimeContent": {
@@ -23,7 +22,6 @@
       "name": "_createMimeContent",
       "moduleUrl": "asset:github_email_notify/lib/src/mime_email.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

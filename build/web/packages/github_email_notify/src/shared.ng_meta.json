@@ -23,7 +23,6 @@
       "name": "apiRoot",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "emailAuthPath": {
@@ -31,7 +30,6 @@
       "name": "emailAuthPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "emailAuthLogoutPath": {
@@ -39,7 +37,6 @@
       "name": "emailAuthLogoutPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "sendTestMessagePath": {
@@ -47,7 +44,6 @@
       "name": "sendTestMessagePath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "updateGithubLabelsPath": {
@@ -55,7 +51,6 @@
       "name": "updateGithubLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "scopes": {
@@ -63,15 +58,13 @@
       "name": "scopes",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
+      "value": []
     },
     "prettyJson": {
       "class": "Identifier",
       "name": "prettyJson",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

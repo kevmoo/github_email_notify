@@ -7,36 +7,69 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Type",
-          "isPresent"
+          "ComponentRef",
+          "coreLoadAndBootstrap",
+          "ReflectiveInjector",
+          "PlatformRef",
+          "getPlatform",
+          "createPlatform",
+          "assertPlatform",
+          "PLATFORM_INITIALIZER",
+          "MapInjector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/application_ref.dart",
+        "2": [
+          "PlatformRef_"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/console.dart",
+        "2": [
+          "Console"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflection.dart",
+        "2": [
+          "Reflector",
+          "reflector"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/reflection/reflector_reader.dart",
+        "2": [
+          "ReflectorReader"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/testability/testability.dart",
+        "2": [
+          "TestabilityRegistry"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
-          "BROWSER_PROVIDERS",
-          "BROWSER_APP_COMMON_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
-        "2": [
-          "ComponentRef",
-          "platform"
+          "BROWSER_APP_COMMON_PROVIDERS",
+          "BROWSER_PLATFORM_MARKER",
+          "createInitDomAdapter"
         ],
         "5": false
       }
     ],
     "4": [
       {
-        "1": "package:angular2/src/core/angular_entrypoint.dart",
-        "2": [
-          "AngularEntrypoint"
-        ]
+        "1": "package:angular2/src/core/angular_entrypoint.dart"
       },
       {
         "1": "package:angular2/src/platform/browser_common.dart",
@@ -61,7 +94,21 @@
       "name": "BROWSER_APP_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "BROWSER_APP_COMMON_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    },
+    "browserStaticPlatform": {
+      "class": "Identifier",
+      "name": "browserStaticPlatform",
+      "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
+      "prefix": null,
       "value": null
     },
     "bootstrapStatic": {
@@ -69,9 +116,12 @@
       "name": "bootstrapStatic",
       "moduleUrl": "asset:angular2/lib/platform/browser_static.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },
-  "alias": {}
+  "alias": {
+    "BROWSER_APP_PROVIDERS": [
+      "BROWSER_APP_COMMON_PROVIDERS"
+    ]
+  }
 }

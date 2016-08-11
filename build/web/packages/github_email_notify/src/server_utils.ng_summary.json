@@ -33,7 +33,6 @@
       "name": "logError",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getLabelsPath": {
@@ -41,7 +40,6 @@
       "name": "getLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getLabelsUri": {
@@ -49,7 +47,6 @@
       "name": "getLabelsUri",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getUsersForRepoUri": {
@@ -57,7 +54,6 @@
       "name": "getUsersForRepoUri",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getMyLabelsPath": {
@@ -65,7 +61,6 @@
       "name": "getMyLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getFirebaseSecurityToken": {
@@ -73,7 +68,6 @@
       "name": "getFirebaseSecurityToken",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

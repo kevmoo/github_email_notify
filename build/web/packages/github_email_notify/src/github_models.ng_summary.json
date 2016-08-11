@@ -6,7 +6,6 @@
       "name": "User",
       "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Label": {
@@ -14,7 +13,6 @@
       "name": "Label",
       "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Repository": {
@@ -22,7 +20,6 @@
       "name": "Repository",
       "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Issue": {
@@ -30,7 +27,6 @@
       "name": "Issue",
       "moduleUrl": "asset:github_email_notify/lib/src/github_models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

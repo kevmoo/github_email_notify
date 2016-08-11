@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "package:barback/barback.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/transform/common/options.dart",
         "5": false
       },
@@ -25,6 +21,10 @@
         ],
         "4": "base",
         "5": false
+      },
+      {
+        "1": "package:barback/barback.dart",
+        "5": false
       }
     ],
     "6": "reflection_remover.dart"
@@ -35,7 +35,6 @@
       "name": "ReflectionRemover",
       "moduleUrl": "asset:angular2/lib/transform/reflection_remover.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

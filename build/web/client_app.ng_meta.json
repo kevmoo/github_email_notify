@@ -42,44 +42,6 @@
     "5": [
       {
         "1": "ClientApp",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "\"app\""
-              },
-              {
-                "1": "providers",
-                "2": "const [const Provider('browserClient', useFactory: browserClientFactory)]"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          },
-          {
-            "1": "View",
-            "3": [
-              {
-                "1": "templateUrl",
-                "2": "'client_app.html'"
-              },
-              {
-                "1": "directives",
-                "2": "const [NgIf, NgFor, UserComponent]"
-              }
-            ],
-            "4": true,
-            "5": false,
-            "6": false,
-            "7": false,
-            "8": false
-          }
-        ],
         "5": [
           {
             "1": "BrowserClient",
@@ -92,7 +54,7 @@
         "6": [
           "OnInit"
         ],
-        "8": [
+        "7": [
           {
             "2": "NgIf"
           },
@@ -110,17 +72,13 @@
         "4": [
           {
             "1": "Injectable",
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       }
     ],
     "6": "client_app.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/angular2.template.dart",
         "4": "i0"
@@ -145,7 +103,6 @@
       "name": "_errorHandler",
       "moduleUrl": "asset:github_email_notify/web/client_app.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "main": {
@@ -153,7 +110,6 @@
       "name": "main",
       "moduleUrl": "asset:github_email_notify/web/client_app.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "browserClientFactory": {
@@ -161,14 +117,12 @@
       "name": "browserClientFactory",
       "prefix": null,
       "moduleUrl": "asset:github_email_notify/web/client_app.dart",
-      "constConstructor": null,
       "value": null,
       "diDeps": []
     },
     "ClientApp": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "app",
       "exportAs": null,
       "type": {
@@ -177,18 +131,23 @@
         "moduleUrl": "asset:github_email_notify/web/client_app.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": [
           {
-            "token": "browserClient",
+            "token": {
+              "value": "browserClient",
+              "identifier": null,
+              "identifierIsInstance": false
+            },
             "query": null,
             "viewQuery": null,
+            "value": null,
             "isAttribute": false,
             "isSelf": false,
             "isHost": false,
             "isSkipSelf": false,
-            "isOptional": false
+            "isOptional": false,
+            "isValue": false
           }
         ]
       },
@@ -203,7 +162,7 @@
       ],
       "template": {
         "encapsulation": 2,
-        "template": "<div class=\"unloaded\" *ngIf=\"root == null\">\n  <em>Requesting API data...</em>\n</div>\n\n<div class=\"loaded\" *ngIf=\"root != null\">\n  <ul class=\"triage\">\n    <li *ngFor=\"#triageUri of triageUriKeys\">\n      <a [href]=\"root.triageUris[triageUri]\">{{ triageUri }}</a>\n    </li>\n  </ul>\n  <div class=\"user\" *ngIf=\"root.currentUser == null\">\n    <p><a href=\"{{ root.loginUrl }}\">Login</a></p>\n  </div>\n  <div class=\"user\" *ngIf=\"root.currentUser != null\">\n    <p><a href=\"{{ root.logoutUrl }}\">Logout</a></p>\n    <user-comp [user]=\"root.currentUser\"></user-comp>\n  </div>\n  <div class=\"admin\" *ngIf=\"root.adminObject != null\">\n    <h3>Admin</h3>\n    <div *ngIf=\"root.adminObject.authorizedEmail == null\">\n      <Button (click)=\"login()\" [disabled]=\"loginDisabled\">Email sender login</Button>\n    </div>\n    <div *ngIf=\"root.adminObject.authorizedEmail != null\">\n      <p>Notifications are sent with: {{ root.adminObject.authorizedEmail }}</p>\n\n      <p><Button (click)=\"sendTestMessage()\" [disabled]=\"loginDisabled\">Send test message</Button></p>\n      <p><Button (click)=\"updateGithubLabels()\" [disabled]=\"loginDisabled\">Update GitHub labels</Button></p>\n      <p><Button (click)=\"emailSenderLogout()\" [disabled]=\"loginDisabled\">Email sender logut</Button></p>\n\n    </div>\n  </div>\n</div>\n",
+        "template": "<div class=\"unloaded\" *ngIf=\"root == null\">\n  <em>Requesting API data...</em>\n</div>\n\n<div class=\"loaded\" *ngIf=\"root != null\">\n  <ul class=\"triage\">\n    <li *ngFor=\"let triageUri of triageUriKeys\">\n      <a [href]=\"root.triageUris[triageUri]\">{{ triageUri }}</a>\n    </li>\n  </ul>\n  <div class=\"user\" *ngIf=\"root.currentUser == null\">\n    <p><a href=\"{{ root.loginUrl }}\">Login</a></p>\n  </div>\n  <div class=\"user\" *ngIf=\"root.currentUser != null\">\n    <p><a href=\"{{ root.logoutUrl }}\">Logout</a></p>\n    <user-comp [user]=\"root.currentUser\"></user-comp>\n  </div>\n  <div class=\"admin\" *ngIf=\"root.adminObject != null\">\n    <h3>Admin</h3>\n    <div *ngIf=\"root.adminObject.authorizedEmail == null\">\n      <Button (click)=\"login()\" [disabled]=\"loginDisabled\">Email sender login</Button>\n    </div>\n    <div *ngIf=\"root.adminObject.authorizedEmail != null\">\n      <p>Notifications are sent with: {{ root.adminObject.authorizedEmail }}</p>\n\n      <p><Button (click)=\"sendTestMessage()\" [disabled]=\"loginDisabled\">Send test message</Button></p>\n      <p><Button (click)=\"updateGithubLabels()\" [disabled]=\"loginDisabled\">Update GitHub labels</Button></p>\n      <p><Button (click)=\"emailSenderLogout()\" [disabled]=\"loginDisabled\">Email sender logut</Button></p>\n\n    </div>\n  </div>\n</div>\n",
         "templateUrl": "asset:github_email_notify/web/client_app.html",
         "styles": [],
         "styleUrls": [],
@@ -212,7 +171,11 @@
       "providers": [
         {
           "class": "Provider",
-          "token": "browserClient",
+          "token": {
+            "value": "browserClient",
+            "identifier": null,
+            "identifierIsInstance": false
+          },
           "useClass": null,
           "useExisting": null,
           "useValue": null,
@@ -221,10 +184,12 @@
             "name": "browserClientFactory",
             "prefix": null,
             "moduleUrl": "asset:github_email_notify/web/client_app.dart",
-            "constConstructor": null,
             "value": null,
             "diDeps": []
-          }
+          },
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         }
       ],
       "viewProviders": [],

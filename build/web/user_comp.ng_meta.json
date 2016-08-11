@@ -29,48 +29,10 @@
     "5": [
       {
         "1": "UserComponent",
-        "4": [
-          {
-            "1": "Component",
-            "3": [
-              {
-                "1": "selector",
-                "2": "\"user-comp\""
-              },
-              {
-                "1": "inputs",
-                "2": "const [\"user\", 'selectionItems']"
-              }
-            ],
-            "4": false,
-            "5": true,
-            "6": true,
-            "7": true,
-            "8": false
-          },
-          {
-            "1": "View",
-            "3": [
-              {
-                "1": "templateUrl",
-                "2": "'user_comp.html'"
-              },
-              {
-                "1": "directives",
-                "2": "const [NgIf, NgFor]"
-              }
-            ],
-            "4": true,
-            "5": false,
-            "6": false,
-            "7": false,
-            "8": false
-          }
-        ],
         "6": [
           "OnInit"
         ],
-        "8": [
+        "7": [
           {
             "2": "NgIf"
           },
@@ -81,7 +43,7 @@
       }
     ],
     "6": "user_comp.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/angular2.template.dart",
         "4": "i0"
@@ -98,7 +60,6 @@
       "name": "_FirebaseThing",
       "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_FirebaseItem": {
@@ -106,7 +67,6 @@
       "name": "_FirebaseItem",
       "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_createNonNullCanonicalMap": {
@@ -114,13 +74,11 @@
       "name": "_createNonNullCanonicalMap",
       "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UserComponent": {
       "class": "Directive",
       "isComponent": true,
-      "dynamicLoadable": true,
       "selector": "user-comp",
       "exportAs": null,
       "type": {
@@ -129,7 +87,6 @@
         "moduleUrl": "asset:github_email_notify/web/user_comp.dart",
         "prefix": null,
         "isHost": false,
-        "constConstructor": null,
         "value": null,
         "diDeps": []
       },
@@ -147,7 +104,7 @@
       ],
       "template": {
         "encapsulation": 2,
-        "template": "<div *ngIf=\"user != null\">\n  <div>{{ user.email }}</div>\n  <div>Repo: <a [href]=\"user.githubRepoUri\">{{ user.githubRepoName }}</a></div>\n  <div class=\"label-pick\" *ngIf=\"selectionItems != null\">\n    <label *ngFor=\"#item of selectionItems.items\">\n      <input type=\"checkbox\" (click)=\"toggle(item)\" [checked]=\"item.selected\">\n      {{item.name}}\n    </label>\n  </div>\n  <div class=\"admin\" *ngIf=\"selectionItems?.invalid?.isNotEmpty\">\n    <button (click)=\"clearInvalid()\">Clear invalid</button>\n    {{ selectionItems.invalid.join(', ') }}\n  </div>\n</div>\n",
+        "template": "<div *ngIf=\"user != null\">\n  <div>{{ user.email }}</div>\n  <div>Repo: <a [href]=\"user.githubRepoUri\">{{ user.githubRepoName }}</a></div>\n  <div class=\"label-pick\" *ngIf=\"selectionItems != null\">\n    <label *ngFor=\"let item of selectionItems.items\">\n      <input type=\"checkbox\" (click)=\"toggle(item)\" [checked]=\"item.selected\">\n      {{item.name}}\n    </label>\n  </div>\n  <div class=\"admin\" *ngIf=\"selectionItems?.invalid?.isNotEmpty\">\n    <button (click)=\"clearInvalid()\">Clear invalid</button>\n    {{ selectionItems.invalid.join(', ') }}\n  </div>\n</div>\n",
         "templateUrl": "asset:github_email_notify/web/user_comp.html",
         "styles": [],
         "styleUrls": [],

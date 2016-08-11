@@ -1,11 +1,18 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.url_parser",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "StringMapWrapper"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
         ],
         "5": false
       },
@@ -17,28 +24,20 @@
           "RegExpWrapper"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException",
-          "WrappedException"
-        ],
-        "5": false
       }
     ],
     "6": "url_parser.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i2"
       }
     ]
@@ -49,7 +48,6 @@
       "name": "convertUrlParamsToArray",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "serializeParams": {
@@ -57,7 +55,6 @@
       "name": "serializeParams",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Url": {
@@ -65,7 +62,6 @@
       "name": "Url",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RootUrl": {
@@ -73,7 +69,6 @@
       "name": "RootUrl",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "pathSegmentsToUrl": {
@@ -81,7 +76,6 @@
       "name": "pathSegmentsToUrl",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "matchUrlSegment": {
@@ -89,7 +83,6 @@
       "name": "matchUrlSegment",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "matchUrlQueryParamValue": {
@@ -97,7 +90,6 @@
       "name": "matchUrlQueryParamValue",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UrlParser": {
@@ -105,7 +97,6 @@
       "name": "UrlParser",
       "moduleUrl": "asset:angular2/lib/src/router/url_parser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

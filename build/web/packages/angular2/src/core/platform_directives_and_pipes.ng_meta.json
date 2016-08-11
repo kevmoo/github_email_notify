@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.platform_directives_and_pipes",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/src/core/di.dart",
@@ -11,7 +11,7 @@
       }
     ],
     "6": "platform_directives_and_pipes.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
@@ -24,7 +24,6 @@
       "name": "PLATFORM_DIRECTIVES",
       "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PLATFORM_PIPES": {
@@ -32,7 +31,6 @@
       "name": "PLATFORM_PIPES",
       "moduleUrl": "asset:angular2/lib/src/core/platform_directives_and_pipes.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

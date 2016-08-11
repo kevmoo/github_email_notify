@@ -7,41 +7,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type",
-          "isPresent"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/browser_common.dart",
-        "2": [
-          "BROWSER_PROVIDERS",
-          "BROWSER_APP_COMMON_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/compiler.dart",
         "2": [
           "COMPILER_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
-        "2": [
-          "ComponentRef",
-          "platform",
-          "reflector"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/browser/xhr_impl.dart",
-        "2": [
-          "XHRImpl"
         ],
         "5": false
       },
@@ -53,25 +21,60 @@
         "5": false
       },
       {
+        "1": "package:angular2/core.dart",
+        "2": [
+          "ComponentRef",
+          "coreLoadAndBootstrap",
+          "reflector",
+          "ReflectiveInjector",
+          "PlatformRef",
+          "getPlatform",
+          "createPlatform",
+          "assertPlatform"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/di.dart",
         "2": [
           "Provider"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/browser/xhr_impl.dart",
+        "2": [
+          "XHRImpl"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/browser_common.dart",
+        "2": [
+          "BROWSER_PROVIDERS",
+          "BROWSER_APP_COMMON_PROVIDERS",
+          "BROWSER_PLATFORM_MARKER"
         ],
         "5": false
       }
     ],
     "4": [
       {
-        "1": "package:angular2/src/core/angular_entrypoint.dart",
+        "1": "package:angular2/src/core/security.dart",
         "2": [
-          "AngularEntrypoint"
+          "SanitizationService",
+          "TemplateSecurityContext"
         ]
+      },
+      {
+        "1": "package:angular2/src/core/angular_entrypoint.dart"
       },
       {
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
           "CACHED_TEMPLATE_PROVIDER",
+          "BROWSER_SANITIZATION_PROVIDERS",
           "ELEMENT_PROBE_PROVIDERS",
           "ELEMENT_PROBE_PROVIDERS_PROD_MODE",
           "inspectNativeElement",
@@ -92,14 +95,12 @@
       "name": "BROWSER_APP_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/platform/browser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": [
         {
           "class": "Identifier",
           "name": "BROWSER_APP_COMMON_PROVIDERS",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         },
         {
@@ -107,18 +108,20 @@
           "name": "COMPILER_PROVIDERS",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "XHR",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "XHR",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": {
             "class": "Type",
@@ -126,22 +129,30 @@
             "moduleUrl": null,
             "prefix": null,
             "isHost": false,
-            "constConstructor": null,
             "value": null,
-            "diDeps": null
+            "diDeps": []
           },
           "useExisting": null,
           "useValue": null,
-          "useFactory": null
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         }
       ]
+    },
+    "browserPlatform": {
+      "class": "Identifier",
+      "name": "browserPlatform",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "value": null
     },
     "bootstrap": {
       "class": "Identifier",
       "name": "bootstrap",
       "moduleUrl": "asset:angular2/lib/platform/browser.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

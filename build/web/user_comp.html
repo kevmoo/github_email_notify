@@ -2,7 +2,7 @@
   <div>{{ user.email }}</div>
   <div>Repo: <a [href]="user.githubRepoUri">{{ user.githubRepoName }}</a></div>
   <div class="label-pick" *ngIf="selectionItems != null">
-    <label *ngFor="#item of selectionItems.items">
+    <label *ngFor="let item of selectionItems.items">
       <input type="checkbox" (click)="toggle(item)" [checked]="item.selected">
       {{item.name}}
     </label>

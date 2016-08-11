@@ -1,48 +1,18 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.linker",
+    "1": "",
     "4": [
       {
-        "1": "linker/interfaces.dart",
+        "1": "linker/component_factory.dart",
         "2": [
-          "AfterContentInit",
-          "AfterContentChecked",
-          "AfterViewInit",
-          "AfterViewChecked",
-          "OnChanges",
-          "OnDestroy",
-          "OnInit",
-          "DoCheck"
+          "ComponentRef",
+          "ComponentFactory"
         ]
       },
       {
-        "1": "linker/directive_resolver.dart",
+        "1": "linker/component_resolver.dart",
         "2": [
-          "DirectiveResolver"
-        ]
-      },
-      {
-        "1": "linker/view_resolver.dart",
-        "2": [
-          "ViewResolver"
-        ]
-      },
-      {
-        "1": "linker/compiler.dart",
-        "2": [
-          "Compiler"
-        ]
-      },
-      {
-        "1": "linker/view_manager.dart",
-        "2": [
-          "AppViewManager"
-        ]
-      },
-      {
-        "1": "linker/query_list.dart",
-        "2": [
-          "QueryList"
+          "ComponentResolver"
         ]
       },
       {
@@ -58,18 +28,21 @@
         ]
       },
       {
-        "1": "linker/template_ref.dart",
+        "1": "linker/exceptions.dart",
         "2": [
-          "TemplateRef"
+          "ExpressionChangedAfterItHasBeenCheckedException"
         ]
       },
       {
-        "1": "linker/view_ref.dart",
+        "1": "linker/query_list.dart",
         "2": [
-          "EmbeddedViewRef",
-          "HostViewRef",
-          "ViewRef",
-          "HostViewFactoryRef"
+          "QueryList"
+        ]
+      },
+      {
+        "1": "linker/template_ref.dart",
+        "2": [
+          "TemplateRef"
         ]
       },
       {
@@ -79,9 +52,10 @@
         ]
       },
       {
-        "1": "linker/dynamic_component_loader.dart",
+        "1": "linker/view_ref.dart",
         "2": [
-          "ComponentRef"
+          "EmbeddedViewRef",
+          "ViewRef"
         ]
       }
     ],

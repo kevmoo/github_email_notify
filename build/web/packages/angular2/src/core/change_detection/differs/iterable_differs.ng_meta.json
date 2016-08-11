@@ -1,20 +1,13 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.change_detection.differs.iterable_differs",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/di.dart",
         "2": [
-          "isBlank",
-          "isPresent",
-          "getTypeNameForDebugging"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException"
+          "Provider",
+          "SkipSelfMetadata",
+          "OptionalMetadata"
         ],
         "5": false
       },
@@ -26,43 +19,49 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "isBlank",
+          "isPresent",
+          "getTypeNameForDebugging"
+        ],
+        "5": false
+      },
+      {
         "1": "../change_detector_ref.dart",
         "2": [
           "ChangeDetectorRef"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Provider",
-          "SkipSelfMetadata",
-          "OptionalMetadata",
-          "Injectable"
-        ],
-        "5": false
       }
     ],
     "6": "iterable_differs.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/collection.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i2"
       },
       {
-        "1": "../change_detector_ref.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "../change_detector_ref.template.dart",
         "4": "i4"
       }
     ]
@@ -73,7 +72,6 @@
       "name": "TrackByFn",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IterableDiffer": {
@@ -81,7 +79,6 @@
       "name": "IterableDiffer",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IterableDifferFactory": {
@@ -89,7 +86,6 @@
       "name": "IterableDifferFactory",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "IterableDiffers": {
@@ -97,7 +93,6 @@
       "name": "IterableDiffers",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

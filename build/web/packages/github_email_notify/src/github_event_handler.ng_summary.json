@@ -43,7 +43,6 @@
       "name": "githubRequestHandler",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_handleLabeledEvent": {
@@ -51,7 +50,6 @@
       "name": "_handleLabeledEvent",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_flattenMap": {
@@ -59,7 +57,6 @@
       "name": "_flattenMap",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

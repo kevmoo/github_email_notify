@@ -1,13 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.platform.dom.debug.by",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/core.dart",
         "2": [
-          "Type",
-          "isPresent",
-          "isBlank"
+          "DebugElement"
         ],
         "5": false
       },
@@ -24,19 +22,12 @@
           "DOM"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/core.dart",
-        "2": [
-          "DebugElement"
-        ],
-        "5": false
       }
     ],
     "6": "by.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
@@ -46,10 +37,6 @@
       {
         "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "package:angular2/core.template.dart",
-        "4": "i3"
       }
     ]
   },
@@ -59,7 +46,6 @@
       "name": "By",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/debug/by.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

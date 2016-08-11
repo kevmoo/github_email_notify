@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.transform.directive_processor.rewriter",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
@@ -11,22 +11,14 @@
         "5": false
       },
       {
-        "1": "package:barback/barback.dart",
+        "1": "package:angular2/src/compiler/compile_metadata.dart",
         "2": [
-          "AssetId"
+          "CompileIdentifierMetadata"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/directive_metadata.dart",
-        "2": [
-          "CompileIdentifierMetadata",
-          "CompileProviderMetadata"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/template_compiler.dart",
+        "1": "package:angular2/src/compiler/offline_compiler.dart",
         "5": false
       },
       {
@@ -39,10 +31,6 @@
       },
       {
         "1": "package:angular2/src/transform/common/code/ng_deps_code.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/type_metadata_reader.dart",
         "5": false
       },
       {
@@ -62,12 +50,23 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/transform/common/type_metadata_reader.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/transform/common/url_resolver.dart",
         "5": false
       },
       {
         "1": "package:angular2/src/transform/common/zone.dart",
         "4": "zone",
+        "5": false
+      },
+      {
+        "1": "package:barback/barback.dart",
+        "2": [
+          "AssetId"
+        ],
         "5": false
       },
       {
@@ -83,7 +82,6 @@
       "name": "createNgMeta",
       "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/rewriter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_NgMetaVisitor": {
@@ -91,7 +89,6 @@
       "name": "_NgMetaVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/directive_processor/rewriter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

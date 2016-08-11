@@ -1,13 +1,13 @@
 {
   "ngDeps": {
-    "1": "angular2.dom_adapter_reexport",
+    "1": "",
     "4": [
       {
         "1": "package:angular2/src/platform/dom/dom_adapter.dart"
       }
     ],
     "6": "dom_adapter.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i0"
@@ -20,7 +20,6 @@
       "name": "setRootDomAdapter",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_adapter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DomAdapter": {
@@ -28,7 +27,6 @@
       "name": "DomAdapter",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_adapter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

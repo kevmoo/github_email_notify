@@ -1,31 +1,32 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.platform_common_providers",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/console.dart",
         "2": [
-          "Type",
-          "isBlank",
-          "isPresent",
-          "assertionsEnabled"
+          "Console"
         ],
         "5": false
       },
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "provide",
-          "Provider",
-          "Injector",
-          "OpaqueToken"
+          "Provider"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/console.dart",
+        "1": "package:angular2/src/core/testability/testability.dart",
         "2": [
-          "Console"
+          "TestabilityRegistry"
+        ],
+        "5": false
+      },
+      {
+        "1": "application_ref.dart",
+        "2": [
+          "PLATFORM_CORE_PROVIDERS"
         ],
         "5": false
       },
@@ -43,13 +44,6 @@
           "ReflectorReader"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/testability/testability.dart",
-        "2": [
-          "TestabilityRegistry"
-        ],
-        "5": false
       }
     ],
     "6": "platform_common_providers.dart"
@@ -60,59 +54,78 @@
       "name": "PLATFORM_COMMON_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": [
+        {
+          "class": "Identifier",
+          "name": "PLATFORM_CORE_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "Reflector",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "Reflector",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": null,
           "useExisting": null,
           "useValue": null,
           "useFactory": {
             "class": "Factory",
-            "name": "_reflector",
+            "name": "reflectorFactory",
             "prefix": null,
             "moduleUrl": null,
-            "constConstructor": null,
             "value": null,
-            "diDeps": null
-          }
+            "diDeps": []
+          },
+          "useProperty": null,
+          "multi": false,
+          "deps": []
         },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "ReflectorReader",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ReflectorReader",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": null,
           "useExisting": {
-            "class": "Identifier",
-            "name": "Reflector",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "Reflector",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useValue": null,
-          "useFactory": null
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         },
         {
           "class": "Identifier",
           "name": "TestabilityRegistry",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         },
         {
@@ -120,17 +133,15 @@
           "name": "Console",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         }
       ]
     },
-    "_reflector": {
+    "reflectorFactory": {
       "class": "Identifier",
-      "name": "_reflector",
+      "name": "reflectorFactory",
       "moduleUrl": "asset:angular2/lib/src/core/platform_common_providers.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

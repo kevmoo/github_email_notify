@@ -1,29 +1,24 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.application_common_providers",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/core/di.dart",
         "2": [
-          "Type"
+          "Provider"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "application_ref.dart",
         "2": [
-          "provide",
-          "Provider",
-          "Injector",
-          "OpaqueToken"
+          "APPLICATION_CORE_PROVIDERS"
         ],
         "5": false
       },
       {
         "1": "application_tokens.dart",
         "2": [
-          "APP_COMPONENT_REF_PROMISE",
-          "APP_COMPONENT",
           "APP_ID_RANDOM_PROVIDER"
         ],
         "5": false
@@ -39,58 +34,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/resolved_metadata_cache.dart",
+        "1": "linker/component_resolver.dart",
         "2": [
-          "ResolvedMetadataCache"
+          "ComponentResolver"
         ],
         "5": false
       },
       {
-        "1": "linker/view_manager.dart",
+        "1": "linker/component_resolver.dart",
         "2": [
-          "AppViewManager"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/view_manager.dart",
-        "2": [
-          "AppViewManager_"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/view_resolver.dart",
-        "2": [
-          "ViewResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/directive_resolver.dart",
-        "2": [
-          "DirectiveResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/pipe_resolver.dart",
-        "2": [
-          "PipeResolver"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/compiler.dart",
-        "2": [
-          "Compiler"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/compiler.dart",
-        "2": [
-          "Compiler_"
+          "ReflectorComponentResolver"
         ],
         "5": false
       },
@@ -107,6 +60,13 @@
           "DynamicComponentLoader_"
         ],
         "5": false
+      },
+      {
+        "1": "linker/view_utils.dart",
+        "2": [
+          "ViewUtils"
+        ],
+        "5": false
       }
     ],
     "6": "application_common_providers.dart"
@@ -117,89 +77,69 @@
       "name": "APPLICATION_COMMON_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/src/core/application_common_providers.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": [
+        {
+          "class": "Identifier",
+          "name": "APPLICATION_CORE_PROVIDERS",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "Compiler",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "ComponentResolver",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": {
             "class": "Type",
-            "name": "Compiler_",
+            "name": "ReflectorComponentResolver",
             "moduleUrl": null,
             "prefix": null,
             "isHost": false,
-            "constConstructor": null,
             "value": null,
-            "diDeps": null
+            "diDeps": []
           },
           "useExisting": null,
           "useValue": null,
-          "useFactory": null
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         },
         {
           "class": "Identifier",
           "name": "APP_ID_RANDOM_PROVIDER",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         },
         {
           "class": "Identifier",
-          "name": "ResolvedMetadataCache",
+          "name": "ViewUtils",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "AppViewManager",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
-          },
-          "useClass": {
-            "class": "Type",
-            "name": "AppViewManager_",
-            "moduleUrl": null,
-            "prefix": null,
-            "isHost": false,
-            "constConstructor": null,
             "value": null,
-            "diDeps": null
-          },
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": null
-        },
-        {
-          "class": "Identifier",
-          "name": "ViewResolver",
-          "moduleUrl": null,
-          "prefix": null,
-          "constConstructor": null,
-          "value": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "class": "Identifier",
-            "name": "IterableDiffers",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "identifier": {
+              "class": "Identifier",
+              "name": "IterableDiffers",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": null,
           "useExisting": null,
@@ -208,20 +148,25 @@
             "name": "defaultIterableDiffers",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null,
             "value": null
           },
-          "useFactory": null
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "KeyValueDiffers",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "KeyValueDiffers",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": null,
           "useExisting": null,
@@ -230,36 +175,25 @@
             "name": "defaultKeyValueDiffers",
             "moduleUrl": null,
             "prefix": null,
-            "constConstructor": null,
             "value": null
           },
-          "useFactory": null
-        },
-        {
-          "class": "Identifier",
-          "name": "DirectiveResolver",
-          "moduleUrl": null,
-          "prefix": null,
-          "constConstructor": null,
-          "value": null
-        },
-        {
-          "class": "Identifier",
-          "name": "PipeResolver",
-          "moduleUrl": null,
-          "prefix": null,
-          "constConstructor": null,
-          "value": null
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         },
         {
           "class": "Provider",
           "token": {
-            "class": "Identifier",
-            "name": "DynamicComponentLoader",
-            "moduleUrl": null,
-            "prefix": null,
-            "constConstructor": null,
-            "value": null
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DynamicComponentLoader",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
           },
           "useClass": {
             "class": "Type",
@@ -267,13 +201,15 @@
             "moduleUrl": null,
             "prefix": null,
             "isHost": false,
-            "constConstructor": null,
             "value": null,
-            "diDeps": null
+            "diDeps": []
           },
           "useExisting": null,
           "useValue": null,
-          "useFactory": null
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
         }
       ]
     }

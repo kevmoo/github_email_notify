@@ -1,22 +1,22 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.interfaces",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
         "5": false
       },
       {
-        "1": "instruction.dart",
+        "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "ComponentInstruction"
+          "global"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "instruction.dart",
         "2": [
-          "global"
+          "ComponentInstruction"
         ],
         "5": false
       }
@@ -29,7 +29,6 @@
       "name": "OnActivate",
       "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OnReuse": {
@@ -37,7 +36,6 @@
       "name": "OnReuse",
       "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "OnDeactivate": {
@@ -45,7 +43,6 @@
       "name": "OnDeactivate",
       "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CanReuse": {
@@ -53,7 +50,6 @@
       "name": "CanReuse",
       "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CanDeactivate": {
@@ -61,7 +57,6 @@
       "name": "CanDeactivate",
       "moduleUrl": "asset:angular2/lib/src/router/interfaces.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

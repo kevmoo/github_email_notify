@@ -1,13 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.transform.reflection_remover.entrypoint_matcher",
+    "1": "",
     "3": [
       {
         "1": "package:analyzer/analyzer.dart",
-        "5": false
-      },
-      {
-        "1": "package:barback/barback.dart",
         "5": false
       },
       {
@@ -17,10 +13,14 @@
       {
         "1": "package:angular2/src/transform/common/naive_eval.dart",
         "5": false
+      },
+      {
+        "1": "package:barback/barback.dart",
+        "5": false
       }
     ],
     "6": "entrypoint_matcher.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
         "4": "i0"
@@ -37,7 +37,6 @@
       "name": "_defaultEntrypointName",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "EntrypointMatcher": {
@@ -45,7 +44,6 @@
       "name": "EntrypointMatcher",
       "moduleUrl": "asset:angular2/lib/src/transform/reflection_remover/entrypoint_matcher.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

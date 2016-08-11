@@ -1,26 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.testing.utils",
+    "1": "",
     "3": [
       {
         "1": "package:angular2/core.dart",
         "2": [
           "Injectable"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper",
-          "MapWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
         ],
         "5": false
       },
@@ -34,6 +19,13 @@
           "RegExp"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
+        "5": false
       }
     ],
     "5": [
@@ -42,32 +34,24 @@
         "4": [
           {
             "1": "Injectable",
-            "4": false,
-            "5": false,
-            "6": false,
-            "7": true,
-            "8": false
+            "4": false
           }
         ]
       }
     ],
     "6": "utils.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/core.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/collection.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
         "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/facade/lang.template.dart",
-        "4": "i3"
       }
     ]
   },
@@ -78,7 +62,6 @@
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
       "isHost": false,
-      "constConstructor": null,
       "value": null,
       "diDeps": []
     },
@@ -87,7 +70,6 @@
       "name": "BrowserDetection",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "dispatchEvent": {
@@ -95,7 +77,6 @@
       "name": "dispatchEvent",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "el": {
@@ -103,7 +84,6 @@
       "name": "el",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "containsRegexp": {
@@ -111,7 +91,6 @@
       "name": "containsRegexp",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "normalizeCSS": {
@@ -119,7 +98,6 @@
       "name": "normalizeCSS",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "stringifyElement": {
@@ -127,7 +105,6 @@
       "name": "stringifyElement",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

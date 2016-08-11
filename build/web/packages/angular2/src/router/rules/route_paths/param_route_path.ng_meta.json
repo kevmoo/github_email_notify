@@ -1,14 +1,11 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.rules.route_paths.param_route_path",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "package:angular2/src/facade/collection.dart",
         "2": [
-          "RegExpWrapper",
-          "StringWrapper",
-          "isPresent",
-          "isBlank"
+          "StringMapWrapper"
         ],
         "5": false
       },
@@ -20,17 +17,12 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
+        "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "StringMapWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "../../utils.dart",
-        "2": [
-          "TouchMap",
-          "normalizeString"
+          "RegExpWrapper",
+          "StringWrapper",
+          "isPresent",
+          "isBlank"
         ],
         "5": false
       },
@@ -40,6 +32,14 @@
           "Url",
           "RootUrl",
           "convertUrlParamsToArray"
+        ],
+        "5": false
+      },
+      {
+        "1": "../../utils.dart",
+        "2": [
+          "TouchMap",
+          "normalizeString"
         ],
         "5": false
       },
@@ -54,9 +54,9 @@
       }
     ],
     "6": "param_route_path.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i0"
       },
       {
@@ -64,15 +64,15 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/collection.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i2"
       },
       {
-        "1": "../../utils.template.dart",
+        "1": "../../url_parser.template.dart",
         "4": "i3"
       },
       {
-        "1": "../../url_parser.template.dart",
+        "1": "../../utils.template.dart",
         "4": "i4"
       },
       {
@@ -87,7 +87,6 @@
       "name": "PathSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ContinuationPathSegment": {
@@ -95,7 +94,6 @@
       "name": "ContinuationPathSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "StaticPathSegment": {
@@ -103,7 +101,6 @@
       "name": "StaticPathSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DynamicPathSegment": {
@@ -111,7 +108,6 @@
       "name": "DynamicPathSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "StarPathSegment": {
@@ -119,7 +115,6 @@
       "name": "StarPathSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ParamRoutePath": {
@@ -127,7 +122,6 @@
       "name": "ParamRoutePath",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "encodeDynamicSegment": {
@@ -135,7 +129,6 @@
       "name": "encodeDynamicSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "decodeDynamicSegment": {
@@ -143,7 +136,6 @@
       "name": "decodeDynamicSegment",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_paths/param_route_path.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

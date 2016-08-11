@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.di",
+    "1": "",
     "4": [
       {
         "1": "di/metadata.dart",
@@ -18,17 +18,16 @@
         "1": "di/decorators.dart"
       },
       {
-        "1": "di/forward_ref.dart",
+        "1": "di/injector.dart",
         "2": [
-          "forwardRef",
-          "resolveForwardRef",
-          "ForwardRefFn"
+          "Injector",
+          "InjectorFactory"
         ]
       },
       {
-        "1": "di/injector.dart",
+        "1": "di/reflective_injector.dart",
         "2": [
-          "Injector"
+          "ReflectiveInjector"
         ]
       },
       {
@@ -36,23 +35,29 @@
         "2": [
           "Binding",
           "ProviderBuilder",
-          "ResolvedBinding",
-          "ResolvedFactory",
-          "Dependency",
           "bind",
           "Provider",
-          "ResolvedProvider",
-          "provide"
+          "provide",
+          "noValueProvided"
         ]
       },
       {
-        "1": "di/key.dart",
+        "1": "di/reflective_provider.dart",
         "2": [
-          "Key"
+          "ResolvedReflectiveBinding",
+          "ResolvedReflectiveFactory",
+          "ReflectiveDependency",
+          "ResolvedReflectiveProvider"
         ]
       },
       {
-        "1": "di/exceptions.dart",
+        "1": "di/reflective_key.dart",
+        "2": [
+          "ReflectiveKey"
+        ]
+      },
+      {
+        "1": "di/reflective_exceptions.dart",
         "2": [
           "NoProviderError",
           "AbstractProviderError",
@@ -67,6 +72,13 @@
         "1": "di/opaque_token.dart",
         "2": [
           "OpaqueToken"
+        ]
+      },
+      {
+        "1": "di/map_injector.dart",
+        "2": [
+          "MapInjector",
+          "MapInjectorFactory"
         ]
       }
     ],

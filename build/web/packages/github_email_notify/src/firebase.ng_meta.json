@@ -24,7 +24,7 @@
       }
     ],
     "6": "firebase.dart",
-    "10": [
+    "7": [
       {
         "1": "environment_variable_access.template.dart",
         "4": "i0"
@@ -41,7 +41,6 @@
       "name": "_credsKey",
       "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "syncGitHubLabels": {
@@ -49,7 +48,6 @@
       "name": "syncGitHubLabels",
       "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getGithubLabels": {
@@ -57,7 +55,6 @@
       "name": "getGithubLabels",
       "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "writeAuthCreds": {
@@ -65,7 +62,6 @@
       "name": "writeAuthCreds",
       "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "readAuthCreds": {
@@ -73,7 +69,6 @@
       "name": "readAuthCreds",
       "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "deleteAuthCreds": {
@@ -81,7 +76,6 @@
       "name": "deleteAuthCreds",
       "moduleUrl": "asset:github_email_notify/lib/src/firebase.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

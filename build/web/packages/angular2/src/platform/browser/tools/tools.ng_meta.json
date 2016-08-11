@@ -1,13 +1,13 @@
 {
   "ngDeps": {
-    "1": "angular2.src.tools.tools",
+    "1": "",
     "3": [
       {
         "1": "dart:js",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.dart",
+        "1": "package:angular2/src/core/linker/component_factory.dart",
         "2": [
           "ComponentRef"
         ],
@@ -22,9 +22,9 @@
       }
     ],
     "6": "tools.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/core/linker/dynamic_component_loader.template.dart",
+        "1": "package:angular2/src/core/linker/component_factory.template.dart",
         "4": "i0"
       },
       {
@@ -39,7 +39,6 @@
       "name": "enableDebugTools",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/tools/tools.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "disableDebugTools": {
@@ -47,7 +46,6 @@
       "name": "disableDebugTools",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/tools/tools.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

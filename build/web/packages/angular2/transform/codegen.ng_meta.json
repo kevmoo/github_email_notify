@@ -3,11 +3,7 @@
     "1": "angular2.transform.codegen.dart",
     "3": [
       {
-        "1": "package:barback/barback.dart",
-        "5": false
-      },
-      {
-        "1": "package:dart_style/dart_style.dart",
+        "1": "package:angular2/src/transform/asset_consumer/transformer.dart",
         "5": false
       },
       {
@@ -46,6 +42,14 @@
       {
         "1": "package:angular2/src/transform/template_compiler/transformer.dart",
         "5": false
+      },
+      {
+        "1": "package:barback/barback.dart",
+        "5": false
+      },
+      {
+        "1": "package:dart_style/dart_style.dart",
+        "5": false
       }
     ],
     "4": [
@@ -54,42 +58,46 @@
       }
     ],
     "6": "codegen.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/transform/common/eager_transformer_wrapper.template.dart",
+        "1": "package:angular2/src/transform/asset_consumer/transformer.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/transform/common/formatter.template.dart",
+        "1": "package:angular2/src/transform/common/eager_transformer_wrapper.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/transform/common/options.template.dart",
+        "1": "package:angular2/src/transform/common/formatter.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/transform/common/options_reader.template.dart",
+        "1": "package:angular2/src/transform/common/options.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/transform/directive_metadata_linker/transformer.template.dart",
+        "1": "package:angular2/src/transform/common/options_reader.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/directive_processor/transformer.template.dart",
+        "1": "package:angular2/src/transform/directive_metadata_linker/transformer.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/transform/inliner_for_test/transformer.template.dart",
+        "1": "package:angular2/src/transform/directive_processor/transformer.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/transform/stylesheet_compiler/transformer.template.dart",
+        "1": "package:angular2/src/transform/inliner_for_test/transformer.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/transform/template_compiler/transformer.template.dart",
+        "1": "package:angular2/src/transform/stylesheet_compiler/transformer.template.dart",
         "4": "i8"
+      },
+      {
+        "1": "package:angular2/src/transform/template_compiler/transformer.template.dart",
+        "4": "i9"
       }
     ]
   },
@@ -99,7 +107,6 @@
       "name": "CodegenTransformer",
       "moduleUrl": "asset:angular2/lib/transform/codegen.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CUSTOM_ANNOTATIONS_PARAM": {
@@ -107,7 +114,6 @@
       "name": "CUSTOM_ANNOTATIONS_PARAM",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ENTRY_POINT_PARAM": {
@@ -115,7 +121,6 @@
       "name": "ENTRY_POINT_PARAM",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "FORMAT_CODE_PARAM": {
@@ -123,7 +128,6 @@
       "name": "FORMAT_CODE_PARAM",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "REFLECT_PROPERTIES_AS_ATTRIBUTES": {
@@ -131,7 +135,6 @@
       "name": "REFLECT_PROPERTIES_AS_ATTRIBUTES",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PLATFORM_DIRECTIVES": {
@@ -139,7 +142,6 @@
       "name": "PLATFORM_DIRECTIVES",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PLATFORM_PIPES": {
@@ -147,7 +149,6 @@
       "name": "PLATFORM_PIPES",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "RESOLVED_IDENTIFIERS": {
@@ -155,7 +156,6 @@
       "name": "RESOLVED_IDENTIFIERS",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ERROR_ON_MISSING_IDENTIFIERS": {
@@ -163,7 +163,6 @@
       "name": "ERROR_ON_MISSING_IDENTIFIERS",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "INIT_REFLECTOR_PARAM": {
@@ -171,7 +170,6 @@
       "name": "INIT_REFLECTOR_PARAM",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "INLINE_VIEWS_PARAM": {
@@ -179,7 +177,6 @@
       "name": "INLINE_VIEWS_PARAM",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "MIRROR_MODE_PARAM": {
@@ -187,7 +184,13 @@
       "name": "MIRROR_MODE_PARAM",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "CODEGEN_MODE_PARAM": {
+      "class": "Identifier",
+      "name": "CODEGEN_MODE_PARAM",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
       "value": null
     },
     "LAZY_TRANSFORMERS": {
@@ -195,7 +198,6 @@
       "name": "LAZY_TRANSFORMERS",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TRANSLATIONS": {
@@ -203,7 +205,13 @@
       "name": "TRANSLATIONS",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "CODEGEN_DEBUG_MODE": {
+      "class": "Identifier",
+      "name": "CODEGEN_DEBUG_MODE",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
+      "prefix": null,
       "value": null
     },
     "TransformerOptions": {
@@ -211,7 +219,6 @@
       "name": "TransformerOptions",
       "moduleUrl": "asset:angular2/lib/src/transform/common/options.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

@@ -1,14 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.common.forms",
+    "1": "",
     "3": [
-      {
-        "1": "forms/form_builder.dart",
-        "2": [
-          "FormBuilder"
-        ],
-        "5": false
-      },
       {
         "1": "forms/directives/radio_control_value_accessor.dart",
         "2": [
@@ -17,21 +10,19 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "forms/form_builder.dart",
         "2": [
-          "Type"
+          "FormBuilder"
         ],
         "5": false
       }
     ],
     "4": [
       {
-        "1": "forms/model.dart",
+        "1": "forms/directives.dart",
         "2": [
-          "AbstractControl",
-          "Control",
-          "ControlGroup",
-          "ControlArray"
+          "FORM_DIRECTIVES",
+          "RadioButtonState"
         ]
       },
       {
@@ -41,57 +32,15 @@
         ]
       },
       {
-        "1": "forms/directives/form_interface.dart",
+        "1": "forms/directives/checkbox_value_accessor.dart",
         "2": [
-          "Form"
+          "CheckboxControlValueAccessor"
         ]
       },
       {
         "1": "forms/directives/control_container.dart",
         "2": [
           "ControlContainer"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_control_name.dart",
-        "2": [
-          "NgControlName"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_form_control.dart",
-        "2": [
-          "NgFormControl"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_model.dart",
-        "2": [
-          "NgModel"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_control.dart",
-        "2": [
-          "NgControl"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_control_group.dart",
-        "2": [
-          "NgControlGroup"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_form_model.dart",
-        "2": [
-          "NgFormModel"
-        ]
-      },
-      {
-        "1": "forms/directives/ng_form.dart",
-        "2": [
-          "NgForm"
         ]
       },
       {
@@ -108,15 +57,57 @@
         ]
       },
       {
+        "1": "forms/directives/form_interface.dart",
+        "2": [
+          "Form"
+        ]
+      },
+      {
+        "1": "forms/directives/ng_control.dart",
+        "2": [
+          "NgControl"
+        ]
+      },
+      {
+        "1": "forms/directives/ng_control_group.dart",
+        "2": [
+          "NgControlGroup"
+        ]
+      },
+      {
+        "1": "forms/directives/ng_control_name.dart",
+        "2": [
+          "NgControlName"
+        ]
+      },
+      {
         "1": "forms/directives/ng_control_status.dart",
         "2": [
           "NgControlStatus"
         ]
       },
       {
-        "1": "forms/directives/checkbox_value_accessor.dart",
+        "1": "forms/directives/ng_form.dart",
         "2": [
-          "CheckboxControlValueAccessor"
+          "NgForm"
+        ]
+      },
+      {
+        "1": "forms/directives/ng_form_control.dart",
+        "2": [
+          "NgFormControl"
+        ]
+      },
+      {
+        "1": "forms/directives/ng_form_model.dart",
+        "2": [
+          "NgFormModel"
+        ]
+      },
+      {
+        "1": "forms/directives/ng_model.dart",
+        "2": [
+          "NgModel"
         ]
       },
       {
@@ -124,21 +115,6 @@
         "2": [
           "NgSelectOption",
           "SelectControlValueAccessor"
-        ]
-      },
-      {
-        "1": "forms/directives.dart",
-        "2": [
-          "FORM_DIRECTIVES",
-          "RadioButtonState"
-        ]
-      },
-      {
-        "1": "forms/validators.dart",
-        "2": [
-          "NG_VALIDATORS",
-          "NG_ASYNC_VALIDATORS",
-          "Validators"
         ]
       },
       {
@@ -156,6 +132,23 @@
         "2": [
           "FormBuilder"
         ]
+      },
+      {
+        "1": "forms/model.dart",
+        "2": [
+          "AbstractControl",
+          "Control",
+          "ControlGroup",
+          "ControlArray"
+        ]
+      },
+      {
+        "1": "forms/validators.dart",
+        "2": [
+          "NG_VALIDATORS",
+          "NG_ASYNC_VALIDATORS",
+          "Validators"
+        ]
       }
     ],
     "6": "forms.dart"
@@ -166,14 +159,12 @@
       "name": "FORM_PROVIDERS",
       "moduleUrl": "asset:angular2/lib/src/common/forms.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": [
         {
           "class": "Identifier",
           "name": "FormBuilder",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         },
         {
@@ -181,7 +172,6 @@
           "name": "RadioControlRegistry",
           "moduleUrl": null,
           "prefix": null,
-          "constConstructor": null,
           "value": null
         }
       ]
@@ -191,7 +181,6 @@
       "name": "FORM_BINDINGS",
       "moduleUrl": "asset:angular2/lib/src/common/forms.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

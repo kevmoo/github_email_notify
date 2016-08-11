@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.transform.common.code.parameter_code",
+    "1": "",
     "3": [
       {
         "1": "package:analyzer/analyzer.dart",
@@ -24,7 +24,7 @@
       }
     ],
     "6": "parameter_code.dart",
-    "10": [
+    "7": [
       {
         "1": "package:angular2/src/transform/common/logging.template.dart",
         "4": "i0"
@@ -45,7 +45,6 @@
       "name": "ParameterVisitor",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/parameter_code.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ParameterWriterMixin": {
@@ -53,7 +52,6 @@
       "name": "ParameterWriterMixin",
       "moduleUrl": "asset:angular2/lib/src/transform/common/code/parameter_code.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

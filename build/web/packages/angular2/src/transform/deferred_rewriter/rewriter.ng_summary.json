@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.transform.deferred_rewriter.rewriter",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
@@ -12,10 +12,6 @@
       },
       {
         "1": "package:analyzer/src/generated/ast.dart",
-        "5": false
-      },
-      {
-        "1": "package:barback/barback.dart",
         "5": false
       },
       {
@@ -33,6 +29,10 @@
       {
         "1": "package:angular2/src/transform/common/url_resolver.dart",
         "5": false
+      },
+      {
+        "1": "package:barback/barback.dart",
+        "5": false
       }
     ],
     "6": "rewriter.dart"
@@ -43,7 +43,6 @@
       "name": "rewriteLibrary",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/rewriter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_rewriteLibrary": {
@@ -51,7 +50,6 @@
       "name": "_rewriteLibrary",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/rewriter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_FindDeferredLibraries": {
@@ -59,7 +57,6 @@
       "name": "_FindDeferredLibraries",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/rewriter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_FindLoadLibraryCalls": {
@@ -67,7 +64,6 @@
       "name": "_FindLoadLibraryCalls",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/rewriter.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

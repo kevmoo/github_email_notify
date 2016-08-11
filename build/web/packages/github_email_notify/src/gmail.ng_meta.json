@@ -28,7 +28,7 @@
       }
     ],
     "6": "gmail.dart",
-    "10": [
+    "7": [
       {
         "1": "email_sender_credentials.template.dart",
         "4": "i0"
@@ -45,7 +45,6 @@
       "name": "sendEmail",
       "moduleUrl": "asset:github_email_notify/lib/src/gmail.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

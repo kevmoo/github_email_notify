@@ -1,7 +1,14 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.style_url_resolver",
+    "1": "",
     "3": [
+      {
+        "1": "package:angular2/src/compiler/url_resolver.dart",
+        "2": [
+          "UrlResolver"
+        ],
+        "5": false
+      },
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
@@ -12,23 +19,16 @@
           "isBlank"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/url_resolver.dart",
-        "2": [
-          "UrlResolver"
-        ],
-        "5": false
       }
     ],
     "6": "style_url_resolver.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "package:angular2/src/compiler/url_resolver.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       }
     ]
@@ -39,7 +39,6 @@
       "name": "StyleWithImports",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isStyleUrlResolvable": {
@@ -47,7 +46,6 @@
       "name": "isStyleUrlResolvable",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "extractStyleUrls": {
@@ -55,7 +53,6 @@
       "name": "extractStyleUrls",
       "moduleUrl": "asset:angular2/lib/src/compiler/style_url_resolver.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

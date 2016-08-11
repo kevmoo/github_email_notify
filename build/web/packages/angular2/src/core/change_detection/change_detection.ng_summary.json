@@ -1,19 +1,26 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.change_detection.change_detection",
+    "1": "",
     "3": [
+      {
+        "1": "differs/default_iterable_differ.dart",
+        "2": [
+          "DefaultIterableDifferFactory"
+        ],
+        "5": false
+      },
+      {
+        "1": "differs/default_keyvalue_differ.dart",
+        "2": [
+          "DefaultKeyValueDifferFactory"
+        ],
+        "5": false
+      },
       {
         "1": "differs/iterable_differs.dart",
         "2": [
           "IterableDiffers",
           "IterableDifferFactory"
-        ],
-        "5": false
-      },
-      {
-        "1": "differs/default_iterable_differ.dart",
-        "2": [
-          "DefaultIterableDifferFactory"
         ],
         "5": false
       },
@@ -24,22 +31,34 @@
           "KeyValueDifferFactory"
         ],
         "5": false
-      },
-      {
-        "1": "differs/default_keyvalue_differ.dart",
-        "2": [
-          "DefaultKeyValueDifferFactory",
-          "KeyValueChangeRecord"
-        ],
-        "5": false
       }
     ],
     "4": [
       {
-        "1": "differs/default_keyvalue_differ.dart",
+        "1": "change_detection_util.dart",
         "2": [
-          "DefaultKeyValueDifferFactory",
-          "KeyValueChangeRecord"
+          "WrappedValue",
+          "ValueUnwrapper",
+          "SimpleChange",
+          "devModeEqual",
+          "looseIdentical",
+          "uninitialized"
+        ]
+      },
+      {
+        "1": "change_detector_ref.dart",
+        "2": [
+          "ChangeDetectorRef"
+        ]
+      },
+      {
+        "1": "constants.dart",
+        "2": [
+          "ChangeDetectionStrategy",
+          "CHANGE_DETECTION_STRATEGY_VALUES",
+          "ChangeDetectorState",
+          "CHANGE_DETECTOR_STATE_VALUES",
+          "isDefaultChangeDetectionStrategy"
         ]
       },
       {
@@ -50,96 +69,10 @@
         ]
       },
       {
-        "1": "parser/ast.dart",
+        "1": "differs/default_keyvalue_differ.dart",
         "2": [
-          "ASTWithSource",
-          "AST",
-          "AstTransformer",
-          "PropertyRead",
-          "LiteralArray",
-          "ImplicitReceiver"
-        ]
-      },
-      {
-        "1": "parser/lexer.dart",
-        "2": [
-          "Lexer"
-        ]
-      },
-      {
-        "1": "parser/parser.dart",
-        "2": [
-          "Parser"
-        ]
-      },
-      {
-        "1": "parser/locals.dart",
-        "2": [
-          "Locals"
-        ]
-      },
-      {
-        "1": "exceptions.dart",
-        "2": [
-          "DehydratedException",
-          "ExpressionChangedAfterItHasBeenCheckedException",
-          "ChangeDetectionError"
-        ]
-      },
-      {
-        "1": "interfaces.dart",
-        "2": [
-          "ProtoChangeDetector",
-          "ChangeDetector",
-          "ChangeDispatcher",
-          "ChangeDetectorDefinition",
-          "DebugContext",
-          "ChangeDetectorGenConfig"
-        ]
-      },
-      {
-        "1": "constants.dart",
-        "2": [
-          "ChangeDetectionStrategy",
-          "CHANGE_DETECTION_STRATEGY_VALUES"
-        ]
-      },
-      {
-        "1": "proto_change_detector.dart",
-        "2": [
-          "DynamicProtoChangeDetector"
-        ]
-      },
-      {
-        "1": "jit_proto_change_detector.dart",
-        "2": [
-          "JitProtoChangeDetector"
-        ]
-      },
-      {
-        "1": "binding_record.dart",
-        "2": [
-          "BindingRecord",
-          "BindingTarget"
-        ]
-      },
-      {
-        "1": "directive_record.dart",
-        "2": [
-          "DirectiveIndex",
-          "DirectiveRecord"
-        ]
-      },
-      {
-        "1": "dynamic_change_detector.dart",
-        "2": [
-          "DynamicChangeDetector"
-        ]
-      },
-      {
-        "1": "change_detector_ref.dart",
-        "2": [
-          "ChangeDetectorRef"
+          "DefaultKeyValueDifferFactory",
+          "KeyValueChangeRecord"
         ]
       },
       {
@@ -164,13 +97,6 @@
         "2": [
           "PipeTransform"
         ]
-      },
-      {
-        "1": "change_detection_util.dart",
-        "2": [
-          "WrappedValue",
-          "SimpleChange"
-        ]
       }
     ],
     "6": "change_detection.dart"
@@ -181,7 +107,6 @@
       "name": "keyValDiff",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "iterableDiff": {
@@ -189,7 +114,6 @@
       "name": "iterableDiff",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "defaultIterableDiffers": {
@@ -197,7 +121,6 @@
       "name": "defaultIterableDiffers",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "defaultKeyValueDiffers": {
@@ -205,7 +128,6 @@
       "name": "defaultKeyValueDiffers",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

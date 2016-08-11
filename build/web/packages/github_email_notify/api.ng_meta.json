@@ -52,7 +52,7 @@
       }
     ],
     "6": "api.dart",
-    "10": [
+    "7": [
       {
         "1": "src/admin_logic.template.dart",
         "4": "i0"
@@ -89,7 +89,6 @@
       "name": "rootObject",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "dartSdkNoAreaIssues": {
@@ -97,7 +96,6 @@
       "name": "dartSdkNoAreaIssues",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_githubUrlFromRepo": {
@@ -105,7 +103,6 @@
       "name": "_githubUrlFromRepo",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_getDartSdkTriageLinks": {
@@ -113,7 +110,6 @@
       "name": "_getDartSdkTriageLinks",
       "moduleUrl": "asset:github_email_notify/lib/api.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "updateGithubLabels": {
@@ -121,7 +117,6 @@
       "name": "updateGithubLabels",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "authenticateUserWithAuthCode": {
@@ -129,7 +124,6 @@
       "name": "authenticateUserWithAuthCode",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "sendTestEmail": {
@@ -137,7 +131,6 @@
       "name": "sendTestEmail",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "forgetEmailSender": {
@@ -145,7 +138,6 @@
       "name": "forgetEmailSender",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getAdminObject": {
@@ -153,7 +145,6 @@
       "name": "getAdminObject",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_getAuthorizedEmail": {
@@ -161,7 +152,6 @@
       "name": "_getAuthorizedEmail",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_getAuthorizedEmailCore": {
@@ -169,7 +159,6 @@
       "name": "_getAuthorizedEmailCore",
       "moduleUrl": "asset:github_email_notify/lib/src/admin_logic.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "appName": {
@@ -177,7 +166,6 @@
       "name": "appName",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "clientIdentifier": {
@@ -185,7 +173,6 @@
       "name": "clientIdentifier",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "clientSecret": {
@@ -193,7 +180,6 @@
       "name": "clientSecret",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "firebaseDomain": {
@@ -201,7 +187,6 @@
       "name": "firebaseDomain",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "firebaseSecret": {
@@ -209,7 +194,6 @@
       "name": "firebaseSecret",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubRepo": {
@@ -217,7 +201,6 @@
       "name": "githubRepo",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubSecret": {
@@ -225,7 +208,6 @@
       "name": "githubSecret",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubToken": {
@@ -233,7 +215,6 @@
       "name": "githubToken",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "senderEmailAccount": {
@@ -241,7 +222,6 @@
       "name": "senderEmailAccount",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_getEnvValue": {
@@ -249,7 +229,6 @@
       "name": "_getEnvValue",
       "moduleUrl": "asset:github_email_notify/lib/src/environment_variable_access.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "githubRequestHandler": {
@@ -257,7 +236,6 @@
       "name": "githubRequestHandler",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_handleLabeledEvent": {
@@ -265,7 +243,6 @@
       "name": "_handleLabeledEvent",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_flattenMap": {
@@ -273,7 +250,6 @@
       "name": "_flattenMap",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "logError": {
@@ -281,7 +257,6 @@
       "name": "logError",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getLabelsPath": {
@@ -289,7 +264,6 @@
       "name": "getLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getLabelsUri": {
@@ -297,7 +271,6 @@
       "name": "getLabelsUri",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getUsersForRepoUri": {
@@ -305,7 +278,6 @@
       "name": "getUsersForRepoUri",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getMyLabelsPath": {
@@ -313,7 +285,6 @@
       "name": "getMyLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "getFirebaseSecurityToken": {
@@ -321,7 +292,6 @@
       "name": "getFirebaseSecurityToken",
       "moduleUrl": "asset:github_email_notify/lib/src/server_utils.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "apiRoot": {
@@ -329,7 +299,6 @@
       "name": "apiRoot",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "emailAuthPath": {
@@ -337,7 +306,6 @@
       "name": "emailAuthPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "emailAuthLogoutPath": {
@@ -345,7 +313,6 @@
       "name": "emailAuthLogoutPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "sendTestMessagePath": {
@@ -353,7 +320,6 @@
       "name": "sendTestMessagePath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "updateGithubLabelsPath": {
@@ -361,7 +327,6 @@
       "name": "updateGithubLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "scopes": {
@@ -369,15 +334,13 @@
       "name": "scopes",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
+      "value": []
     },
     "prettyJson": {
       "class": "Identifier",
       "name": "prettyJson",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

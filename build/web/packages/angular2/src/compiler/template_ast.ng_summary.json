@@ -1,25 +1,20 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.template_ast",
+    "1": "",
     "3": [
       {
-        "1": "package:angular2/src/core/change_detection/change_detection.dart",
+        "1": "expression_parser/ast.dart",
         "2": [
           "AST"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
+        "1": "compile_metadata.dart",
         "2": [
-          "isPresent"
-        ],
-        "5": false
-      },
-      {
-        "1": "directive_metadata.dart",
-        "2": [
-          "CompileDirectiveMetadata"
+          "CompileDirectiveMetadata",
+          "CompileTokenMetadata",
+          "CompileProviderMetadata"
         ],
         "5": false
       },
@@ -29,17 +24,27 @@
           "ParseSourceSpan"
         ],
         "5": false
+      },
+      {
+        "1": "../core/security.dart",
+        "5": false
       }
     ],
     "6": "template_ast.dart"
   },
   "type": {
+    "ProviderAstType": {
+      "class": "Identifier",
+      "name": "ProviderAstType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
+      "prefix": null,
+      "value": null
+    },
     "PropertyBindingType": {
       "class": "Identifier",
       "name": "PropertyBindingType",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TemplateAst": {
@@ -47,7 +52,6 @@
       "name": "TemplateAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TextAst": {
@@ -55,7 +59,6 @@
       "name": "TextAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BoundTextAst": {
@@ -63,7 +66,6 @@
       "name": "BoundTextAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "AttrAst": {
@@ -71,7 +73,6 @@
       "name": "AttrAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BoundElementPropertyAst": {
@@ -79,7 +80,6 @@
       "name": "BoundElementPropertyAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BoundEventAst": {
@@ -87,7 +87,13 @@
       "name": "BoundEventAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "ReferenceAst": {
+      "class": "Identifier",
+      "name": "ReferenceAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
+      "prefix": null,
       "value": null
     },
     "VariableAst": {
@@ -95,7 +101,6 @@
       "name": "VariableAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ElementAst": {
@@ -103,7 +108,6 @@
       "name": "ElementAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "EmbeddedTemplateAst": {
@@ -111,7 +115,6 @@
       "name": "EmbeddedTemplateAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "BoundDirectivePropertyAst": {
@@ -119,7 +122,6 @@
       "name": "BoundDirectivePropertyAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "DirectiveAst": {
@@ -127,7 +129,13 @@
       "name": "DirectiveAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "ProviderAst": {
+      "class": "Identifier",
+      "name": "ProviderAst",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
+      "prefix": null,
       "value": null
     },
     "NgContentAst": {
@@ -135,7 +143,6 @@
       "name": "NgContentAst",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "TemplateAstVisitor": {
@@ -143,7 +150,6 @@
       "name": "TemplateAstVisitor",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "templateVisitAll": {
@@ -151,7 +157,6 @@
       "name": "templateVisitAll",
       "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

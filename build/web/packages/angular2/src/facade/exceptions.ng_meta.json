@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular.core.facade.exceptions",
+    "1": "",
     "3": [
       {
         "1": "base_wrapped_exception.dart",
@@ -17,7 +17,7 @@
       }
     ],
     "6": "exceptions.dart",
-    "10": [
+    "7": [
       {
         "1": "base_wrapped_exception.template.dart",
         "4": "i0"
@@ -34,7 +34,6 @@
       "name": "BaseException",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "WrappedException": {
@@ -42,7 +41,6 @@
       "name": "WrappedException",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "makeTypeError": {
@@ -50,15 +48,6 @@
       "name": "makeTypeError",
       "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "unimplemented": {
-      "class": "Identifier",
-      "name": "unimplemented",
-      "moduleUrl": "asset:angular2/lib/src/facade/exceptions.dart",
-      "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_ArrayLogger": {
@@ -66,7 +55,6 @@
       "name": "_ArrayLogger",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ExceptionHandler": {
@@ -74,7 +62,6 @@
       "name": "ExceptionHandler",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

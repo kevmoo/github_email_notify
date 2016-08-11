@@ -1,6 +1,6 @@
 {
   "ngDeps": {
-    "1": "angular2.browser_adapter_reexport",
+    "1": "",
     "4": [
       {
         "1": "package:angular2/src/platform/browser/browser_adapter.dart"

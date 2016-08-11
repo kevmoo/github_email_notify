@@ -10,7 +10,7 @@
       }
     ],
     "6": "browser.dart",
-    "10": [
+    "7": [
       {
         "1": "src/shared.template.dart",
         "4": "i0"
@@ -27,7 +27,6 @@
       "name": "apiRoot",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "emailAuthPath": {
@@ -35,7 +34,6 @@
       "name": "emailAuthPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "emailAuthLogoutPath": {
@@ -43,7 +41,6 @@
       "name": "emailAuthLogoutPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "sendTestMessagePath": {
@@ -51,7 +48,6 @@
       "name": "sendTestMessagePath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "updateGithubLabelsPath": {
@@ -59,7 +55,6 @@
       "name": "updateGithubLabelsPath",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "scopes": {
@@ -67,15 +62,13 @@
       "name": "scopes",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
+      "value": []
     },
     "prettyJson": {
       "class": "Identifier",
       "name": "prettyJson",
       "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$AdminObjectFromJson": {
@@ -83,7 +76,6 @@
       "name": "_$AdminObjectFromJson",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$AdminObjectSerializerMixin": {
@@ -91,7 +83,6 @@
       "name": "_$AdminObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$ApiObjectFromJson": {
@@ -99,7 +90,6 @@
       "name": "_$ApiObjectFromJson",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$ApiObjectSerializerMixin": {
@@ -107,7 +97,6 @@
       "name": "_$ApiObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$UserObjectFromJson": {
@@ -115,7 +104,6 @@
       "name": "_$UserObjectFromJson",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_$UserObjectSerializerMixin": {
@@ -123,7 +111,6 @@
       "name": "_$UserObjectSerializerMixin",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "AdminObject": {
@@ -131,7 +118,6 @@
       "name": "AdminObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "ApiObject": {
@@ -139,7 +125,6 @@
       "name": "ApiObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "UserObject": {
@@ -147,7 +132,6 @@
       "name": "UserObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

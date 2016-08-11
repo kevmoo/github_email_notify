@@ -1,24 +1,7 @@
 {
   "ngDeps": {
-    "1": "angular2.src.compiler.css.lexer",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "NumberWrapper",
-          "StringWrapper",
-          "isPresent",
-          "resolveEnumToken"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/exceptions.dart",
-        "2": [
-          "BaseException"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/compiler/chars.dart",
         "2": [
@@ -41,10 +24,6 @@
           "$PLUS",
           "$LPAREN",
           "$RPAREN",
-          "$LBRACE",
-          "$RBRACE",
-          "$LBRACKET",
-          "$RBRACKET",
           "$PIPE",
           "$COMMA",
           "$SEMICOLON",
@@ -64,6 +43,22 @@
           "$CR",
           "$LF",
           "$VTAB"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/exceptions.dart",
+        "2": [
+          "BaseException"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "StringWrapper",
+          "isPresent",
+          "resolveEnumToken"
         ],
         "5": false
       }
@@ -95,7 +90,6 @@
       "name": "CssTokenType",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CssLexerMode": {
@@ -103,7 +97,6 @@
       "name": "CssLexerMode",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "LexedCssResult": {
@@ -111,7 +104,6 @@
       "name": "LexedCssResult",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "generateErrorMessage": {
@@ -119,7 +111,6 @@
       "name": "generateErrorMessage",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "findProblemCode": {
@@ -127,7 +118,6 @@
       "name": "findProblemCode",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CssToken": {
@@ -135,7 +125,6 @@
       "name": "CssToken",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CssLexer": {
@@ -143,7 +132,6 @@
       "name": "CssLexer",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CssScannerError": {
@@ -151,7 +139,6 @@
       "name": "CssScannerError",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_trackWhitespace": {
@@ -159,7 +146,6 @@
       "name": "_trackWhitespace",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "CssScanner": {
@@ -167,7 +153,6 @@
       "name": "CssScanner",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isAtKeyword": {
@@ -175,7 +160,6 @@
       "name": "isAtKeyword",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isCharMatch": {
@@ -183,7 +167,6 @@
       "name": "isCharMatch",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isDigit": {
@@ -191,7 +174,6 @@
       "name": "isDigit",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isCommentStart": {
@@ -199,7 +181,6 @@
       "name": "isCommentStart",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isCommentEnd": {
@@ -207,7 +188,6 @@
       "name": "isCommentEnd",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isStringStart": {
@@ -215,7 +195,6 @@
       "name": "isStringStart",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isIdentifierStart": {
@@ -223,7 +202,6 @@
       "name": "isIdentifierStart",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isIdentifierPart": {
@@ -231,7 +209,6 @@
       "name": "isIdentifierPart",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidPseudoSelectorCharacter": {
@@ -239,7 +216,6 @@
       "name": "isValidPseudoSelectorCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidKeyframeBlockCharacter": {
@@ -247,7 +223,6 @@
       "name": "isValidKeyframeBlockCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidAttributeSelectorCharacter": {
@@ -255,7 +230,6 @@
       "name": "isValidAttributeSelectorCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidSelectorCharacter": {
@@ -263,7 +237,6 @@
       "name": "isValidSelectorCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidStyleBlockCharacter": {
@@ -271,7 +244,6 @@
       "name": "isValidStyleBlockCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidMediaQueryRuleCharacter": {
@@ -279,7 +251,6 @@
       "name": "isValidMediaQueryRuleCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidAtRuleCharacter": {
@@ -287,7 +258,6 @@
       "name": "isValidAtRuleCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidStyleFunctionCharacter": {
@@ -295,7 +265,6 @@
       "name": "isValidStyleFunctionCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidBlockCharacter": {
@@ -303,7 +272,6 @@
       "name": "isValidBlockCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isValidCssCharacter": {
@@ -311,7 +279,6 @@
       "name": "isValidCssCharacter",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "charCode": {
@@ -319,7 +286,6 @@
       "name": "charCode",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "charStr": {
@@ -327,7 +293,6 @@
       "name": "charStr",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "isNewline": {
@@ -335,7 +300,6 @@
       "name": "isNewline",
       "moduleUrl": "asset:angular2/lib/src/compiler/css/lexer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

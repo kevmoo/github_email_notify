@@ -1,43 +1,16 @@
 {
   "ngDeps": {
-    "1": "angular2.src.core.reflection.reflector",
+    "1": "",
     "3": [
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type",
-          "isPresent",
-          "stringify"
-        ],
-        "5": false
-      },
       {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "BaseException",
-          "WrappedException"
+          "BaseException"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/collection.dart",
-        "2": [
-          "ListWrapper",
-          "Map",
-          "MapWrapper",
-          "Set",
-          "SetWrapper",
-          "StringMapWrapper"
-        ],
-        "5": false
-      },
-      {
-        "1": "types.dart",
-        "2": [
-          "SetterFn",
-          "GetterFn",
-          "MethodFn"
-        ],
+        "1": "platform_reflection_capabilities.dart",
         "5": false
       },
       {
@@ -48,54 +21,35 @@
         "5": false
       },
       {
-        "1": "platform_reflection_capabilities.dart",
-        "2": [
-          "PlatformReflectionCapabilities"
-        ],
+        "1": "types.dart",
         "5": false
       }
     ],
     "4": [
       {
-        "1": "types.dart",
-        "2": [
-          "SetterFn",
-          "GetterFn",
-          "MethodFn"
-        ]
+        "1": "platform_reflection_capabilities.dart"
       },
       {
-        "1": "platform_reflection_capabilities.dart",
-        "2": [
-          "PlatformReflectionCapabilities"
-        ]
+        "1": "types.dart"
       }
     ],
     "6": "reflector.dart",
-    "10": [
+    "7": [
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "platform_reflection_capabilities.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/facade/collection.template.dart",
+        "1": "reflector_reader.template.dart",
         "4": "i2"
       },
       {
         "1": "types.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "reflector_reader.template.dart",
-        "4": "i4"
-      },
-      {
-        "1": "platform_reflection_capabilities.template.dart",
-        "4": "i5"
       }
     ]
   },
@@ -105,7 +59,6 @@
       "name": "ReflectionInfo",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Reflector": {
@@ -113,7 +66,6 @@
       "name": "Reflector",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_mergeMaps": {
@@ -121,31 +73,6 @@
       "name": "_mergeMaps",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
       "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "SetterFn": {
-      "class": "Identifier",
-      "name": "SetterFn",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
-      "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "GetterFn": {
-      "class": "Identifier",
-      "name": "GetterFn",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
-      "prefix": null,
-      "constConstructor": null,
-      "value": null
-    },
-    "MethodFn": {
-      "class": "Identifier",
-      "name": "MethodFn",
-      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
-      "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "PlatformReflectionCapabilities": {
@@ -153,7 +80,27 @@
       "name": "PlatformReflectionCapabilities",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/platform_reflection_capabilities.dart",
       "prefix": null,
-      "constConstructor": null,
+      "value": null
+    },
+    "SetterFn": {
+      "class": "Identifier",
+      "name": "SetterFn",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
+      "prefix": null,
+      "value": null
+    },
+    "GetterFn": {
+      "class": "Identifier",
+      "name": "GetterFn",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
+      "prefix": null,
+      "value": null
+    },
+    "MethodFn": {
+      "class": "Identifier",
+      "name": "MethodFn",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/types.dart",
+      "prefix": null,
       "value": null
     }
   },

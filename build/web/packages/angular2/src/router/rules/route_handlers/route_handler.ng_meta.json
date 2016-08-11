@@ -1,16 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.src.router.rules.route_handlers.route_handler",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "Type"
-        ],
         "5": false
       },
       {
@@ -22,14 +15,10 @@
       }
     ],
     "6": "route_handler.dart",
-    "10": [
-      {
-        "1": "package:angular2/src/facade/lang.template.dart",
-        "4": "i0"
-      },
+    "7": [
       {
         "1": "../../instruction.template.dart",
-        "4": "i1"
+        "4": "i0"
       }
     ]
   },
@@ -39,7 +28,6 @@
       "name": "RouteHandler",
       "moduleUrl": "asset:angular2/lib/src/router/rules/route_handlers/route_handler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

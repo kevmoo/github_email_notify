@@ -1,13 +1,9 @@
 {
   "ngDeps": {
-    "1": "angular2.transform.deferred_rewriter.transformer",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
-        "5": false
-      },
-      {
-        "1": "package:barback/barback.dart",
         "5": false
       },
       {
@@ -24,6 +20,10 @@
         "5": false
       },
       {
+        "1": "package:barback/barback.dart",
+        "5": false
+      },
+      {
         "1": "rewriter.dart",
         "5": false
       }
@@ -36,7 +36,6 @@
       "name": "DeferredRewriter",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/transformer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "_assetToProcess": {
@@ -44,7 +43,6 @@
       "name": "_assetToProcess",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/transformer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "rewriteDeferredLibraries": {
@@ -52,7 +50,6 @@
       "name": "rewriteDeferredLibraries",
       "moduleUrl": "asset:angular2/lib/src/transform/deferred_rewriter/transformer.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

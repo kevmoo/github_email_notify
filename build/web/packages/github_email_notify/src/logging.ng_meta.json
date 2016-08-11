@@ -16,7 +16,6 @@
       "name": "logger",
       "moduleUrl": "asset:github_email_notify/lib/src/logging.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },

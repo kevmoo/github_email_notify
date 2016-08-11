@@ -1,9 +1,16 @@
 {
   "ngDeps": {
-    "1": "angular2.src.platform.browser.ruler",
+    "1": "",
     "3": [
       {
         "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/element_ref.dart",
+        "2": [
+          "ElementRef"
+        ],
         "5": false
       },
       {
@@ -19,13 +26,6 @@
           "DomAdapter"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/element_ref.dart",
-        "2": [
-          "ElementRef"
-        ],
-        "5": false
       }
     ],
     "6": "ruler.dart"
@@ -36,7 +36,6 @@
       "name": "Rectangle",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/ruler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     },
     "Ruler": {
@@ -44,7 +43,6 @@
       "name": "Ruler",
       "moduleUrl": "asset:angular2/lib/src/platform/browser/ruler.dart",
       "prefix": null,
-      "constConstructor": null,
       "value": null
     }
   },
