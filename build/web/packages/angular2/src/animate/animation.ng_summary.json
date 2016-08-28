@@ -17,7 +17,6 @@
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "DateWrapper",
           "StringWrapper",
           "RegExpWrapper",
           "NumberWrapper",

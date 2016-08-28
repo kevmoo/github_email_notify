@@ -8,14 +8,6 @@
           "Injectable"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "print",
-          "warn"
-        ],
-        "5": false
       }
     ],
     "5": [
@@ -34,10 +26,6 @@
       {
         "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:angular2/src/facade/lang.template.dart",
-        "4": "i1"
       }
     ]
   },

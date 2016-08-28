@@ -5,8 +5,7 @@
       {
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
-          "isPresent",
-          "escape"
+          "isPresent"
         ],
         "5": false
       }

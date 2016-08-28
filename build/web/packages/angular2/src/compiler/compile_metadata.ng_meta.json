@@ -48,7 +48,6 @@
           "isNumber",
           "isBoolean",
           "normalizeBool",
-          "serializeEnum",
           "isString",
           "RegExpWrapper",
           "isArray"

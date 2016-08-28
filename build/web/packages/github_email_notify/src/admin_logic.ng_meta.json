@@ -15,12 +15,12 @@
         "5": false
       },
       {
-        "1": "package:googleapis_auth/auth_io.dart",
-        "4": "auth",
+        "1": "package:googleapis/oauth2/v2.dart",
         "5": false
       },
       {
-        "1": "package:googleapis/oauth2/v2.dart",
+        "1": "package:googleapis_auth/auth_io.dart",
+        "4": "auth",
         "5": false
       },
       {

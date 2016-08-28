@@ -47,6 +47,7 @@
       {
         "1": "view_utils.dart",
         "2": [
+          "OnDestroyCallback",
           "ViewUtils"
         ],
         "5": false

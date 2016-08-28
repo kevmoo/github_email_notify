@@ -34,6 +34,13 @@
           "ViewContainerRef"
         ],
         "5": false
+      },
+      {
+        "1": "view_utils.dart",
+        "2": [
+          "OnDestroyCallback"
+        ],
+        "5": false
       }
     ],
     "5": [

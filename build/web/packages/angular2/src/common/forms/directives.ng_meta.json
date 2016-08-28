@@ -3766,7 +3766,8 @@
       "changeDetection": 5,
       "inputs": {},
       "outputs": {
-        "ngSubmit": "ngSubmit"
+        "ngSubmit": "ngSubmit",
+        "ngBeforeSubmit": "ngBeforeSubmit"
       },
       "hostListeners": {
         "submit": "onSubmit()"
@@ -4233,7 +4234,8 @@
         "form": "ngFormModel"
       },
       "outputs": {
-        "ngSubmit": "ngSubmit"
+        "ngSubmit": "ngSubmit",
+        "ngBeforeSubmit": "ngBeforeSubmit"
       },
       "hostListeners": {
         "submit": "onSubmit()"

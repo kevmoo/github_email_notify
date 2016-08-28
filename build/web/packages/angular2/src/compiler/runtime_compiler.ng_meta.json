@@ -35,13 +35,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "PromiseWrapper"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "ListWrapper"
@@ -213,68 +206,64 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/facade/collection.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "compile_metadata.template.dart",
         "4": "i6"
       },
       {
-        "1": "compile_metadata.template.dart",
+        "1": "directive_normalizer.template.dart",
         "4": "i7"
       },
       {
-        "1": "directive_normalizer.template.dart",
+        "1": "output/interpretive_injector.template.dart",
         "4": "i8"
       },
       {
-        "1": "output/interpretive_injector.template.dart",
+        "1": "output/interpretive_view.template.dart",
         "4": "i9"
       },
       {
-        "1": "output/interpretive_view.template.dart",
+        "1": "output/output_ast.template.dart",
         "4": "i10"
       },
       {
-        "1": "output/output_ast.template.dart",
+        "1": "output/output_interpreter.template.dart",
         "4": "i11"
       },
       {
-        "1": "output/output_interpreter.template.dart",
+        "1": "runtime_metadata.template.dart",
         "4": "i12"
       },
       {
-        "1": "runtime_metadata.template.dart",
+        "1": "style_compiler.template.dart",
         "4": "i13"
       },
       {
-        "1": "style_compiler.template.dart",
+        "1": "template_ast.template.dart",
         "4": "i14"
       },
       {
-        "1": "template_ast.template.dart",
+        "1": "template_parser.template.dart",
         "4": "i15"
       },
       {
-        "1": "template_parser.template.dart",
+        "1": "view_compiler/injector_compiler.template.dart",
         "4": "i16"
       },
       {
-        "1": "view_compiler/injector_compiler.template.dart",
+        "1": "view_compiler/view_compiler.template.dart",
         "4": "i17"
       },
       {
-        "1": "view_compiler/view_compiler.template.dart",
-        "4": "i18"
-      },
-      {
         "1": "xhr.template.dart",
-        "4": "i19"
+        "4": "i18"
       }
     ]
   },

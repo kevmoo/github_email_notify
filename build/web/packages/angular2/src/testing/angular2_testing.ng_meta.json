@@ -1,27 +1,30 @@
 {
   "ngDeps": {
-    "1": "",
+    "1": "angular2_testing.angular2_testing",
     "3": [
       {
         "1": "dart:async",
         "5": false
       },
       {
-        "1": "package:angular2/core.dart",
+        "1": "package:test/test.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/angular2.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/di/metadata.dart",
         "2": [
-          "PLATFORM_INITIALIZER"
+          "InjectMetadata"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/platform/testing/browser.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di/provider.dart",
+        "1": "package:angular2/src/core/di/reflective_exceptions.dart",
         "2": [
-          "provide",
-          "Provider"
+          "NoAnnotationError"
         ],
         "5": false
       },
@@ -30,60 +33,49 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.dart",
+        "1": "package:angular2/src/testing/internal.dart",
         "2": [
-          "NgZone"
+          "TestComponentBuilder",
+          "ComponentFixture",
+          "setBaseTestProviders",
+          "getTestInjector",
+          "inject"
         ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:test/test.dart",
         "5": false
       },
       {
         "1": "internal_injector.dart",
         "5": false
+      },
+      {
+        "1": "package:angular2/platform/testing/browser.dart",
+        "5": false
       }
     ],
     "4": [
       {
-        "1": "fake_async.dart"
-      },
-      {
-        "1": "internal_injector.dart"
-      },
-      {
-        "1": "test_component_builder.dart"
-      },
-      {
-        "1": "utils.dart"
-      },
-      {
-        "1": "by.dart"
-      },
-      {
-        "1": "debug_node.dart"
+        "1": "package:angular2/src/testing/internal.dart",
+        "2": [
+          "TestComponentBuilder",
+          "ComponentFixture",
+          "setBaseTestProviders",
+          "getTestInjector",
+          "inject"
+        ]
       }
     ],
-    "6": "internal.dart",
+    "6": "angular2_testing.dart",
     "7": [
       {
-        "1": "package:angular2/core.template.dart",
+        "1": "package:angular2/angular2.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/platform/testing/browser.template.dart",
+        "1": "package:angular2/src/core/di/metadata.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di/provider.template.dart",
+        "1": "package:angular2/src/core/di/reflective_exceptions.template.dart",
         "4": "i2"
       },
       {
@@ -91,40 +83,69 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
+        "1": "package:angular2/src/testing/internal.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "1": "internal_injector.template.dart",
         "4": "i5"
       },
       {
-        "1": "internal_injector.template.dart",
+        "1": "package:angular2/platform/testing/browser.template.dart",
         "4": "i6"
-      },
-      {
-        "1": "fake_async.template.dart",
-        "4": "i7"
-      },
-      {
-        "1": "test_component_builder.template.dart",
-        "4": "i8"
-      },
-      {
-        "1": "utils.template.dart",
-        "4": "i9"
-      },
-      {
-        "1": "by.template.dart",
-        "4": "i10"
-      },
-      {
-        "1": "debug_node.template.dart",
-        "4": "i11"
       }
     ]
   },
   "type": {
+    "initAngularTests": {
+      "class": "Identifier",
+      "name": "initAngularTests",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_addTestInjectorTearDown": {
+      "class": "Identifier",
+      "name": "_addTestInjectorTearDown",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
+    "setUpProviders": {
+      "class": "Identifier",
+      "name": "setUpProviders",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_runInjectableFunction": {
+      "class": "Identifier",
+      "name": "_runInjectableFunction",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ngSetUp": {
+      "class": "Identifier",
+      "name": "ngSetUp",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ngTest": {
+      "class": "Identifier",
+      "name": "ngTest",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ngComponentTest": {
+      "class": "Identifier",
+      "name": "ngComponentTest",
+      "moduleUrl": "asset:angular2/lib/src/testing/angular2_testing.dart",
+      "prefix": null,
+      "value": null
+    },
     "inject": {
       "class": "Identifier",
       "name": "inject",

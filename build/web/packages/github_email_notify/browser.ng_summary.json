@@ -3,10 +3,10 @@
     "1": "api.browser",
     "4": [
       {
-        "1": "src/shared.dart"
+        "1": "src/models.dart"
       },
       {
-        "1": "src/models.dart"
+        "1": "src/shared.dart"
       }
     ],
     "6": "browser.dart"

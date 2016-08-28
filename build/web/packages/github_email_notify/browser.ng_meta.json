@@ -3,74 +3,25 @@
     "1": "api.browser",
     "4": [
       {
-        "1": "src/shared.dart"
+        "1": "src/models.dart"
       },
       {
-        "1": "src/models.dart"
+        "1": "src/shared.dart"
       }
     ],
     "6": "browser.dart",
     "7": [
       {
-        "1": "src/shared.template.dart",
+        "1": "src/models.template.dart",
         "4": "i0"
       },
       {
-        "1": "src/models.template.dart",
+        "1": "src/shared.template.dart",
         "4": "i1"
       }
     ]
   },
   "type": {
-    "apiRoot": {
-      "class": "Identifier",
-      "name": "apiRoot",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": null
-    },
-    "emailAuthPath": {
-      "class": "Identifier",
-      "name": "emailAuthPath",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": null
-    },
-    "emailAuthLogoutPath": {
-      "class": "Identifier",
-      "name": "emailAuthLogoutPath",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": null
-    },
-    "sendTestMessagePath": {
-      "class": "Identifier",
-      "name": "sendTestMessagePath",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": null
-    },
-    "updateGithubLabelsPath": {
-      "class": "Identifier",
-      "name": "updateGithubLabelsPath",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": null
-    },
-    "scopes": {
-      "class": "Identifier",
-      "name": "scopes",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": []
-    },
-    "prettyJson": {
-      "class": "Identifier",
-      "name": "prettyJson",
-      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
-      "prefix": null,
-      "value": null
-    },
     "_$AdminObjectFromJson": {
       "class": "Identifier",
       "name": "_$AdminObjectFromJson",
@@ -131,6 +82,55 @@
       "class": "Identifier",
       "name": "UserObject",
       "moduleUrl": "asset:github_email_notify/lib/src/models.dart",
+      "prefix": null,
+      "value": null
+    },
+    "apiRoot": {
+      "class": "Identifier",
+      "name": "apiRoot",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "value": null
+    },
+    "emailAuthPath": {
+      "class": "Identifier",
+      "name": "emailAuthPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "value": null
+    },
+    "emailAuthLogoutPath": {
+      "class": "Identifier",
+      "name": "emailAuthLogoutPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "value": null
+    },
+    "sendTestMessagePath": {
+      "class": "Identifier",
+      "name": "sendTestMessagePath",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "value": null
+    },
+    "updateGithubLabelsPath": {
+      "class": "Identifier",
+      "name": "updateGithubLabelsPath",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "value": null
+    },
+    "scopes": {
+      "class": "Identifier",
+      "name": "scopes",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
+      "prefix": null,
+      "value": []
+    },
+    "prettyJson": {
+      "class": "Identifier",
+      "name": "prettyJson",
+      "moduleUrl": "asset:github_email_notify/lib/src/shared.dart",
       "prefix": null,
       "value": null
     }

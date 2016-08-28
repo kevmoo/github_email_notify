@@ -74,14 +74,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/async.dart",
-        "2": [
-          "PromiseWrapper",
-          "ObservableWrapper"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/collection.dart",
         "2": [
           "ListWrapper"
@@ -101,8 +93,7 @@
         "2": [
           "isBlank",
           "isPresent",
-          "assertionsEnabled",
-          "isPromise"
+          "assertionsEnabled"
         ],
         "5": false
       },
@@ -193,28 +184,24 @@
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/facade/async.template.dart",
+        "1": "package:angular2/src/facade/collection.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/facade/collection.template.dart",
+        "1": "package:angular2/src/facade/exceptions.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/facade/exceptions.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "application_tokens.template.dart",
         "4": "i11"
       },
       {
-        "1": "application_tokens.template.dart",
-        "4": "i12"
-      },
-      {
         "1": "profile/profile.template.dart",
-        "4": "i13"
+        "4": "i12"
       }
     ]
   },

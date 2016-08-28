@@ -11,7 +11,7 @@
         "5": false
       },
       {
-        "1": "package:analyzer/src/generated/ast.dart",
+        "1": "package:analyzer/dart/ast/ast.dart",
         "5": false
       },
       {

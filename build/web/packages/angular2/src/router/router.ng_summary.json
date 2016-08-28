@@ -25,9 +25,7 @@
       {
         "1": "package:angular2/src/facade/async.dart",
         "2": [
-          "PromiseWrapper",
-          "EventEmitter",
-          "ObservableWrapper"
+          "EventEmitter"
         ],
         "5": false
       },

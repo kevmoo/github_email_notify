@@ -22,8 +22,7 @@
         "2": [
           "isBlank",
           "isPresent",
-          "looseIdentical",
-          "hasConstructor"
+          "looseIdentical"
         ],
         "5": false
       },

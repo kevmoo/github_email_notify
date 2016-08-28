@@ -34,6 +34,13 @@
           "ViewContainerRef"
         ],
         "5": false
+      },
+      {
+        "1": "view_utils.dart",
+        "2": [
+          "OnDestroyCallback"
+        ],
+        "5": false
       }
     ],
     "5": [
@@ -70,6 +77,10 @@
       {
         "1": "view_container_ref.template.dart",
         "4": "i3"
+      },
+      {
+        "1": "view_utils.template.dart",
+        "4": "i4"
       }
     ]
   },

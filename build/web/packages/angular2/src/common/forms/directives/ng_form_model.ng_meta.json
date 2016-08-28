@@ -335,7 +335,8 @@
         "form": "ngFormModel"
       },
       "outputs": {
-        "ngSubmit": "ngSubmit"
+        "ngSubmit": "ngSubmit",
+        "ngBeforeSubmit": "ngBeforeSubmit"
       },
       "hostListeners": {
         "submit": "onSubmit()"

@@ -61,6 +61,13 @@
       "prefix": null,
       "value": null
     },
+    "_ignoredRealTemplateIssues": {
+      "class": "Identifier",
+      "name": "_ignoredRealTemplateIssues",
+      "moduleUrl": "asset:angular2/lib/src/transform/common/code/ng_deps_code.dart",
+      "prefix": null,
+      "value": null
+    },
     "NgDepsVisitor": {
       "class": "Identifier",
       "name": "NgDepsVisitor",

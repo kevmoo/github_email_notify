@@ -100,7 +100,8 @@
         "2": [
           "ViewUtils",
           "flattenNestedViewRenderNodes",
-          "ensureSlotCount"
+          "ensureSlotCount",
+          "OnDestroyCallback"
         ],
         "5": false
       }

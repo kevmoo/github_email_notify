@@ -167,6 +167,13 @@
     ]
   },
   "type": {
+    "OnDestroyCallback": {
+      "class": "Identifier",
+      "name": "OnDestroyCallback",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/view_utils.dart",
+      "prefix": null,
+      "value": null
+    },
     "MAX_INTERPOLATION_VALUES": {
       "class": "Identifier",
       "name": "MAX_INTERPOLATION_VALUES",

@@ -27,7 +27,6 @@
         "1": "package:angular2/src/facade/lang.dart",
         "2": [
           "NumberWrapper",
-          "StringJoiner",
           "StringWrapper",
           "isPresent"
         ],
