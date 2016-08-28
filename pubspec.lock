@@ -18,7 +18,7 @@ packages:
       name: angular2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.0-beta.19"
+    version: "2.0.0-beta.20"
   appengine:
     description:
       name: appengine
@@ -78,7 +78,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.0"
+    version: "1.9.1"
   convert:
     description:
       name: convert
@@ -132,7 +132,7 @@ packages:
       name: gcloud
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.0+13"
+    version: "0.2.0+14"
   github:
     description:
       name: github
@@ -162,7 +162,7 @@ packages:
       name: googleapis_auth
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.3+4"
+    version: "0.2.3+5"
   googleapis_beta:
     description:
       name: googleapis_beta
@@ -192,7 +192,7 @@ packages:
       name: http_server
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.5+1"
+    version: "0.9.6"
   intl:
     description:
       name: intl
@@ -288,7 +288,7 @@ packages:
       name: shelf
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.5+2"
+    version: "0.6.5+3"
   shelf_appengine:
     description:
       name: shelf_appengine

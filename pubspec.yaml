@@ -6,7 +6,7 @@ homepage: https://github.com/kevmoo/github_email_notify
 environment:
   sdk: '>=1.11.0 <2.0.0'
 dependencies:
-  angular2: 2.0.0-beta.19
+  angular2: 2.0.0-beta.20
   appengine: '^0.3.1+1'
   browser: ^0.10.0+2
   collection: ^1.2.0
