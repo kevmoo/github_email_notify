@@ -11,7 +11,7 @@ dependencies:
   browser: ^0.10.0+2
   collection: ^1.2.0
   firebase: ^0.6.1
-  github: ^2.2.3+1
+  github: ^3.0.0
   github_hook: ^0.2.2
   googleapis: '>=0.14.0 <0.29.0'
   googleapis_auth: ^0.2.3+1

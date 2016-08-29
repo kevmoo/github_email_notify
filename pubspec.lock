@@ -12,7 +12,7 @@ packages:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.27.3"
+    version: "0.27.6"
   angular2:
     description:
       name: angular2
@@ -84,13 +84,13 @@ packages:
       name: convert
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.1"
+    version: "2.0.1"
   crypto:
     description:
       name: crypto
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.2+1"
+    version: "2.0.1"
   csslib:
     description:
       name: csslib
@@ -102,7 +102,7 @@ packages:
       name: dart_style
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.4"
+    version: "0.2.9+1"
   dart_to_js_script_rewriter:
     description:
       name: dart_to_js_script_rewriter
@@ -138,13 +138,13 @@ packages:
       name: github
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.3.1+1"
+    version: "3.0.0"
   github_hook:
     description:
       name: github_hook
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.2"
+    version: "0.2.2+1"
   glob:
     description:
       name: glob
@@ -199,6 +199,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.13.0"
+  isolate:
+    description:
+      name: isolate
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.3"
   js:
     description:
       name: js
@@ -246,7 +252,7 @@ packages:
       name: package_config
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.5"
+    version: "1.0.0"
   path:
     description:
       name: path
@@ -264,7 +270,7 @@ packages:
       name: plugin
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.0"
+    version: "0.2.0"
   pool:
     description:
       name: pool
@@ -386,4 +392,4 @@ packages:
     source: hosted
     version: "2.1.10"
 sdks:
-  dart: ">=1.16.0 <2.0.0"
+  dart: ">=1.17.0 <2.0.0"
