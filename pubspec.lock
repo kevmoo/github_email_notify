@@ -72,7 +72,7 @@ packages:
       name: code_transformers
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.2+2"
+    version: "0.4.2+3"
   collection:
     description:
       name: collection
@@ -198,7 +198,7 @@ packages:
       name: intl
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.0"
+    version: "0.13.1"
   isolate:
     description:
       name: isolate
@@ -210,7 +210,7 @@ packages:
       name: js
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.0"
+    version: "0.6.1"
   logging:
     description:
       name: logging
@@ -282,7 +282,7 @@ packages:
       name: protobuf
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.2"
+    version: "0.5.3"
   quiver:
     description:
       name: quiver
@@ -392,4 +392,4 @@ packages:
     source: hosted
     version: "2.1.10"
 sdks:
-  dart: ">=1.17.0 <2.0.0"
+  dart: ">=1.19.0-dev.0.0 <2.0.0"
