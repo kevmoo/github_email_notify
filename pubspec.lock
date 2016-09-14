@@ -222,7 +222,7 @@ packages:
       name: markdown
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.0+1"
+    version: "0.11.1"
   matcher:
     description:
       name: matcher
@@ -318,7 +318,7 @@ packages:
       name: source_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.5.1"
+    version: "0.5.1+2"
   source_maps:
     description:
       name: source_maps
