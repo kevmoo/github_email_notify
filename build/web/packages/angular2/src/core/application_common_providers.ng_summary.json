@@ -34,6 +34,13 @@
         "5": false
       },
       {
+        "1": "linker/app_view_utils.dart",
+        "2": [
+          "AppViewUtils"
+        ],
+        "5": false
+      },
+      {
         "1": "linker/component_resolver.dart",
         "2": [
           "ComponentResolver"
@@ -57,14 +64,7 @@
       {
         "1": "linker/dynamic_component_loader.dart",
         "2": [
-          "DynamicComponentLoader_"
-        ],
-        "5": false
-      },
-      {
-        "1": "linker/view_utils.dart",
-        "2": [
-          "ViewUtils"
+          "DynamicComponentLoaderImpl"
         ],
         "5": false
       }
@@ -123,7 +123,7 @@
         },
         {
           "class": "Identifier",
-          "name": "ViewUtils",
+          "name": "AppViewUtils",
           "moduleUrl": null,
           "prefix": null,
           "value": null
@@ -197,7 +197,7 @@
           },
           "useClass": {
             "class": "Type",
-            "name": "DynamicComponentLoader_",
+            "name": "DynamicComponentLoaderImpl",
             "moduleUrl": null,
             "prefix": null,
             "isHost": false,

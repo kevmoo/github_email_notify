@@ -22,19 +22,23 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/api.dart",
+        "1": "package:angular2/src/core/linker/app_element.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/app_view.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/exceptions.dart",
         "2": [
-          "RenderComponentType"
+          "ExpressionChangedAfterItHasBeenCheckedException",
+          "ViewWrappedException"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/debug/debug_node.dart",
-        "2": [
-          "DebugElement",
-          "getDebugNode",
-          "indexDebugNode"
-        ],
+        "1": "package:angular2/src/core/linker/view_type.dart",
         "5": false
       },
       {
@@ -47,6 +51,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/render/api.dart",
+        "2": [
+          "RenderComponentType"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/debug/debug_context.dart",
         "2": [
           "StaticNodeDebugInfo",
@@ -55,40 +66,33 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/app_element.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/exceptions.dart",
+        "1": "package:angular2/src/debug/debug_node.dart",
         "2": [
-          "ExpressionChangedAfterItHasBeenCheckedException",
-          "ViewWrappedException"
+          "DebugElement",
+          "DebugNode",
+          "getDebugNode",
+          "indexDebugNode"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/app_view.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_type.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_utils.dart",
+        "1": "package:angular2/src/platform/dom/dom_renderer.dart",
+        "2": [
+          "DomRootRenderer"
+        ],
         "5": false
       }
     ],
     "4": [
+      {
+        "1": "package:angular2/src/core/linker/app_view.dart"
+      },
       {
         "1": "package:angular2/src/debug/debug_context.dart",
         "2": [
           "StaticNodeDebugInfo",
           "DebugContext"
         ]
-      },
-      {
-        "1": "package:angular2/src/core/linker/app_view.dart"
       }
     ],
     "6": "debug_app_view.dart"
@@ -97,6 +101,13 @@
     "DebugAppView": {
       "class": "Identifier",
       "name": "DebugAppView",
+      "moduleUrl": "asset:angular2/lib/src/debug/debug_app_view.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_appendDebugNestedViewRenderNodes": {
+      "class": "Identifier",
+      "name": "_appendDebugNestedViewRenderNodes",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_app_view.dart",
       "prefix": null,
       "value": null

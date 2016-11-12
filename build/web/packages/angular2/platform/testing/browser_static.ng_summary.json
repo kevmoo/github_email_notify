@@ -36,6 +36,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/linker/app_view_utils.dart",
+        "2": [
+          "AppViewUtils"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/render/api.dart",
         "2": [
           "RootRenderer"
@@ -278,6 +285,13 @@
           "useProperty": null,
           "multi": false,
           "deps": null
+        },
+        {
+          "class": "Identifier",
+          "name": "AppViewUtils",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
         },
         {
           "class": "Identifier",

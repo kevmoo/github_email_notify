@@ -10,23 +10,18 @@
         "5": false
       },
       {
-        "1": "../metadata/di.dart",
+        "1": "../reflection/reflection.dart",
         "2": [
-          "InjectorModuleMetadata",
-          "ProviderPropertyMetadata"
+          "NoReflectionCapabilitiesError"
         ],
         "5": false
       },
       {
-        "1": "metadata.dart",
-        "2": [
-          "InjectMetadata",
-          "OptionalMetadata",
-          "SelfMetadata",
-          "HostMetadata",
-          "SkipSelfMetadata",
-          "DependencyMetadata"
-        ],
+        "1": "../metadata.dart",
+        "5": false
+      },
+      {
+        "1": "decorators.dart",
         "5": false
       },
       {
@@ -83,9 +78,9 @@
       "prefix": null,
       "value": null
     },
-    "ResolvedReflectiveProvider_": {
+    "ResolvedReflectiveProviderImpl": {
       "class": "Identifier",
-      "name": "ResolvedReflectiveProvider_",
+      "name": "ResolvedReflectiveProviderImpl",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
       "prefix": null,
       "value": null

@@ -72,7 +72,7 @@
             "3": [
               "const SkipSelf()"
             ],
-            "4": "parent"
+            "4": "_parent"
           },
           {
             "1": "List",
@@ -323,10 +323,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "name": "ngControlGroup"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},

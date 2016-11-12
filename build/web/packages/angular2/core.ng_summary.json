@@ -15,7 +15,6 @@
         "1": "src/core/application_ref.dart",
         "2": [
           "createPlatform",
-          "assertPlatform",
           "disposePlatform",
           "getPlatform",
           "coreLoadAndBootstrap",
@@ -56,7 +55,10 @@
         "1": "src/core/platform_directives_and_pipes.dart"
       },
       {
-        "1": "src/core/reflection/reflection.dart"
+        "1": "src/core/reflection/reflection.dart",
+        "3": [
+          "NoReflectionCapabilitiesError"
+        ]
       },
       {
         "1": "src/core/render.dart"

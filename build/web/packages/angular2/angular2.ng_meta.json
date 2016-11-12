@@ -464,8 +464,8 @@
             "value": null,
             "identifier": {
               "class": "Type",
-              "name": "ViewUtils",
-              "moduleUrl": "asset:angular2/lib/src/core/linker/view_utils.dart",
+              "name": "AppViewUtils",
+              "moduleUrl": "asset:angular2/lib/src/core/linker/app_view_utils.dart",
               "prefix": null,
               "isHost": false,
               "value": null,
@@ -542,8 +542,8 @@
           },
           "useClass": {
             "class": "Type",
-            "name": "ViewUtils",
-            "moduleUrl": "asset:angular2/lib/src/core/linker/view_utils.dart",
+            "name": "AppViewUtils",
+            "moduleUrl": "asset:angular2/lib/src/core/linker/app_view_utils.dart",
             "prefix": null,
             "isHost": false,
             "value": null,
@@ -692,7 +692,7 @@
           },
           "useClass": {
             "class": "Type",
-            "name": "DynamicComponentLoader_",
+            "name": "DynamicComponentLoaderImpl",
             "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
             "prefix": null,
             "isHost": false,
@@ -1117,13 +1117,6 @@
       "prefix": null,
       "value": null
     },
-    "assertPlatform": {
-      "class": "Identifier",
-      "name": "assertPlatform",
-      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
-      "prefix": null,
-      "value": null
-    },
     "disposePlatform": {
       "class": "Identifier",
       "name": "disposePlatform",
@@ -1496,6 +1489,13 @@
       "prefix": null,
       "value": null
     },
+    "DefaultIterableCallback": {
+      "class": "Identifier",
+      "name": "DefaultIterableCallback",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "value": null
+    },
     "DefaultIterableDifferFactory": {
       "class": "Identifier",
       "name": "DefaultIterableDifferFactory",
@@ -1527,6 +1527,13 @@
     "_DuplicateMap": {
       "class": "Identifier",
       "name": "_DuplicateMap",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_getPreviousIndex": {
+      "class": "Identifier",
+      "name": "_getPreviousIndex",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
       "value": null
@@ -1615,65 +1622,30 @@
       "prefix": null,
       "value": null
     },
-    "InjectMetadata": {
+    "ComponentStateCallback": {
       "class": "Identifier",
-      "name": "InjectMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "name": "ComponentStateCallback",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/component_state.dart",
       "prefix": null,
       "value": null
     },
-    "OptionalMetadata": {
+    "ComponentState": {
       "class": "Identifier",
-      "name": "OptionalMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "name": "ComponentState",
+      "moduleUrl": "asset:angular2/lib/src/core/change_detection/component_state.dart",
       "prefix": null,
       "value": null
     },
     "DependencyMetadata": {
       "class": "Identifier",
       "name": "DependencyMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
-    "InjectableMetadata": {
-      "class": "Identifier",
-      "name": "InjectableMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
-    "SelfMetadata": {
-      "class": "Identifier",
-      "name": "SelfMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
-    "SkipSelfMetadata": {
-      "class": "Identifier",
-      "name": "SkipSelfMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
-    "HostMetadata": {
-      "class": "Identifier",
-      "name": "HostMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/di/metadata.dart",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
       "prefix": null,
       "value": null
     },
     "Inject": {
       "class": "Identifier",
       "name": "Inject",
-      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
-      "prefix": null,
-      "value": null
-    },
-    "Optional": {
-      "class": "Identifier",
-      "name": "Optional",
       "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
       "prefix": null,
       "value": null
@@ -1685,6 +1657,13 @@
       "prefix": null,
       "value": null
     },
+    "Optional": {
+      "class": "Identifier",
+      "name": "Optional",
+      "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
+      "prefix": null,
+      "value": null
+    },
     "Self": {
       "class": "Identifier",
       "name": "Self",
@@ -1692,16 +1671,16 @@
       "prefix": null,
       "value": null
     },
-    "Host": {
+    "SkipSelf": {
       "class": "Identifier",
-      "name": "Host",
+      "name": "SkipSelf",
       "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
       "prefix": null,
       "value": null
     },
-    "SkipSelf": {
+    "Host": {
       "class": "Identifier",
-      "name": "SkipSelf",
+      "name": "Host",
       "moduleUrl": "asset:angular2/lib/src/core/di/decorators.dart",
       "prefix": null,
       "value": null
@@ -1825,9 +1804,9 @@
       "prefix": null,
       "value": null
     },
-    "ReflectiveInjector_": {
+    "ReflectiveInjectorImpl": {
       "class": "Identifier",
-      "name": "ReflectiveInjector_",
+      "name": "ReflectiveInjectorImpl",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_injector.dart",
       "prefix": null,
       "value": null
@@ -1888,9 +1867,9 @@
       "prefix": null,
       "value": null
     },
-    "ResolvedReflectiveProvider_": {
+    "ResolvedReflectiveProviderImpl": {
       "class": "Identifier",
-      "name": "ResolvedReflectiveProvider_",
+      "name": "ResolvedReflectiveProviderImpl",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
       "prefix": null,
       "value": null
@@ -2084,6 +2063,13 @@
       "prefix": null,
       "value": null
     },
+    "NgViewFactory": {
+      "class": "Identifier",
+      "name": "NgViewFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
+      "prefix": null,
+      "value": null
+    },
     "ComponentRef": {
       "class": "Identifier",
       "name": "ComponentRef",
@@ -2091,9 +2077,9 @@
       "prefix": null,
       "value": null
     },
-    "ComponentRef_": {
+    "ComponentRefImpl": {
       "class": "Identifier",
-      "name": "ComponentRef_",
+      "name": "ComponentRefImpl",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
       "prefix": null,
       "value": null
@@ -2108,13 +2094,6 @@
     "ComponentResolver": {
       "class": "Identifier",
       "name": "ComponentResolver",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/component_resolver.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_isComponentFactory": {
-      "class": "Identifier",
-      "name": "_isComponentFactory",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_resolver.dart",
       "prefix": null,
       "value": null
@@ -2135,9 +2114,9 @@
       "prefix": null,
       "value": null
     },
-    "DynamicComponentLoader_": {
+    "DynamicComponentLoaderImpl": {
       "class": "Type",
-      "name": "DynamicComponentLoader_",
+      "name": "DynamicComponentLoaderImpl",
       "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
       "prefix": null,
       "isHost": false,
@@ -2237,9 +2216,9 @@
       "prefix": null,
       "value": null
     },
-    "ViewRef_": {
+    "ViewRefImpl": {
       "class": "Identifier",
-      "name": "ViewRef_",
+      "name": "ViewRefImpl",
       "moduleUrl": "asset:angular2/lib/src/core/linker/view_ref.dart",
       "prefix": null,
       "value": null
@@ -2370,115 +2349,17 @@
       "prefix": null,
       "value": null
     },
-    "AttributeMetadata": {
+    "ViewEncapsulation": {
       "class": "Identifier",
-      "name": "AttributeMetadata",
+      "name": "ViewEncapsulation",
+      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ProviderProperty": {
+      "class": "Identifier",
+      "name": "ProviderProperty",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "QueryMetadata": {
-      "class": "Identifier",
-      "name": "QueryMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ContentChildrenMetadata": {
-      "class": "Identifier",
-      "name": "ContentChildrenMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ContentChildMetadata": {
-      "class": "Identifier",
-      "name": "ContentChildMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewQueryMetadata": {
-      "class": "Identifier",
-      "name": "ViewQueryMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewChildrenMetadata": {
-      "class": "Identifier",
-      "name": "ViewChildrenMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewChildMetadata": {
-      "class": "Identifier",
-      "name": "ViewChildMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ProviderPropertyMetadata": {
-      "class": "Identifier",
-      "name": "ProviderPropertyMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "InjectorModuleMetadata": {
-      "class": "Identifier",
-      "name": "InjectorModuleMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
-      "prefix": null,
-      "value": null
-    },
-    "DirectiveMetadata": {
-      "class": "Identifier",
-      "name": "DirectiveMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ComponentMetadata": {
-      "class": "Identifier",
-      "name": "ComponentMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "PipeMetadata": {
-      "class": "Identifier",
-      "name": "PipeMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "InputMetadata": {
-      "class": "Identifier",
-      "name": "InputMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "OutputMetadata": {
-      "class": "Identifier",
-      "name": "OutputMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "HostBindingMetadata": {
-      "class": "Identifier",
-      "name": "HostBindingMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
-      "prefix": null,
-      "value": null
-    },
-    "HostListenerMetadata": {
-      "class": "Identifier",
-      "name": "HostListenerMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/directives.dart",
       "prefix": null,
       "value": null
     },
@@ -2542,20 +2423,6 @@
       "class": "Identifier",
       "name": "AfterViewChecked",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/lifecycle_hooks.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewEncapsulation": {
-      "class": "Identifier",
-      "name": "ViewEncapsulation",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ViewMetadata": {
-      "class": "Identifier",
-      "name": "ViewMetadata",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
       "prefix": null,
       "value": null
     },
@@ -2717,37 +2584,6 @@
           "useProperty": null,
           "multi": false,
           "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "Console",
-              "moduleUrl": "asset:angular2/lib/src/core/console.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": []
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": {
-            "class": "Type",
-            "name": "Console",
-            "moduleUrl": "asset:angular2/lib/src/core/console.dart",
-            "prefix": null,
-            "isHost": false,
-            "value": null,
-            "diDeps": []
-          },
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
         }
       ]
     },
@@ -2775,6 +2611,13 @@
     "NoReflectionCapabilities": {
       "class": "Identifier",
       "name": "NoReflectionCapabilities",
+      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflection.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NoReflectionCapabilitiesError": {
+      "class": "Identifier",
+      "name": "NoReflectionCapabilitiesError",
       "moduleUrl": "asset:angular2/lib/src/core/reflection/reflection.dart",
       "prefix": null,
       "value": null
@@ -3679,28 +3522,6 @@
                   "isSkipSelf": false,
                   "isOptional": false,
                   "isValue": false
-                },
-                {
-                  "token": {
-                    "value": null,
-                    "identifier": {
-                      "class": "Identifier",
-                      "name": "Renderer",
-                      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-                      "prefix": null,
-                      "value": null
-                    },
-                    "identifierIsInstance": false
-                  },
-                  "query": null,
-                  "viewQuery": null,
-                  "value": null,
-                  "isAttribute": false,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
                 }
               ]
             },
@@ -3743,28 +3564,6 @@
                     "class": "Identifier",
                     "name": "ElementRef",
                     "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
-                    "prefix": null,
-                    "value": null
-                  },
-                  "identifierIsInstance": false
-                },
-                "query": null,
-                "viewQuery": null,
-                "value": null,
-                "isAttribute": false,
-                "isSelf": false,
-                "isHost": false,
-                "isSkipSelf": false,
-                "isOptional": false,
-                "isValue": false
-              },
-              {
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Identifier",
-                    "name": "Renderer",
-                    "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
                     "prefix": null,
                     "value": null
                   },
@@ -7166,28 +6965,6 @@
                   "isSkipSelf": false,
                   "isOptional": false,
                   "isValue": false
-                },
-                {
-                  "token": {
-                    "value": null,
-                    "identifier": {
-                      "class": "Identifier",
-                      "name": "Renderer",
-                      "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-                      "prefix": null,
-                      "value": null
-                    },
-                    "identifierIsInstance": false
-                  },
-                  "query": null,
-                  "viewQuery": null,
-                  "value": null,
-                  "isAttribute": false,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
                 }
               ]
             },
@@ -7230,28 +7007,6 @@
                     "class": "Identifier",
                     "name": "ElementRef",
                     "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
-                    "prefix": null,
-                    "value": null
-                  },
-                  "identifierIsInstance": false
-                },
-                "query": null,
-                "viewQuery": null,
-                "value": null,
-                "isAttribute": false,
-                "isSelf": false,
-                "isHost": false,
-                "isSkipSelf": false,
-                "isOptional": false,
-                "isValue": false
-              },
-              {
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Identifier",
-                    "name": "Renderer",
-                    "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
                     "prefix": null,
                     "value": null
                   },
@@ -7972,11 +7727,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "rawClass": "ngClass",
         "initialClasses": "class"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8094,12 +7850,13 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngForTrackBy": "ngForTrackBy",
         "ngForOf": "ngForOf",
         "ngForTemplate": "ngForTemplate"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8179,10 +7936,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngIf": "ngIf"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8283,8 +8041,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8333,9 +8092,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngPlural": "ngPlural"
+      },
+      "inputTypes": {
+        "ngPlural": " num"
       },
       "outputs": {},
       "hostListeners": {},
@@ -8489,35 +8251,14 @@
             "isSkipSelf": false,
             "isOptional": false,
             "isValue": false
-          },
-          {
-            "token": {
-              "value": null,
-              "identifier": {
-                "class": "Identifier",
-                "name": "Renderer",
-                "moduleUrl": "asset:angular2/lib/src/core/render/api.dart",
-                "prefix": null,
-                "value": null
-              },
-              "identifierIsInstance": false
-            },
-            "query": null,
-            "viewQuery": null,
-            "value": null,
-            "isAttribute": false,
-            "isSelf": false,
-            "isHost": false,
-            "isSkipSelf": false,
-            "isOptional": false,
-            "isValue": false
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "rawStyle": "ngStyle"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8559,10 +8300,11 @@
         "value": null,
         "diDeps": []
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngSwitch": "ngSwitch"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8655,10 +8397,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngSwitchWhen": "ngSwitchWhen"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8751,8 +8494,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -8801,9 +8545,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngTemplateOutlet": "ngTemplateOutlet"
+      },
+      "inputTypes": {
+        "ngTemplateOutlet": " TemplateRef"
       },
       "outputs": {},
       "hostListeners": {},
@@ -11167,8 +10914,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {
         "blur": "onTouched()",
@@ -11421,8 +11169,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
@@ -11712,10 +11461,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "name": "ngControlGroup"
       },
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -12064,11 +11814,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "name": "ngControl",
         "model": "ngModel"
       },
+      "inputTypes": {},
       "outputs": {
         "update": "ngModelChange"
       },
@@ -12245,8 +11996,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {
@@ -12410,8 +12162,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {
         "ngSubmit": "ngSubmit",
         "ngBeforeSubmit": "ngBeforeSubmit"
@@ -12696,11 +12449,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "form": "ngFormControl",
         "model": "ngModel"
       },
+      "inputTypes": {},
       "outputs": {
         "update": "ngModelChange"
       },
@@ -12876,10 +12630,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "form": "ngFormModel"
       },
+      "inputTypes": {},
       "outputs": {
         "ngSubmit": "ngSubmit",
         "ngBeforeSubmit": "ngBeforeSubmit"
@@ -13058,10 +12813,11 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "model": "ngModel"
       },
+      "inputTypes": {},
       "outputs": {
         "update": "ngModelChange"
       },
@@ -13323,8 +13079,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
@@ -13668,9 +13425,12 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "name": "name"
+      },
+      "inputTypes": {
+        "name": " String"
       },
       "outputs": {},
       "hostListeners": {
@@ -13971,8 +13731,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {
         "blur": "onTouched()",
@@ -14147,10 +13908,14 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {
         "ngValue": "ngValue",
         "value": "value"
+      },
+      "inputTypes": {
+        "ngValue": " dynamic",
+        "value": " dynamic"
       },
       "outputs": {},
       "hostListeners": {},
@@ -14416,8 +14181,9 @@
         "value": null,
         "diDeps": []
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -14488,8 +14254,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -14583,8 +14350,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -14678,8 +14446,9 @@
           }
         ]
       },
-      "changeDetection": 5,
+      "changeDetection": 6,
       "inputs": {},
+      "inputTypes": {},
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -15346,7 +15115,7 @@
         "diDeps": []
       },
       "name": "lowercase",
-      "pure": false
+      "pure": true
     },
     "NumberPipe": {
       "class": "Type",
@@ -15369,7 +15138,7 @@
         "diDeps": []
       },
       "name": "number",
-      "pure": false
+      "pure": true
     },
     "PercentPipe": {
       "class": "Pipe",
@@ -15383,7 +15152,7 @@
         "diDeps": []
       },
       "name": "percent",
-      "pure": false
+      "pure": true
     },
     "CurrencyPipe": {
       "class": "Pipe",
@@ -15397,7 +15166,7 @@
         "diDeps": []
       },
       "name": "currency",
-      "pure": false
+      "pure": true
     },
     "_Matcher": {
       "class": "Identifier",
@@ -15418,7 +15187,7 @@
         "diDeps": []
       },
       "name": "replace",
-      "pure": false
+      "pure": true
     },
     "SlicePipe": {
       "class": "Pipe",
@@ -15446,7 +15215,7 @@
         "diDeps": []
       },
       "name": "uppercase",
-      "pure": false
+      "pure": true
     },
     "noopScope": {
       "class": "Identifier",

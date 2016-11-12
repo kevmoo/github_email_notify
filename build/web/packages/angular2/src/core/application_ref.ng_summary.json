@@ -11,15 +11,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/console.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/di.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_utils.dart",
+        "1": "package:angular2/src/core/linker/app_view_utils.dart",
         "5": false
       },
       {
@@ -250,13 +246,6 @@
     "createPlatform": {
       "class": "Identifier",
       "name": "createPlatform",
-      "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
-      "prefix": null,
-      "value": null
-    },
-    "assertPlatform": {
-      "class": "Identifier",
-      "name": "assertPlatform",
       "moduleUrl": "asset:angular2/lib/src/core/application_ref.dart",
       "prefix": null,
       "value": null
