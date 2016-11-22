@@ -1,0 +1,72 @@
+{
+  "ngDeps": {
+    "1": "",
+    "3": [
+      {
+        "1": "dart:async",
+        "5": false
+      },
+      {
+        "1": "package:analyzer/dart/element/element.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/compiler/config.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/compiler/offline_compiler.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/source_gen/common/logging.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/source_gen/common/ng_compiler.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/options.dart",
+        "5": false
+      },
+      {
+        "1": "package:build/build.dart",
+        "5": false
+      },
+      {
+        "1": "package:source_gen/source_gen.dart",
+        "5": false
+      },
+      {
+        "1": "find_components.dart",
+        "5": false
+      }
+    ],
+    "6": "generator.dart"
+  },
+  "type": {
+    "TemplateGenerator": {
+      "class": "Identifier",
+      "name": "TemplateGenerator",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/generator.dart",
+      "prefix": null,
+      "value": null
+    },
+    "processTemplates": {
+      "class": "Identifier",
+      "name": "processTemplates",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/generator.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Outputs": {
+      "class": "Identifier",
+      "name": "Outputs",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/generator.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}
