@@ -24,6 +24,13 @@
       "prefix": null,
       "value": null
     },
+    "fileName": {
+      "class": "Identifier",
+      "name": "fileName",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/common/url_resolver.dart",
+      "prefix": null,
+      "value": null
+    },
     "toAssetScheme": {
       "class": "Identifier",
       "name": "toAssetScheme",

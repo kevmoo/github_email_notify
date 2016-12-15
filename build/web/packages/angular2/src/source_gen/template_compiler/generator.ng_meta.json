@@ -11,23 +11,15 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/config.dart",
+        "1": "package:angular2/src/source_gen/common/url_resolver.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/offline_compiler.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/code_builder.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/common/logging.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/source_gen/common/ng_compiler.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/options.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/template_processor.dart",
         "5": false
       },
       {
@@ -35,39 +27,27 @@
         "5": false
       },
       {
-        "1": "package:source_gen/source_gen.dart",
+        "1": "package:code_builder/code_builder.dart",
         "5": false
       },
       {
-        "1": "find_components.dart",
+        "1": "package:source_gen/source_gen.dart",
         "5": false
       }
     ],
     "6": "generator.dart",
     "7": [
       {
-        "1": "package:angular2/src/compiler/config.template.dart",
+        "1": "package:angular2/src/source_gen/common/url_resolver.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/compiler/offline_compiler.template.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/code_builder.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/source_gen/common/logging.template.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/template_processor.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "package:angular2/src/source_gen/common/ng_compiler.template.dart",
-        "4": "i3"
-      },
-      {
-        "1": "package:angular2/src/transform/common/options.template.dart",
-        "4": "i4"
-      },
-      {
-        "1": "find_components.template.dart",
-        "4": "i5"
       }
     ]
   },
@@ -75,20 +55,6 @@
     "TemplateGenerator": {
       "class": "Identifier",
       "name": "TemplateGenerator",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/generator.dart",
-      "prefix": null,
-      "value": null
-    },
-    "processTemplates": {
-      "class": "Identifier",
-      "name": "processTemplates",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/generator.dart",
-      "prefix": null,
-      "value": null
-    },
-    "Outputs": {
-      "class": "Identifier",
-      "name": "Outputs",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/generator.dart",
       "prefix": null,
       "value": null

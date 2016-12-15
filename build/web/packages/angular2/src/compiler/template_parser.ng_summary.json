@@ -50,6 +50,10 @@
         "5": false
       },
       {
+        "1": "package:source_span/source_span.dart",
+        "5": false
+      },
+      {
         "1": "expression_parser/ast.dart",
         "5": false
       },
@@ -118,7 +122,6 @@
       {
         "1": "parse_util.dart",
         "2": [
-          "ParseSourceSpan",
           "ParseError",
           "ParseErrorLevel"
         ],
@@ -279,8 +282,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -301,8 +302,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -323,8 +322,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,

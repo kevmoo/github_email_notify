@@ -272,37 +272,6 @@
           "token": {
             "value": null,
             "identifier": {
-              "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "Reflector",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useValue": null,
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
               "class": "Type",
               "name": "TestabilityRegistry",
               "moduleUrl": "asset:angular2/lib/src/core/testability/testability.dart",
@@ -402,15 +371,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -456,15 +423,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -517,8 +482,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -539,8 +502,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -561,8 +522,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -595,8 +554,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -617,8 +574,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -639,8 +594,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -713,8 +666,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -747,8 +698,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -883,8 +832,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -905,8 +852,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -927,8 +872,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -961,8 +904,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -983,8 +924,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1005,8 +944,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1060,8 +997,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1082,8 +1017,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1104,8 +1037,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1204,8 +1135,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1226,8 +1155,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1248,8 +1175,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1282,8 +1207,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1304,8 +1227,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1326,8 +1247,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1432,8 +1351,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1618,8 +1535,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -1652,8 +1567,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2002,8 +1915,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2024,8 +1935,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2046,8 +1955,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2080,8 +1987,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2102,8 +2007,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2124,8 +2027,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2167,8 +2068,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2189,8 +2088,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2211,8 +2108,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2233,8 +2128,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2267,8 +2160,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2289,8 +2180,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2311,8 +2200,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2333,8 +2220,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2376,8 +2261,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2398,8 +2281,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2432,8 +2313,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2454,8 +2333,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2497,8 +2374,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2531,8 +2406,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2574,8 +2447,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2596,8 +2467,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2630,8 +2499,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2652,8 +2519,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2726,8 +2591,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2748,8 +2611,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2770,8 +2631,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2804,8 +2663,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2826,8 +2683,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2848,8 +2703,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2891,8 +2744,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2913,8 +2764,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2935,8 +2784,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -2969,8 +2816,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -2991,8 +2836,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3013,8 +2856,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3056,8 +2897,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -3090,8 +2929,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3127,8 +2964,6 @@
                           "identifier": null,
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": true,
                         "isSelf": false,
@@ -3149,8 +2984,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -3171,8 +3004,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -3199,8 +3030,6 @@
                         "identifier": null,
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": true,
                       "isSelf": false,
@@ -3221,8 +3050,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3243,8 +3070,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3286,8 +3111,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -3308,8 +3131,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3330,8 +3151,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3352,8 +3171,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3386,8 +3203,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3408,8 +3223,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3430,8 +3243,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3452,8 +3263,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3495,8 +3304,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -3517,8 +3324,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3539,8 +3344,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3573,8 +3376,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -3595,8 +3396,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3617,8 +3416,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3660,8 +3457,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3682,8 +3477,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3704,8 +3497,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3738,8 +3529,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3760,8 +3549,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3782,8 +3569,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3825,8 +3610,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3847,8 +3630,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3869,8 +3650,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -3903,8 +3682,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3925,8 +3702,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3947,8 +3722,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -3990,8 +3763,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -4012,8 +3783,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -4046,8 +3815,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -4068,8 +3835,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -4111,8 +3876,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -4133,8 +3896,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": true,
@@ -4167,8 +3928,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -4189,8 +3948,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": true,
@@ -4232,8 +3989,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4254,8 +4009,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4288,8 +4041,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4310,8 +4061,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4353,8 +4102,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4387,8 +4134,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4430,8 +4175,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4464,8 +4207,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4507,8 +4248,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4541,8 +4280,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4584,8 +4321,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4618,8 +4353,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4661,8 +4394,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4683,8 +4414,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4705,8 +4434,6 @@
                           },
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": false,
                         "isSelf": false,
@@ -4739,8 +4466,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4761,8 +4486,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4783,8 +4506,6 @@
                         },
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": false,
                       "isSelf": false,
@@ -4851,8 +4572,6 @@
                           "identifier": null,
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": true,
                         "isSelf": false,
@@ -4879,8 +4598,6 @@
                         "identifier": null,
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": true,
                       "isSelf": false,
@@ -4916,8 +4633,6 @@
                           "identifier": null,
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": true,
                         "isSelf": false,
@@ -4944,8 +4659,6 @@
                         "identifier": null,
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": true,
                       "isSelf": false,
@@ -4981,8 +4694,6 @@
                           "identifier": null,
                           "identifierIsInstance": false
                         },
-                        "query": null,
-                        "viewQuery": null,
                         "value": null,
                         "isAttribute": true,
                         "isSelf": false,
@@ -5009,8 +4720,6 @@
                         "identifier": null,
                         "identifierIsInstance": false
                       },
-                      "query": null,
-                      "viewQuery": null,
                       "value": null,
                       "isAttribute": true,
                       "isSelf": false,
@@ -5175,8 +4884,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5209,8 +4916,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5263,8 +4968,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5285,8 +4988,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5307,8 +5008,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5376,8 +5075,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5410,8 +5107,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5453,8 +5148,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5475,8 +5168,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5509,8 +5200,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5531,8 +5220,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5617,15 +5304,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5671,15 +5356,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5732,8 +5415,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5754,8 +5435,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5776,8 +5455,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5810,8 +5487,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5832,8 +5507,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5854,8 +5527,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -5928,8 +5599,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -5962,8 +5631,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,

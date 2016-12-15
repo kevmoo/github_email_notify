@@ -325,8 +325,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -359,8 +357,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -433,8 +429,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -455,8 +449,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -477,8 +469,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -511,8 +501,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -533,8 +521,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -555,8 +541,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -598,8 +582,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -620,8 +602,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -642,8 +622,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -676,8 +654,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -698,8 +674,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -720,8 +694,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -763,8 +735,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -785,8 +755,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -807,8 +775,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -829,8 +795,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -851,8 +815,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -885,8 +847,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -907,8 +867,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -929,8 +887,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -951,8 +907,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -973,8 +927,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1037,8 +989,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1071,8 +1021,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1114,8 +1062,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1148,8 +1094,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1282,8 +1226,6 @@
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1316,8 +1258,6 @@
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1352,15 +1292,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1386,15 +1324,13 @@
                   "value": null,
                   "identifier": {
                     "class": "Identifier",
-                    "name": "ReflectorReader",
-                    "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                    "name": "Reflector",
+                    "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                     "prefix": null,
                     "value": null
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1429,15 +1365,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1463,15 +1397,13 @@
                   "value": null,
                   "identifier": {
                     "class": "Identifier",
-                    "name": "ReflectorReader",
-                    "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                    "name": "Reflector",
+                    "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                     "prefix": null,
                     "value": null
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1506,15 +1438,13 @@
                     "value": null,
                     "identifier": {
                       "class": "Identifier",
-                      "name": "ReflectorReader",
-                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                      "name": "Reflector",
+                      "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                       "prefix": null,
                       "value": null
                     },
                     "identifierIsInstance": false
                   },
-                  "query": null,
-                  "viewQuery": null,
                   "value": null,
                   "isAttribute": false,
                   "isSelf": false,
@@ -1540,15 +1470,13 @@
                   "value": null,
                   "identifier": {
                     "class": "Identifier",
-                    "name": "ReflectorReader",
-                    "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+                    "name": "Reflector",
+                    "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
                     "prefix": null,
                     "value": null
                   },
                   "identifierIsInstance": false
                 },
-                "query": null,
-                "viewQuery": null,
                 "value": null,
                 "isAttribute": false,
                 "isSelf": false,
@@ -1771,8 +1699,6 @@
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -1992,15 +1918,13 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+              "name": "Reflector",
+              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
               "prefix": null,
               "value": null
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -2080,15 +2004,13 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+              "name": "Reflector",
+              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
               "prefix": null,
               "value": null
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
@@ -2119,15 +2041,13 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "ReflectorReader",
-              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector_reader.dart",
+              "name": "Reflector",
+              "moduleUrl": "asset:angular2/lib/src/core/reflection/reflector.dart",
               "prefix": null,
               "value": null
             },
             "identifierIsInstance": false
           },
-          "query": null,
-          "viewQuery": null,
           "value": null,
           "isAttribute": false,
           "isSelf": false,
