@@ -21,7 +21,7 @@ Future<Null> syncGitHubLabels(
 Future<Iterable<String>> getGithubLabels(String repoFullName) async {
   var theUri = getLabelsUri(repoFullName);
 
-  Map<String, bool> encodedLabelsMap = await _client.get(theUri);
+  Map<String, bool> encodedLabelsMap = await _client.get(theUri) ?? const {};
 
   return encodedLabelsMap.keys.map((i) => decodeKey(i));
 }
