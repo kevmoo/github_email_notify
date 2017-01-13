@@ -157,8 +157,7 @@ if(d!=="^"&&d!=="$reflectable"&&c!==43&&c!==42&&(a0=g[d])!=null&&a0.constructor=
 g=g.__proto__
 g.$deferredAction()}function mixinDeferredActionHelper(c,d){var g
 if(d.hasOwnProperty("$deferredAction"))g=d.$deferredAction
-return function foo(){if(!supportsDirectProtoAccess)return
-var f=this
+return function foo(){var f=this
 while(!f.hasOwnProperty("$deferredAction"))f=f.__proto__
 if(g)f.$deferredAction=g
 else{delete f.$deferredAction
@@ -12278,7 +12277,7 @@ z+=": "+H.Ej(b)
 w=this.Bd(0,c)
 if(w.length!==0)z=z+"\n"+w
 return z.charCodeAt(0)==0?z:z},function(a,b){return this.Lc(a,b,null)},"Xjq","$2$color","$1","gP",2,3,119,0,50,[],150,[]],
-Bd:function(a,b){var z,y,x,w,v,u,t,s,r,q
+Bd:function(a,b){var z,y,x,w,v,u,t,s,r,q,p
 if(J.RM(b,!0))b="\x1b[31m"
 if(J.RM(b,!1))b=null
 z=this.a
@@ -12300,7 +12299,7 @@ q=P.LU(w+r-y,s.length)
 z=b!=null
 y=z?x+C.xB.J(s,0,w)+H.Ej(b)+C.xB.J(s,w,q)+"\x1b[0m"+C.xB.G(s,q):x+s
 if(!C.xB.Tc(s,"\n"))y+="\n"
-y+=C.xB.Ix(" ",w)
+for(p=0;p<w;++p)y=C.xB.O(s,p)===9?y+H.Lw(9):y+H.Lw(32)
 if(z)y+=H.Ej(b)
 y+=C.xB.Ix("^",P.A5(q-w,1))
 z=z?y+"\x1b[0m":y
