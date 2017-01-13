@@ -8,6 +8,7 @@ import 'package:appengine/appengine.dart' as ae;
 import 'package:github_hook/github_hook.dart';
 import 'package:shelf/shelf.dart';
 import 'package:shelf_appengine/shelf_appengine.dart' as shelf_ae;
+import 'package:stack_trace/stack_trace.dart';
 
 import 'package:github_email_notify/api.dart';
 
@@ -49,7 +50,7 @@ main(List<String> args) async {
   var handler =
       const Pipeline().addMiddleware(logRequests()).addHandler(cascade.handler);
 
-  await shelf_ae.serve(handler, port: port);
+  await Chain.capture(() => shelf_ae.serve(handler, port: port));
 }
 
 Future<Response> _apiHandler(Request request) async {
