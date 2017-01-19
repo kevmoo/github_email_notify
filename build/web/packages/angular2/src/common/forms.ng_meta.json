@@ -2078,7 +2078,7 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "blur": "onTouched()",
+        "blur": "touchHandler()",
         "change": "onChange($event.target.checked)"
       },
       "hostProperties": {},
@@ -2262,7 +2262,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()"
+        "blur": "touchHandler()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -3800,7 +3800,8 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        3
+        3,
+        0
       ],
       "template": null,
       "providers": [
@@ -4006,7 +4007,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()",
+        "blur": "touchHandler()",
         "change": "onChange($event.target.value)"
       },
       "hostProperties": {},
@@ -4275,8 +4276,8 @@
       },
       "outputs": {},
       "hostListeners": {
-        "blur": "onTouched()",
-        "change": "onChange()"
+        "blur": "touchHandler()",
+        "change": "changeHandler()"
       },
       "hostProperties": {},
       "hostAttributes": {},
@@ -4501,7 +4502,7 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "blur": "onTouched()",
+        "blur": "touchHandler()",
         "change": "onChange($event.target.value)"
       },
       "hostProperties": {},

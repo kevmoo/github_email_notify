@@ -636,17 +636,24 @@
       "prefix": null,
       "value": null
     },
-    "_ArrayLogger": {
-      "class": "Identifier",
-      "name": "_ArrayLogger",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
-      "prefix": null,
-      "value": null
-    },
     "ExceptionHandler": {
       "class": "Identifier",
       "name": "ExceptionHandler",
       "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ZeroArgFunction": {
+      "class": "Identifier",
+      "name": "ZeroArgFunction",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ErrorHandlingFn": {
+      "class": "Identifier",
+      "name": "ErrorHandlingFn",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
       "prefix": null,
       "value": null
     },
@@ -657,38 +664,17 @@
       "prefix": null,
       "value": null
     },
-    "ZeroArgFunction": {
-      "class": "Identifier",
-      "name": "ZeroArgFunction",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ErrorHandlingFn": {
-      "class": "Identifier",
-      "name": "ErrorHandlingFn",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "value": null
-    },
     "WrappedTimer": {
       "class": "Identifier",
       "name": "WrappedTimer",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
       "prefix": null,
       "value": null
     },
     "NgZoneError": {
       "class": "Identifier",
       "name": "NgZoneError",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "value": null
-    },
-    "NgZoneImpl": {
-      "class": "Identifier",
-      "name": "NgZoneImpl",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
       "prefix": null,
       "value": null
     },
@@ -804,13 +790,6 @@
       "prefix": null,
       "value": null
     },
-    "Provides": {
-      "class": "Identifier",
-      "name": "Provides",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
     "SkipAngularInitCheck": {
       "class": "Identifier",
       "name": "SkipAngularInitCheck",
@@ -822,13 +801,6 @@
       "class": "Identifier",
       "name": "ViewEncapsulation",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ProviderProperty": {
-      "class": "Identifier",
-      "name": "ProviderProperty",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
       "value": null
     },
@@ -951,7 +923,7 @@
           },
           "useClass": null,
           "useExisting": null,
-          "useValue": "/packages",
+          "useValue": "packages",
           "useFactory": null,
           "useProperty": null,
           "multi": false,

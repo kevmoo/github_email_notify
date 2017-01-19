@@ -3,6 +3,10 @@
     "1": "angular2.platform.testing.browser_static",
     "3": [
       {
+        "1": "dart:html",
+        "5": false
+      },
+      {
         "1": "package:angular2/compiler.dart",
         "2": [
           "DirectiveResolver",
@@ -71,13 +75,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/platform/browser/browser_adapter.dart",
-        "2": [
-          "BrowserDomAdapter"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/platform/browser/xhr_impl.dart",
         "2": [
           "XHRImpl"
@@ -101,14 +98,15 @@
       {
         "1": "package:angular2/src/testing/utils.dart",
         "2": [
-          "BrowserDetection"
+          "BrowserDetection",
+          "Log"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/testing/utils.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
         "2": [
-          "Log"
+          "DOCUMENT"
         ],
         "5": false
       }
@@ -372,12 +370,47 @@
           "moduleUrl": null,
           "prefix": null,
           "value": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DOCUMENT",
+              "moduleUrl": null,
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Factory",
+            "name": "createDoc",
+            "prefix": null,
+            "moduleUrl": null,
+            "value": null,
+            "diDeps": []
+          },
+          "useProperty": null,
+          "multi": false,
+          "deps": []
         }
       ]
     },
     "initBrowserTests": {
       "class": "Identifier",
       "name": "initBrowserTests",
+      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
+      "prefix": null,
+      "value": null
+    },
+    "createDoc": {
+      "class": "Identifier",
+      "name": "createDoc",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
       "value": null

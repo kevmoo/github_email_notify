@@ -12,17 +12,19 @@
         "5": false
       },
       {
+        "1": "dart:js_util",
+        "4": "js_util",
+        "5": false
+      },
+      {
+        "1": "control_value_accessor.dart",
+        "5": false
+      },
+      {
         "1": "control_value_accessor.dart",
         "2": [
           "NG_VALUE_ACCESSOR",
           "ControlValueAccessor"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
         ],
         "5": false
       }
@@ -122,7 +124,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "onTouched()"
+        "blur": "touchHandler()"
       },
       "hostProperties": {},
       "hostAttributes": {},

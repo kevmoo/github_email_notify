@@ -35,11 +35,9 @@
       {
         "1": "src/debug/debug_node.dart",
         "2": [
-          "DebugElement"
+          "DebugElement",
+          "By"
         ]
-      },
-      {
-        "1": "src/testing/by.dart"
       },
       {
         "1": "src/testing/fake_async.dart"
@@ -82,20 +80,16 @@
         "4": "i5"
       },
       {
-        "1": "src/testing/by.template.dart",
+        "1": "src/testing/fake_async.template.dart",
         "4": "i6"
       },
       {
-        "1": "src/testing/fake_async.template.dart",
+        "1": "src/testing/test_component_builder.template.dart",
         "4": "i7"
       },
       {
-        "1": "src/testing/test_component_builder.template.dart",
-        "4": "i8"
-      },
-      {
         "1": "src/testing/test_injector.template.dart",
-        "4": "i9"
+        "4": "i8"
       }
     ]
   },
@@ -244,7 +238,7 @@
     "By": {
       "class": "Identifier",
       "name": "By",
-      "moduleUrl": "asset:angular2/lib/src/testing/by.dart",
+      "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
       "prefix": null,
       "value": null
     },

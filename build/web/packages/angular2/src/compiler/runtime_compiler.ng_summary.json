@@ -9,13 +9,12 @@
       {
         "1": "package:angular2/src/core/di.dart",
         "2": [
-          "Injectable",
-          "Injector"
+          "Injectable"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/view_container.dart",
+        "1": "package:angular2/src/core/linker/app_view.dart",
         "5": false
       },
       {

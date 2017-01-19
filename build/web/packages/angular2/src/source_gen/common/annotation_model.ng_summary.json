@@ -7,6 +7,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/source_gen/common/references.dart",
+        "5": false
+      },
+      {
         "1": "package:code_builder/code_builder.dart",
         "5": false
       }

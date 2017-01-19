@@ -31,6 +31,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/metadata/lifecycle_hooks.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/source_gen/common/annotation_matcher.dart",
         "4": "annotation_matcher",
         "5": false
@@ -49,6 +53,10 @@
       },
       {
         "1": "package:logging/logging.dart",
+        "5": false
+      },
+      {
+        "1": "package:source_gen/src/annotation.dart",
         "5": false
       },
       {

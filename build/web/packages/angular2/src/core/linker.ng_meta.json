@@ -114,13 +114,6 @@
       "prefix": null,
       "value": null
     },
-    "ComponentRefImpl": {
-      "class": "Identifier",
-      "name": "ComponentRefImpl",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
-      "prefix": null,
-      "value": null
-    },
     "ComponentFactory": {
       "class": "Identifier",
       "name": "ComponentFactory",

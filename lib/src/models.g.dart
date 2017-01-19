@@ -7,8 +7,8 @@ part of api.models;
 // Target: class AdminObject
 // **************************************************************************
 
-AdminObject _$AdminObjectFromJson(Map json) =>
-    new AdminObject(json['authorizedEmail'], json['clientIdentifier']);
+AdminObject _$AdminObjectFromJson(Map json) => new AdminObject(
+    json['authorizedEmail'] as String, json['clientIdentifier'] as String);
 
 abstract class _$AdminObjectSerializerMixin {
   String get authorizedEmail;
@@ -25,15 +25,15 @@ abstract class _$AdminObjectSerializerMixin {
 // **************************************************************************
 
 ApiObject _$ApiObjectFromJson(Map json) => new ApiObject()
-  ..triageUris = json['triageUris']
+  ..triageUris = json['triageUris'] as Map<String, String>
   ..currentUser = json['currentUser'] == null
       ? null
       : new UserObject.fromJson(json['currentUser'])
   ..adminObject = json['adminObject'] == null
       ? null
       : new AdminObject.fromJson(json['adminObject'])
-  ..loginUrl = json['loginUrl']
-  ..logoutUrl = json['logoutUrl'];
+  ..loginUrl = json['loginUrl'] as String
+  ..logoutUrl = json['logoutUrl'] as String;
 
 abstract class _$ApiObjectSerializerMixin {
   Map get triageUris;
@@ -56,13 +56,13 @@ abstract class _$ApiObjectSerializerMixin {
 // **************************************************************************
 
 UserObject _$UserObjectFromJson(Map json) => new UserObject(
-    json['email'],
-    json['githubRepoName'],
-    json['githubRepoUri'],
-    json['firebaseBase'],
-    json['availableLabelsFirebasePath'],
-    json['myLabelsFirebasePath'],
-    json['firebaseSecurityToken']);
+    json['email'] as String,
+    json['githubRepoName'] as String,
+    json['githubRepoUri'] as String,
+    json['firebaseBase'] as String,
+    json['availableLabelsFirebasePath'] as String,
+    json['myLabelsFirebasePath'] as String,
+    json['firebaseSecurityToken'] as String);
 
 abstract class _$UserObjectSerializerMixin {
   String get email;
