@@ -1,6 +1,7 @@
 library api.github_event_handler;
 
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:firebase/firebase_io.dart';
 import 'package:github_hook/github_hook.dart';
@@ -12,14 +13,14 @@ import 'mime_email.dart';
 import 'server_utils.dart';
 
 Future<Null> githubRequestHandler(HookRequest request) async {
+  logger.info("JSON:::${JSON.encode(request.content)}");
   if (request is IssuesHookRequest) {
     if (request.action == 'labeled') {
       await _handleLabeledEvent(request);
       return;
     }
   }
-  logger.info('Nothing to do with this GitHub event: ${request.githubEvent}.\n'
-      'Content: ${_flattenMap(request.content).join(', ')}');
+  logger.info('Nothing to do with this GitHub event: ${request.githubEvent}');
 }
 
 Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
@@ -78,13 +79,4 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
       request.issue.user.githubUrl);
 
   await sendEmail(content);
-}
-
-Iterable<String> _flattenMap(Map input) sync* {
-  for (var key in input.keys) {
-    var val = input[key];
-    if (val != null && val is! Map) {
-      yield '$key: $val';
-    }
-  }
 }
