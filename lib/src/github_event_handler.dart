@@ -4,10 +4,10 @@ import 'dart:async';
 
 import 'package:firebase/firebase_io.dart';
 import 'package:github_hook/github_hook.dart';
-import 'package:logging/logging.dart';
 
 import 'environment_variable_access.dart';
 import 'gmail.dart';
+import 'logging.dart';
 import 'mime_email.dart';
 import 'server_utils.dart';
 
@@ -18,9 +18,8 @@ Future<Null> githubRequestHandler(HookRequest request) async {
       return;
     }
   }
-  Logger.root
-      .info('Nothing to do with this GitHub event: ${request.githubEvent}.\n'
-          'Content: ${_flattenMap(request.content).join(', ')}');
+  logger.info('Nothing to do with this GitHub event: ${request.githubEvent}.\n'
+      'Content: ${_flattenMap(request.content).join(', ')}');
 }
 
 Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
@@ -31,7 +30,7 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
 
   var labelName = request.label.name.toLowerCase();
 
-  Logger.root.info(
+  logger.info(
       'Repository: ${labeledRepository} issue ${request.issue.number} labeled ${labelName}.');
 
   var client = new FirebaseClient(firebaseSecret);
@@ -39,7 +38,7 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
   var items = await client.get(getUsersForRepoUri(labeledRepository)) as Map;
 
   if (items == null) {
-    Logger.root.info('No users for repo: $labeledRepository.');
+    logger.info('No users for repo: $labeledRepository.');
     return;
   }
 
@@ -57,12 +56,11 @@ Future<Null> _handleLabeledEvent(IssuesHookRequest request) async {
   var message = 'Issue ${request.issue.number}, label "$labelName"';
 
   if (subscribedEmails.isEmpty) {
-    Logger.root.info('$message – no subscriptions.');
+    logger.info('$message – no subscriptions.');
     return;
   }
 
-  Logger.root
-      .info('$message – sending email to ${subscribedEmails.join(', ')}.');
+  logger.info('$message – sending email to ${subscribedEmails.join(', ')}.');
 
   var content = createLabelEmailContent(
       appName,

@@ -4,10 +4,10 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:googleapis/gmail/v1.dart';
-import 'package:logging/logging.dart';
 
 import 'email_sender_credentials.dart';
 import 'environment_variable_access.dart';
+import 'logging.dart';
 
 Future<Message> sendEmail(String mimeContent) async {
   var request = new Message()..rawAsBytes = UTF8.encode(mimeContent);
@@ -19,7 +19,7 @@ Future<Message> sendEmail(String mimeContent) async {
     sentMessage = await api.users.messages.send(request, senderEmailAccount);
   });
 
-  Logger.root.info(
+  logger.info(
       "Mail ID ${sentMessage.id} – labels: ${sentMessage.labelIds.join(', ')}");
 
   return sentMessage;

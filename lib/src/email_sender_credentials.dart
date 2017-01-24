@@ -5,10 +5,10 @@ import 'dart:async';
 import 'package:appengine/api/users.dart';
 import 'package:googleapis_auth/auth_io.dart' as auth;
 import 'package:http/http.dart' as http;
-import 'package:logging/logging.dart';
 
 import 'environment_variable_access.dart';
 import 'firebase.dart';
+import 'logging.dart';
 
 final identifier = new auth.ClientId(clientIdentifier, clientSecret);
 
@@ -31,7 +31,7 @@ void requiredAdmin() {
 }
 
 Future updateCreds(auth.AccessCredentials credentials) async {
-  Logger.root.info('Auto-updating providing credentials');
+  logger.info('Auto-updating providing credentials');
 
   await writeAuthCreds(_accessCredstoJson(credentials));
 }
