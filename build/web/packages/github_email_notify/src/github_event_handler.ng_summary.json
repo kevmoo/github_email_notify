@@ -7,6 +7,10 @@
         "5": false
       },
       {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
         "1": "package:firebase/firebase_io.dart",
         "5": false
       },
@@ -15,15 +19,15 @@
         "5": false
       },
       {
-        "1": "package:logging/logging.dart",
-        "5": false
-      },
-      {
         "1": "environment_variable_access.dart",
         "5": false
       },
       {
         "1": "gmail.dart",
+        "5": false
+      },
+      {
+        "1": "logging.dart",
         "5": false
       },
       {
@@ -48,13 +52,6 @@
     "_handleLabeledEvent": {
       "class": "Identifier",
       "name": "_handleLabeledEvent",
-      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_flattenMap": {
-      "class": "Identifier",
-      "name": "_flattenMap",
       "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
       "prefix": null,
       "value": null

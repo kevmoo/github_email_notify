@@ -245,13 +245,6 @@
       "prefix": null,
       "value": null
     },
-    "_flattenMap": {
-      "class": "Identifier",
-      "name": "_flattenMap",
-      "moduleUrl": "asset:github_email_notify/lib/src/github_event_handler.dart",
-      "prefix": null,
-      "value": null
-    },
     "logError": {
       "class": "Identifier",
       "name": "logError",
