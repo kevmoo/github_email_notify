@@ -36,10 +36,6 @@
           "CompileView"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_type.dart",
-        "5": false
       }
     ],
     "6": "view_compiler_utils.dart"

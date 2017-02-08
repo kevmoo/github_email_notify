@@ -31,11 +31,6 @@
         "5": false
       }
     ],
-    "4": [
-      {
-        "1": "package:angular2/src/debug/by.dart"
-      }
-    ],
     "6": "debug_node.dart",
     "7": [
       {
@@ -53,10 +48,6 @@
       {
         "1": "package:angular2/src/core/zone/ng_zone.template.dart",
         "4": "i3"
-      },
-      {
-        "1": "package:angular2/src/debug/by.template.dart",
-        "4": "i4"
       }
     ]
   },
@@ -142,13 +133,6 @@
       "class": "Identifier",
       "name": "inspectNativeElement",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_node.dart",
-      "prefix": null,
-      "value": null
-    },
-    "By": {
-      "class": "Identifier",
-      "name": "By",
-      "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
       "prefix": null,
       "value": null
     }

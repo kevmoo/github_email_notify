@@ -43,6 +43,27 @@
       "prefix": null,
       "value": null
     },
+    "isInInnerZone": {
+      "class": "Identifier",
+      "name": "isInInnerZone",
+      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_HasTextContent": {
+      "class": "Identifier",
+      "name": "_HasTextContent",
+      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "hasTextContent": {
+      "class": "Identifier",
+      "name": "hasTextContent",
+      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
+      "prefix": null,
+      "value": null
+    },
     "_ThrowsWith": {
       "class": "Identifier",
       "name": "_ThrowsWith",
@@ -53,6 +74,13 @@
     "throwsWith": {
       "class": "Identifier",
       "name": "throwsWith",
+      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_elementText": {
+      "class": "Identifier",
+      "name": "_elementText",
       "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
       "prefix": null,
       "value": null
@@ -151,28 +179,7 @@
     "By": {
       "class": "Identifier",
       "name": "By",
-      "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
-      "prefix": null,
-      "value": null
-    },
-    "hasTextContent": {
-      "class": "Identifier",
-      "name": "hasTextContent",
-      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_HasTextContent": {
-      "class": "Identifier",
-      "name": "_HasTextContent",
-      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_elementText": {
-      "class": "Identifier",
-      "name": "_elementText",
-      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "moduleUrl": "asset:angular2/lib/src/testing/by.dart",
       "prefix": null,
       "value": null
     },
@@ -302,6 +309,13 @@
     "dispatchEvent": {
       "class": "Identifier",
       "name": "dispatchEvent",
+      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "el": {
+      "class": "Identifier",
+      "name": "el",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
       "value": null

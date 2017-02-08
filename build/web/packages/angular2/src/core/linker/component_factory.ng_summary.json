@@ -28,6 +28,10 @@
         "5": false
       },
       {
+        "1": "view_container.dart",
+        "5": false
+      },
+      {
         "1": "app_view.dart",
         "5": false
       },
@@ -66,6 +70,13 @@
     "ComponentRef": {
       "class": "Identifier",
       "name": "ComponentRef",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ComponentRefImpl": {
+      "class": "Identifier",
+      "name": "ComponentRefImpl",
       "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
       "prefix": null,
       "value": null

@@ -47,13 +47,6 @@
       "prefix": null,
       "value": null
     },
-    "hasDirectives": {
-      "class": "Identifier",
-      "name": "hasDirectives",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/common/annotation_matcher.dart",
-      "prefix": null,
-      "value": null
-    },
     "isPipe": {
       "class": "Identifier",
       "name": "isPipe",

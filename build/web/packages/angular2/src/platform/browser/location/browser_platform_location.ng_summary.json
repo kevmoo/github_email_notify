@@ -22,12 +22,17 @@
         "5": false
       },
       {
-        "1": "platform_location.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
         "5": false
       },
       {
-        "1": "base_href.dart",
-        "4": "base_href",
+        "1": "platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ],
         "5": false
       }
     ],

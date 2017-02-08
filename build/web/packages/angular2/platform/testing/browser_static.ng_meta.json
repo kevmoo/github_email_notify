@@ -3,10 +3,6 @@
     "1": "angular2.platform.testing.browser_static",
     "3": [
       {
-        "1": "dart:html",
-        "5": false
-      },
-      {
         "1": "package:angular2/compiler.dart",
         "2": [
           "DirectiveResolver",
@@ -75,6 +71,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/platform/browser/browser_adapter.dart",
+        "2": [
+          "BrowserDomAdapter"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/platform/browser/xhr_impl.dart",
         "2": [
           "XHRImpl"
@@ -98,15 +101,14 @@
       {
         "1": "package:angular2/src/testing/utils.dart",
         "2": [
-          "BrowserDetection",
-          "Log"
+          "BrowserDetection"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
+        "1": "package:angular2/src/testing/utils.dart",
         "2": [
-          "DOCUMENT"
+          "Log"
         ],
         "5": false
       }
@@ -146,23 +148,23 @@
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/platform/browser/xhr_impl.template.dart",
+        "1": "package:angular2/src/platform/browser/browser_adapter.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/platform/browser_common.template.dart",
+        "1": "package:angular2/src/platform/browser/xhr_impl.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/testing/test_component_builder.template.dart",
+        "1": "package:angular2/src/platform/browser_common.template.dart",
         "4": "i10"
       },
       {
-        "1": "package:angular2/src/testing/utils.template.dart",
+        "1": "package:angular2/src/testing/test_component_builder.template.dart",
         "4": "i11"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.template.dart",
+        "1": "package:angular2/src/testing/utils.template.dart",
         "4": "i12"
       }
     ]
@@ -2877,6 +2879,220 @@
                   "value": null,
                   "identifier": {
                     "class": "Type",
+                    "name": "NgPlural",
+                    "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
+                    "prefix": null,
+                    "isHost": false,
+                    "value": null,
+                    "diDeps": [
+                      {
+                        "token": {
+                          "value": null,
+                          "identifier": {
+                            "class": "Identifier",
+                            "name": "NgLocalization",
+                            "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
+                            "prefix": null,
+                            "value": null
+                          },
+                          "identifierIsInstance": false
+                        },
+                        "value": null,
+                        "isAttribute": false,
+                        "isSelf": false,
+                        "isHost": false,
+                        "isSkipSelf": false,
+                        "isOptional": false,
+                        "isValue": false
+                      }
+                    ]
+                  },
+                  "identifierIsInstance": false
+                },
+                "useClass": {
+                  "class": "Type",
+                  "name": "NgPlural",
+                  "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
+                  "prefix": null,
+                  "isHost": false,
+                  "value": null,
+                  "diDeps": [
+                    {
+                      "token": {
+                        "value": null,
+                        "identifier": {
+                          "class": "Identifier",
+                          "name": "NgLocalization",
+                          "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
+                          "prefix": null,
+                          "value": null
+                        },
+                        "identifierIsInstance": false
+                      },
+                      "value": null,
+                      "isAttribute": false,
+                      "isSelf": false,
+                      "isHost": false,
+                      "isSkipSelf": false,
+                      "isOptional": false,
+                      "isValue": false
+                    }
+                  ]
+                },
+                "useExisting": null,
+                "useValue": null,
+                "useFactory": null,
+                "useProperty": null,
+                "multi": false,
+                "deps": null
+              },
+              {
+                "class": "Provider",
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Type",
+                    "name": "NgPluralCase",
+                    "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
+                    "prefix": null,
+                    "isHost": false,
+                    "value": null,
+                    "diDeps": [
+                      {
+                        "token": {
+                          "value": "ngPluralCase",
+                          "identifier": null,
+                          "identifierIsInstance": false
+                        },
+                        "value": null,
+                        "isAttribute": true,
+                        "isSelf": false,
+                        "isHost": false,
+                        "isSkipSelf": false,
+                        "isOptional": false,
+                        "isValue": false
+                      },
+                      {
+                        "token": {
+                          "value": null,
+                          "identifier": {
+                            "class": "Identifier",
+                            "name": "TemplateRef",
+                            "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+                            "prefix": null,
+                            "value": null
+                          },
+                          "identifierIsInstance": false
+                        },
+                        "value": null,
+                        "isAttribute": false,
+                        "isSelf": false,
+                        "isHost": false,
+                        "isSkipSelf": false,
+                        "isOptional": false,
+                        "isValue": false
+                      },
+                      {
+                        "token": {
+                          "value": null,
+                          "identifier": {
+                            "class": "Identifier",
+                            "name": "ViewContainerRef",
+                            "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+                            "prefix": null,
+                            "value": null
+                          },
+                          "identifierIsInstance": false
+                        },
+                        "value": null,
+                        "isAttribute": false,
+                        "isSelf": false,
+                        "isHost": false,
+                        "isSkipSelf": false,
+                        "isOptional": false,
+                        "isValue": false
+                      }
+                    ]
+                  },
+                  "identifierIsInstance": false
+                },
+                "useClass": {
+                  "class": "Type",
+                  "name": "NgPluralCase",
+                  "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
+                  "prefix": null,
+                  "isHost": false,
+                  "value": null,
+                  "diDeps": [
+                    {
+                      "token": {
+                        "value": "ngPluralCase",
+                        "identifier": null,
+                        "identifierIsInstance": false
+                      },
+                      "value": null,
+                      "isAttribute": true,
+                      "isSelf": false,
+                      "isHost": false,
+                      "isSkipSelf": false,
+                      "isOptional": false,
+                      "isValue": false
+                    },
+                    {
+                      "token": {
+                        "value": null,
+                        "identifier": {
+                          "class": "Identifier",
+                          "name": "TemplateRef",
+                          "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
+                          "prefix": null,
+                          "value": null
+                        },
+                        "identifierIsInstance": false
+                      },
+                      "value": null,
+                      "isAttribute": false,
+                      "isSelf": false,
+                      "isHost": false,
+                      "isSkipSelf": false,
+                      "isOptional": false,
+                      "isValue": false
+                    },
+                    {
+                      "token": {
+                        "value": null,
+                        "identifier": {
+                          "class": "Identifier",
+                          "name": "ViewContainerRef",
+                          "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
+                          "prefix": null,
+                          "value": null
+                        },
+                        "identifierIsInstance": false
+                      },
+                      "value": null,
+                      "isAttribute": false,
+                      "isSelf": false,
+                      "isHost": false,
+                      "isSkipSelf": false,
+                      "isOptional": false,
+                      "isValue": false
+                    }
+                  ]
+                },
+                "useExisting": null,
+                "useValue": null,
+                "useFactory": null,
+                "useProperty": null,
+                "multi": false,
+                "deps": null
+              },
+              {
+                "class": "Provider",
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Type",
                     "name": "NgControlName",
                     "moduleUrl": "asset:angular2/lib/src/common/forms/directives/ng_control_name.dart",
                     "prefix": null,
@@ -4560,6 +4776,33 @@
           "token": {
             "value": null,
             "identifier": {
+              "class": "Identifier",
+              "name": "DOCUMENT",
+              "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Identifier",
+            "name": "document",
+            "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
+            "prefix": null,
+            "value": null
+          },
+          "useProperty": null,
+          "multi": false,
+          "deps": []
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
               "class": "Type",
               "name": "DomEventsPlugin",
               "moduleUrl": "asset:angular2/lib/src/platform/dom/events/dom_events.dart",
@@ -5462,46 +5705,12 @@
           "useProperty": null,
           "multi": false,
           "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "DOCUMENT",
-              "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": {
-            "class": "Identifier",
-            "name": "createDoc",
-            "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useProperty": null,
-          "multi": false,
-          "deps": []
         }
       ]
     },
     "initBrowserTests": {
       "class": "Identifier",
       "name": "initBrowserTests",
-      "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
-      "prefix": null,
-      "value": null
-    },
-    "createDoc": {
-      "class": "Identifier",
-      "name": "createDoc",
       "moduleUrl": "asset:angular2/lib/platform/testing/browser_static.dart",
       "prefix": null,
       "value": null

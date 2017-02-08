@@ -19,10 +19,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/generator_options.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/source_gen/template_compiler/template_processor.dart",
         "5": false
       },
@@ -50,12 +46,8 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/generator_options.template.dart",
-        "4": "i2"
-      },
-      {
         "1": "package:angular2/src/source_gen/template_compiler/template_processor.template.dart",
-        "4": "i3"
+        "4": "i2"
       }
     ]
   },

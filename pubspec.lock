@@ -18,7 +18,7 @@ packages:
       name: angular2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.0.0-alpha"
+    version: "2.2.0"
   appengine:
     description:
       name: appengine
@@ -54,19 +54,7 @@ packages:
       name: build
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.6.3"
-  build_barback:
-    description:
-      name: build_barback
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.3"
-  build_runner:
-    description:
-      name: build_runner
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.1"
+    version: "0.5.0"
   charcode:
     description:
       name: charcode
@@ -253,6 +241,12 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.3"
+  observable:
+    description:
+      name: observable
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.14.0+1"
   package_config:
     description:
       name: package_config

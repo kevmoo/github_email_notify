@@ -36,10 +36,6 @@
           "CompileView"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_type.dart",
-        "5": false
       }
     ],
     "6": "view_compiler_utils.dart",
@@ -63,10 +59,6 @@
       {
         "1": "compile_view.template.dart",
         "4": "i4"
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_type.template.dart",
-        "4": "i5"
       }
     ]
   },

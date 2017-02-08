@@ -33,6 +33,9 @@
         "1": "package:angular2/src/platform/dom/dom_tokens.dart"
       },
       {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart"
+      },
+      {
         "1": "package:angular2/src/platform/dom/events/event_manager.dart"
       },
       {

@@ -50,6 +50,13 @@
       "prefix": null,
       "value": null
     },
+    "_ArrayLogger": {
+      "class": "Identifier",
+      "name": "_ArrayLogger",
+      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
+      "prefix": null,
+      "value": null
+    },
     "ExceptionHandler": {
       "class": "Identifier",
       "name": "ExceptionHandler",

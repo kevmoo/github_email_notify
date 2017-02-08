@@ -118,7 +118,7 @@
       "inputTypes": {},
       "outputs": {},
       "hostListeners": {
-        "blur": "touchHandler()",
+        "blur": "onTouched()",
         "change": "onChange($event.target.checked)"
       },
       "hostProperties": {},

@@ -38,13 +38,21 @@
     ],
     "4": [
       {
+        "1": "package:angular2/platform/browser_static.dart",
+        "2": [
+          "CACHED_TEMPLATE_PROVIDER"
+        ]
+      },
+      {
         "1": "package:angular2/src/debug/debug_node.dart",
         "2": [
           "inspectNativeElement",
           "DebugNode",
-          "DebugElement",
-          "By"
+          "DebugElement"
         ]
+      },
+      {
+        "1": "package:angular2/src/testing/by.dart"
       }
     ],
     "6": "browser.dart"

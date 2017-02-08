@@ -17,8 +17,10 @@
         "5": false
       },
       {
-        "1": "dart:js_util",
-        "4": "js_util",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
         "5": false
       },
       {
@@ -210,8 +212,8 @@
       },
       "outputs": {},
       "hostListeners": {
-        "blur": "touchHandler()",
-        "change": "changeHandler()"
+        "blur": "onTouched()",
+        "change": "onChange()"
       },
       "hostProperties": {},
       "hostAttributes": {},

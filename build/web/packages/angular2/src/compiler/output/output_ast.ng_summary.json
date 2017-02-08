@@ -160,13 +160,6 @@
       "prefix": null,
       "value": null
     },
-    "ReadStaticMemberExpr": {
-      "class": "Identifier",
-      "name": "ReadStaticMemberExpr",
-      "moduleUrl": "asset:angular2/lib/src/compiler/output/output_ast.dart",
-      "prefix": null,
-      "value": null
-    },
     "ReadClassMemberExpr": {
       "class": "Identifier",
       "name": "ReadClassMemberExpr",
@@ -184,20 +177,6 @@
     "WriteVarExpr": {
       "class": "Identifier",
       "name": "WriteVarExpr",
-      "moduleUrl": "asset:angular2/lib/src/compiler/output/output_ast.dart",
-      "prefix": null,
-      "value": null
-    },
-    "WriteIfNullExpr": {
-      "class": "Identifier",
-      "name": "WriteIfNullExpr",
-      "moduleUrl": "asset:angular2/lib/src/compiler/output/output_ast.dart",
-      "prefix": null,
-      "value": null
-    },
-    "WriteStaticMemberExpr": {
-      "class": "Identifier",
-      "name": "WriteStaticMemberExpr",
       "moduleUrl": "asset:angular2/lib/src/compiler/output/output_ast.dart",
       "prefix": null,
       "value": null

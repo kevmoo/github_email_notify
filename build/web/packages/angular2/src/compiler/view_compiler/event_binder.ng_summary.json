@@ -18,8 +18,7 @@
         "1": "../template_ast.dart",
         "2": [
           "BoundEventAst",
-          "DirectiveAst",
-          "HandlerType"
+          "DirectiveAst"
         ],
         "5": false
       },
@@ -100,13 +99,6 @@
     "sanitizeEventName": {
       "class": "Identifier",
       "name": "sanitizeEventName",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/event_binder.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_extractFunction": {
-      "class": "Identifier",
-      "name": "_extractFunction",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/event_binder.dart",
       "prefix": null,
       "value": null

@@ -27,7 +27,8 @@
       {
         "1": "package:angular2/src/core/metadata/view.dart",
         "2": [
-          "ViewEncapsulation"
+          "ViewEncapsulation",
+          "VIEW_ENCAPSULATION_VALUES"
         ],
         "5": false
       },

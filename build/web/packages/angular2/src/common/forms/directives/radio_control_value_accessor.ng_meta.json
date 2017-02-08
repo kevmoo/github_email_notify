@@ -17,8 +17,10 @@
         "5": false
       },
       {
-        "1": "dart:js_util",
-        "4": "js_util",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
         "5": false
       },
       {
@@ -77,12 +79,16 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/common/forms/directives/control_value_accessor.template.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/common/forms/directives/ng_control.template.dart",
+        "1": "package:angular2/src/common/forms/directives/control_value_accessor.template.dart",
         "4": "i2"
+      },
+      {
+        "1": "package:angular2/src/common/forms/directives/ng_control.template.dart",
+        "4": "i3"
       }
     ]
   },
@@ -289,8 +295,8 @@
       },
       "outputs": {},
       "hostListeners": {
-        "blur": "touchHandler()",
-        "change": "changeHandler()"
+        "blur": "onTouched()",
+        "change": "onChange()"
       },
       "hostProperties": {},
       "hostAttributes": {},

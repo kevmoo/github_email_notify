@@ -154,7 +154,7 @@
       "outputs": {},
       "hostListeners": {
         "input": "onChange($event.target.value)",
-        "blur": "touchHandler()",
+        "blur": "onTouched()",
         "change": "onChange($event.target.value)"
       },
       "hostProperties": {},

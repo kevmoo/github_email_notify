@@ -7,10 +7,6 @@
         "5": false
       },
       {
-        "1": "dart:html",
-        "5": false
-      },
-      {
         "1": "package:angular2/compiler.dart",
         "2": [
           "DirectiveResolver",
@@ -44,6 +40,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/platform/dom/dom_tokens.dart",
         "2": [
           "DOCUMENT"
@@ -54,6 +57,13 @@
         "1": "fake_async.dart",
         "2": [
           "tick"
+        ],
+        "5": false
+      },
+      {
+        "1": "utils.dart",
+        "2": [
+          "el"
         ],
         "5": false
       }

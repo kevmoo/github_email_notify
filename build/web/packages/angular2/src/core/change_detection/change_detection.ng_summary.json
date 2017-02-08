@@ -41,7 +41,8 @@
           "ValueUnwrapper",
           "SimpleChange",
           "devModeEqual",
-          "looseIdentical"
+          "looseIdentical",
+          "uninitialized"
         ]
       },
       {

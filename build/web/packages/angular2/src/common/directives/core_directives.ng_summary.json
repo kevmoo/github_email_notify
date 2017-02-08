@@ -24,6 +24,14 @@
         "5": false
       },
       {
+        "1": "ng_plural.dart",
+        "2": [
+          "NgPlural",
+          "NgPluralCase"
+        ],
+        "5": false
+      },
+      {
         "1": "ng_style.dart",
         "2": [
           "NgStyle"
@@ -111,6 +119,20 @@
           "moduleUrl": null,
           "prefix": null,
           "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "NgPlural",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        },
+        {
+          "class": "Identifier",
+          "name": "NgPluralCase",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
         }
       ]
     }
@@ -124,7 +146,9 @@
       "NgStyle",
       "NgSwitch",
       "NgSwitchWhen",
-      "NgSwitchDefault"
+      "NgSwitchDefault",
+      "NgPlural",
+      "NgPluralCase"
     ]
   }
 }

@@ -22,12 +22,17 @@
         "5": false
       },
       {
-        "1": "platform_location.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
+        "2": [
+          "DOM"
+        ],
         "5": false
       },
       {
-        "1": "base_href.dart",
-        "4": "base_href",
+        "1": "platform_location.dart",
+        "2": [
+          "PlatformLocation"
+        ],
         "5": false
       }
     ],
@@ -53,11 +58,11 @@
         "4": "i1"
       },
       {
-        "1": "platform_location.template.dart",
+        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
         "4": "i2"
       },
       {
-        "1": "base_href.template.dart",
+        "1": "platform_location.template.dart",
         "4": "i3"
       }
     ]

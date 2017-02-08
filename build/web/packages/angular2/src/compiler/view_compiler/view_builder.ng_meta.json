@@ -12,6 +12,9 @@
       },
       {
         "1": "package:angular2/src/core/linker/view_type.dart",
+        "2": [
+          "ViewType"
+        ],
         "5": false
       },
       {
@@ -255,20 +258,6 @@
     "createViewClass": {
       "class": "Identifier",
       "name": "createViewClass",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_constructRenderType": {
-      "class": "Identifier",
-      "name": "_constructRenderType",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
-      "prefix": null,
-      "value": null
-    },
-    "generateDestroyMethod": {
-      "class": "Identifier",
-      "name": "generateDestroyMethod",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
       "prefix": null,
       "value": null

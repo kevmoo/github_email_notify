@@ -6,7 +6,6 @@
         "1": "package:angular2/core.dart",
         "2": [
           "OnChanges",
-          "OnInit",
           "SimpleChange",
           "Directive",
           "Provider",
@@ -109,8 +108,7 @@
           }
         ],
         "6": [
-          "OnChanges",
-          "OnInit"
+          "OnChanges"
         ]
       }
     ],
@@ -241,8 +239,7 @@
       "hostProperties": {},
       "hostAttributes": {},
       "lifecycleHooks": [
-        3,
-        0
+        3
       ],
       "template": null,
       "providers": [

@@ -22,16 +22,8 @@
       {
         "1": "expression_parser/ast.dart",
         "2": [
-          "AST",
-          "ASTWithSource",
-          "ImplicitReceiver",
-          "MethodCall",
-          "PropertyRead"
+          "AST"
         ],
-        "5": false
-      },
-      {
-        "1": "view_compiler/constants.dart",
         "5": false
       }
     ],
@@ -48,21 +40,10 @@
       {
         "1": "expression_parser/ast.template.dart",
         "4": "i2"
-      },
-      {
-        "1": "view_compiler/constants.template.dart",
-        "4": "i3"
       }
     ]
   },
   "type": {
-    "HandlerType": {
-      "class": "Identifier",
-      "name": "HandlerType",
-      "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
-      "prefix": null,
-      "value": null
-    },
     "ProviderAstType": {
       "class": "Identifier",
       "name": "ProviderAstType",

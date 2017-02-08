@@ -80,7 +80,7 @@
           },
           "useClass": null,
           "useExisting": null,
-          "useValue": "packages",
+          "useValue": "/packages",
           "useFactory": null,
           "useProperty": null,
           "multi": false,

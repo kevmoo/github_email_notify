@@ -21,23 +21,9 @@
       "prefix": null,
       "value": null
     },
-    "coerceBool": {
-      "class": "Identifier",
-      "name": "coerceBool",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
-      "prefix": null,
-      "value": null
-    },
     "coerceString": {
       "class": "Identifier",
       "name": "coerceString",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
-      "prefix": null,
-      "value": null
-    },
-    "coerceList": {
-      "class": "Identifier",
-      "name": "coerceList",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
       "prefix": null,
       "value": null
@@ -49,30 +35,23 @@
       "prefix": null,
       "value": null
     },
-    "coerceMap": {
+    "coerceList": {
       "class": "Identifier",
-      "name": "coerceMap",
+      "name": "coerceList",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
       "prefix": null,
       "value": null
     },
-    "coerceStringMap": {
+    "coerceEnumValue": {
       "class": "Identifier",
-      "name": "coerceStringMap",
+      "name": "coerceEnumValue",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
       "prefix": null,
       "value": null
     },
-    "coerceEnum": {
+    "_findEnumByFieldName": {
       "class": "Identifier",
-      "name": "coerceEnum",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_findEnumByName": {
-      "class": "Identifier",
-      "name": "_findEnumByName",
+      "name": "_findEnumByFieldName",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
       "prefix": null,
       "value": null
@@ -84,9 +63,9 @@
       "prefix": null,
       "value": null
     },
-    "_isNull": {
+    "coerceBool": {
       "class": "Identifier",
-      "name": "_isNull",
+      "name": "coerceBool",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
       "prefix": null,
       "value": null
@@ -101,6 +80,13 @@
     "visitAll": {
       "class": "Identifier",
       "name": "visitAll",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_isNull": {
+      "class": "Identifier",
+      "name": "_isNull",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/dart_object_utils.dart",
       "prefix": null,
       "value": null
