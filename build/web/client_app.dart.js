@@ -24329,7 +24329,7 @@
       return t1;
     }, "call$3", "client_app_template__viewFactory_ClientApp1$closure", 6, 0, 4],
     viewFactory_ClientApp2: [function(parentView, parentIndex, parentElement) {
-      var t1 = new S.ViewClientApp2(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, C.Type_ViewClientApp2_43h, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
+      var t1 = new S.ViewClientApp2(null, null, null, null, null, null, null, null, null, null, null, C.Type_ViewClientApp2_43h, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
       t1.ref = new L.ViewRefImpl(t1);
       t1.componentType = $.ViewClientApp0_renderType;
       return t1;
@@ -24353,7 +24353,7 @@
       return t1;
     }, "call$3", "client_app_template__viewFactory_ClientApp5$closure", 6, 0, 4],
     viewFactory_ClientApp6: [function(parentView, parentIndex, parentElement) {
-      var t1 = new S.ViewClientApp6(null, null, null, null, null, null, null, null, C.Type_ViewClientApp6_43h, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
+      var t1 = new S.ViewClientApp6(null, null, null, null, null, null, C.Type_ViewClientApp6_43h, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
       t1.ref = new L.ViewRefImpl(t1);
       t1.componentType = $.ViewClientApp0_renderType;
       return t1;
@@ -24399,9 +24399,9 @@
       O.initReflector3();
     },
     ViewClientApp0: {
-      "^": "AppView;_client_app_template$_appEl_0,_client_app_template$_TemplateRef_0_4,_client_app_template$_NgIf_0_5,_client_app_template$_appEl_2,_client_app_template$_TemplateRef_2_4,_NgIf_2_5,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
+      "^": "AppView;_client_app_template$_appEl_0,_client_app_template$_NgIf_0_5,_client_app_template$_appEl_2,_NgIf_2_5,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
       createInternal$1: function(rootSelector) {
-        var parentRenderNode, t1, _anchor_0, t2, t3, _text_1, _anchor_2, _text_3;
+        var parentRenderNode, t1, _anchor_0, t2, _text_1, _anchor_2, _text_3;
         parentRenderNode = this.initViewRoot$1(this.parentElement);
         t1 = document;
         _anchor_0 = t1.createComment("template bindings={}");
@@ -24409,34 +24409,24 @@
           parentRenderNode.appendChild(_anchor_0);
         t2 = new V.ViewContainer(0, null, this, _anchor_0, null, null, null);
         this._client_app_template$_appEl_0 = t2;
-        t3 = new D.TemplateRef(t2, S.client_app_template__viewFactory_ClientApp1$closure());
-        this._client_app_template$_TemplateRef_0_4 = t3;
-        this._client_app_template$_NgIf_0_5 = new K.NgIf(t3, t2, false);
+        this._client_app_template$_NgIf_0_5 = new K.NgIf(new D.TemplateRef(t2, S.client_app_template__viewFactory_ClientApp1$closure()), t2, false);
         _text_1 = t1.createTextNode("\n\n");
         parentRenderNode.appendChild(_text_1);
         _anchor_2 = t1.createComment("template bindings={}");
         parentRenderNode.appendChild(_anchor_2);
         t2 = new V.ViewContainer(2, null, this, _anchor_2, null, null, null);
         this._client_app_template$_appEl_2 = t2;
-        t3 = new D.TemplateRef(t2, S.client_app_template__viewFactory_ClientApp2$closure());
-        this._client_app_template$_TemplateRef_2_4 = t3;
-        this._NgIf_2_5 = new K.NgIf(t3, t2, false);
+        this._NgIf_2_5 = new K.NgIf(new D.TemplateRef(t2, S.client_app_template__viewFactory_ClientApp2$closure()), t2, false);
         _text_3 = t1.createTextNode("\n");
         parentRenderNode.appendChild(_text_3);
         this.init$3([], [_anchor_0, _text_1, _anchor_2, _text_3], []);
         return;
       },
       injectorGetInternal$3: function(token, requestNodeIndex, notFoundResult) {
-        var t1, t2;
-        t1 = token === C.Type_TemplateRef_SSn;
+        var t1 = token === C.Type_NgIf_43h;
         if (t1 && 0 === requestNodeIndex)
-          return this._client_app_template$_TemplateRef_0_4;
-        t2 = token === C.Type_NgIf_43h;
-        if (t2 && 0 === requestNodeIndex)
           return this._client_app_template$_NgIf_0_5;
         if (t1 && 2 === requestNodeIndex)
-          return this._client_app_template$_TemplateRef_2_4;
-        if (t2 && 2 === requestNodeIndex)
           return this._NgIf_2_5;
         return notFoundResult;
       },
@@ -24480,9 +24470,9 @@
       }
     },
     ViewClientApp2: {
-      "^": "AppView;_client_app_template$_el_0,_client_app_template$_el_2,_appEl_4,_TemplateRef_4_4,_NgFor_4_5,_appEl_7,_TemplateRef_7_4,_NgIf_7_5,_appEl_9,_TemplateRef_9_4,_NgIf_9_5,_appEl_11,_TemplateRef_11_4,_NgIf_11_5,_client_app_template$_expr_0,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
+      "^": "AppView;_client_app_template$_el_0,_client_app_template$_el_2,_appEl_4,_NgFor_4_5,_appEl_7,_NgIf_7_5,_appEl_9,_NgIf_9_5,_appEl_11,_NgIf_11_5,_client_app_template$_expr_0,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
       createInternal$1: function(rootSelector) {
-        var doc, t1, _text_1, _text_3, _anchor_4, t2, _text_5, _text_6, _anchor_7, _text_8, _anchor_9, _text_10, _anchor_11, _text_12;
+        var doc, t1, _text_1, _text_3, _anchor_4, _text_5, _text_6, _anchor_7, _text_8, _anchor_9, _text_10, _anchor_11, _text_12;
         doc = document;
         t1 = doc.createElement("div");
         this._client_app_template$_el_0 = t1;
@@ -24502,9 +24492,7 @@
           t1.appendChild(_anchor_4);
         t1 = new V.ViewContainer(4, 2, this, _anchor_4, null, null, null);
         this._appEl_4 = t1;
-        t2 = new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp3$closure());
-        this._TemplateRef_4_4 = t2;
-        this._NgFor_4_5 = new R.NgFor(t1, null, null, null, t2);
+        this._NgFor_4_5 = new R.NgFor(t1, null, null, null, new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp3$closure()));
         _text_5 = doc.createTextNode("\n  ");
         this._client_app_template$_el_2.appendChild(_text_5);
         _text_6 = doc.createTextNode("\n  ");
@@ -24515,9 +24503,7 @@
           t1.appendChild(_anchor_7);
         t1 = new V.ViewContainer(7, 0, this, _anchor_7, null, null, null);
         this._appEl_7 = t1;
-        t2 = new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp4$closure());
-        this._TemplateRef_7_4 = t2;
-        this._NgIf_7_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_7_5 = new K.NgIf(new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp4$closure()), t1, false);
         _text_8 = doc.createTextNode("\n  ");
         this._client_app_template$_el_0.appendChild(_text_8);
         _anchor_9 = doc.createComment("template bindings={}");
@@ -24526,9 +24512,7 @@
           t1.appendChild(_anchor_9);
         t1 = new V.ViewContainer(9, 0, this, _anchor_9, null, null, null);
         this._appEl_9 = t1;
-        t2 = new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp5$closure());
-        this._TemplateRef_9_4 = t2;
-        this._NgIf_9_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_9_5 = new K.NgIf(new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp5$closure()), t1, false);
         _text_10 = doc.createTextNode("\n  ");
         this._client_app_template$_el_0.appendChild(_text_10);
         _anchor_11 = doc.createComment("template bindings={}");
@@ -24537,9 +24521,7 @@
           t1.appendChild(_anchor_11);
         t1 = new V.ViewContainer(11, 0, this, _anchor_11, null, null, null);
         this._appEl_11 = t1;
-        t2 = new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp6$closure());
-        this._TemplateRef_11_4 = t2;
-        this._NgIf_11_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_11_5 = new K.NgIf(new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp6$closure()), t1, false);
         _text_12 = doc.createTextNode("\n");
         this._client_app_template$_el_0.appendChild(_text_12);
         t1 = this._client_app_template$_el_0;
@@ -24547,24 +24529,15 @@
         return;
       },
       injectorGetInternal$3: function(token, requestNodeIndex, notFoundResult) {
-        var t1, t2;
-        t1 = token === C.Type_TemplateRef_SSn;
-        if (t1 && 4 === requestNodeIndex)
-          return this._TemplateRef_4_4;
+        var t1;
         if (token === C.Type_NgFor_FUV && 4 === requestNodeIndex)
           return this._NgFor_4_5;
+        t1 = token === C.Type_NgIf_43h;
         if (t1 && 7 === requestNodeIndex)
-          return this._TemplateRef_7_4;
-        t2 = token === C.Type_NgIf_43h;
-        if (t2 && 7 === requestNodeIndex)
           return this._NgIf_7_5;
         if (t1 && 9 === requestNodeIndex)
-          return this._TemplateRef_9_4;
-        if (t2 && 9 === requestNodeIndex)
           return this._NgIf_9_5;
         if (t1 && 11 === requestNodeIndex)
-          return this._TemplateRef_11_4;
-        if (t2 && 11 === requestNodeIndex)
           return this._NgIf_11_5;
         return notFoundResult;
       },
@@ -24739,9 +24712,9 @@
       }
     },
     ViewClientApp6: {
-      "^": "AppView;_client_app_template$_el_0,_client_app_template$_el_2,_appEl_5,_TemplateRef_5_4,_NgIf_5_5,_appEl_7,_TemplateRef_7_4,_NgIf_7_5,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
+      "^": "AppView;_client_app_template$_el_0,_client_app_template$_el_2,_appEl_5,_NgIf_5_5,_appEl_7,_NgIf_7_5,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
       createInternal$1: function(rootSelector) {
-        var doc, t1, _text_1, _text_3, _text_4, _anchor_5, t2, _text_6, _anchor_7, _text_8;
+        var doc, t1, _text_1, _text_3, _text_4, _anchor_5, _text_6, _anchor_7, _text_8;
         doc = document;
         t1 = doc.createElement("div");
         this._client_app_template$_el_0 = t1;
@@ -24761,9 +24734,7 @@
           t1.appendChild(_anchor_5);
         t1 = new V.ViewContainer(5, 0, this, _anchor_5, null, null, null);
         this._appEl_5 = t1;
-        t2 = new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp7$closure());
-        this._TemplateRef_5_4 = t2;
-        this._NgIf_5_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_5_5 = new K.NgIf(new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp7$closure()), t1, false);
         _text_6 = doc.createTextNode("\n    ");
         this._client_app_template$_el_0.appendChild(_text_6);
         _anchor_7 = doc.createComment("template bindings={}");
@@ -24772,9 +24743,7 @@
           t1.appendChild(_anchor_7);
         t1 = new V.ViewContainer(7, 0, this, _anchor_7, null, null, null);
         this._appEl_7 = t1;
-        t2 = new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp8$closure());
-        this._TemplateRef_7_4 = t2;
-        this._NgIf_7_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_7_5 = new K.NgIf(new D.TemplateRef(t1, S.client_app_template__viewFactory_ClientApp8$closure()), t1, false);
         _text_8 = doc.createTextNode("\n  ");
         this._client_app_template$_el_0.appendChild(_text_8);
         t1 = this._client_app_template$_el_0;
@@ -24782,16 +24751,10 @@
         return;
       },
       injectorGetInternal$3: function(token, requestNodeIndex, notFoundResult) {
-        var t1, t2;
-        t1 = token === C.Type_TemplateRef_SSn;
+        var t1 = token === C.Type_NgIf_43h;
         if (t1 && 5 === requestNodeIndex)
-          return this._TemplateRef_5_4;
-        t2 = token === C.Type_NgIf_43h;
-        if (t2 && 5 === requestNodeIndex)
           return this._NgIf_5_5;
         if (t1 && 7 === requestNodeIndex)
-          return this._TemplateRef_7_4;
-        if (t2 && 7 === requestNodeIndex)
           return this._NgIf_7_5;
         return notFoundResult;
       },
@@ -24934,7 +24897,7 @@
         var t1, t2, t3;
         t1 = this.selectOrCreateHostElement$3("app", rootSelector, null);
         this._client_app_template$_el_0 = t1;
-        t1 = new S.ViewClientApp0(null, null, null, null, null, null, C.Type_ViewClientApp0_43h, null, C.ViewType_1, P.LinkedHashMap__makeEmpty(), this, 0, t1, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
+        t1 = new S.ViewClientApp0(null, null, null, null, C.Type_ViewClientApp0_43h, null, C.ViewType_1, P.LinkedHashMap__makeEmpty(), this, 0, t1, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
         t1.ref = new L.ViewRefImpl(t1);
         t2 = $.ViewClientApp0_renderType;
         if (t2 == null) {
@@ -25261,13 +25224,13 @@
   }], ["github_hook.web.user_comp.template.dart", "user_comp.template.dart",, O, {
     "^": "",
     viewFactory_UserComponent1: [function(parentView, parentIndex, parentElement) {
-      var t1 = new O.ViewUserComponent1(null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, C.Type_ViewUserComponent1_eZ2, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
+      var t1 = new O.ViewUserComponent1(null, null, null, null, null, null, null, null, null, null, null, null, null, C.Type_ViewUserComponent1_eZ2, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
       t1.ref = new L.ViewRefImpl(t1);
       t1.componentType = $.ViewUserComponent0_renderType;
       return t1;
     }, "call$3", "user_comp_template__viewFactory_UserComponent1$closure", 6, 0, 8],
     viewFactory_UserComponent2: [function(parentView, parentIndex, parentElement) {
-      var t1 = new O.ViewUserComponent2(null, null, null, null, null, C.Type_ViewUserComponent2_eZ2, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
+      var t1 = new O.ViewUserComponent2(null, null, null, null, C.Type_ViewUserComponent2_eZ2, null, C.ViewType_2, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
       t1.ref = new L.ViewRefImpl(t1);
       t1.componentType = $.ViewUserComponent0_renderType;
       return t1;
@@ -25309,9 +25272,9 @@
       T.initReflector2();
     },
     ViewUserComponent0: {
-      "^": "AppView;_appEl_0,_TemplateRef_0_4,_NgIf_0_5,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
+      "^": "AppView;_appEl_0,_NgIf_0_5,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
       createInternal$1: function(rootSelector) {
-        var parentRenderNode, t1, _anchor_0, t2, t3, _text_1;
+        var parentRenderNode, t1, _anchor_0, t2, _text_1;
         parentRenderNode = this.initViewRoot$1(this.parentElement);
         t1 = document;
         _anchor_0 = t1.createComment("template bindings={}");
@@ -25319,17 +25282,13 @@
           parentRenderNode.appendChild(_anchor_0);
         t2 = new V.ViewContainer(0, null, this, _anchor_0, null, null, null);
         this._appEl_0 = t2;
-        t3 = new D.TemplateRef(t2, O.user_comp_template__viewFactory_UserComponent1$closure());
-        this._TemplateRef_0_4 = t3;
-        this._NgIf_0_5 = new K.NgIf(t3, t2, false);
+        this._NgIf_0_5 = new K.NgIf(new D.TemplateRef(t2, O.user_comp_template__viewFactory_UserComponent1$closure()), t2, false);
         _text_1 = t1.createTextNode("\n");
         parentRenderNode.appendChild(_text_1);
         this.init$3([], [_anchor_0, _text_1], []);
         return;
       },
       injectorGetInternal$3: function(token, requestNodeIndex, notFoundResult) {
-        if (token === C.Type_TemplateRef_SSn && 0 === requestNodeIndex)
-          return this._TemplateRef_0_4;
         if (token === C.Type_NgIf_43h && 0 === requestNodeIndex)
           return this._NgIf_0_5;
         return notFoundResult;
@@ -25359,7 +25318,7 @@
       },
       static: {
         ViewUserComponent0$: function(parentView, parentIndex, parentElement) {
-          var t1 = new O.ViewUserComponent0(null, null, null, C.Type_ViewUserComponent0_eZ2, null, C.ViewType_1, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
+          var t1 = new O.ViewUserComponent0(null, null, C.Type_ViewUserComponent0_eZ2, null, C.ViewType_1, P.LinkedHashMap__makeEmpty(), parentView, parentIndex, parentElement, C.ChangeDetectionStrategy_2, false, null, null, null, H.setRuntimeTypeInfo([], [{func: 1, v: true}]), null, null, C.ChangeDetectorState_0, null, null, false, null, null);
           t1.ref = new L.ViewRefImpl(t1);
           t1.ViewUserComponent0$3(parentView, parentIndex, parentElement);
           return t1;
@@ -25367,9 +25326,9 @@
       }
     },
     ViewUserComponent1: {
-      "^": "AppView;_el_0,_el_2,_text_3,_el_5,_el_7,_text_8,_appEl_10,_TemplateRef_10_4,_NgIf_10_5,_appEl_12,_TemplateRef_12_4,_NgIf_12_5,_expr_0,_expr_1,_expr_2,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
+      "^": "AppView;_el_0,_el_2,_text_3,_el_5,_el_7,_text_8,_appEl_10,_NgIf_10_5,_appEl_12,_NgIf_12_5,_expr_0,_expr_1,_expr_2,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
       createInternal$1: function(rootSelector) {
-        var doc, t1, _text_1, _text_4, _text_6, _text_9, _anchor_10, t2, _text_11, _anchor_12, _text_13;
+        var doc, t1, _text_1, _text_4, _text_6, _text_9, _anchor_10, _text_11, _anchor_12, _text_13;
         doc = document;
         t1 = doc.createElement("div");
         this._el_0 = t1;
@@ -25402,9 +25361,7 @@
           t1.appendChild(_anchor_10);
         t1 = new V.ViewContainer(10, 0, this, _anchor_10, null, null, null);
         this._appEl_10 = t1;
-        t2 = new D.TemplateRef(t1, O.user_comp_template__viewFactory_UserComponent2$closure());
-        this._TemplateRef_10_4 = t2;
-        this._NgIf_10_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_10_5 = new K.NgIf(new D.TemplateRef(t1, O.user_comp_template__viewFactory_UserComponent2$closure()), t1, false);
         _text_11 = doc.createTextNode("\n  ");
         this._el_0.appendChild(_text_11);
         _anchor_12 = doc.createComment("template bindings={}");
@@ -25413,9 +25370,7 @@
           t1.appendChild(_anchor_12);
         t1 = new V.ViewContainer(12, 0, this, _anchor_12, null, null, null);
         this._appEl_12 = t1;
-        t2 = new D.TemplateRef(t1, O.user_comp_template__viewFactory_UserComponent4$closure());
-        this._TemplateRef_12_4 = t2;
-        this._NgIf_12_5 = new K.NgIf(t2, t1, false);
+        this._NgIf_12_5 = new K.NgIf(new D.TemplateRef(t1, O.user_comp_template__viewFactory_UserComponent4$closure()), t1, false);
         _text_13 = doc.createTextNode("\n");
         this._el_0.appendChild(_text_13);
         t1 = this._el_0;
@@ -25423,16 +25378,10 @@
         return;
       },
       injectorGetInternal$3: function(token, requestNodeIndex, notFoundResult) {
-        var t1, t2;
-        t1 = token === C.Type_TemplateRef_SSn;
+        var t1 = token === C.Type_NgIf_43h;
         if (t1 && 10 === requestNodeIndex)
-          return this._TemplateRef_10_4;
-        t2 = token === C.Type_NgIf_43h;
-        if (t2 && 10 === requestNodeIndex)
           return this._NgIf_10_5;
         if (t1 && 12 === requestNodeIndex)
-          return this._TemplateRef_12_4;
-        if (t2 && 12 === requestNodeIndex)
           return this._NgIf_12_5;
         return notFoundResult;
       },
@@ -25475,9 +25424,9 @@
       }
     },
     ViewUserComponent2: {
-      "^": "AppView;_el_0,_appEl_2,_TemplateRef_2_4,_NgFor_2_5,_expr_0,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
+      "^": "AppView;_el_0,_appEl_2,_NgFor_2_5,_expr_0,clazz,componentType,type,locals,parentView,parentIndex,parentElement,_cdMode,_skipChangeDetection,ref,rootNodesOrViewContainers,allNodes,_onDestroyCallbacks,subscriptions,viewContainerElement,_cdState,ctx,projectableNodes,destroyed,_hasExternalHostElement,_hostInjector",
       createInternal$1: function(rootSelector) {
-        var doc, t1, _text_1, _anchor_2, t2, _text_3;
+        var doc, t1, _text_1, _anchor_2, _text_3;
         doc = document;
         t1 = doc.createElement("div");
         this._el_0 = t1;
@@ -25490,18 +25439,14 @@
           t1.appendChild(_anchor_2);
         t1 = new V.ViewContainer(2, 0, this, _anchor_2, null, null, null);
         this._appEl_2 = t1;
-        t2 = new D.TemplateRef(t1, O.user_comp_template__viewFactory_UserComponent3$closure());
-        this._TemplateRef_2_4 = t2;
-        this._NgFor_2_5 = new R.NgFor(t1, null, null, null, t2);
+        this._NgFor_2_5 = new R.NgFor(t1, null, null, null, new D.TemplateRef(t1, O.user_comp_template__viewFactory_UserComponent3$closure()));
         _text_3 = doc.createTextNode("\n  ");
         this._el_0.appendChild(_text_3);
-        t2 = this._el_0;
-        this.init$3([t2], [t2, _text_1, _anchor_2, _text_3], []);
+        t1 = this._el_0;
+        this.init$3([t1], [t1, _text_1, _anchor_2, _text_3], []);
         return;
       },
       injectorGetInternal$3: function(token, requestNodeIndex, notFoundResult) {
-        if (token === C.Type_TemplateRef_SSn && 2 === requestNodeIndex)
-          return this._TemplateRef_2_4;
         if (token === C.Type_NgFor_FUV && 2 === requestNodeIndex)
           return this._NgFor_2_5;
         return notFoundResult;

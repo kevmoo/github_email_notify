@@ -116,6 +116,7 @@
           "createFlatArray",
           "createDiTokenExpression",
           "createSetAttributeParams",
+          "componentFromDirectives",
           "TEMPLATE_COMMENT_TEXT"
         ],
         "5": false
@@ -224,9 +225,9 @@
       "prefix": null,
       "value": null
     },
-    "_readHtmlAttrs": {
+    "_attribListToMap": {
       "class": "Identifier",
-      "name": "_readHtmlAttrs",
+      "name": "_attribListToMap",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
       "prefix": null,
       "value": null
@@ -255,6 +256,20 @@
     "createViewClass": {
       "class": "Identifier",
       "name": "createViewClass",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createViewClassConstructor": {
+      "class": "Identifier",
+      "name": "_createViewClassConstructor",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_addRenderTypeCtorInitialization": {
+      "class": "Identifier",
+      "name": "_addRenderTypeCtorInitialization",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/view_builder.dart",
       "prefix": null,
       "value": null

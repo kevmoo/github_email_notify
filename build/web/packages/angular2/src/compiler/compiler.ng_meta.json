@@ -1559,6 +1559,13 @@
       "prefix": null,
       "value": null
     },
+    "ElementProviderUsage": {
+      "class": "Identifier",
+      "name": "ElementProviderUsage",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
+      "prefix": null,
+      "value": null
+    },
     "BoundEventAst": {
       "class": "Identifier",
       "name": "BoundEventAst",
