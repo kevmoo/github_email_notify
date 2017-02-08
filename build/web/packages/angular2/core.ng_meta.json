@@ -640,60 +640,6 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "IterableDiffers",
-              "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultIterableDiffers",
-            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "KeyValueDiffers",
-              "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultKeyValueDiffers",
-            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
               "name": "DynamicComponentLoader",
               "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
               "prefix": null,
@@ -1306,34 +1252,6 @@
       "prefix": null,
       "value": null
     },
-    "keyValDiff": {
-      "class": "Identifier",
-      "name": "keyValDiff",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
-    "iterableDiff": {
-      "class": "Identifier",
-      "name": "iterableDiff",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
-    "defaultIterableDiffers": {
-      "class": "Identifier",
-      "name": "defaultIterableDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
-    "defaultKeyValueDiffers": {
-      "class": "Identifier",
-      "name": "defaultKeyValueDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
     "_DevModeEquality": {
       "class": "Identifier",
       "name": "_DevModeEquality",
@@ -1376,13 +1294,6 @@
       "prefix": null,
       "value": null
     },
-    "stringify": {
-      "class": "Identifier",
-      "name": "stringify",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
     "resolveEnumToken": {
       "class": "Identifier",
       "name": "resolveEnumToken",
@@ -1418,30 +1329,9 @@
       "prefix": null,
       "value": null
     },
-    "Json": {
-      "class": "Identifier",
-      "name": "Json",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
     "isPrimitive": {
       "class": "Identifier",
       "name": "isPrimitive",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
-    "bitWiseOr": {
-      "class": "Identifier",
-      "name": "bitWiseOr",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
-    "bitWiseAnd": {
-      "class": "Identifier",
-      "name": "bitWiseAnd",
       "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
       "prefix": null,
       "value": null
@@ -1481,9 +1371,9 @@
       "prefix": null,
       "value": null
     },
-    "DefaultIterableDifferFactory": {
+    "TrackByFn": {
       "class": "Identifier",
-      "name": "DefaultIterableDifferFactory",
+      "name": "TrackByFn",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
       "value": null
@@ -1530,13 +1420,6 @@
       "prefix": null,
       "value": null
     },
-    "DefaultKeyValueDifferFactory": {
-      "class": "Identifier",
-      "name": "DefaultKeyValueDifferFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
-      "prefix": null,
-      "value": null
-    },
     "DefaultKeyValueDiffer": {
       "class": "Identifier",
       "name": "DefaultKeyValueDiffer",
@@ -1548,55 +1431,6 @@
       "class": "Identifier",
       "name": "KeyValueChangeRecord",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
-      "prefix": null,
-      "value": null
-    },
-    "TrackByFn": {
-      "class": "Identifier",
-      "name": "TrackByFn",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "IterableDiffer": {
-      "class": "Identifier",
-      "name": "IterableDiffer",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "IterableDifferFactory": {
-      "class": "Identifier",
-      "name": "IterableDifferFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "IterableDiffers": {
-      "class": "Identifier",
-      "name": "IterableDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyValueDiffer": {
-      "class": "Identifier",
-      "name": "KeyValueDiffer",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyValueDifferFactory": {
-      "class": "Identifier",
-      "name": "KeyValueDifferFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyValueDiffers": {
-      "class": "Identifier",
-      "name": "KeyValueDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
       "prefix": null,
       "value": null
     },
@@ -2055,13 +1889,6 @@
       "prefix": null,
       "value": null
     },
-    "ComponentRefImpl": {
-      "class": "Identifier",
-      "name": "ComponentRefImpl",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/component_factory.dart",
-      "prefix": null,
-      "value": null
-    },
     "ComponentFactory": {
       "class": "Identifier",
       "name": "ComponentFactory",
@@ -2304,13 +2131,6 @@
       "prefix": null,
       "value": null
     },
-    "Provides": {
-      "class": "Identifier",
-      "name": "Provides",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
     "SkipAngularInitCheck": {
       "class": "Identifier",
       "name": "SkipAngularInitCheck",
@@ -2322,13 +2142,6 @@
       "class": "Identifier",
       "name": "ViewEncapsulation",
       "moduleUrl": "asset:angular2/lib/src/core/metadata/view.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ProviderProperty": {
-      "class": "Identifier",
-      "name": "ProviderProperty",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata/di.dart",
       "prefix": null,
       "value": null
     },
@@ -2697,6 +2510,20 @@
       "prefix": null,
       "value": null
     },
+    "ZeroArgFunction": {
+      "class": "Identifier",
+      "name": "ZeroArgFunction",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+      "prefix": null,
+      "value": null
+    },
+    "ErrorHandlingFn": {
+      "class": "Identifier",
+      "name": "ErrorHandlingFn",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
+      "prefix": null,
+      "value": null
+    },
     "NgZone": {
       "class": "Identifier",
       "name": "NgZone",
@@ -2704,38 +2531,17 @@
       "prefix": null,
       "value": null
     },
-    "ZeroArgFunction": {
-      "class": "Identifier",
-      "name": "ZeroArgFunction",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ErrorHandlingFn": {
-      "class": "Identifier",
-      "name": "ErrorHandlingFn",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "value": null
-    },
     "WrappedTimer": {
       "class": "Identifier",
       "name": "WrappedTimer",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
       "prefix": null,
       "value": null
     },
     "NgZoneError": {
       "class": "Identifier",
       "name": "NgZoneError",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
-      "prefix": null,
-      "value": null
-    },
-    "NgZoneImpl": {
-      "class": "Identifier",
-      "name": "NgZoneImpl",
-      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone_impl.dart",
+      "moduleUrl": "asset:angular2/lib/src/core/zone/ng_zone.dart",
       "prefix": null,
       "value": null
     },
@@ -2743,13 +2549,6 @@
       "class": "Identifier",
       "name": "EventEmitter",
       "moduleUrl": "asset:angular2/lib/src/facade/async.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_ArrayLogger": {
-      "class": "Identifier",
-      "name": "_ArrayLogger",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
       "prefix": null,
       "value": null
     },

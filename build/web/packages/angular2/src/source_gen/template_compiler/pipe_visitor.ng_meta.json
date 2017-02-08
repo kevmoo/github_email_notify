@@ -19,7 +19,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/compile_type.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/compile_metadata.dart",
         "5": false
       },
       {
@@ -27,7 +27,7 @@
         "5": false
       },
       {
-        "1": "package:build/build.dart",
+        "1": "package:logging/logging.dart",
         "5": false
       }
     ],
@@ -42,7 +42,7 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/compile_type.template.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/compile_metadata.template.dart",
         "4": "i2"
       },
       {

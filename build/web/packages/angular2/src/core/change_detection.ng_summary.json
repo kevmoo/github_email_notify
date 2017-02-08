@@ -9,15 +9,12 @@
           "ChangeDetectorRef",
           "WrappedValue",
           "SimpleChange",
-          "PipeTransform",
-          "IterableDiffers",
-          "IterableDiffer",
-          "IterableDifferFactory",
-          "KeyValueChangeRecord",
-          "KeyValueDiffers",
-          "KeyValueDiffer",
-          "KeyValueDifferFactory",
-          "CollectionChangeRecord",
+          "PipeTransform"
+        ]
+      },
+      {
+        "1": "change_detection/differs/default_iterable_differ.dart",
+        "2": [
           "TrackByFn"
         ]
       },

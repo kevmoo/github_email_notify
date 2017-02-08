@@ -62,6 +62,10 @@
         "5": false
       },
       {
+        "1": "template_ast.dart",
+        "5": false
+      },
+      {
         "1": "template_parser.dart",
         "2": [
           "TemplateParser"

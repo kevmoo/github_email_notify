@@ -510,6 +510,13 @@
         }
       ]
     },
+    "_defaultLocale": {
+      "class": "Identifier",
+      "name": "_defaultLocale",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+      "prefix": null,
+      "value": null
+    },
     "DatePipe": {
       "class": "Pipe",
       "type": {
@@ -523,6 +530,20 @@
       },
       "name": "date",
       "pure": true
+    },
+    "_normalizeLocale": {
+      "class": "Identifier",
+      "name": "_normalizeLocale",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_formatDate": {
+      "class": "Identifier",
+      "name": "_formatDate",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/date_pipe.dart",
+      "prefix": null,
+      "value": null
     },
     "JsonPipe": {
       "class": "Pipe",
@@ -551,6 +572,13 @@
       },
       "name": "lowercase",
       "pure": true
+    },
+    "_NumberFormatStyle": {
+      "class": "Identifier",
+      "name": "_NumberFormatStyle",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+      "prefix": null,
+      "value": null
     },
     "NumberPipe": {
       "class": "Type",
@@ -602,6 +630,13 @@
       },
       "name": "currency",
       "pure": true
+    },
+    "_formatNumber": {
+      "class": "Identifier",
+      "name": "_formatNumber",
+      "moduleUrl": "asset:angular2/lib/src/common/pipes/number_pipe.dart",
+      "prefix": null,
+      "value": null
     },
     "_Matcher": {
       "class": "Identifier",

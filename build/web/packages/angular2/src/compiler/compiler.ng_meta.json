@@ -959,7 +959,7 @@
           },
           "useClass": null,
           "useExisting": null,
-          "useValue": "/packages",
+          "useValue": "packages",
           "useFactory": null,
           "useProperty": null,
           "multi": false,
@@ -1503,6 +1503,13 @@
       "prefix": null,
       "value": null
     },
+    "HandlerType": {
+      "class": "Identifier",
+      "name": "HandlerType",
+      "moduleUrl": "asset:angular2/lib/src/compiler/template_ast.dart",
+      "prefix": null,
+      "value": null
+    },
     "ProviderAstType": {
       "class": "Identifier",
       "name": "ProviderAstType",
@@ -1657,7 +1664,7 @@
           },
           "useClass": null,
           "useExisting": null,
-          "useValue": "/packages",
+          "useValue": "packages",
           "useFactory": null,
           "useProperty": null,
           "multi": false,

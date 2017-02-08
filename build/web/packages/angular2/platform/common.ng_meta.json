@@ -173,6 +173,13 @@
         }
       ]
     },
+    "BaseHRefFromDOMProvider": {
+      "class": "Identifier",
+      "name": "BaseHRefFromDOMProvider",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/location/platform_location.dart",
+      "prefix": null,
+      "value": null
+    },
     "PlatformLocation": {
       "class": "Identifier",
       "name": "PlatformLocation",

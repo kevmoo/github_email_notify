@@ -55,6 +55,13 @@
         "5": false
       },
       {
+        "1": "form_interface.dart",
+        "2": [
+          "Form"
+        ],
+        "5": false
+      },
+      {
         "1": "ng_control.dart",
         "2": [
           "NgControl"
@@ -156,16 +163,20 @@
         "4": "i5"
       },
       {
-        "1": "ng_control.template.dart",
+        "1": "form_interface.template.dart",
         "4": "i6"
       },
       {
-        "1": "shared.template.dart",
+        "1": "ng_control.template.dart",
         "4": "i7"
       },
       {
-        "1": "validators.template.dart",
+        "1": "shared.template.dart",
         "4": "i8"
+      },
+      {
+        "1": "validators.template.dart",
+        "4": "i9"
       }
     ]
   },

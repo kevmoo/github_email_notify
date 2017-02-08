@@ -65,13 +65,6 @@
       "prefix": null,
       "value": null
     },
-    "_toFuture": {
-      "class": "Identifier",
-      "name": "_toFuture",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
-      "prefix": null,
-      "value": null
-    },
     "_executeValidators": {
       "class": "Identifier",
       "name": "_executeValidators",
@@ -82,13 +75,6 @@
     "_executeAsyncValidators": {
       "class": "Identifier",
       "name": "_executeAsyncValidators",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_mergeErrors": {
-      "class": "Identifier",
-      "name": "_mergeErrors",
       "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
       "prefix": null,
       "value": null

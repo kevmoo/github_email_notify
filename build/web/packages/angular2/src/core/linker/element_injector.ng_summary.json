@@ -18,13 +18,6 @@
     "6": "element_injector.dart"
   },
   "type": {
-    "_UNDEFINED": {
-      "class": "Identifier",
-      "name": "_UNDEFINED",
-      "moduleUrl": "asset:angular2/lib/src/core/linker/element_injector.dart",
-      "prefix": null,
-      "value": null
-    },
     "ElementInjector": {
       "class": "Identifier",
       "name": "ElementInjector",

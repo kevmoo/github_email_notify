@@ -7,6 +7,10 @@
         "5": false
       },
       {
+        "1": "package:analyzer/dart/ast/standard_ast_factory.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/source_gen/common/namespace_model.dart",
         "5": false
       },
@@ -24,6 +28,10 @@
       },
       {
         "1": "package:code_builder/code_builder.dart",
+        "5": false
+      },
+      {
+        "1": "package:code_builder/src/tokens.dart",
         "5": false
       },
       {
@@ -53,6 +61,13 @@
     ]
   },
   "type": {
+    "_ignoredProblems": {
+      "class": "Identifier",
+      "name": "_ignoredProblems",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/code_builder.dart",
+      "prefix": null,
+      "value": null
+    },
     "buildGeneratedCode": {
       "class": "Identifier",
       "name": "buildGeneratedCode",
@@ -63,6 +78,20 @@
     "_writeImportExports": {
       "class": "Identifier",
       "name": "_writeImportExports",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/code_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_NgScope": {
+      "class": "Identifier",
+      "name": "_NgScope",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/code_builder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_PrefixScope": {
+      "class": "Identifier",
+      "name": "_PrefixScope",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/code_builder.dart",
       "prefix": null,
       "value": null

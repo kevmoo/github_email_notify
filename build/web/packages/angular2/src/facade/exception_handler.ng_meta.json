@@ -8,6 +8,10 @@
           "BaseWrappedException"
         ],
         "5": false
+      },
+      {
+        "1": "package:logging/logging.dart",
+        "5": false
       }
     ],
     "6": "exception_handler.dart",
@@ -19,13 +23,6 @@
     ]
   },
   "type": {
-    "_ArrayLogger": {
-      "class": "Identifier",
-      "name": "_ArrayLogger",
-      "moduleUrl": "asset:angular2/lib/src/facade/exception_handler.dart",
-      "prefix": null,
-      "value": null
-    },
     "ExceptionHandler": {
       "class": "Identifier",
       "name": "ExceptionHandler",

@@ -17,13 +17,10 @@
     ],
     "4": [
       {
-        "1": "./metadata/view.dart",
-        "3": [
-          "VIEW_ENCAPSULATION_VALUES"
-        ]
+        "1": "metadata/di.dart"
       },
       {
-        "1": "metadata/di.dart"
+        "1": "metadata/view.dart"
       },
       {
         "1": "metadata/lifecycle_hooks.dart",
@@ -143,13 +140,6 @@
     "HostListener": {
       "class": "Identifier",
       "name": "HostListener",
-      "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
-      "prefix": null,
-      "value": null
-    },
-    "Provides": {
-      "class": "Identifier",
-      "name": "Provides",
       "moduleUrl": "asset:angular2/lib/src/core/metadata.dart",
       "prefix": null,
       "value": null

@@ -24,16 +24,6 @@
         "5": false
       },
       {
-        "1": "change_detection/change_detection.dart",
-        "2": [
-          "IterableDiffers",
-          "defaultIterableDiffers",
-          "KeyValueDiffers",
-          "defaultKeyValueDiffers"
-        ],
-        "5": false
-      },
-      {
         "1": "linker/app_view_utils.dart",
         "2": [
           "AppViewUtils"
@@ -127,60 +117,6 @@
           "moduleUrl": null,
           "prefix": null,
           "value": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "IterableDiffers",
-              "moduleUrl": null,
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultIterableDiffers",
-            "moduleUrl": null,
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "KeyValueDiffers",
-              "moduleUrl": null,
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultKeyValueDiffers",
-            "moduleUrl": null,
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
         },
         {
           "class": "Provider",

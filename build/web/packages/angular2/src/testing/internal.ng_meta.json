@@ -35,20 +35,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.dart",
-        "2": [
-          "NgZone"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
-        ],
-        "5": false
-      },
-      {
         "1": "package:test/test.dart",
         "5": false
       },
@@ -62,7 +48,7 @@
         "1": "package:angular2/src/debug/debug_node.dart"
       },
       {
-        "1": "by.dart"
+        "1": "matchers.dart"
       },
       {
         "1": "fake_async.dart"
@@ -100,36 +86,28 @@
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/zone/ng_zone.template.dart",
+        "1": "internal_injector.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_adapter.template.dart",
+        "1": "package:angular2/src/debug/debug_node.template.dart",
         "4": "i6"
       },
       {
-        "1": "internal_injector.template.dart",
+        "1": "matchers.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/debug/debug_node.template.dart",
+        "1": "fake_async.template.dart",
         "4": "i8"
       },
       {
-        "1": "by.template.dart",
+        "1": "test_component_builder.template.dart",
         "4": "i9"
       },
       {
-        "1": "fake_async.template.dart",
-        "4": "i10"
-      },
-      {
-        "1": "test_component_builder.template.dart",
-        "4": "i11"
-      },
-      {
         "1": "utils.template.dart",
-        "4": "i12"
+        "4": "i10"
       }
     ]
   },
@@ -162,27 +140,6 @@
       "prefix": null,
       "value": null
     },
-    "isInInnerZone": {
-      "class": "Identifier",
-      "name": "isInInnerZone",
-      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_HasTextContent": {
-      "class": "Identifier",
-      "name": "_HasTextContent",
-      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
-      "prefix": null,
-      "value": null
-    },
-    "hasTextContent": {
-      "class": "Identifier",
-      "name": "hasTextContent",
-      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
-      "prefix": null,
-      "value": null
-    },
     "_ThrowsWith": {
       "class": "Identifier",
       "name": "_ThrowsWith",
@@ -193,13 +150,6 @@
     "throwsWith": {
       "class": "Identifier",
       "name": "throwsWith",
-      "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_elementText": {
-      "class": "Identifier",
-      "name": "_elementText",
       "moduleUrl": "asset:angular2/lib/src/testing/internal.dart",
       "prefix": null,
       "value": null
@@ -298,7 +248,28 @@
     "By": {
       "class": "Identifier",
       "name": "By",
-      "moduleUrl": "asset:angular2/lib/src/testing/by.dart",
+      "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
+      "prefix": null,
+      "value": null
+    },
+    "hasTextContent": {
+      "class": "Identifier",
+      "name": "hasTextContent",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_HasTextContent": {
+      "class": "Identifier",
+      "name": "_HasTextContent",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_elementText": {
+      "class": "Identifier",
+      "name": "_elementText",
+      "moduleUrl": "asset:angular2/lib/src/testing/matchers.dart",
       "prefix": null,
       "value": null
     },
@@ -428,13 +399,6 @@
     "dispatchEvent": {
       "class": "Identifier",
       "name": "dispatchEvent",
-      "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
-      "prefix": null,
-      "value": null
-    },
-    "el": {
-      "class": "Identifier",
-      "name": "el",
       "moduleUrl": "asset:angular2/lib/src/testing/utils.dart",
       "prefix": null,
       "value": null

@@ -1,38 +1,6 @@
 {
   "ngDeps": {
     "1": "",
-    "3": [
-      {
-        "1": "differs/default_iterable_differ.dart",
-        "2": [
-          "DefaultIterableDifferFactory"
-        ],
-        "5": false
-      },
-      {
-        "1": "differs/default_keyvalue_differ.dart",
-        "2": [
-          "DefaultKeyValueDifferFactory"
-        ],
-        "5": false
-      },
-      {
-        "1": "differs/iterable_differs.dart",
-        "2": [
-          "IterableDiffers",
-          "IterableDifferFactory"
-        ],
-        "5": false
-      },
-      {
-        "1": "differs/keyvalue_differs.dart",
-        "2": [
-          "KeyValueDiffers",
-          "KeyValueDifferFactory"
-        ],
-        "5": false
-      }
-    ],
     "4": [
       {
         "1": "change_detection_util.dart",
@@ -41,8 +9,7 @@
           "ValueUnwrapper",
           "SimpleChange",
           "devModeEqual",
-          "looseIdentical",
-          "uninitialized"
+          "looseIdentical"
         ]
       },
       {
@@ -62,32 +29,13 @@
       {
         "1": "differs/default_iterable_differ.dart",
         "2": [
-          "DefaultIterableDifferFactory",
           "CollectionChangeRecord"
         ]
       },
       {
         "1": "differs/default_keyvalue_differ.dart",
         "2": [
-          "DefaultKeyValueDifferFactory",
           "KeyValueChangeRecord"
-        ]
-      },
-      {
-        "1": "differs/iterable_differs.dart",
-        "2": [
-          "IterableDiffers",
-          "IterableDiffer",
-          "IterableDifferFactory",
-          "TrackByFn"
-        ]
-      },
-      {
-        "1": "differs/keyvalue_differs.dart",
-        "2": [
-          "KeyValueDiffers",
-          "KeyValueDiffer",
-          "KeyValueDifferFactory"
         ]
       },
       {
@@ -100,68 +48,32 @@
     "6": "change_detection.dart",
     "7": [
       {
-        "1": "differs/default_iterable_differ.template.dart",
+        "1": "change_detection_util.template.dart",
         "4": "i0"
       },
       {
-        "1": "differs/default_keyvalue_differ.template.dart",
+        "1": "change_detector_ref.template.dart",
         "4": "i1"
       },
       {
-        "1": "differs/iterable_differs.template.dart",
+        "1": "constants.template.dart",
         "4": "i2"
       },
       {
-        "1": "differs/keyvalue_differs.template.dart",
+        "1": "differs/default_iterable_differ.template.dart",
         "4": "i3"
       },
       {
-        "1": "change_detection_util.template.dart",
+        "1": "differs/default_keyvalue_differ.template.dart",
         "4": "i4"
       },
       {
-        "1": "change_detector_ref.template.dart",
-        "4": "i5"
-      },
-      {
-        "1": "constants.template.dart",
-        "4": "i6"
-      },
-      {
         "1": "pipe_transform.template.dart",
-        "4": "i7"
+        "4": "i5"
       }
     ]
   },
   "type": {
-    "keyValDiff": {
-      "class": "Identifier",
-      "name": "keyValDiff",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
-    "iterableDiff": {
-      "class": "Identifier",
-      "name": "iterableDiff",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
-    "defaultIterableDiffers": {
-      "class": "Identifier",
-      "name": "defaultIterableDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
-    "defaultKeyValueDiffers": {
-      "class": "Identifier",
-      "name": "defaultKeyValueDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-      "prefix": null,
-      "value": null
-    },
     "_DevModeEquality": {
       "class": "Identifier",
       "name": "_DevModeEquality",
@@ -204,13 +116,6 @@
       "prefix": null,
       "value": null
     },
-    "stringify": {
-      "class": "Identifier",
-      "name": "stringify",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
     "resolveEnumToken": {
       "class": "Identifier",
       "name": "resolveEnumToken",
@@ -246,30 +151,9 @@
       "prefix": null,
       "value": null
     },
-    "Json": {
-      "class": "Identifier",
-      "name": "Json",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
     "isPrimitive": {
       "class": "Identifier",
       "name": "isPrimitive",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
-    "bitWiseOr": {
-      "class": "Identifier",
-      "name": "bitWiseOr",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
-    "bitWiseAnd": {
-      "class": "Identifier",
-      "name": "bitWiseAnd",
       "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
       "prefix": null,
       "value": null
@@ -309,9 +193,9 @@
       "prefix": null,
       "value": null
     },
-    "DefaultIterableDifferFactory": {
+    "TrackByFn": {
       "class": "Identifier",
-      "name": "DefaultIterableDifferFactory",
+      "name": "TrackByFn",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_iterable_differ.dart",
       "prefix": null,
       "value": null
@@ -358,13 +242,6 @@
       "prefix": null,
       "value": null
     },
-    "DefaultKeyValueDifferFactory": {
-      "class": "Identifier",
-      "name": "DefaultKeyValueDifferFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
-      "prefix": null,
-      "value": null
-    },
     "DefaultKeyValueDiffer": {
       "class": "Identifier",
       "name": "DefaultKeyValueDiffer",
@@ -376,55 +253,6 @@
       "class": "Identifier",
       "name": "KeyValueChangeRecord",
       "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/default_keyvalue_differ.dart",
-      "prefix": null,
-      "value": null
-    },
-    "TrackByFn": {
-      "class": "Identifier",
-      "name": "TrackByFn",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "IterableDiffer": {
-      "class": "Identifier",
-      "name": "IterableDiffer",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "IterableDifferFactory": {
-      "class": "Identifier",
-      "name": "IterableDifferFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "IterableDiffers": {
-      "class": "Identifier",
-      "name": "IterableDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyValueDiffer": {
-      "class": "Identifier",
-      "name": "KeyValueDiffer",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyValueDifferFactory": {
-      "class": "Identifier",
-      "name": "KeyValueDifferFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyValueDiffers": {
-      "class": "Identifier",
-      "name": "KeyValueDiffers",
-      "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
       "prefix": null,
       "value": null
     },

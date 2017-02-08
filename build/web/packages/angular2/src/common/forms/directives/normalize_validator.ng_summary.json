@@ -5,6 +5,7 @@
       {
         "1": "package:angular2/src/common/forms/directives/validators.dart",
         "2": [
+          "AsyncValidatorFn",
           "Validator",
           "ValidatorFn"
         ],

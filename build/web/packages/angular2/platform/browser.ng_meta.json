@@ -3,6 +3,10 @@
     "1": "angular2.platform.browser",
     "3": [
       {
+        "1": "dart:html",
+        "5": false
+      },
+      {
         "1": "dart:async",
         "5": false
       },
@@ -62,6 +66,13 @@
           "BROWSER_APP_COMMON_PROVIDERS"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
+        "2": [
+          "DOCUMENT"
+        ],
+        "5": false
       }
     ],
     "4": [
@@ -79,10 +90,7 @@
         "1": "package:angular2/src/platform/browser_common.dart",
         "2": [
           "BROWSER_PROVIDERS",
-          "CACHED_TEMPLATE_PROVIDER",
           "BROWSER_SANITIZATION_PROVIDERS",
-          "BrowserDomAdapter",
-          "Title",
           "DOCUMENT",
           "enableDebugTools",
           "disableDebugTools"
@@ -120,12 +128,16 @@
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/angular_entrypoint.template.dart",
+        "1": "package:angular2/src/platform/dom/dom_tokens.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/security.template.dart",
+        "1": "package:angular2/src/core/angular_entrypoint.template.dart",
         "4": "i8"
+      },
+      {
+        "1": "package:angular2/src/core/security.template.dart",
+        "4": "i9"
       }
     ]
   },
@@ -1060,60 +1072,6 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "IterableDiffers",
-              "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultIterableDiffers",
-            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "KeyValueDiffers",
-              "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultKeyValueDiffers",
-            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
               "name": "DynamicComponentLoader",
               "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
               "prefix": null,
@@ -1698,46 +1656,6 @@
                           "value": null,
                           "identifier": {
                             "class": "Identifier",
-                            "name": "IterableDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "KeyValueDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
                             "name": "ElementRef",
                             "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
                             "prefix": null,
@@ -1765,46 +1683,6 @@
                   "isHost": false,
                   "value": null,
                   "diDeps": [
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "IterableDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "KeyValueDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
                     {
                       "token": {
                         "value": null,
@@ -1885,46 +1763,6 @@
                         "isSkipSelf": false,
                         "isOptional": false,
                         "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "IterableDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "ChangeDetectorRef",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
                       }
                     ]
                   },
@@ -1965,46 +1803,6 @@
                           "class": "Identifier",
                           "name": "TemplateRef",
                           "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "IterableDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "ChangeDetectorRef",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
                           "prefix": null,
                           "value": null
                         },
@@ -2230,26 +2028,6 @@
                           "value": null,
                           "identifier": {
                             "class": "Identifier",
-                            "name": "KeyValueDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
                             "name": "ElementRef",
                             "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
                             "prefix": null,
@@ -2277,26 +2055,6 @@
                   "isHost": false,
                   "value": null,
                   "diDeps": [
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "KeyValueDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
                     {
                       "token": {
                         "value": null,
@@ -2650,220 +2408,6 @@
                       "isAttribute": false,
                       "isSelf": false,
                       "isHost": true,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    }
-                  ]
-                },
-                "useExisting": null,
-                "useValue": null,
-                "useFactory": null,
-                "useProperty": null,
-                "multi": false,
-                "deps": null
-              },
-              {
-                "class": "Provider",
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Type",
-                    "name": "NgPlural",
-                    "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                    "prefix": null,
-                    "isHost": false,
-                    "value": null,
-                    "diDeps": [
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "NgLocalization",
-                            "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      }
-                    ]
-                  },
-                  "identifierIsInstance": false
-                },
-                "useClass": {
-                  "class": "Type",
-                  "name": "NgPlural",
-                  "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                  "prefix": null,
-                  "isHost": false,
-                  "value": null,
-                  "diDeps": [
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "NgLocalization",
-                          "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    }
-                  ]
-                },
-                "useExisting": null,
-                "useValue": null,
-                "useFactory": null,
-                "useProperty": null,
-                "multi": false,
-                "deps": null
-              },
-              {
-                "class": "Provider",
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Type",
-                    "name": "NgPluralCase",
-                    "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                    "prefix": null,
-                    "isHost": false,
-                    "value": null,
-                    "diDeps": [
-                      {
-                        "token": {
-                          "value": "ngPluralCase",
-                          "identifier": null,
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": true,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "TemplateRef",
-                            "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "ViewContainerRef",
-                            "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      }
-                    ]
-                  },
-                  "identifierIsInstance": false
-                },
-                "useClass": {
-                  "class": "Type",
-                  "name": "NgPluralCase",
-                  "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                  "prefix": null,
-                  "isHost": false,
-                  "value": null,
-                  "diDeps": [
-                    {
-                      "token": {
-                        "value": "ngPluralCase",
-                        "identifier": null,
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": true,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "TemplateRef",
-                          "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "ViewContainerRef",
-                          "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
                       "isSkipSelf": false,
                       "isOptional": false,
                       "isValue": false
@@ -4566,33 +4110,6 @@
           "token": {
             "value": null,
             "identifier": {
-              "class": "Identifier",
-              "name": "DOCUMENT",
-              "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": {
-            "class": "Identifier",
-            "name": "document",
-            "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useProperty": null,
-          "multi": false,
-          "deps": []
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
               "class": "Type",
               "name": "DomEventsPlugin",
               "moduleUrl": "asset:angular2/lib/src/platform/dom/events/dom_events.dart",
@@ -5026,6 +4543,33 @@
           "useProperty": null,
           "multi": false,
           "deps": null
+        },
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "DOCUMENT",
+              "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": null,
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": {
+            "class": "Identifier",
+            "name": "defaultDocumentProvider",
+            "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+            "prefix": null,
+            "value": null
+          },
+          "useProperty": null,
+          "multi": false,
+          "deps": []
         },
         {
           "class": "Provider",
@@ -5716,7 +5260,7 @@
           },
           "useClass": null,
           "useExisting": null,
-          "useValue": "/packages",
+          "useValue": "packages",
           "useFactory": null,
           "useProperty": null,
           "multi": false,
@@ -6709,6 +6253,13 @@
         }
       ]
     },
+    "defaultDocumentProvider": {
+      "class": "Identifier",
+      "name": "defaultDocumentProvider",
+      "moduleUrl": "asset:angular2/lib/platform/browser.dart",
+      "prefix": null,
+      "value": null
+    },
     "browserPlatform": {
       "class": "Identifier",
       "name": "browserPlatform",
@@ -7492,60 +7043,6 @@
             "value": null,
             "identifier": {
               "class": "Identifier",
-              "name": "IterableDiffers",
-              "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultIterableDiffers",
-            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "KeyValueDiffers",
-              "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "defaultKeyValueDiffers",
-            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detection.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": false,
-          "deps": null
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
               "name": "DynamicComponentLoader",
               "moduleUrl": "asset:angular2/lib/src/core/linker/dynamic_component_loader.dart",
               "prefix": null,
@@ -8130,46 +7627,6 @@
                           "value": null,
                           "identifier": {
                             "class": "Identifier",
-                            "name": "IterableDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "KeyValueDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
                             "name": "ElementRef",
                             "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
                             "prefix": null,
@@ -8197,46 +7654,6 @@
                   "isHost": false,
                   "value": null,
                   "diDeps": [
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "IterableDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "KeyValueDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
                     {
                       "token": {
                         "value": null,
@@ -8317,46 +7734,6 @@
                         "isSkipSelf": false,
                         "isOptional": false,
                         "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "IterableDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "ChangeDetectorRef",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
                       }
                     ]
                   },
@@ -8397,46 +7774,6 @@
                           "class": "Identifier",
                           "name": "TemplateRef",
                           "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "IterableDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/iterable_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "ChangeDetectorRef",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/change_detector_ref.dart",
                           "prefix": null,
                           "value": null
                         },
@@ -8662,26 +7999,6 @@
                           "value": null,
                           "identifier": {
                             "class": "Identifier",
-                            "name": "KeyValueDiffers",
-                            "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
                             "name": "ElementRef",
                             "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
                             "prefix": null,
@@ -8709,26 +8026,6 @@
                   "isHost": false,
                   "value": null,
                   "diDeps": [
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "KeyValueDiffers",
-                          "moduleUrl": "asset:angular2/lib/src/core/change_detection/differs/keyvalue_differs.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
                     {
                       "token": {
                         "value": null,
@@ -9082,220 +8379,6 @@
                       "isAttribute": false,
                       "isSelf": false,
                       "isHost": true,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    }
-                  ]
-                },
-                "useExisting": null,
-                "useValue": null,
-                "useFactory": null,
-                "useProperty": null,
-                "multi": false,
-                "deps": null
-              },
-              {
-                "class": "Provider",
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Type",
-                    "name": "NgPlural",
-                    "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                    "prefix": null,
-                    "isHost": false,
-                    "value": null,
-                    "diDeps": [
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "NgLocalization",
-                            "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      }
-                    ]
-                  },
-                  "identifierIsInstance": false
-                },
-                "useClass": {
-                  "class": "Type",
-                  "name": "NgPlural",
-                  "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                  "prefix": null,
-                  "isHost": false,
-                  "value": null,
-                  "diDeps": [
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "NgLocalization",
-                          "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    }
-                  ]
-                },
-                "useExisting": null,
-                "useValue": null,
-                "useFactory": null,
-                "useProperty": null,
-                "multi": false,
-                "deps": null
-              },
-              {
-                "class": "Provider",
-                "token": {
-                  "value": null,
-                  "identifier": {
-                    "class": "Type",
-                    "name": "NgPluralCase",
-                    "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                    "prefix": null,
-                    "isHost": false,
-                    "value": null,
-                    "diDeps": [
-                      {
-                        "token": {
-                          "value": "ngPluralCase",
-                          "identifier": null,
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": true,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "TemplateRef",
-                            "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      },
-                      {
-                        "token": {
-                          "value": null,
-                          "identifier": {
-                            "class": "Identifier",
-                            "name": "ViewContainerRef",
-                            "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
-                            "prefix": null,
-                            "value": null
-                          },
-                          "identifierIsInstance": false
-                        },
-                        "value": null,
-                        "isAttribute": false,
-                        "isSelf": false,
-                        "isHost": false,
-                        "isSkipSelf": false,
-                        "isOptional": false,
-                        "isValue": false
-                      }
-                    ]
-                  },
-                  "identifierIsInstance": false
-                },
-                "useClass": {
-                  "class": "Type",
-                  "name": "NgPluralCase",
-                  "moduleUrl": "asset:angular2/lib/src/common/directives/ng_plural.dart",
-                  "prefix": null,
-                  "isHost": false,
-                  "value": null,
-                  "diDeps": [
-                    {
-                      "token": {
-                        "value": "ngPluralCase",
-                        "identifier": null,
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": true,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "TemplateRef",
-                          "moduleUrl": "asset:angular2/lib/src/core/linker/template_ref.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
-                      "isSkipSelf": false,
-                      "isOptional": false,
-                      "isValue": false
-                    },
-                    {
-                      "token": {
-                        "value": null,
-                        "identifier": {
-                          "class": "Identifier",
-                          "name": "ViewContainerRef",
-                          "moduleUrl": "asset:angular2/lib/src/core/linker/view_container_ref.dart",
-                          "prefix": null,
-                          "value": null
-                        },
-                        "identifierIsInstance": false
-                      },
-                      "value": null,
-                      "isAttribute": false,
-                      "isSelf": false,
-                      "isHost": false,
                       "isSkipSelf": false,
                       "isOptional": false,
                       "isValue": false
@@ -10998,33 +10081,6 @@
           "token": {
             "value": null,
             "identifier": {
-              "class": "Identifier",
-              "name": "DOCUMENT",
-              "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": null,
-          "useFactory": {
-            "class": "Identifier",
-            "name": "document",
-            "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useProperty": null,
-          "multi": false,
-          "deps": []
-        },
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
               "class": "Type",
               "name": "DomEventsPlugin",
               "moduleUrl": "asset:angular2/lib/src/platform/dom/events/dom_events.dart",
@@ -11505,13 +10561,6 @@
       "prefix": null,
       "value": null
     },
-    "document": {
-      "class": "Identifier",
-      "name": "document",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser_common.dart",
-      "prefix": null,
-      "value": null
-    },
     "createEventPlugins": {
       "class": "Factory",
       "name": "createEventPlugins",
@@ -11588,13 +10637,6 @@
       "prefix": null,
       "value": null
     },
-    "Title": {
-      "class": "Identifier",
-      "name": "Title",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/title.dart",
-      "prefix": null,
-      "value": null
-    },
     "enableDebugTools": {
       "class": "Identifier",
       "name": "enableDebugTools",
@@ -11613,41 +10655,6 @@
       "class": "Identifier",
       "name": "DOCUMENT",
       "moduleUrl": "asset:angular2/lib/src/platform/dom/dom_tokens.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_IdentitySanitizer": {
-      "class": "Identifier",
-      "name": "_IdentitySanitizer",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ngCreateDocument": {
-      "class": "Identifier",
-      "name": "ngCreateDocument",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
-      "prefix": null,
-      "value": null
-    },
-    "BrowserDomAdapter": {
-      "class": "Identifier",
-      "name": "BrowserDomAdapter",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
-      "prefix": null,
-      "value": null
-    },
-    "getBaseElementHref": {
-      "class": "Identifier",
-      "name": "getBaseElementHref",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
-      "prefix": null,
-      "value": null
-    },
-    "_relativePath": {
-      "class": "Identifier",
-      "name": "_relativePath",
-      "moduleUrl": "asset:angular2/lib/src/platform/browser/browser_adapter.dart",
       "prefix": null,
       "value": null
     },

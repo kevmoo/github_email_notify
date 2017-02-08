@@ -35,11 +35,9 @@
       {
         "1": "src/debug/debug_node.dart",
         "2": [
-          "DebugElement"
+          "DebugElement",
+          "By"
         ]
-      },
-      {
-        "1": "src/testing/by.dart"
       },
       {
         "1": "src/testing/fake_async.dart"

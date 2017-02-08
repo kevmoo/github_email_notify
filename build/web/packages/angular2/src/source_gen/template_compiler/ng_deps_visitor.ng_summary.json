@@ -28,6 +28,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/source_gen/common/namespace_model.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/source_gen/common/ng_deps_model.dart",
         "5": false
       },
@@ -36,15 +40,27 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/source_gen/common/references.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/source_gen/common/reflection_info_model.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/compile_type.dart",
+        "1": "package:angular2/src/source_gen/template_compiler/compile_metadata.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/transform/common/names.dart",
         "5": false
       },
       {
         "1": "package:build/build.dart",
+        "5": false
+      },
+      {
+        "1": "package:code_builder/code_builder.dart",
         "5": false
       },
       {
@@ -55,9 +71,16 @@
     "6": "ng_deps_visitor.dart"
   },
   "type": {
-    "NgDepsVisitor": {
+    "extractNgDepsModel": {
       "class": "Identifier",
-      "name": "NgDepsVisitor",
+      "name": "extractNgDepsModel",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/ng_deps_visitor.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NameSpaceVisitor": {
+      "class": "Identifier",
+      "name": "NameSpaceVisitor",
       "moduleUrl": "asset:angular2/lib/src/source_gen/template_compiler/ng_deps_visitor.dart",
       "prefix": null,
       "value": null

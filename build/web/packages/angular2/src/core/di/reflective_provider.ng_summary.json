@@ -5,7 +5,15 @@
       {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "reflector"
+          "reflector",
+          "NoReflectionCapabilitiesError"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "assertionsEnabled"
         ],
         "5": false
       },

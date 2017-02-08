@@ -11,6 +11,16 @@
         "5": false
       },
       {
+        "1": "dart:js_util",
+        "4": "js_util",
+        "5": false
+      },
+      {
+        "1": "package:js/js.dart",
+        "4": "js",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/change_detection/change_detection.dart",
         "2": [
           "ChangeDetectionStrategy",
@@ -26,6 +36,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/di/injector.dart",
+        "2": [
+          "THROW_IF_NOT_FOUND"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/render/api.dart",
         "5": false
       },
@@ -35,6 +52,10 @@
       },
       {
         "1": "package:angular2/src/core/linker/app_view.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/component_factory.dart",
         "5": false
       },
       {
@@ -55,13 +76,6 @@
           "wtfCreateScope",
           "wtfLeave",
           "WtfScopeFn"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/render/api.dart",
-        "2": [
-          "RenderComponentType"
         ],
         "5": false
       },
@@ -89,13 +103,6 @@
         "1": "package:angular2/src/debug/debug_node.dart",
         "2": [
           "inspectNativeElement"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/dom_adapter.dart",
-        "2": [
-          "DOM"
         ],
         "5": false
       }
@@ -139,6 +146,13 @@
     "_appendDebugNestedViewRenderNodes": {
       "class": "Identifier",
       "name": "_appendDebugNestedViewRenderNodes",
+      "moduleUrl": "asset:angular2/lib/src/debug/debug_app_view.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_setGlobalVar": {
+      "class": "Identifier",
+      "name": "_setGlobalVar",
       "moduleUrl": "asset:angular2/lib/src/debug/debug_app_view.dart",
       "prefix": null,
       "value": null

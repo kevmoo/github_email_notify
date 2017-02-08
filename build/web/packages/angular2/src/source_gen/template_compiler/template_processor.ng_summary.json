@@ -15,6 +15,10 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/compiler/offline_compiler.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/source_gen/common/logging.dart",
         "5": false
       },

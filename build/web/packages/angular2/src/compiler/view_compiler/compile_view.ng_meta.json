@@ -15,6 +15,7 @@
           "CompileDirectiveMetadata",
           "CompilePipeMetadata",
           "CompileIdentifierMetadata",
+          "CompileQueryMetadata",
           "CompileTokenMap"
         ],
         "5": false

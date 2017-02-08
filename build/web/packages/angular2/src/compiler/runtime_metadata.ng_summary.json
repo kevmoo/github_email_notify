@@ -3,13 +3,6 @@
     "1": "",
     "3": [
       {
-        "1": "package:angular2/src/compiler/url_resolver.dart",
-        "2": [
-          "getUrlScheme"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/di.dart",
         "2": [
           "Injectable",
@@ -77,13 +70,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "stringify"
-        ],
-        "5": false
-      },
-      {
         "1": "compile_metadata.dart",
         "4": "cpl",
         "5": false
@@ -91,7 +77,6 @@
       {
         "1": "compiler_utils.dart",
         "2": [
-          "MODULE_SUFFIX",
           "sanitizeIdentifier"
         ],
         "5": false

@@ -5,7 +5,15 @@
       {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
-          "reflector"
+          "reflector",
+          "NoReflectionCapabilitiesError"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/facade/lang.dart",
+        "2": [
+          "assertionsEnabled"
         ],
         "5": false
       },
@@ -47,24 +55,28 @@
         "4": "i0"
       },
       {
-        "1": "../metadata.template.dart",
+        "1": "package:angular2/src/facade/lang.template.dart",
         "4": "i1"
       },
       {
-        "1": "decorators.template.dart",
+        "1": "../metadata.template.dart",
         "4": "i2"
       },
       {
-        "1": "provider.template.dart",
+        "1": "decorators.template.dart",
         "4": "i3"
       },
       {
-        "1": "reflective_exceptions.template.dart",
+        "1": "provider.template.dart",
         "4": "i4"
       },
       {
-        "1": "reflective_key.template.dart",
+        "1": "reflective_exceptions.template.dart",
         "4": "i5"
+      },
+      {
+        "1": "reflective_key.template.dart",
+        "4": "i6"
       }
     ]
   },

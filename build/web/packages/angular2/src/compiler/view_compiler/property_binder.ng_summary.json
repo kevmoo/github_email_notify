@@ -122,6 +122,17 @@
           "NAMESPACE_URIS"
         ],
         "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/view_type.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/metadata/view.dart",
+        "2": [
+          "ViewEncapsulation"
+        ],
+        "5": false
       }
     ],
     "6": "property_binder.dart"
@@ -158,6 +169,13 @@
     "bindAndWriteToRenderer": {
       "class": "Identifier",
       "name": "bindAndWriteToRenderer",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/property_binder.dart",
+      "prefix": null,
+      "value": null
+    },
+    "_createSetClassNameStmt": {
+      "class": "Identifier",
+      "name": "_createSetClassNameStmt",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/property_binder.dart",
       "prefix": null,
       "value": null
