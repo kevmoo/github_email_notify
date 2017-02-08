@@ -32,6 +32,7 @@ transformers:
         - web/client_app.dart
 - dart_to_js_script_rewriter
 - $dart2js:
+    minify: false
     commandLineOptions:
       - --dump-info
       - --no-frequency-based-minification
