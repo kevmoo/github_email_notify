@@ -6,7 +6,7 @@ homepage: https://github.com/kevmoo/github_email_notify
 environment:
   sdk: '>=1.11.0 <2.0.0'
 dependencies:
-  angular2: ^2.2.0
+  angular2: 3.0.0-alpha+1
   appengine: '^0.3.1+1'
   browser: ^0.10.0+2
   collection: ^1.2.0
@@ -38,7 +38,3 @@ transformers:
       #- --no-frequency-based-minification
       - --trust-type-annotations
       - --trust-primitives
-dependency_overrides:
-  angular2:
-    path: ../angular2
-  analyzer: 0.30.0-alpha.1
