@@ -26,7 +26,11 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/testing/internal.dart",
+        "1": "package:test/test.dart",
+        "5": false
+      },
+      {
+        "1": "internal.dart",
         "2": [
           "TestComponentBuilder",
           "ComponentFixture",
@@ -37,17 +41,13 @@
         "5": false
       },
       {
-        "1": "package:test/test.dart",
-        "5": false
-      },
-      {
         "1": "internal_injector.dart",
         "5": false
       }
     ],
     "4": [
       {
-        "1": "package:angular2/src/testing/internal.dart",
+        "1": "internal.dart",
         "2": [
           "TestComponentBuilder",
           "ComponentFixture",

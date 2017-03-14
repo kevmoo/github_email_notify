@@ -3,19 +3,6 @@
     "1": "",
     "3": [
       {
-        "1": "package:logging/logging.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/common.dart",
-        "2": [
-          "COMMON_DIRECTIVES",
-          "COMMON_PIPES",
-          "FORM_PROVIDERS"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/core.dart",
         "2": [
           "PLATFORM_INITIALIZER",
@@ -25,6 +12,15 @@
           "APPLICATION_COMMON_PROVIDERS",
           "PLATFORM_COMMON_PROVIDERS",
           "TestabilityRegistry"
+        ],
+        "5": false
+      },
+      {
+        "1": "package:angular2/common.dart",
+        "2": [
+          "COMMON_DIRECTIVES",
+          "COMMON_PIPES",
+          "FORM_PROVIDERS"
         ],
         "5": false
       },
@@ -44,68 +40,9 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/profile/wtf_init.dart",
-        "2": [
-          "wtfInit"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/testability/testability.dart",
         "2": [
           "Testability"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/browser/testability.dart",
-        "2": [
-          "BrowserGetTestability"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/browser/xhr_cache.dart",
-        "2": [
-          "CachedXHR"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/events/dom_events.dart",
-        "2": [
-          "DomEventsPlugin"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/events/event_manager.dart",
-        "2": [
-          "EventManager",
-          "EventManagerPlugin",
-          "EVENT_MANAGER_PLUGINS"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/events/hammer_gestures.dart",
-        "2": [
-          "HammerGesturesPlugin"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/events/hammer_gestures.dart",
-        "2": [
-          "HAMMER_GESTURE_CONFIG",
-          "HammerGestureConfig"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/platform/dom/events/key_events.dart",
-        "2": [
-          "KeyEventsPlugin"
         ],
         "5": false
       },
@@ -116,18 +53,74 @@
       {
         "1": "package:angular2/src/security/dom_sanitization_service_impl.dart",
         "5": false
+      },
+      {
+        "1": "package:logging/logging.dart",
+        "5": false
+      },
+      {
+        "1": "browser/testability.dart",
+        "2": [
+          "BrowserGetTestability"
+        ],
+        "5": false
+      },
+      {
+        "1": "browser/xhr_cache.dart",
+        "2": [
+          "CachedXHR"
+        ],
+        "5": false
+      },
+      {
+        "1": "dom/events/dom_events.dart",
+        "2": [
+          "DomEventsPlugin"
+        ],
+        "5": false
+      },
+      {
+        "1": "dom/events/event_manager.dart",
+        "2": [
+          "EventManager",
+          "EventManagerPlugin",
+          "EVENT_MANAGER_PLUGINS"
+        ],
+        "5": false
+      },
+      {
+        "1": "dom/events/hammer_gestures.dart",
+        "2": [
+          "HAMMER_GESTURE_CONFIG",
+          "HammerGestureConfig"
+        ],
+        "5": false
+      },
+      {
+        "1": "dom/events/hammer_gestures.dart",
+        "2": [
+          "HammerGesturesPlugin"
+        ],
+        "5": false
+      },
+      {
+        "1": "dom/events/key_events.dart",
+        "2": [
+          "KeyEventsPlugin"
+        ],
+        "5": false
       }
     ],
     "4": [
       {
-        "1": "package:angular2/src/platform/browser/tools/tools.dart",
+        "1": "browser/tools/tools.dart",
         "2": [
           "enableDebugTools",
           "disableDebugTools"
         ]
       },
       {
-        "1": "package:angular2/src/platform/dom/dom_tokens.dart",
+        "1": "dom/dom_tokens.dart",
         "2": [
           "DOCUMENT"
         ]

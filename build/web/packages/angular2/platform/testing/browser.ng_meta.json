@@ -7,17 +7,17 @@
         "5": false
       },
       {
-        "1": "package:angular2/platform/testing/browser_static.dart",
+        "1": "package:angular2/platform/browser_static.dart",
         "2": [
-          "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
-          "ADDITIONAL_TEST_BROWSER_PROVIDERS"
+          "BROWSER_APP_PROVIDERS"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/platform/browser_static.dart",
+        "1": "package:angular2/platform/testing/browser_static.dart",
         "2": [
-          "BROWSER_APP_PROVIDERS"
+          "TEST_BROWSER_STATIC_PLATFORM_PROVIDERS",
+          "ADDITIONAL_TEST_BROWSER_PROVIDERS"
         ],
         "5": false
       },
@@ -54,11 +54,11 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/platform/testing/browser_static.template.dart",
+        "1": "package:angular2/platform/browser_static.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/platform/browser_static.template.dart",
+        "1": "package:angular2/platform/testing/browser_static.template.dart",
         "4": "i2"
       },
       {

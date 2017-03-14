@@ -11,10 +11,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "5": false
-      },
-      {
         "1": "platform_reflection_capabilities.dart",
         "5": false
       },
@@ -30,16 +26,12 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "platform_reflection_capabilities.template.dart",
         "4": "i1"
       },
       {
-        "1": "platform_reflection_capabilities.template.dart",
-        "4": "i2"
-      },
-      {
         "1": "types.template.dart",
-        "4": "i3"
+        "4": "i2"
       }
     ]
   },

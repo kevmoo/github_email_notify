@@ -3,9 +3,10 @@
     "1": "",
     "4": [
       {
-        "1": "package:angular2/src/meta/types.dart",
+        "1": "meta/types.dart",
         "2": [
-          "MetadataTypes"
+          "AngularMetadataTypes",
+          "StaticTypes"
         ]
       }
     ],

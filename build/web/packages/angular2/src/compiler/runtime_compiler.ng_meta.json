@@ -113,6 +113,13 @@
         "5": false
       },
       {
+        "1": "view_compiler/view_compiler_utils.dart",
+        "2": [
+          "getViewFactoryName"
+        ],
+        "5": false
+      },
+      {
         "1": "xhr.dart",
         "2": [
           "XHR"
@@ -223,8 +230,12 @@
         "4": "i14"
       },
       {
-        "1": "xhr.template.dart",
+        "1": "view_compiler/view_compiler_utils.template.dart",
         "4": "i15"
+      },
+      {
+        "1": "xhr.template.dart",
+        "4": "i16"
       }
     ]
   },

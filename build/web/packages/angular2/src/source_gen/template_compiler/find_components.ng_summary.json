@@ -40,15 +40,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/compile_metadata.dart",
+        "1": "package:angular2/src/source_gen/common/annotation_matcher.dart",
+        "2": [
+          "safeMatcher",
+          "safeMatcherType",
+          "safeMatcherTypes"
+        ],
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/dart_object_utils.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/source_gen/template_compiler/pipe_visitor.dart",
+        "1": "package:angular2/src/source_gen/common/url_resolver.dart",
         "5": false
       },
       {
@@ -56,11 +57,19 @@
         "5": false
       },
       {
-        "1": "package:logging/logging.dart",
+        "1": "package:source_gen/src/annotation.dart",
         "5": false
       },
       {
-        "1": "package:source_gen/src/annotation.dart",
+        "1": "compile_metadata.dart",
+        "5": false
+      },
+      {
+        "1": "dart_object_utils.dart",
+        "5": false
+      },
+      {
+        "1": "pipe_visitor.dart",
         "5": false
       }
     ],

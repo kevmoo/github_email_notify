@@ -25,34 +25,6 @@
     "6": "model.dart"
   },
   "type": {
-    "VALID": {
-      "class": "Identifier",
-      "name": "VALID",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/model.dart",
-      "prefix": null,
-      "value": null
-    },
-    "INVALID": {
-      "class": "Identifier",
-      "name": "INVALID",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/model.dart",
-      "prefix": null,
-      "value": null
-    },
-    "PENDING": {
-      "class": "Identifier",
-      "name": "PENDING",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/model.dart",
-      "prefix": null,
-      "value": null
-    },
-    "isControl": {
-      "class": "Identifier",
-      "name": "isControl",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/model.dart",
-      "prefix": null,
-      "value": null
-    },
     "_find": {
       "class": "Identifier",
       "name": "_find",

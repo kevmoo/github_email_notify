@@ -2087,6 +2087,20 @@
       "prefix": null,
       "value": null
     },
+    "ChangeFunction": {
+      "class": "Identifier",
+      "name": "ChangeFunction",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+      "prefix": null,
+      "value": null
+    },
+    "TouchFunction": {
+      "class": "Identifier",
+      "name": "TouchFunction",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+      "prefix": null,
+      "value": null
+    },
     "ControlValueAccessor": {
       "class": "Identifier",
       "name": "ControlValueAccessor",
@@ -3901,6 +3915,13 @@
         }
       ]
     },
+    "_SimpleChangeFn": {
+      "class": "Identifier",
+      "name": "_SimpleChangeFn",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/number_value_accessor.dart",
+      "prefix": null,
+      "value": null
+    },
     "NumberValueAccessor": {
       "class": "Directive",
       "isComponent": false,
@@ -4581,48 +4602,6 @@
       "queries": [],
       "viewQueries": []
     },
-    "REQUIRED": {
-      "class": "Identifier",
-      "name": "REQUIRED",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-      "prefix": null,
-      "value": null
-    },
-    "REQUIRED_VALIDATOR": {
-      "class": "Identifier",
-      "name": "REQUIRED_VALIDATOR",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-      "prefix": null,
-      "value": [
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "NG_VALIDATORS",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": null,
-          "useValue": {
-            "class": "Identifier",
-            "name": "REQUIRED",
-            "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-            "prefix": null,
-            "value": null
-          },
-          "useFactory": null,
-          "useProperty": null,
-          "multi": true,
-          "deps": null
-        }
-      ]
-    },
     "ValidatorFn": {
       "class": "Identifier",
       "name": "ValidatorFn",
@@ -4637,177 +4616,23 @@
       "prefix": null,
       "value": null
     },
-    "MIN_LENGTH_VALIDATOR": {
+    "REQUIRED": {
       "class": "Identifier",
-      "name": "MIN_LENGTH_VALIDATOR",
+      "name": "REQUIRED",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
-      "value": [
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "NG_VALIDATORS",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "MinLengthValidator",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": [
-                {
-                  "token": {
-                    "value": "minlength",
-                    "identifier": null,
-                    "identifierIsInstance": false
-                  },
-                  "value": null,
-                  "isAttribute": true,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
-                }
-              ]
-            },
-            "identifierIsInstance": false
-          },
-          "useValue": null,
-          "useFactory": null,
-          "useProperty": null,
-          "multi": true,
-          "deps": null
-        }
-      ]
-    },
-    "MAX_LENGTH_VALIDATOR": {
-      "class": "Identifier",
-      "name": "MAX_LENGTH_VALIDATOR",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-      "prefix": null,
-      "value": [
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "NG_VALIDATORS",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "MaxLengthValidator",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": [
-                {
-                  "token": {
-                    "value": "maxlength",
-                    "identifier": null,
-                    "identifierIsInstance": false
-                  },
-                  "value": null,
-                  "isAttribute": true,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
-                }
-              ]
-            },
-            "identifierIsInstance": false
-          },
-          "useValue": null,
-          "useFactory": null,
-          "useProperty": null,
-          "multi": true,
-          "deps": null
-        }
-      ]
-    },
-    "PATTERN_VALIDATOR": {
-      "class": "Identifier",
-      "name": "PATTERN_VALIDATOR",
-      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-      "prefix": null,
-      "value": [
-        {
-          "class": "Provider",
-          "token": {
-            "value": null,
-            "identifier": {
-              "class": "Identifier",
-              "name": "NG_VALIDATORS",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/validators.dart",
-              "prefix": null,
-              "value": null
-            },
-            "identifierIsInstance": false
-          },
-          "useClass": null,
-          "useExisting": {
-            "value": null,
-            "identifier": {
-              "class": "Type",
-              "name": "PatternValidator",
-              "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
-              "prefix": null,
-              "isHost": false,
-              "value": null,
-              "diDeps": [
-                {
-                  "token": {
-                    "value": "pattern",
-                    "identifier": null,
-                    "identifierIsInstance": false
-                  },
-                  "value": null,
-                  "isAttribute": true,
-                  "isSelf": false,
-                  "isHost": false,
-                  "isSkipSelf": false,
-                  "isOptional": false,
-                  "isValue": false
-                }
-              ]
-            },
-            "identifierIsInstance": false
-          },
-          "useValue": null,
-          "useFactory": null,
-          "useProperty": null,
-          "multi": true,
-          "deps": null
-        }
-      ]
+      "value": null
     },
     "Validator": {
       "class": "Identifier",
       "name": "Validator",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AsyncValidator": {
+      "class": "Identifier",
+      "name": "AsyncValidator",
       "moduleUrl": "asset:angular2/lib/src/common/forms/directives/validators.dart",
       "prefix": null,
       "value": null

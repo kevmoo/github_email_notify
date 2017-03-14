@@ -41,16 +41,16 @@
         "5": false
       },
       {
-        "1": "view_type.dart",
-        "5": false
-      },
-      {
         "1": "view_ref.dart",
         "2": [
           "EmbeddedViewRef",
           "ViewRef",
           "ViewRefImpl"
         ],
+        "5": false
+      },
+      {
+        "1": "view_type.dart",
         "5": false
       }
     ],

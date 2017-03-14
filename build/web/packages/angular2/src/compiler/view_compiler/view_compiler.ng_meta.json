@@ -79,6 +79,10 @@
       {
         "1": "view_builder.dart",
         "5": false
+      },
+      {
+        "1": "../expression_parser/parser.dart",
+        "5": false
       }
     ],
     "5": [
@@ -94,6 +98,10 @@
           {
             "1": "CompilerConfig",
             "4": "_genConfig"
+          },
+          {
+            "1": "Parser",
+            "4": "parser"
           }
         ]
       }
@@ -147,6 +155,10 @@
       {
         "1": "view_builder.template.dart",
         "4": "i11"
+      },
+      {
+        "1": "../expression_parser/parser.template.dart",
+        "4": "i12"
       }
     ]
   },
@@ -173,6 +185,26 @@
               "class": "Identifier",
               "name": "CompilerConfig",
               "moduleUrl": "asset:angular2/lib/src/compiler/config.dart",
+              "prefix": null,
+              "value": null
+            },
+            "identifierIsInstance": false
+          },
+          "value": null,
+          "isAttribute": false,
+          "isSelf": false,
+          "isHost": false,
+          "isSkipSelf": false,
+          "isOptional": false,
+          "isValue": false
+        },
+        {
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Identifier",
+              "name": "Parser",
+              "moduleUrl": "asset:angular2/lib/src/compiler/expression_parser/parser.dart",
               "prefix": null,
               "value": null
             },

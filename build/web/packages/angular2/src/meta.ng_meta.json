@@ -3,38 +3,46 @@
     "1": "",
     "4": [
       {
-        "1": "package:angular2/src/meta/types.dart",
+        "1": "meta/types.dart",
         "2": [
-          "MetadataTypes"
+          "AngularMetadataTypes",
+          "StaticTypes"
         ]
       }
     ],
     "6": "meta.dart",
     "7": [
       {
-        "1": "package:angular2/src/meta/types.template.dart",
+        "1": "meta/types.template.dart",
         "4": "i0"
       }
     ]
   },
   "type": {
-    "MetadataTypes": {
+    "StaticTypes": {
       "class": "Identifier",
-      "name": "MetadataTypes",
+      "name": "StaticTypes",
       "moduleUrl": "asset:angular2/lib/src/meta/types.dart",
       "prefix": null,
       "value": null
     },
-    "_MirrorsMetadataTypes": {
+    "_MirrorsStaticTypes": {
       "class": "Identifier",
-      "name": "_MirrorsMetadataTypes",
+      "name": "_MirrorsStaticTypes",
       "moduleUrl": "asset:angular2/lib/src/meta/types.dart",
       "prefix": null,
       "value": null
     },
-    "_LibraryMetadataTypes": {
+    "_LibraryStaticTypes": {
       "class": "Identifier",
-      "name": "_LibraryMetadataTypes",
+      "name": "_LibraryStaticTypes",
+      "moduleUrl": "asset:angular2/lib/src/meta/types.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AngularMetadataTypes": {
+      "class": "Identifier",
+      "name": "AngularMetadataTypes",
       "moduleUrl": "asset:angular2/lib/src/meta/types.dart",
       "prefix": null,
       "value": null

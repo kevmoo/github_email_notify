@@ -7,7 +7,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/names.dart",
+        "1": "names.dart",
         "5": false
       }
     ],

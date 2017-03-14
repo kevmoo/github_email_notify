@@ -14,10 +14,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "5": false
-      },
-      {
         "1": "../route_definition.dart",
         "5": false
       },

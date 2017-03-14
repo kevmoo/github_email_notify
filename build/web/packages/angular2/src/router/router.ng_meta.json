@@ -52,7 +52,7 @@
         "5": false
       },
       {
-        "1": "route_config/route_config_impl.dart",
+        "1": "route_config/route_config_decorator.dart",
         "2": [
           "RouteDefinition"
         ],
@@ -156,7 +156,7 @@
         "4": "i5"
       },
       {
-        "1": "route_config/route_config_impl.template.dart",
+        "1": "route_config/route_config_decorator.template.dart",
         "4": "i6"
       },
       {

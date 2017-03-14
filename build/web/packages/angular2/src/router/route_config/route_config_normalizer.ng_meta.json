@@ -14,10 +14,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "5": false
-      },
-      {
         "1": "../route_definition.dart",
         "5": false
       },
@@ -37,20 +33,16 @@
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/facade/lang.template.dart",
+        "1": "../route_definition.template.dart",
         "4": "i1"
       },
       {
-        "1": "../route_definition.template.dart",
+        "1": "../route_registry.template.dart",
         "4": "i2"
       },
       {
-        "1": "../route_registry.template.dart",
-        "4": "i3"
-      },
-      {
         "1": "route_config_decorator.template.dart",
-        "4": "i4"
+        "4": "i3"
       }
     ]
   },

@@ -45,13 +45,6 @@
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/references.dart",
       "prefix": null,
       "value": null
-    },
-    "_isDynamic": {
-      "class": "Identifier",
-      "name": "_isDynamic",
-      "moduleUrl": "asset:angular2/lib/src/source_gen/common/references.dart",
-      "prefix": null,
-      "value": null
     }
   },
   "alias": {}

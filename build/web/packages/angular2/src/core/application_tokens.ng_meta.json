@@ -8,7 +8,7 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/di.dart",
+        "1": "di.dart",
         "2": [
           "OpaqueToken",
           "Provider"
@@ -19,7 +19,7 @@
     "6": "application_tokens.dart",
     "7": [
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "di.template.dart",
         "4": "i0"
       }
     ]

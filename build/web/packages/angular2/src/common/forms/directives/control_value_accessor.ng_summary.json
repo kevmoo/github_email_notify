@@ -20,6 +20,20 @@
       "prefix": null,
       "value": null
     },
+    "ChangeFunction": {
+      "class": "Identifier",
+      "name": "ChangeFunction",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+      "prefix": null,
+      "value": null
+    },
+    "TouchFunction": {
+      "class": "Identifier",
+      "name": "TouchFunction",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/control_value_accessor.dart",
+      "prefix": null,
+      "value": null
+    },
     "ControlValueAccessor": {
       "class": "Identifier",
       "name": "ControlValueAccessor",

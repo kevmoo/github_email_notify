@@ -7,14 +7,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/browser.dart",
-        "2": [
-          "document",
-          "window"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"

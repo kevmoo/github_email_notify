@@ -13,13 +13,13 @@
         ]
       },
       {
+        "1": "change_detection/component_state.dart"
+      },
+      {
         "1": "change_detection/differs/default_iterable_differ.dart",
         "2": [
           "TrackByFn"
         ]
-      },
-      {
-        "1": "change_detection/component_state.dart"
       }
     ],
     "6": "change_detection.dart"

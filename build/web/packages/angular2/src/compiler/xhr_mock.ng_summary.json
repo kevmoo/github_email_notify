@@ -7,16 +7,16 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/compiler/xhr.dart",
+        "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
-          "XHR"
+          "BaseException"
         ],
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/exceptions.dart",
+        "1": "xhr.dart",
         "2": [
-          "BaseException"
+          "XHR"
         ],
         "5": false
       }

@@ -3,21 +3,16 @@
     "1": "",
     "3": [
       {
-        "1": "dart:html",
+        "1": "dart:convert",
         "5": false
       },
       {
-        "1": "dart:convert",
+        "1": "dart:html",
         "5": false
       },
       {
         "1": "dart:js_util",
         "4": "js_util",
-        "5": false
-      },
-      {
-        "1": "package:js/js.dart",
-        "4": "js",
         "5": false
       },
       {
@@ -43,14 +38,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/render/api.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_container.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/linker/app_view.dart",
         "5": false
       },
@@ -67,20 +54,24 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/linker/view_container.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/linker/view_type.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/core/profile/profile.dart",
-        "2": [
-          "wtfCreateScope",
-          "wtfLeave",
-          "WtfScopeFn"
-        ],
+        "1": "package:angular2/src/core/render/api.dart",
         "5": false
       },
       {
-        "1": "package:angular2/src/debug/debug_context.dart",
+        "1": "package:js/js.dart",
+        "4": "js",
+        "5": false
+      },
+      {
+        "1": "debug_context.dart",
         "2": [
           "StaticNodeDebugInfo",
           "DebugContext"
@@ -88,21 +79,15 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/debug/debug_node.dart",
+        "1": "debug_node.dart",
         "2": [
           "DebugElement",
           "DebugNode",
           "getDebugNode",
           "indexDebugNode",
+          "inspectNativeElement",
           "DebugEventListener",
           "removeDebugNodeFromIndex"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/debug/debug_node.dart",
-        "2": [
-          "inspectNativeElement"
         ],
         "5": false
       }
@@ -112,7 +97,7 @@
         "1": "package:angular2/src/core/linker/app_view.dart"
       },
       {
-        "1": "package:angular2/src/debug/debug_context.dart",
+        "1": "debug_context.dart",
         "2": [
           "StaticNodeDebugInfo",
           "DebugContext"
@@ -134,40 +119,36 @@
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/render/api.template.dart",
+        "1": "package:angular2/src/core/linker/app_view.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/core/linker/view_container.template.dart",
+        "1": "package:angular2/src/core/linker/component_factory.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/linker/app_view.template.dart",
+        "1": "package:angular2/src/core/linker/exceptions.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/core/linker/component_factory.template.dart",
+        "1": "package:angular2/src/core/linker/view_container.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/core/linker/exceptions.template.dart",
+        "1": "package:angular2/src/core/linker/view_type.template.dart",
         "4": "i7"
       },
       {
-        "1": "package:angular2/src/core/linker/view_type.template.dart",
+        "1": "package:angular2/src/core/render/api.template.dart",
         "4": "i8"
       },
       {
-        "1": "package:angular2/src/core/profile/profile.template.dart",
+        "1": "debug_context.template.dart",
         "4": "i9"
       },
       {
-        "1": "package:angular2/src/debug/debug_context.template.dart",
+        "1": "debug_node.template.dart",
         "4": "i10"
-      },
-      {
-        "1": "package:angular2/src/debug/debug_node.template.dart",
-        "4": "i11"
       }
     ]
   },
@@ -210,6 +191,13 @@
     "_UndefinedInjectorResult": {
       "class": "Identifier",
       "name": "_UndefinedInjectorResult",
+      "moduleUrl": "asset:angular2/lib/src/core/linker/app_view.dart",
+      "prefix": null,
+      "value": null
+    },
+    "appViewRootElementName": {
+      "class": "Identifier",
+      "name": "appViewRootElementName",
       "moduleUrl": "asset:angular2/lib/src/core/linker/app_view.dart",
       "prefix": null,
       "value": null

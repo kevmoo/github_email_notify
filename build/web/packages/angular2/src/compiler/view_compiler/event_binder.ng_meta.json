@@ -18,8 +18,7 @@
         "1": "../template_ast.dart",
         "2": [
           "BoundEventAst",
-          "DirectiveAst",
-          "HandlerType"
+          "DirectiveAst"
         ],
         "5": false
       },
@@ -57,6 +56,10 @@
           "convertCdStatementToIr"
         ],
         "5": false
+      },
+      {
+        "1": "parse_utils.dart",
+        "5": false
       }
     ],
     "6": "event_binder.dart",
@@ -92,6 +95,10 @@
       {
         "1": "expression_converter.template.dart",
         "4": "i7"
+      },
+      {
+        "1": "parse_utils.template.dart",
+        "4": "i8"
       }
     ]
   },
@@ -127,13 +134,6 @@
     "convertStmtIntoExpression": {
       "class": "Identifier",
       "name": "convertStmtIntoExpression",
-      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/event_binder.dart",
-      "prefix": null,
-      "value": null
-    },
-    "sanitizeEventName": {
-      "class": "Identifier",
-      "name": "sanitizeEventName",
       "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/event_binder.dart",
       "prefix": null,
       "value": null

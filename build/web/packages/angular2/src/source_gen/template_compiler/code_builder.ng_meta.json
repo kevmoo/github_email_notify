@@ -19,10 +19,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/template_compiler_outputs.dart",
-        "5": false
-      },
-      {
         "1": "package:angular2/src/transform/common/names.dart",
         "5": false
       },
@@ -38,6 +34,10 @@
         "1": "package:quiver/strings.dart",
         "4": "strings",
         "5": false
+      },
+      {
+        "1": "template_compiler_outputs.dart",
+        "5": false
       }
     ],
     "6": "code_builder.dart",
@@ -51,11 +51,11 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/template_compiler_outputs.template.dart",
+        "1": "package:angular2/src/transform/common/names.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/transform/common/names.template.dart",
+        "1": "template_compiler_outputs.template.dart",
         "4": "i3"
       }
     ]

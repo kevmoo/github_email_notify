@@ -25,13 +25,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/lang.dart",
-        "2": [
-          "resolveEnumToken"
-        ],
-        "5": false
-      },
-      {
         "1": "../compile_metadata.dart",
         "2": [
           "CompileIdentifierMetadata"
@@ -54,6 +47,13 @@
     "6": "constants.dart"
   },
   "type": {
+    "_resolveEnumToken": {
+      "class": "Identifier",
+      "name": "_resolveEnumToken",
+      "moduleUrl": "asset:angular2/lib/src/compiler/view_compiler/constants.dart",
+      "prefix": null,
+      "value": null
+    },
     "_enumExpression": {
       "class": "Identifier",
       "name": "_enumExpression",

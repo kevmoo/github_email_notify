@@ -19,15 +19,15 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/compile_metadata.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/source_gen/template_compiler/dart_object_utils.dart",
-        "5": false
-      },
-      {
         "1": "package:logging/logging.dart",
+        "5": false
+      },
+      {
+        "1": "compile_metadata.dart",
+        "5": false
+      },
+      {
+        "1": "dart_object_utils.dart",
         "5": false
       }
     ],
@@ -42,11 +42,11 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/compile_metadata.template.dart",
+        "1": "compile_metadata.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/dart_object_utils.template.dart",
+        "1": "dart_object_utils.template.dart",
         "4": "i3"
       }
     ]

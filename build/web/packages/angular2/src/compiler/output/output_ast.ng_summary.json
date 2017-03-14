@@ -482,6 +482,13 @@
       "prefix": null,
       "value": null
     },
+    "replaceVarInStatement": {
+      "class": "Identifier",
+      "name": "replaceVarInStatement",
+      "moduleUrl": "asset:angular2/lib/src/compiler/output/output_ast.dart",
+      "prefix": null,
+      "value": null
+    },
     "_ReplaceVariableTransformer": {
       "class": "Identifier",
       "name": "_ReplaceVariableTransformer",

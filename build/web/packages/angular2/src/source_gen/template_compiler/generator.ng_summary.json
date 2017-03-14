@@ -15,18 +15,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/template_compiler/code_builder.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/source_gen/template_compiler/generator_options.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/source_gen/template_compiler/template_processor.dart",
-        "5": false
-      },
-      {
         "1": "package:build/build.dart",
         "5": false
       },
@@ -36,6 +24,18 @@
       },
       {
         "1": "package:source_gen/source_gen.dart",
+        "5": false
+      },
+      {
+        "1": "code_builder.dart",
+        "5": false
+      },
+      {
+        "1": "generator_options.dart",
+        "5": false
+      },
+      {
+        "1": "template_processor.dart",
         "5": false
       }
     ],

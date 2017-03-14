@@ -13,13 +13,13 @@
         ]
       },
       {
+        "1": "change_detection/component_state.dart"
+      },
+      {
         "1": "change_detection/differs/default_iterable_differ.dart",
         "2": [
           "TrackByFn"
         ]
-      },
-      {
-        "1": "change_detection/component_state.dart"
       }
     ],
     "6": "change_detection.dart",
@@ -29,11 +29,11 @@
         "4": "i0"
       },
       {
-        "1": "change_detection/differs/default_iterable_differ.template.dart",
+        "1": "change_detection/component_state.template.dart",
         "4": "i1"
       },
       {
-        "1": "change_detection/component_state.template.dart",
+        "1": "change_detection/differs/default_iterable_differ.template.dart",
         "4": "i2"
       }
     ]
@@ -77,13 +77,6 @@
     "_IS_DART_VM": {
       "class": "Identifier",
       "name": "_IS_DART_VM",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
-    "resolveEnumToken": {
-      "class": "Identifier",
-      "name": "resolveEnumToken",
       "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
       "prefix": null,
       "value": null

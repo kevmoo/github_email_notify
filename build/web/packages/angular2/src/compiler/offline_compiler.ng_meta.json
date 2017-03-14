@@ -7,6 +7,10 @@
         "5": false
       },
       {
+        "1": "dart:convert",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
@@ -130,6 +134,13 @@
     ]
   },
   "type": {
+    "_DEBUG_PRINT_COMPILATION": {
+      "class": "Identifier",
+      "name": "_DEBUG_PRINT_COMPILATION",
+      "moduleUrl": "asset:angular2/lib/src/compiler/offline_compiler.dart",
+      "prefix": null,
+      "value": null
+    },
     "SourceModule": {
       "class": "Identifier",
       "name": "SourceModule",

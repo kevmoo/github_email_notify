@@ -37,18 +37,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/interface_matcher.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/transform/common/logging.dart",
-        "5": false
-      },
-      {
         "1": "package:barback/barback.dart",
         "2": [
           "AssetId"
@@ -57,6 +45,18 @@
       },
       {
         "1": "package:logging/logging.dart",
+        "5": false
+      },
+      {
+        "1": "annotation_matcher.dart",
+        "5": false
+      },
+      {
+        "1": "interface_matcher.dart",
+        "5": false
+      },
+      {
+        "1": "logging.dart",
         "5": false
       },
       {
@@ -91,15 +91,15 @@
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/transform/common/annotation_matcher.template.dart",
+        "1": "annotation_matcher.template.dart",
         "4": "i5"
       },
       {
-        "1": "package:angular2/src/transform/common/interface_matcher.template.dart",
+        "1": "interface_matcher.template.dart",
         "4": "i6"
       },
       {
-        "1": "package:angular2/src/transform/common/logging.template.dart",
+        "1": "logging.template.dart",
         "4": "i7"
       },
       {

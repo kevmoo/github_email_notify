@@ -13,9 +13,16 @@
         ]
       },
       {
-        "1": "di/reflective_injector.dart",
+        "1": "di/map_injector.dart",
         "2": [
-          "ReflectiveInjector"
+          "MapInjector",
+          "MapInjectorFactory"
+        ]
+      },
+      {
+        "1": "di/opaque_token.dart",
+        "2": [
+          "OpaqueToken"
         ]
       },
       {
@@ -24,21 +31,6 @@
           "Provider",
           "provide",
           "noValueProvided"
-        ]
-      },
-      {
-        "1": "di/reflective_provider.dart",
-        "2": [
-          "ResolvedReflectiveBinding",
-          "ResolvedReflectiveFactory",
-          "ReflectiveDependency",
-          "ResolvedReflectiveProvider"
-        ]
-      },
-      {
-        "1": "di/reflective_key.dart",
-        "2": [
-          "ReflectiveKey"
         ]
       },
       {
@@ -54,16 +46,24 @@
         ]
       },
       {
-        "1": "di/opaque_token.dart",
+        "1": "di/reflective_injector.dart",
         "2": [
-          "OpaqueToken"
+          "ReflectiveInjector"
         ]
       },
       {
-        "1": "di/map_injector.dart",
+        "1": "di/reflective_key.dart",
         "2": [
-          "MapInjector",
-          "MapInjectorFactory"
+          "ReflectiveKey"
+        ]
+      },
+      {
+        "1": "di/reflective_provider.dart",
+        "2": [
+          "ResolvedReflectiveBinding",
+          "ResolvedReflectiveFactory",
+          "ReflectiveDependency",
+          "ResolvedReflectiveProvider"
         ]
       }
     ],
@@ -78,31 +78,31 @@
         "4": "i1"
       },
       {
-        "1": "di/reflective_injector.template.dart",
+        "1": "di/map_injector.template.dart",
         "4": "i2"
       },
       {
-        "1": "di/provider.template.dart",
+        "1": "di/opaque_token.template.dart",
         "4": "i3"
       },
       {
-        "1": "di/reflective_provider.template.dart",
+        "1": "di/provider.template.dart",
         "4": "i4"
       },
       {
-        "1": "di/reflective_key.template.dart",
+        "1": "di/reflective_exceptions.template.dart",
         "4": "i5"
       },
       {
-        "1": "di/reflective_exceptions.template.dart",
+        "1": "di/reflective_injector.template.dart",
         "4": "i6"
       },
       {
-        "1": "di/opaque_token.template.dart",
+        "1": "di/reflective_key.template.dart",
         "4": "i7"
       },
       {
-        "1": "di/map_injector.template.dart",
+        "1": "di/reflective_provider.template.dart",
         "4": "i8"
       }
     ]
@@ -206,6 +206,125 @@
       "prefix": null,
       "value": null
     },
+    "MapInjector": {
+      "class": "Identifier",
+      "name": "MapInjector",
+      "moduleUrl": "asset:angular2/lib/src/core/di/map_injector.dart",
+      "prefix": null,
+      "value": null
+    },
+    "MapInjectorFactory": {
+      "class": "Identifier",
+      "name": "MapInjectorFactory",
+      "moduleUrl": "asset:angular2/lib/src/core/di/map_injector.dart",
+      "prefix": null,
+      "value": null
+    },
+    "OpaqueToken": {
+      "class": "Identifier",
+      "name": "OpaqueToken",
+      "moduleUrl": "asset:angular2/lib/src/core/di/opaque_token.dart",
+      "prefix": null,
+      "value": null
+    },
+    "noValueProvided": {
+      "class": "Identifier",
+      "name": "noValueProvided",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "value": null
+    },
+    "Provider": {
+      "class": "Identifier",
+      "name": "Provider",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "value": null
+    },
+    "provide": {
+      "class": "Identifier",
+      "name": "provide",
+      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "prefix": null,
+      "value": null
+    },
+    "findFirstClosedCycle": {
+      "class": "Identifier",
+      "name": "findFirstClosedCycle",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "findFirstClosedCycleReversed": {
+      "class": "Identifier",
+      "name": "findFirstClosedCycleReversed",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "constructResolvingPath": {
+      "class": "Identifier",
+      "name": "constructResolvingPath",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "AbstractProviderError": {
+      "class": "Identifier",
+      "name": "AbstractProviderError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NoProviderError": {
+      "class": "Identifier",
+      "name": "NoProviderError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "CyclicDependencyError": {
+      "class": "Identifier",
+      "name": "CyclicDependencyError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "InstantiationError": {
+      "class": "Identifier",
+      "name": "InstantiationError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "InvalidProviderError": {
+      "class": "Identifier",
+      "name": "InvalidProviderError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "NoAnnotationError": {
+      "class": "Identifier",
+      "name": "NoAnnotationError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "OutOfBoundsError": {
+      "class": "Identifier",
+      "name": "OutOfBoundsError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
+    "MixingMultiProvidersWithRegularProvidersError": {
+      "class": "Identifier",
+      "name": "MixingMultiProvidersWithRegularProvidersError",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
+      "prefix": null,
+      "value": null
+    },
     "_MAX_CONSTRUCTION_COUNTER": {
       "class": "Identifier",
       "name": "_MAX_CONSTRUCTION_COUNTER",
@@ -290,24 +409,17 @@
       "prefix": null,
       "value": null
     },
-    "noValueProvided": {
+    "ReflectiveKey": {
       "class": "Identifier",
-      "name": "noValueProvided",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "name": "ReflectiveKey",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_key.dart",
       "prefix": null,
       "value": null
     },
-    "Provider": {
+    "KeyRegistry": {
       "class": "Identifier",
-      "name": "Provider",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
-      "prefix": null,
-      "value": null
-    },
-    "provide": {
-      "class": "Identifier",
-      "name": "provide",
-      "moduleUrl": "asset:angular2/lib/src/core/di/provider.dart",
+      "name": "KeyRegistry",
+      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_key.dart",
       "prefix": null,
       "value": null
     },
@@ -413,118 +525,6 @@
       "class": "Identifier",
       "name": "_createDependency",
       "moduleUrl": "asset:angular2/lib/src/core/di/reflective_provider.dart",
-      "prefix": null,
-      "value": null
-    },
-    "ReflectiveKey": {
-      "class": "Identifier",
-      "name": "ReflectiveKey",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_key.dart",
-      "prefix": null,
-      "value": null
-    },
-    "KeyRegistry": {
-      "class": "Identifier",
-      "name": "KeyRegistry",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_key.dart",
-      "prefix": null,
-      "value": null
-    },
-    "findFirstClosedCycle": {
-      "class": "Identifier",
-      "name": "findFirstClosedCycle",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "findFirstClosedCycleReversed": {
-      "class": "Identifier",
-      "name": "findFirstClosedCycleReversed",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "constructResolvingPath": {
-      "class": "Identifier",
-      "name": "constructResolvingPath",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "AbstractProviderError": {
-      "class": "Identifier",
-      "name": "AbstractProviderError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "NoProviderError": {
-      "class": "Identifier",
-      "name": "NoProviderError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "CyclicDependencyError": {
-      "class": "Identifier",
-      "name": "CyclicDependencyError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "InstantiationError": {
-      "class": "Identifier",
-      "name": "InstantiationError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "InvalidProviderError": {
-      "class": "Identifier",
-      "name": "InvalidProviderError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "NoAnnotationError": {
-      "class": "Identifier",
-      "name": "NoAnnotationError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "OutOfBoundsError": {
-      "class": "Identifier",
-      "name": "OutOfBoundsError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "MixingMultiProvidersWithRegularProvidersError": {
-      "class": "Identifier",
-      "name": "MixingMultiProvidersWithRegularProvidersError",
-      "moduleUrl": "asset:angular2/lib/src/core/di/reflective_exceptions.dart",
-      "prefix": null,
-      "value": null
-    },
-    "OpaqueToken": {
-      "class": "Identifier",
-      "name": "OpaqueToken",
-      "moduleUrl": "asset:angular2/lib/src/core/di/opaque_token.dart",
-      "prefix": null,
-      "value": null
-    },
-    "MapInjector": {
-      "class": "Identifier",
-      "name": "MapInjector",
-      "moduleUrl": "asset:angular2/lib/src/core/di/map_injector.dart",
-      "prefix": null,
-      "value": null
-    },
-    "MapInjectorFactory": {
-      "class": "Identifier",
-      "name": "MapInjectorFactory",
-      "moduleUrl": "asset:angular2/lib/src/core/di/map_injector.dart",
       "prefix": null,
       "value": null
     }

@@ -7,7 +7,15 @@
         "5": false
       },
       {
+        "1": "package:analyzer/src/dart/element/element.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/metadata.dart",
+        "5": false
+      },
+      {
+        "1": "package:logging/logging.dart",
         "5": false
       },
       {
@@ -28,6 +36,34 @@
     "AnnotationMatcher": {
       "class": "Identifier",
       "name": "AnnotationMatcher",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/common/annotation_matcher.dart",
+      "prefix": null,
+      "value": null
+    },
+    "safeMatcher": {
+      "class": "Identifier",
+      "name": "safeMatcher",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/common/annotation_matcher.dart",
+      "prefix": null,
+      "value": null
+    },
+    "safeMatcherType": {
+      "class": "Identifier",
+      "name": "safeMatcherType",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/common/annotation_matcher.dart",
+      "prefix": null,
+      "value": null
+    },
+    "safeMatcherTypes": {
+      "class": "Identifier",
+      "name": "safeMatcherTypes",
+      "moduleUrl": "asset:angular2/lib/src/source_gen/common/annotation_matcher.dart",
+      "prefix": null,
+      "value": null
+    },
+    "safeIsInjectable": {
+      "class": "Identifier",
+      "name": "safeIsInjectable",
       "moduleUrl": "asset:angular2/lib/src/source_gen/common/annotation_matcher.dart",
       "prefix": null,
       "value": null

@@ -3,7 +3,7 @@
     "1": "",
     "3": [
       {
-        "1": "package:angular2/src/common/forms/directives/validators.dart",
+        "1": "validators.dart",
         "2": [
           "AsyncValidatorFn",
           "Validator",

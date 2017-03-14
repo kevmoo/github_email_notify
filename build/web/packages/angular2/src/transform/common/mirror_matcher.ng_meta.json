@@ -7,14 +7,14 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/transform/common/names.dart",
+        "1": "names.dart",
         "5": false
       }
     ],
     "6": "mirror_matcher.dart",
     "7": [
       {
-        "1": "package:angular2/src/transform/common/names.template.dart",
+        "1": "names.template.dart",
         "4": "i0"
       }
     ]

@@ -3,20 +3,6 @@
     "1": "",
     "3": [
       {
-        "1": "package:angular2/src/compiler/shadow_css.dart",
-        "2": [
-          "ShadowCss"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/compiler/url_resolver.dart",
-        "2": [
-          "UrlResolver"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/core/di.dart",
         "2": [
           "Injectable"
@@ -44,9 +30,23 @@
         "5": false
       },
       {
+        "1": "shadow_css.dart",
+        "2": [
+          "ShadowCss"
+        ],
+        "5": false
+      },
+      {
         "1": "style_url_resolver.dart",
         "2": [
           "extractStyleUrls"
+        ],
+        "5": false
+      },
+      {
+        "1": "url_resolver.dart",
+        "2": [
+          "UrlResolver"
         ],
         "5": false
       }
@@ -71,31 +71,31 @@
     "6": "style_compiler.dart",
     "7": [
       {
-        "1": "package:angular2/src/compiler/shadow_css.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/compiler/url_resolver.template.dart",
+        "1": "package:angular2/src/core/metadata/view.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "compile_metadata.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/metadata/view.template.dart",
+        "1": "output/output_ast.template.dart",
         "4": "i3"
       },
       {
-        "1": "compile_metadata.template.dart",
+        "1": "shadow_css.template.dart",
         "4": "i4"
       },
       {
-        "1": "output/output_ast.template.dart",
+        "1": "style_url_resolver.template.dart",
         "4": "i5"
       },
       {
-        "1": "style_url_resolver.template.dart",
+        "1": "url_resolver.template.dart",
         "4": "i6"
       }
     ]

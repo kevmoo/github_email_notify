@@ -10,10 +10,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/core/linker/app_view_utils.dart",
-        "5": false
-      },
-      {
         "1": "../change_detection/change_detector_ref.dart",
         "2": [
           "ChangeDetectorRef"
@@ -25,6 +21,10 @@
         "2": [
           "AppView"
         ],
+        "5": false
+      },
+      {
+        "1": "app_view_utils.dart",
         "5": false
       }
     ],

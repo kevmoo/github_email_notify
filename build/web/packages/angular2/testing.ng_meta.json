@@ -3,33 +3,9 @@
     "1": "angular2.testing",
     "4": [
       {
-        "1": "package:angular2/src/compiler/xhr_mock.dart",
+        "1": "src/compiler/xhr_mock.dart",
         "2": [
           "MockXHR"
-        ]
-      },
-      {
-        "1": "package:angular2/src/mock/directive_resolver_mock.dart",
-        "2": [
-          "MockDirectiveResolver"
-        ]
-      },
-      {
-        "1": "package:angular2/src/mock/mock_application_ref.dart",
-        "2": [
-          "MockApplicationRef"
-        ]
-      },
-      {
-        "1": "package:angular2/src/mock/ng_zone_mock.dart",
-        "2": [
-          "MockNgZone"
-        ]
-      },
-      {
-        "1": "package:angular2/src/mock/view_resolver_mock.dart",
-        "2": [
-          "MockViewResolver"
         ]
       },
       {
@@ -37,6 +13,30 @@
         "2": [
           "DebugElement",
           "By"
+        ]
+      },
+      {
+        "1": "src/mock/directive_resolver_mock.dart",
+        "2": [
+          "MockDirectiveResolver"
+        ]
+      },
+      {
+        "1": "src/mock/mock_application_ref.dart",
+        "2": [
+          "MockApplicationRef"
+        ]
+      },
+      {
+        "1": "src/mock/ng_zone_mock.dart",
+        "2": [
+          "MockNgZone"
+        ]
+      },
+      {
+        "1": "src/mock/view_resolver_mock.dart",
+        "2": [
+          "MockViewResolver"
         ]
       },
       {
@@ -56,27 +56,27 @@
     "6": "testing.dart",
     "7": [
       {
-        "1": "package:angular2/src/compiler/xhr_mock.template.dart",
+        "1": "src/compiler/xhr_mock.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/mock/directive_resolver_mock.template.dart",
+        "1": "src/debug/debug_node.template.dart",
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/mock/mock_application_ref.template.dart",
+        "1": "src/mock/directive_resolver_mock.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/mock/ng_zone_mock.template.dart",
+        "1": "src/mock/mock_application_ref.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/mock/view_resolver_mock.template.dart",
+        "1": "src/mock/ng_zone_mock.template.dart",
         "4": "i4"
       },
       {
-        "1": "src/debug/debug_node.template.dart",
+        "1": "src/mock/view_resolver_mock.template.dart",
         "4": "i5"
       },
       {
@@ -114,42 +114,6 @@
       "moduleUrl": "asset:angular2/lib/src/compiler/xhr_mock.dart",
       "prefix": null,
       "value": null
-    },
-    "MockDirectiveResolver": {
-      "class": "Type",
-      "name": "MockDirectiveResolver",
-      "moduleUrl": "asset:angular2/lib/src/mock/directive_resolver_mock.dart",
-      "prefix": null,
-      "isHost": false,
-      "value": null,
-      "diDeps": []
-    },
-    "MockApplicationRef": {
-      "class": "Type",
-      "name": "MockApplicationRef",
-      "moduleUrl": "asset:angular2/lib/src/mock/mock_application_ref.dart",
-      "prefix": null,
-      "isHost": false,
-      "value": null,
-      "diDeps": []
-    },
-    "MockNgZone": {
-      "class": "Type",
-      "name": "MockNgZone",
-      "moduleUrl": "asset:angular2/lib/src/mock/ng_zone_mock.dart",
-      "prefix": null,
-      "isHost": false,
-      "value": null,
-      "diDeps": []
-    },
-    "MockViewResolver": {
-      "class": "Type",
-      "name": "MockViewResolver",
-      "moduleUrl": "asset:angular2/lib/src/mock/view_resolver_mock.dart",
-      "prefix": null,
-      "isHost": false,
-      "value": null,
-      "diDeps": []
     },
     "Predicate": {
       "class": "Identifier",
@@ -241,6 +205,42 @@
       "moduleUrl": "asset:angular2/lib/src/debug/by.dart",
       "prefix": null,
       "value": null
+    },
+    "MockDirectiveResolver": {
+      "class": "Type",
+      "name": "MockDirectiveResolver",
+      "moduleUrl": "asset:angular2/lib/src/mock/directive_resolver_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    },
+    "MockApplicationRef": {
+      "class": "Type",
+      "name": "MockApplicationRef",
+      "moduleUrl": "asset:angular2/lib/src/mock/mock_application_ref.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    },
+    "MockNgZone": {
+      "class": "Type",
+      "name": "MockNgZone",
+      "moduleUrl": "asset:angular2/lib/src/mock/ng_zone_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    },
+    "MockViewResolver": {
+      "class": "Type",
+      "name": "MockViewResolver",
+      "moduleUrl": "asset:angular2/lib/src/mock/view_resolver_mock.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
     },
     "_u": {
       "class": "Identifier",

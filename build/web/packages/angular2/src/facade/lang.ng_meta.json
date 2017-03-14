@@ -8,13 +8,6 @@
       "prefix": null,
       "value": null
     },
-    "resolveEnumToken": {
-      "class": "Identifier",
-      "name": "resolveEnumToken",
-      "moduleUrl": "asset:angular2/lib/src/facade/lang.dart",
-      "prefix": null,
-      "value": null
-    },
     "jsSplit": {
       "class": "Identifier",
       "name": "jsSplit",

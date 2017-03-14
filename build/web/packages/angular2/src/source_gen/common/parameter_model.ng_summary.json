@@ -7,20 +7,20 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/source_gen/common/annotation_model.dart",
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/source_gen/common/references.dart",
-        "4": "references",
-        "5": false
-      },
-      {
         "1": "package:code_builder/code_builder.dart",
         "5": false
       },
       {
         "1": "package:code_builder/dart/core.dart",
+        "5": false
+      },
+      {
+        "1": "annotation_model.dart",
+        "5": false
+      },
+      {
+        "1": "references.dart",
+        "4": "references",
         "5": false
       }
     ],

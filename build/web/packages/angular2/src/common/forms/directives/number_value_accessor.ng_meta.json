@@ -18,8 +18,10 @@
       {
         "1": "control_value_accessor.dart",
         "2": [
+          "ChangeFunction",
+          "ControlValueAccessor",
           "NG_VALUE_ACCESSOR",
-          "ControlValueAccessor"
+          "TouchFunction"
         ],
         "5": false
       }
@@ -112,6 +114,13 @@
           "deps": null
         }
       ]
+    },
+    "_SimpleChangeFn": {
+      "class": "Identifier",
+      "name": "_SimpleChangeFn",
+      "moduleUrl": "asset:angular2/lib/src/common/forms/directives/number_value_accessor.dart",
+      "prefix": null,
+      "value": null
     },
     "NumberValueAccessor": {
       "class": "Directive",

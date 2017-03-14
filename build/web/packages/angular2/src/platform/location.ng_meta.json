@@ -3,6 +3,9 @@
     "1": "",
     "4": [
       {
+        "1": "browser/location/browser_platform_location.dart"
+      },
+      {
         "1": "browser/location/hash_location_strategy.dart"
       },
       {
@@ -21,28 +24,41 @@
     "6": "location.dart",
     "7": [
       {
-        "1": "browser/location/hash_location_strategy.template.dart",
+        "1": "browser/location/browser_platform_location.template.dart",
         "4": "i0"
       },
       {
-        "1": "browser/location/location.template.dart",
+        "1": "browser/location/hash_location_strategy.template.dart",
         "4": "i1"
       },
       {
-        "1": "browser/location/location_strategy.template.dart",
+        "1": "browser/location/location.template.dart",
         "4": "i2"
       },
       {
-        "1": "browser/location/path_location_strategy.template.dart",
+        "1": "browser/location/location_strategy.template.dart",
         "4": "i3"
       },
       {
-        "1": "browser/location/platform_location.template.dart",
+        "1": "browser/location/path_location_strategy.template.dart",
         "4": "i4"
+      },
+      {
+        "1": "browser/location/platform_location.template.dart",
+        "4": "i5"
       }
     ]
   },
   "type": {
+    "BrowserPlatformLocation": {
+      "class": "Type",
+      "name": "BrowserPlatformLocation",
+      "moduleUrl": "asset:angular2/lib/src/platform/browser/location/browser_platform_location.dart",
+      "prefix": null,
+      "isHost": false,
+      "value": null,
+      "diDeps": []
+    },
     "HashLocationStrategy": {
       "class": "Type",
       "name": "HashLocationStrategy",

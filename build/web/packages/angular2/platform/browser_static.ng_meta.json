@@ -32,6 +32,13 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/core/di.dart",
+        "2": [
+          "Provider"
+        ],
+        "5": false
+      },
+      {
         "1": "package:angular2/src/core/reflection/reflection.dart",
         "2": [
           "Reflector",
@@ -51,13 +58,6 @@
         "2": [
           "BROWSER_APP_COMMON_PROVIDERS",
           "createInitDomAdapter"
-        ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/di.dart",
-        "2": [
-          "Provider"
         ],
         "5": false
       },
@@ -93,19 +93,19 @@
         "4": "i1"
       },
       {
-        "1": "package:angular2/src/core/reflection/reflection.template.dart",
+        "1": "package:angular2/src/core/di.template.dart",
         "4": "i2"
       },
       {
-        "1": "package:angular2/src/core/testability/testability.template.dart",
+        "1": "package:angular2/src/core/reflection/reflection.template.dart",
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/platform/browser_common.template.dart",
+        "1": "package:angular2/src/core/testability/testability.template.dart",
         "4": "i4"
       },
       {
-        "1": "package:angular2/src/core/di.template.dart",
+        "1": "package:angular2/src/platform/browser_common.template.dart",
         "4": "i5"
       },
       {

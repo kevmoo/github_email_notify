@@ -41,16 +41,16 @@
         "5": false
       },
       {
-        "1": "view_type.dart",
-        "5": false
-      },
-      {
         "1": "view_ref.dart",
         "2": [
           "EmbeddedViewRef",
           "ViewRef",
           "ViewRefImpl"
         ],
+        "5": false
+      },
+      {
+        "1": "view_type.dart",
         "5": false
       }
     ],
@@ -85,11 +85,11 @@
         "4": "i6"
       },
       {
-        "1": "view_type.template.dart",
+        "1": "view_ref.template.dart",
         "4": "i7"
       },
       {
-        "1": "view_ref.template.dart",
+        "1": "view_type.template.dart",
         "4": "i8"
       }
     ]

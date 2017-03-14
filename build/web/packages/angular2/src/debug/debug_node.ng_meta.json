@@ -33,7 +33,7 @@
     ],
     "4": [
       {
-        "1": "package:angular2/src/debug/by.dart"
+        "1": "by.dart"
       }
     ],
     "6": "debug_node.dart",
@@ -55,7 +55,7 @@
         "4": "i3"
       },
       {
-        "1": "package:angular2/src/debug/by.template.dart",
+        "1": "by.template.dart",
         "4": "i4"
       }
     ]

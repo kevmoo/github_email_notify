@@ -7,14 +7,6 @@
         "5": false
       },
       {
-        "1": "package:angular2/src/facade/browser.dart",
-        "2": [
-          "document",
-          "window"
-        ],
-        "5": false
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.dart",
         "2": [
           "BaseException"
@@ -25,12 +17,8 @@
     "6": "benchmark_util.dart",
     "7": [
       {
-        "1": "package:angular2/src/facade/browser.template.dart",
-        "4": "i0"
-      },
-      {
         "1": "package:angular2/src/facade/exceptions.template.dart",
-        "4": "i1"
+        "4": "i0"
       }
     ]
   },

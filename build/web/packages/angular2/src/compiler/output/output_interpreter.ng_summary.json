@@ -7,6 +7,14 @@
         "5": false
       },
       {
+        "1": "package:angular2/src/common/directives/ng_for.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/common/directives/ng_if.dart",
+        "5": false
+      },
+      {
         "1": "package:angular2/src/compiler/identifiers.dart",
         "5": false
       },
@@ -15,10 +23,6 @@
         "2": [
           "QueryList"
         ],
-        "5": false
-      },
-      {
-        "1": "package:angular2/src/core/linker/view_container.dart",
         "5": false
       },
       {
@@ -35,6 +39,10 @@
       },
       {
         "1": "package:angular2/src/core/linker/template_ref.dart",
+        "5": false
+      },
+      {
+        "1": "package:angular2/src/core/linker/view_container.dart",
         "5": false
       },
       {

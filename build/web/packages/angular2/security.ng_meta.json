@@ -3,20 +3,20 @@
     "1": "angular2.security",
     "4": [
       {
-        "1": "package:angular2/src/security/dom_sanitization_service.dart"
+        "1": "src/security/dom_sanitization_service.dart"
       },
       {
-        "1": "package:angular2/src/security/safe_inner_html.dart"
+        "1": "src/security/safe_inner_html.dart"
       }
     ],
     "6": "security.dart",
     "7": [
       {
-        "1": "package:angular2/src/security/dom_sanitization_service.template.dart",
+        "1": "src/security/dom_sanitization_service.template.dart",
         "4": "i0"
       },
       {
-        "1": "package:angular2/src/security/safe_inner_html.template.dart",
+        "1": "src/security/safe_inner_html.template.dart",
         "4": "i1"
       }
     ]

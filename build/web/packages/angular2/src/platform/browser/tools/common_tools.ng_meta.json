@@ -19,13 +19,6 @@
           "ComponentRef"
         ],
         "5": false
-      },
-      {
-        "1": "package:angular2/src/facade/browser.dart",
-        "2": [
-          "window"
-        ],
-        "5": false
       }
     ],
     "6": "common_tools.dart",
@@ -37,10 +30,6 @@
       {
         "1": "package:angular2/src/core/linker/component_factory.template.dart",
         "4": "i1"
-      },
-      {
-        "1": "package:angular2/src/facade/browser.template.dart",
-        "4": "i2"
       }
     ]
   },
